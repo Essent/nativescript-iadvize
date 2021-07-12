@@ -19,12 +19,6 @@ allprojects {
   }
 }
 
-configurations {
-  all*.exclude group: 'xpp3', module: 'xpp3'
-  debug
-  release
-}
-
 dependencies {
-    implementation 'com.iadvize:iadvize-sdk:2.0.0-beta1'
+    implementation('com.iadvize:iadvize-sdk:2.0.0-beta1') { exclude group: 'xpp3' }
 }

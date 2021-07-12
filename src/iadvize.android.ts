@@ -35,7 +35,7 @@ export class IAdvize extends Common {
                         ctrl.activateTargetingRule(UUID.fromString(targetingRuleUUID));
                         onSuccess();
                       } catch (e) {
-                        console.error('iAdvize[Android] error ' + e.getLocalizedMessage());
+                        console.error('iAdvize[Android] error ' + e);
                       }
                 },
                 onFailure(error: Throwable): void {
@@ -68,10 +68,9 @@ export class IAdvize extends Common {
         const chatboxController = IAdvizeSDK.getDeclaredField('chatboxController');
         chatboxController.setAccessible(true);
         const ctrl = chatboxController.get(null);
-
         ctrl.setupChatbox(chatboxConfiguration);
       } catch (e) {
-        console.error('iAdvize[Android] error ' + e.getLocalizedMessage());
+        console.error('iAdvize[Android] error ' + e);
       }
     }
 
@@ -94,7 +93,7 @@ export class IAdvize extends Common {
           }
         }));
       } catch (e) {
-        console.error('iAdvize[Android] error ' + e.getLocalizedMessage());
+        console.error('iAdvize[Android] error ' + e);
       }
     }
 
@@ -106,7 +105,7 @@ export class IAdvize extends Common {
         const ctrl = chatboxController.get(null);
         ctrl.setUseDefaultChatButton(false);
       } catch (e) {
-        console.error('iAdvize[Android] error ' + e.getLocalizedMessage());
+        console.error('iAdvize[Android] error ' + e);
       }
     }
 
@@ -118,7 +117,7 @@ export class IAdvize extends Common {
         const ctrl = chatboxController.get(null);
         ctrl.presentChatboxActivity(androidApp.foregroundActivity);
       } catch (e) {
-        console.error('iAdvize[Android] error ' + e.getLocalizedMessage());
+        console.error('iAdvize[Android] error ' + e);
       }  
     }
 
@@ -130,7 +129,7 @@ export class IAdvize extends Common {
         const ctrl = notificationController.get(null);
         ctrl.registerPushToken(token);
       } catch (e) {
-        console.error('iAdvize[Android] error ' + e.getLocalizedMessage());
+        console.error('iAdvize[Android] error ' + e);
       }  
     }
 }

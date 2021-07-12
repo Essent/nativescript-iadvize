@@ -31,7 +31,7 @@ export class IAdvize extends Common {
         chatboxConfiguration.mainColor = mainColor
         chatboxConfiguration.navigationBarBackgroundColor = navigationBarBackgroundColor
         chatboxConfiguration.navigationBarMainColor = navigationBarMainColor
-        chatboxConfiguration.automaticMessage = configuration.incomingMessageAvatar
+        chatboxConfiguration.automaticMessage = configuration.automaticMessage
         chatboxConfiguration.incomingMessageAvatar = new IncomingMessageAvatar({ image: avatar })
         chatboxConfiguration.navigationBarTitle = configuration.navigationBarTitle
         chatboxConfiguration.font = UIFont.fontWithNameSize(configuration.font, 12);
@@ -41,7 +41,7 @@ export class IAdvize extends Common {
         IAdvizeSDK.shared.chatboxController.setupChatboxWithConfiguration(chatboxConfiguration)
     }
 
-    public static registerListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void) {
+    public static registerConversationListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void) {
         IAdvizeSDK.shared.conversationController.delegate = ConversationControllerDelegateImpl.initWithCallbacks(openURLCallback, ongoingConversationStatusDidChange);
     }
 

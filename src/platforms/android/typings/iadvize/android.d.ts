@@ -10,10 +10,10 @@ declare module com {
 					public static QUERY_DOCUMENT: string;
 					public static OPERATION_NAME: com.apollographql.apollo.api.OperationName;
 					public parse(param0: okio.ByteString): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Data>;
-					public constructor(param0: java.lang.Integer, param1: string);
 					public variables(): com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Variables;
 					public responseFieldMapper(): com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Data>;
 					public parse(param0: okio.BufferedSource): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Data>;
+					public constructor(param0: java.lang.Integer, param1: com.apollographql.apollo.api.Input<string>);
 					public queryDocument(): string;
 					public composeRequestBody(param0: com.apollographql.apollo.api.ScalarTypeAdapters): okio.ByteString;
 					public composeRequestBody(): okio.ByteString;
@@ -30,6 +30,7 @@ declare module com {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Builder>;
 						public projectId(param0: java.lang.Integer): com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Builder;
 						public build(): com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation;
+						public vuidInput(param0: com.apollographql.apollo.api.Input<string>): com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Builder;
 						public vuid(param0: string): com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Builder;
 					}
 					export class Data {
@@ -50,8 +51,8 @@ declare module com {
 					}
 					export class Variables {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.AuthenticateVisitorAnonymouslyMutation.Variables>;
+						public vuid(): com.apollographql.apollo.api.Input<string>;
 						public projectId(): java.lang.Integer;
-						public vuid(): string;
 						public marshaller(): com.apollographql.apollo.api.internal.InputFieldMarshaller;
 						public valueMap(): java.util.Map<string,any>;
 					}
@@ -199,6 +200,7 @@ declare module com {
 					public static DEBUG: boolean;
 					public static LIBRARY_PACKAGE_NAME: string;
 					public static BUILD_TYPE: string;
+					public static FLAVOR: string;
 					public static IADVIZE_GRAPHQL_ENDPOINT: string;
 					public static IADVIZE_GRAYLOG_ENDPOINT: string;
 					public static IADVIZE_XMPP_HOST: string;
@@ -760,20 +762,125 @@ declare module com {
 				export class IAdvizeSDK {
 					public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK>;
 					public static INSTANCE: com.iadvize.conversation.sdk.IAdvizeSDK;
-					public getGraphQLApi$sdk_release(): com.iadvize.conversation.sdk.model.graphql.GraphQLApi;
 					public getChatboxController(): com.iadvize.conversation.sdk.controller.chatbox.ChatboxController;
+					public getConversationControllerImpl$sdk_haRelease(): com.iadvize.conversation.sdk.controller.conversation.ConversationSDKControllerImpl;
 					public static activate(param0: number, param1: com.iadvize.conversation.sdk.model.auth.AuthenticationOption, param2: com.iadvize.conversation.sdk.model.gdpr.GDPROption): void;
 					public getConversationController(): com.iadvize.conversation.sdk.controller.conversation.ConversationController;
 					public static setLogLevel(param0: com.iadvize.conversation.sdk.utils.logger.Logger.Level): void;
+					public getChatboxControllerImpl$sdk_haRelease(): com.iadvize.conversation.sdk.controller.chatbox.ChatboxSDKControllerImpl;
 					public static activate(param0: number, param1: com.iadvize.conversation.sdk.model.auth.AuthenticationOption): void;
+					public getNotificationControllerImpl$sdk_haRelease(): com.iadvize.conversation.sdk.controller.notification.NotificationSDKControllerImpl;
+					public getActivationStatus$sdk_haRelease(): com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus;
 					public static logout(): void;
-					public clear$sdk_release(): void;
+					public getGraphQLApi$sdk_haRelease(): com.iadvize.conversation.sdk.model.graphql.GraphQLApi;
 					public static initiate(param0: globalAndroid.app.Application): void;
 					public getTargetingController(): com.iadvize.conversation.sdk.controller.targeting.TargetingController;
+					public getTransactionControllerImpl$sdk_haRelease(): com.iadvize.conversation.sdk.controller.transaction.TransactionSDKControllerImpl;
 					public getTransactionController(): com.iadvize.conversation.sdk.controller.transaction.TransactionController;
 					public getNotificationController(): com.iadvize.conversation.sdk.controller.notification.NotificationController;
 					public static activate(param0: number, param1: com.iadvize.conversation.sdk.model.auth.AuthenticationOption, param2: com.iadvize.conversation.sdk.model.gdpr.GDPROption, param3: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
 					public static getLogLevel(): com.iadvize.conversation.sdk.utils.logger.Logger.Level;
+					public getTargetingControllerImpl$sdk_haRelease(): com.iadvize.conversation.sdk.controller.targeting.TargetingSDKControllerImpl;
+					public clear$sdk_haRelease(): void;
+				}
+				export module IAdvizeSDK {
+					export class ActivationStatus {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus>;
+						public static OFF: com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus;
+						public static ACTIVATING: com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus;
+						public static ACTIVATED: com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus;
+						public static values(): androidNative.Array<com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus>;
+						public static valueOf(param0: string): com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus;
+					}
+					export class WhenMappings {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.WhenMappings>;
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export class OngoingConversationQuery extends com.apollographql.apollo.api.Query<com.iadvize.conversation.sdk.OngoingConversationQuery.Data,com.iadvize.conversation.sdk.OngoingConversationQuery.Data,com.apollographql.apollo.api.Operation.Variables> {
+					public static class: java.lang.Class<com.iadvize.conversation.sdk.OngoingConversationQuery>;
+					public static OPERATION_ID: string;
+					public static QUERY_DOCUMENT: string;
+					public static OPERATION_NAME: com.apollographql.apollo.api.OperationName;
+					public queryDocument(): string;
+					public parse(param0: okio.BufferedSource): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.OngoingConversationQuery.Data>;
+					public composeRequestBody(param0: com.apollographql.apollo.api.ScalarTypeAdapters): okio.ByteString;
+					public composeRequestBody(): okio.ByteString;
+					public variables(): com.apollographql.apollo.api.Operation.Variables;
+					public parse(param0: okio.ByteString): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.OngoingConversationQuery.Data>;
+					public responseFieldMapper(): com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.OngoingConversationQuery.Data>;
+					public constructor();
+					public operationId(): string;
+					public parse(param0: okio.ByteString, param1: com.apollographql.apollo.api.ScalarTypeAdapters): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.OngoingConversationQuery.Data>;
+					public parse(param0: okio.BufferedSource, param1: com.apollographql.apollo.api.ScalarTypeAdapters): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.OngoingConversationQuery.Data>;
+					public static builder(): com.iadvize.conversation.sdk.OngoingConversationQuery.Builder;
+					public name(): com.apollographql.apollo.api.OperationName;
+					public wrapData(param0: com.iadvize.conversation.sdk.OngoingConversationQuery.Data): com.iadvize.conversation.sdk.OngoingConversationQuery.Data;
+					public composeRequestBody(param0: boolean, param1: boolean, param2: com.apollographql.apollo.api.ScalarTypeAdapters): okio.ByteString;
+				}
+				export module OngoingConversationQuery {
+					export class Builder {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.OngoingConversationQuery.Builder>;
+						public build(): com.iadvize.conversation.sdk.OngoingConversationQuery;
+					}
+					export class ConversationsVisitorMessages {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.OngoingConversationQuery.ConversationsVisitorMessages>;
+						public __typename(): string;
+						public equals(param0: any): boolean;
+						public hashCode(): number;
+						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+						public ongoingConversation(): com.iadvize.conversation.sdk.OngoingConversationQuery.OngoingConversation;
+						public constructor(param0: string, param1: com.iadvize.conversation.sdk.OngoingConversationQuery.OngoingConversation);
+						public toString(): string;
+					}
+					export module ConversationsVisitorMessages {
+						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.OngoingConversationQuery.ConversationsVisitorMessages> {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.OngoingConversationQuery.ConversationsVisitorMessages.Mapper>;
+							public constructor();
+							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.OngoingConversationQuery.ConversationsVisitorMessages;
+						}
+					}
+					export class Data {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.OngoingConversationQuery.Data>;
+						public equals(param0: any): boolean;
+						public hashCode(): number;
+						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+						public conversationsVisitorMessages(): com.iadvize.conversation.sdk.OngoingConversationQuery.ConversationsVisitorMessages;
+						public toString(): string;
+						public constructor(param0: com.iadvize.conversation.sdk.OngoingConversationQuery.ConversationsVisitorMessages);
+					}
+					export module Data {
+						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.OngoingConversationQuery.Data> {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.OngoingConversationQuery.Data.Mapper>;
+							public constructor();
+							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.OngoingConversationQuery.Data;
+						}
+					}
+					export class OngoingConversation {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.OngoingConversationQuery.OngoingConversation>;
+						public __typename(): string;
+						public equals(param0: any): boolean;
+						public hashCode(): number;
+						public id(): java.util.UUID;
+						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+						public constructor(param0: string, param1: java.util.UUID);
+						public toString(): string;
+					}
+					export module OngoingConversation {
+						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.OngoingConversationQuery.OngoingConversation> {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.OngoingConversationQuery.OngoingConversation.Mapper>;
+							public constructor();
+							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.OngoingConversationQuery.OngoingConversation;
+						}
+					}
 				}
 			}
 		}
@@ -1359,6 +1466,153 @@ declare module com {
 	export module iadvize {
 		export module conversation {
 			export module sdk {
+				export class VisitorMessagesFromTargetingRuleQuery extends com.apollographql.apollo.api.Query<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data,com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data,com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Variables> {
+					public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery>;
+					public static OPERATION_ID: string;
+					public static QUERY_DOCUMENT: string;
+					public static OPERATION_NAME: com.apollographql.apollo.api.OperationName;
+					public parse(param0: okio.BufferedSource, param1: com.apollographql.apollo.api.ScalarTypeAdapters): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data>;
+					public parse(param0: okio.ByteString): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data>;
+					public parse(param0: okio.ByteString, param1: com.apollographql.apollo.api.ScalarTypeAdapters): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data>;
+					public constructor(param0: java.util.UUID, param1: string, param2: number);
+					public static builder(): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Builder;
+					public queryDocument(): string;
+					public composeRequestBody(param0: com.apollographql.apollo.api.ScalarTypeAdapters): okio.ByteString;
+					public responseFieldMapper(): com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data>;
+					public composeRequestBody(): okio.ByteString;
+					public variables(): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Variables;
+					public operationId(): string;
+					public parse(param0: okio.BufferedSource): com.apollographql.apollo.api.Response<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data>;
+					public name(): com.apollographql.apollo.api.OperationName;
+					public wrapData(param0: com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data;
+					public composeRequestBody(param0: boolean, param1: boolean, param2: com.apollographql.apollo.api.ScalarTypeAdapters): okio.ByteString;
+				}
+				export module VisitorMessagesFromTargetingRuleQuery {
+					export class Builder {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Builder>;
+						public targetingRuleId(param0: java.util.UUID): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Builder;
+						public pageCount(param0: number): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Builder;
+						public build(): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery;
+						public language(param0: string): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Builder;
+					}
+					export class ConversationsVisitorMessages {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ConversationsVisitorMessages>;
+						public constructor(param0: string, param1: com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages, param2: com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages);
+						public __typename(): string;
+						public messages(): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages;
+						public equals(param0: any): boolean;
+						public hashCode(): number;
+						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+						public proactiveBotMessages(): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages;
+						public toString(): string;
+					}
+					export module ConversationsVisitorMessages {
+						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ConversationsVisitorMessages> {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ConversationsVisitorMessages.Mapper>;
+							public constructor();
+							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ConversationsVisitorMessages;
+						}
+					}
+					export class Data {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data>;
+						public constructor(param0: com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ConversationsVisitorMessages);
+						public equals(param0: any): boolean;
+						public hashCode(): number;
+						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+						public conversationsVisitorMessages(): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ConversationsVisitorMessages;
+						public toString(): string;
+					}
+					export module Data {
+						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data> {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data.Mapper>;
+							public constructor();
+							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Data;
+						}
+					}
+					export class Messages {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages>;
+						public __typename(): string;
+						public equals(param0: any): boolean;
+						public hashCode(): number;
+						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+						public constructor(param0: string, param1: com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages.Fragments);
+						public toString(): string;
+						public fragments(): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages.Fragments;
+					}
+					export module Messages {
+						export class Fragments {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages.Fragments>;
+							public hashCode(): number;
+							public visitorMessages(): com.iadvize.conversation.sdk.fragment.VisitorMessages;
+							public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+							public toString(): string;
+							public constructor(param0: com.iadvize.conversation.sdk.fragment.VisitorMessages);
+							public equals(param0: any): boolean;
+						}
+						export module Fragments {
+							export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages.Fragments> {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages.Fragments.Mapper>;
+								public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages.Fragments;
+								public constructor();
+							}
+						}
+						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages> {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages.Mapper>;
+							public constructor();
+							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Messages;
+						}
+					}
+					export class ProactiveBotMessages {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages>;
+						public fragments(): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages.Fragments;
+						public __typename(): string;
+						public equals(param0: any): boolean;
+						public hashCode(): number;
+						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+						public constructor(param0: string, param1: com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages.Fragments);
+						public toString(): string;
+					}
+					export module ProactiveBotMessages {
+						export class Fragments {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages.Fragments>;
+							public hashCode(): number;
+							public visitorMessages(): com.iadvize.conversation.sdk.fragment.VisitorMessages;
+							public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+							public toString(): string;
+							public constructor(param0: com.iadvize.conversation.sdk.fragment.VisitorMessages);
+							public equals(param0: any): boolean;
+						}
+						export module Fragments {
+							export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages.Fragments> {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages.Fragments.Mapper>;
+								public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages.Fragments;
+								public constructor();
+							}
+						}
+						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages> {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages.Mapper>;
+							public constructor();
+							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.ProactiveBotMessages;
+						}
+					}
+					export class Variables {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesFromTargetingRuleQuery.Variables>;
+						public pageCount(): number;
+						public marshaller(): com.apollographql.apollo.api.internal.InputFieldMarshaller;
+						public language(): string;
+						public targetingRuleId(): java.util.UUID;
+						public valueMap(): java.util.Map<string,any>;
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
 				export class VisitorMessagesQuery extends com.apollographql.apollo.api.Query<com.iadvize.conversation.sdk.VisitorMessagesQuery.Data,com.iadvize.conversation.sdk.VisitorMessagesQuery.Data,com.iadvize.conversation.sdk.VisitorMessagesQuery.Variables> {
 					public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery>;
 					public static OPERATION_ID: string;
@@ -1389,13 +1643,12 @@ declare module com {
 					export class ConversationsVisitorMessages {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.ConversationsVisitorMessages>;
 						public __typename(): string;
+						public constructor(param0: string, param1: com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages);
 						public equals(param0: any): boolean;
 						public hashCode(): number;
 						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
-						public ongoingConversation(): com.iadvize.conversation.sdk.VisitorMessagesQuery.OngoingConversation;
 						public messages(): com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages;
 						public toString(): string;
-						public constructor(param0: string, param1: com.iadvize.conversation.sdk.VisitorMessagesQuery.OngoingConversation, param2: com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages);
 					}
 					export module ConversationsVisitorMessages {
 						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesQuery.ConversationsVisitorMessages> {
@@ -1420,88 +1673,37 @@ declare module com {
 							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesQuery.Data;
 						}
 					}
-					export class Edge {
-						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Edge>;
-						public __typename(): string;
-						public constructor(param0: string, param1: com.iadvize.conversation.sdk.VisitorMessagesQuery.Node);
-						public node(): com.iadvize.conversation.sdk.VisitorMessagesQuery.Node;
-						public equals(param0: any): boolean;
-						public hashCode(): number;
-						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
-						public toString(): string;
-					}
-					export module Edge {
-						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesQuery.Edge> {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Edge.Mapper>;
-							public constructor();
-							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesQuery.Edge;
-						}
-					}
 					export class Messages {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages>;
 						public __typename(): string;
-						public edges(): java.util.List<com.iadvize.conversation.sdk.VisitorMessagesQuery.Edge>;
+						public fragments(): com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages.Fragments;
 						public equals(param0: any): boolean;
 						public hashCode(): number;
 						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
-						public constructor(param0: string, param1: java.util.List<com.iadvize.conversation.sdk.VisitorMessagesQuery.Edge>);
+						public constructor(param0: string, param1: com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages.Fragments);
 						public toString(): string;
 					}
 					export module Messages {
+						export class Fragments {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages.Fragments>;
+							public hashCode(): number;
+							public visitorMessages(): com.iadvize.conversation.sdk.fragment.VisitorMessages;
+							public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+							public toString(): string;
+							public constructor(param0: com.iadvize.conversation.sdk.fragment.VisitorMessages);
+							public equals(param0: any): boolean;
+						}
+						export module Fragments {
+							export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages.Fragments> {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages.Fragments.Mapper>;
+								public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages.Fragments;
+								public constructor();
+							}
+						}
 						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages> {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages.Mapper>;
 							public constructor();
 							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesQuery.Messages;
-						}
-					}
-					export class Node {
-						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Node>;
-						public __typename(): string;
-						public fragments(): com.iadvize.conversation.sdk.VisitorMessagesQuery.Node.Fragments;
-						public equals(param0: any): boolean;
-						public hashCode(): number;
-						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
-						public constructor(param0: string, param1: com.iadvize.conversation.sdk.VisitorMessagesQuery.Node.Fragments);
-						public toString(): string;
-					}
-					export module Node {
-						export class Fragments {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Node.Fragments>;
-							public participantConversationMessage(): com.iadvize.conversation.sdk.fragment.ParticipantConversationMessage;
-							public hashCode(): number;
-							public constructor(param0: com.iadvize.conversation.sdk.fragment.ParticipantConversationMessage);
-							public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
-							public toString(): string;
-							public equals(param0: any): boolean;
-						}
-						export module Fragments {
-							export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesQuery.Node.Fragments> {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Node.Fragments.Mapper>;
-								public constructor();
-								public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesQuery.Node.Fragments;
-							}
-						}
-						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesQuery.Node> {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.Node.Mapper>;
-							public constructor();
-							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesQuery.Node;
-						}
-					}
-					export class OngoingConversation {
-						public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.OngoingConversation>;
-						public __typename(): string;
-						public equals(param0: any): boolean;
-						public hashCode(): number;
-						public id(): java.util.UUID;
-						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
-						public constructor(param0: string, param1: java.util.UUID);
-						public toString(): string;
-					}
-					export module OngoingConversation {
-						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.VisitorMessagesQuery.OngoingConversation> {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.VisitorMessagesQuery.OngoingConversation.Mapper>;
-							public constructor();
-							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.VisitorMessagesQuery.OngoingConversation;
 						}
 					}
 					export class Variables {
@@ -1535,7 +1737,7 @@ declare module com {
 						public onActivityPaused(param0: globalAndroid.app.Activity): void;
 						public constructor(param0: com.iadvize.conversation.sdk.controller.ActivityLifecycleController.CurrentActivityUpdatedListener);
 						public getCurrentActivityReference(): java.lang.ref.WeakReference<globalAndroid.app.Activity>;
-						public getListeners$sdk_release(): java.util.List<com.iadvize.conversation.sdk.controller.ActivityLifecycleController.CurrentActivityUpdatedListener>;
+						public getListeners$sdk_haRelease(): java.util.List<com.iadvize.conversation.sdk.controller.ActivityLifecycleController.CurrentActivityUpdatedListener>;
 					}
 					export module ActivityLifecycleController {
 						export class CurrentActivityUpdatedListener {
@@ -1561,33 +1763,16 @@ declare module com {
 		export module conversation {
 			export module sdk {
 				export module controller {
-					export module chatbox {
-						export class ChatboxCallback {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.chatbox.ChatboxCallback>;
-							/**
-							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.chatbox.ChatboxCallback interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
-							 */
-							public constructor(implementation: {
-								onConversationError(param0: java.lang.Throwable): void;
-								messageNotSent(param0: com.iadvize.conversation_ui.models.Message): void;
-								messageSent(param0: com.iadvize.conversation_ui.models.Message): void;
-								messageSending(param0: com.iadvize.conversation_ui.models.Message): void;
-								messageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
-								localMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
-								conversationReceivedWithGdpr(): void;
-								consentNotSent(param0: java.lang.Throwable): void;
-								fileSizeIsOverLimit(): void;
-							});
-							public constructor();
-							public messageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
-							public messageSending(param0: com.iadvize.conversation_ui.models.Message): void;
-							public messageSent(param0: com.iadvize.conversation_ui.models.Message): void;
-							public consentNotSent(param0: java.lang.Throwable): void;
-							public conversationReceivedWithGdpr(): void;
-							public localMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
-							public messageNotSent(param0: com.iadvize.conversation_ui.models.Message): void;
-							public fileSizeIsOverLimit(): void;
-							public onConversationError(param0: java.lang.Throwable): void;
+					export class SDKActivationStatusObserver {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.SDKActivationStatusObserver>;
+						public setActivationStatus$sdk_haRelease(param0: com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus): void;
+						public constructor();
+						public getActivationStatus$sdk_haRelease(): com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus;
+						public withActivatedSdk(param0: string, param1: kotlin.jvm.functions.Function0<kotlin.Unit>): void;
+					}
+					export module SDKActivationStatusObserver {
+						export class WhenMappings {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.SDKActivationStatusObserver.WhenMappings>;
 						}
 					}
 				}
@@ -1602,28 +1787,25 @@ declare module com {
 			export module sdk {
 				export module controller {
 					export module chatbox {
-						export class ChatboxController implements com.iadvize.conversation.sdk.controller.ActivityLifecycleController.CurrentActivityUpdatedListener, com.iadvize.conversation.sdk.controller.chatbox.OverlayController.OverlayControllerCallback, com.iadvize.conversation.sdk.controller.chatbox.ChatboxDelegate {
+						export class ChatboxController {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.chatbox.ChatboxController>;
+							/**
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.chatbox.ChatboxController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 */
+							public constructor(implementation: {
+								getUseDefaultChatButton(): boolean;
+								setUseDefaultChatButton(param0: boolean): void;
+								isChatboxPresented(): boolean;
+								setupChatbox(param0: com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration): void;
+								presentChatboxActivity(param0: globalAndroid.content.Context): void;
+								setChatButtonPosition(param0: number, param1: number): void;
+							});
 							public constructor();
-							public getTargetingDelegate$sdk_release(): com.iadvize.conversation.sdk.controller.targeting.TargetingDelegate;
-							public getConfiguration(): com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration;
-							public presentChatboxActivity(param0: globalAndroid.content.Context): void;
-							public getChatButtonPosition$sdk_release(): com.iadvize.conversation.sdk.model.configuration.ChatButtonPosition;
-							public setUseDefaultChatButton(param0: boolean): void;
-							public getChatButtonPosition(): com.iadvize.conversation.sdk.model.configuration.ChatButtonPosition;
-							public setTargetingDelegate$sdk_release(param0: com.iadvize.conversation.sdk.controller.targeting.TargetingDelegate): void;
-							public onCurrentActivityUpdated(): void;
-							public getUseDefaultChatButton(): boolean;
-							public getChatboxConfiguration(): com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration;
-							public getConversationDelegate$sdk_release(): com.iadvize.conversation.sdk.controller.conversation.ConversationDelegate;
 							public isChatboxPresented(): boolean;
-							public setChatButtonPosition$sdk_release(param0: com.iadvize.conversation.sdk.model.configuration.ChatButtonPosition): void;
+							public presentChatboxActivity(param0: globalAndroid.content.Context): void;
 							public setupChatbox(param0: com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration): void;
-							public updateChatButton$sdk_release(): void;
-							public setConversationDelegate$sdk_release(param0: com.iadvize.conversation.sdk.controller.conversation.ConversationDelegate): void;
-							public getOverlayController$sdk_release(): com.iadvize.conversation.sdk.controller.chatbox.OverlayController;
-							public getListeners$sdk_release(): java.util.List<com.iadvize.conversation.sdk.controller.chatbox.ChatboxListener>;
-							public getActivityLifecycleController$sdk_release(): com.iadvize.conversation.sdk.controller.ActivityLifecycleController;
+							public setUseDefaultChatButton(param0: boolean): void;
+							public getUseDefaultChatButton(): boolean;
 							public setChatButtonPosition(param0: number, param1: number): void;
 						}
 					}
@@ -1639,16 +1821,34 @@ declare module com {
 			export module sdk {
 				export module controller {
 					export module chatbox {
-						export class ChatboxDelegate {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.chatbox.ChatboxDelegate>;
+						export class ChatboxFragmentCallback {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.chatbox.ChatboxFragmentCallback>;
 							/**
-							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.chatbox.ChatboxDelegate interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.chatbox.ChatboxFragmentCallback interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
 							 */
 							public constructor(implementation: {
-								getChatboxConfiguration(): com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration;
+								onConversationError(param0: java.lang.Throwable): void;
+								messageNotSent(param0: com.iadvize.conversation_ui.models.Message): void;
+								messageSent(param0: com.iadvize.conversation_ui.models.Message): void;
+								messageSending(param0: com.iadvize.conversation_ui.models.Message): void;
+								messageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
+								localMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
+								localProactiveMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
+								conversationReceivedWithGdpr(): void;
+								consentNotSent(param0: java.lang.Throwable): void;
+								fileSizeIsOverLimit(): void;
 							});
 							public constructor();
-							public getChatboxConfiguration(): com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration;
+							public messageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
+							public messageSending(param0: com.iadvize.conversation_ui.models.Message): void;
+							public messageSent(param0: com.iadvize.conversation_ui.models.Message): void;
+							public consentNotSent(param0: java.lang.Throwable): void;
+							public conversationReceivedWithGdpr(): void;
+							public localMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
+							public messageNotSent(param0: com.iadvize.conversation_ui.models.Message): void;
+							public localProactiveMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
+							public fileSizeIsOverLimit(): void;
+							public onConversationError(param0: java.lang.Throwable): void;
 						}
 					}
 				}
@@ -1687,16 +1887,90 @@ declare module com {
 			export module sdk {
 				export module controller {
 					export module chatbox {
+						export class ChatboxSDKController extends com.iadvize.conversation.sdk.controller.chatbox.ChatboxController {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.chatbox.ChatboxSDKController>;
+							/**
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.chatbox.ChatboxSDKController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 */
+							public constructor(implementation: {
+								getChatboxConfiguration(): com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration;
+								getUseDefaultChatButton(): boolean;
+								setUseDefaultChatButton(param0: boolean): void;
+								isChatboxPresented(): boolean;
+								setupChatbox(param0: com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration): void;
+								presentChatboxActivity(param0: globalAndroid.content.Context): void;
+								setChatButtonPosition(param0: number, param1: number): void;
+							});
+							public constructor();
+							public isChatboxPresented(): boolean;
+							public presentChatboxActivity(param0: globalAndroid.content.Context): void;
+							public setupChatbox(param0: com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration): void;
+							public setUseDefaultChatButton(param0: boolean): void;
+							public getUseDefaultChatButton(): boolean;
+							public setChatButtonPosition(param0: number, param1: number): void;
+							public getChatboxConfiguration(): com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module chatbox {
+						export class ChatboxSDKControllerImpl extends com.iadvize.conversation.sdk.controller.SDKActivationStatusObserver implements com.iadvize.conversation.sdk.controller.chatbox.ChatboxSDKController, com.iadvize.conversation.sdk.controller.ActivityLifecycleController.CurrentActivityUpdatedListener, com.iadvize.conversation.sdk.controller.chatbox.OverlayController.OverlayControllerCallback {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.chatbox.ChatboxSDKControllerImpl>;
+							public constructor();
+							public getOverlayController$sdk_haRelease(): com.iadvize.conversation.sdk.controller.chatbox.OverlayController;
+							public presentChatboxActivity(param0: globalAndroid.content.Context): void;
+							public setConversationSDKController$sdk_haRelease(param0: com.iadvize.conversation.sdk.controller.conversation.ConversationSDKController): void;
+							public getListeners$sdk_haRelease(): java.util.List<com.iadvize.conversation.sdk.controller.chatbox.ChatboxListener>;
+							public setUseDefaultChatButton(param0: boolean): void;
+							public getChatButtonPosition(): com.iadvize.conversation.sdk.model.configuration.ChatButtonPosition;
+							public onCurrentActivityUpdated(): void;
+							public getUseDefaultChatButton(): boolean;
+							public getTargetingSDKController$sdk_haRelease(): com.iadvize.conversation.sdk.controller.targeting.TargetingSDKController;
+							public getConfiguration$sdk_haRelease(): com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration;
+							public getChatboxConfiguration(): com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration;
+							public isChatboxPresented(): boolean;
+							public getConversationSDKController$sdk_haRelease(): com.iadvize.conversation.sdk.controller.conversation.ConversationSDKController;
+							public setChatButtonPosition$sdk_haRelease(param0: com.iadvize.conversation.sdk.model.configuration.ChatButtonPosition): void;
+							public setConfiguration$sdk_haRelease(param0: com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration): void;
+							public setupChatbox(param0: com.iadvize.conversation.sdk.model.configuration.ChatboxConfiguration): void;
+							public getActivityLifecycleController$sdk_haRelease(): com.iadvize.conversation.sdk.controller.ActivityLifecycleController;
+							public updateChatButton$sdk_haRelease(): void;
+							public setTargetingSDKController$sdk_haRelease(param0: com.iadvize.conversation.sdk.controller.targeting.TargetingSDKController): void;
+							public setChatButtonPosition(param0: number, param1: number): void;
+							public getChatButtonPosition$sdk_haRelease(): com.iadvize.conversation.sdk.model.configuration.ChatButtonPosition;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module chatbox {
 						export class OverlayController {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.chatbox.OverlayController>;
 							public constructor(param0: com.iadvize.conversation.sdk.controller.chatbox.OverlayController.OverlayControllerCallback);
-							public getIAdvizeChatButton$sdk_release(param0: globalAndroid.app.Activity): globalAndroid.view.View;
 							public hideChatButton(param0: globalAndroid.app.Activity): void;
-							public hasChatButton$sdk_release(param0: globalAndroid.app.Activity): boolean;
+							public getIAdvizeChatButton$sdk_haRelease(param0: globalAndroid.app.Activity): globalAndroid.view.View;
 							public updateChatButtonPosition(param0: globalAndroid.app.Activity): boolean;
+							public getRootView$sdk_haRelease(param0: globalAndroid.app.Activity): globalAndroid.widget.FrameLayout;
 							public showChatButton(param0: globalAndroid.app.Activity, param1: globalAndroid.view.View.OnClickListener): void;
-							public getRootView$sdk_release(param0: globalAndroid.app.Activity): globalAndroid.widget.FrameLayout;
 							public updateConfiguration(param0: globalAndroid.app.Activity): boolean;
+							public hasChatButton$sdk_haRelease(param0: globalAndroid.app.Activity): boolean;
 						}
 						export module OverlayController {
 							export class OverlayControllerCallback {
@@ -1726,74 +2000,17 @@ declare module com {
 			export module sdk {
 				export module controller {
 					export module conversation {
-						export class ConversationController implements com.iadvize.conversation.sdk.controller.conversation.xmpp.XmppConnectionController.Listener, com.iadvize.conversation.sdk.controller.conversation.xmpp.XmppConversationController.XmppListener, com.iadvize.conversation.sdk.controller.conversation.ConversationDelegate {
+						export class ConversationController {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.conversation.ConversationController>;
-							public getGdprConsentOK$sdk_release(): com.iadvize.conversation_ui.models.Message;
-							public getGdprConsentKO$sdk_release(): com.iadvize.conversation_ui.models.Message;
-							public getGdprOption$sdk_release(): com.iadvize.conversation.sdk.model.gdpr.GDPROption;
-							public getChatboxDelegate$sdk_release(): com.iadvize.conversation.sdk.controller.chatbox.ChatboxDelegate;
-							public onXmppConversationClosed(): void;
-							public getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.conversation.ConversationListener>;
-							public clear$sdk_release(): void;
-							public constructor(param0: com.iadvize.conversation.sdk.model.graphql.GraphQLApi);
-							public resetConversationFromHistory$sdk_release(param0: boolean, param1: kotlin.coroutines.Continuation<any>): any;
-							public retryMessage$sdk_release(param0: com.iadvize.conversation_ui.models.Message): void;
-							public onReconnectionTriggered(): void;
-							public setHasConversation$sdk_release(param0: boolean): void;
-							public onReconnectionSucceeded(param0: org.jivesoftware.smack.XMPPConnection): void;
-							public getConversation$sdk_release(): com.iadvize.conversation.sdk.model.conversation.Conversation;
-							public setGdprConsentOK$sdk_release(param0: com.iadvize.conversation_ui.models.Message): void;
-							public onConnectionFailed(param0: java.lang.Throwable): void;
-							public onReconnectionFailed(param0: java.lang.Throwable): void;
-							public getRoutingOperatorNotFoundMessage$sdk_release(): com.iadvize.conversation_ui.models.Message;
-							public setGdprConsentKO$sdk_release(param0: com.iadvize.conversation_ui.models.Message): void;
-							public initiateConversation$sdk_release(param0: kotlin.coroutines.Continuation<any>): any;
-							public getViewCallbacks$sdk_release(): java.util.List<com.iadvize.conversation.sdk.controller.chatbox.ChatboxCallback>;
-							public onVisitorSubscribed(): void;
-							public setRoutingOperatorNotFoundMessage$sdk_release(param0: com.iadvize.conversation_ui.models.Message): void;
-							public setHasOngoingConversation$sdk_release(param0: boolean): void;
-							public getGdprQuestion$sdk_release(): com.iadvize.conversation_ui.models.Message;
-							public onXmppMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
-							public hasOngoingConversation(): boolean;
-							public setGdprOption$sdk_release(param0: com.iadvize.conversation.sdk.model.gdpr.GDPROption): void;
-							public getTargetingDelegate$sdk_release(): com.iadvize.conversation.sdk.controller.targeting.TargetingDelegate;
-							public onConnectionAuthenticated(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
-							public setTargetingDelegate$sdk_release(param0: com.iadvize.conversation.sdk.controller.targeting.TargetingDelegate): void;
-							public onRoutingOperatorNotFound(): void;
-							public sendAttachmentMessage$sdk_release(param0: globalAndroid.content.Context, param1: com.iadvize.conversation.sdk.model.attachments.UploadFile): void;
-							public sendTextMessage$sdk_release(param0: string): void;
-							public getHasOngoingConversation(): boolean;
-							public setChatboxDelegate$sdk_release(param0: com.iadvize.conversation.sdk.controller.chatbox.ChatboxDelegate): void;
-							public setGdprQuestion$sdk_release(param0: com.iadvize.conversation_ui.models.Message): void;
-							public getMessages$sdk_release(): java.util.List<com.iadvize.conversation_ui.models.Message>;
-							public onXmppError(param0: java.lang.Throwable): void;
-							public onConnectionEstablished(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
-							public sendGDPRConsent$sdk_release(param0: boolean, param1: string): void;
-							public onVisitorUnsubscribed(): void;
-							public onConnectionClosed(param0: java.lang.Throwable): void;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-declare module com {
-	export module iadvize {
-		export module conversation {
-			export module sdk {
-				export module controller {
-					export module conversation {
-						export class ConversationDelegate {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.conversation.ConversationDelegate>;
 							/**
-							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.conversation.ConversationDelegate interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.conversation.ConversationController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
 							 */
 							public constructor(implementation: {
+								getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.conversation.ConversationListener>;
 								hasOngoingConversation(): boolean;
 							});
 							public constructor();
+							public getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.conversation.ConversationListener>;
 							public hasOngoingConversation(): boolean;
 						}
 					}
@@ -1823,6 +2040,100 @@ declare module com {
 							public onNewMessageReceived(param0: string): void;
 							public handleClickedUrl(param0: globalAndroid.net.Uri): boolean;
 							public onOngoingConversationStatusChanged(param0: boolean): void;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module conversation {
+						export class ConversationSDKController extends com.iadvize.conversation.sdk.controller.conversation.ConversationController {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.conversation.ConversationSDKController>;
+							/**
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.conversation.ConversationSDKController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 */
+							public constructor(implementation: {
+								getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.conversation.ConversationListener>;
+								hasOngoingConversation(): boolean;
+							});
+							public constructor();
+							public getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.conversation.ConversationListener>;
+							public hasOngoingConversation(): boolean;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module conversation {
+						export class ConversationSDKControllerImpl extends com.iadvize.conversation.sdk.controller.SDKActivationStatusObserver implements com.iadvize.conversation.sdk.controller.conversation.ConversationSDKController, com.iadvize.conversation.sdk.controller.conversation.xmpp.XmppConnectionController.Listener, com.iadvize.conversation.sdk.controller.conversation.xmpp.XmppConversationController.XmppListener {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.conversation.ConversationSDKControllerImpl>;
+							public static Companion: com.iadvize.conversation.sdk.controller.conversation.ConversationSDKControllerImpl.Companion;
+							public static VISITOR_MESSAGES: string;
+							public static PROACTIVE_MESSAGES: string;
+							public sendTextMessage$sdk_haRelease(param0: string): void;
+							public sendAttachmentMessage$sdk_haRelease(param0: globalAndroid.content.Context, param1: com.iadvize.conversation.sdk.model.attachments.UploadFile): void;
+							public getGdprConsentOK$sdk_haRelease(): com.iadvize.conversation_ui.models.Message;
+							public onXmppConversationClosed(): void;
+							public setHasOngoingConversation$sdk_haRelease(param0: boolean): void;
+							public getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.conversation.ConversationListener>;
+							public getChatboxFragmentCallbacks$sdk_haRelease(): java.util.List<com.iadvize.conversation.sdk.controller.chatbox.ChatboxFragmentCallback>;
+							public initiateConversation$sdk_haRelease(param0: kotlin.coroutines.Continuation<any>): any;
+							public getChatboxSDKController$sdk_haRelease(): com.iadvize.conversation.sdk.controller.chatbox.ChatboxSDKController;
+							public getRoutingOperatorNotFoundMessage$sdk_haRelease(): com.iadvize.conversation_ui.models.Message;
+							public constructor(param0: com.iadvize.conversation.sdk.model.graphql.GraphQLApi);
+							public clear$sdk_haRelease(): void;
+							public setGdprConsentOK$sdk_haRelease(param0: com.iadvize.conversation_ui.models.Message): void;
+							public getGdprConsentKO$sdk_haRelease(): com.iadvize.conversation_ui.models.Message;
+							public onReconnectionTriggered(): void;
+							public setChatboxSDKController$sdk_haRelease(param0: com.iadvize.conversation.sdk.controller.chatbox.ChatboxSDKController): void;
+							public getMessages$sdk_haRelease(): java.util.List<com.iadvize.conversation_ui.models.Message>;
+							public onReconnectionSucceeded(param0: org.jivesoftware.smack.XMPPConnection): void;
+							public setGdprQuestion$sdk_haRelease(param0: com.iadvize.conversation_ui.models.Message): void;
+							public onConnectionFailed(param0: java.lang.Throwable): void;
+							public onReconnectionFailed(param0: java.lang.Throwable): void;
+							public setGdprOption$sdk_haRelease(param0: com.iadvize.conversation.sdk.model.gdpr.GDPROption): void;
+							public getHasOngoingConversation$sdk_haRelease(): boolean;
+							public onVisitorSubscribed(): void;
+							public getConversation$sdk_haRelease(): com.iadvize.conversation.sdk.model.conversation.Conversation;
+							public setTargetingSDKController$sdk_haRelease(param0: com.iadvize.conversation.sdk.controller.targeting.TargetingSDKController): void;
+							public hasOngoingConversation(): boolean;
+							public getGdprOption$sdk_haRelease(): com.iadvize.conversation.sdk.model.gdpr.GDPROption;
+							public onXmppMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
+							public constructor();
+							public setRoutingOperatorNotFoundMessage$sdk_haRelease(param0: com.iadvize.conversation_ui.models.Message): void;
+							public setGdprConsentKO$sdk_haRelease(param0: com.iadvize.conversation_ui.models.Message): void;
+							public retryMessage$sdk_haRelease(param0: com.iadvize.conversation_ui.models.Message): void;
+							public onConnectionAuthenticated(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
+							public sendGDPRConsent$sdk_haRelease(param0: boolean, param1: string): void;
+							public onRoutingOperatorNotFound(): void;
+							public getTargetingSDKController$sdk_haRelease(): com.iadvize.conversation.sdk.controller.targeting.TargetingSDKController;
+							public resetConversationFromHistory$sdk_haRelease(param0: boolean, param1: kotlin.coroutines.Continuation<any>): any;
+							public onXmppError(param0: java.lang.Throwable): void;
+							public onConnectionEstablished(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
+							public onVisitorUnsubscribed(): void;
+							public getGdprQuestion$sdk_haRelease(): com.iadvize.conversation_ui.models.Message;
+							public onConnectionClosed(param0: java.lang.Throwable): void;
+							public setHasConversation$sdk_haRelease(param0: boolean): void;
+						}
+						export module ConversationSDKControllerImpl {
+							export class Companion {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.conversation.ConversationSDKControllerImpl.Companion>;
+							}
 						}
 					}
 				}
@@ -1963,17 +2274,83 @@ declare module com {
 					export module notification {
 						export class NotificationController {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.notification.NotificationController>;
-							public static Companion: com.iadvize.conversation.sdk.controller.notification.NotificationController.Companion;
+							/**
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.notification.NotificationController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 */
+							public constructor(implementation: {
+								registerPushToken(param0: string): void;
+								enablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
+								disablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
+								isIAdvizePushNotification(param0: java.util.Map<string,string>): boolean;
+							});
+							public constructor();
+							public enablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
+							public registerPushToken(param0: string): void;
+							public disablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
+							public isIAdvizePushNotification(param0: java.util.Map<string,string>): boolean;
+						}
+						export module NotificationController {
+							export class DefaultImpls {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.notification.NotificationController.DefaultImpls>;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module notification {
+						export class NotificationSDKController extends com.iadvize.conversation.sdk.controller.notification.NotificationController {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.notification.NotificationSDKController>;
+							/**
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.notification.NotificationSDKController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 */
+							public constructor(implementation: {
+								registerPushToken(param0: string): void;
+								enablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
+								disablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
+								isIAdvizePushNotification(param0: java.util.Map<string,string>): boolean;
+							});
+							public constructor();
+							public enablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
+							public registerPushToken(param0: string): void;
+							public disablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
+							public isIAdvizePushNotification(param0: java.util.Map<string,string>): boolean;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module notification {
+						export class NotificationSDKControllerImpl extends com.iadvize.conversation.sdk.controller.SDKActivationStatusObserver implements com.iadvize.conversation.sdk.controller.notification.NotificationSDKController {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.notification.NotificationSDKControllerImpl>;
+							public static Companion: com.iadvize.conversation.sdk.controller.notification.NotificationSDKControllerImpl.Companion;
 							public static INTERNAL_CHANNEL_ID: string;
+							public constructor();
 							public enablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
 							public registerPushToken(param0: string): void;
 							public disablePushNotifications(param0: com.iadvize.conversation.sdk.model.IAdvizeSDKCallback): void;
 							public isIAdvizePushNotification(param0: java.util.Map<string,string>): boolean;
 							public constructor(param0: com.iadvize.conversation.sdk.model.graphql.GraphQLApi);
 						}
-						export module NotificationController {
+						export module NotificationSDKControllerImpl {
 							export class Companion {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.notification.NotificationController.Companion>;
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.notification.NotificationSDKControllerImpl.Companion>;
 							}
 						}
 					}
@@ -1989,49 +2366,28 @@ declare module com {
 			export module sdk {
 				export module controller {
 					export module targeting {
-						export class TargetingController extends com.iadvize.conversation.sdk.controller.targeting.TargetingDelegate {
+						export class TargetingController {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.targeting.TargetingController>;
-							public isActiveTargetingRuleAvailable(): boolean;
-							public getActiveTargetingRuleId$sdk_release(): string;
-							public activateTargetingRule(param0: java.util.UUID): void;
-							public registerUserNavigation(): void;
-							public getScreenIdentifier$sdk_release(): java.util.UUID;
-							public getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>;
-							public clear$sdk_release(): void;
-							public constructor(param0: com.iadvize.conversation.sdk.model.graphql.GraphQLApi);
-							public hasAvailableActiveTargetingRule(): boolean;
-							public setScreenIdentifier$sdk_release(param0: java.util.UUID): void;
-							public setListeners(param0: java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>): void;
-							public getLanguage(): com.iadvize.conversation.sdk.model.language.SDKLanguageOption;
-							public setLanguage(param0: com.iadvize.conversation.sdk.model.language.SDKLanguageOption): void;
-							public setActiveTargetingRuleAvailable$sdk_release(param0: boolean): void;
-							public activeTargetingRuleAvailabilityDidChange(param0: boolean): void;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-declare module com {
-	export module iadvize {
-		export module conversation {
-			export module sdk {
-				export module controller {
-					export module targeting {
-						export class TargetingDelegate {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.targeting.TargetingDelegate>;
 							/**
-							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.targeting.TargetingDelegate interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.targeting.TargetingController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
 							 */
 							public constructor(implementation: {
 								hasAvailableActiveTargetingRule(): boolean;
-								activeTargetingRuleAvailabilityDidChange(param0: boolean): void;
+								getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>;
+								setListeners(param0: java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>): void;
+								registerUserNavigation(): void;
+								activateTargetingRule(param0: java.util.UUID): void;
+								getLanguage(): com.iadvize.conversation.sdk.model.language.SDKLanguageOption;
+								setLanguage(param0: com.iadvize.conversation.sdk.model.language.SDKLanguageOption): void;
 							});
 							public constructor();
+							public activateTargetingRule(param0: java.util.UUID): void;
+							public setListeners(param0: java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>): void;
+							public registerUserNavigation(): void;
+							public getLanguage(): com.iadvize.conversation.sdk.model.language.SDKLanguageOption;
+							public getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>;
+							public setLanguage(param0: com.iadvize.conversation.sdk.model.language.SDKLanguageOption): void;
 							public hasAvailableActiveTargetingRule(): boolean;
-							public activeTargetingRuleAvailabilityDidChange(param0: boolean): void;
 						}
 					}
 				}
@@ -2069,20 +2425,142 @@ declare module com {
 		export module conversation {
 			export module sdk {
 				export module controller {
+					export module targeting {
+						export class TargetingSDKController extends com.iadvize.conversation.sdk.controller.targeting.TargetingController {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.targeting.TargetingSDKController>;
+							/**
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.targeting.TargetingSDKController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 */
+							public constructor(implementation: {
+								activeTargetingRuleAvailabilityDidChange(param0: boolean): void;
+								activeTargetingRuleId(): string;
+								hasAvailableActiveTargetingRule(): boolean;
+								getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>;
+								setListeners(param0: java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>): void;
+								registerUserNavigation(): void;
+								activateTargetingRule(param0: java.util.UUID): void;
+								getLanguage(): com.iadvize.conversation.sdk.model.language.SDKLanguageOption;
+								setLanguage(param0: com.iadvize.conversation.sdk.model.language.SDKLanguageOption): void;
+							});
+							public constructor();
+							public activateTargetingRule(param0: java.util.UUID): void;
+							public activeTargetingRuleId(): string;
+							public setListeners(param0: java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>): void;
+							public registerUserNavigation(): void;
+							public getLanguage(): com.iadvize.conversation.sdk.model.language.SDKLanguageOption;
+							public getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>;
+							public setLanguage(param0: com.iadvize.conversation.sdk.model.language.SDKLanguageOption): void;
+							public hasAvailableActiveTargetingRule(): boolean;
+							public activeTargetingRuleAvailabilityDidChange(param0: boolean): void;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module targeting {
+						export class TargetingSDKControllerImpl extends com.iadvize.conversation.sdk.controller.SDKActivationStatusObserver implements com.iadvize.conversation.sdk.controller.targeting.TargetingSDKController {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.targeting.TargetingSDKControllerImpl>;
+							public constructor();
+							public activateTargetingRule(param0: java.util.UUID): void;
+							public registerUserNavigation(): void;
+							public getListeners(): java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>;
+							public constructor(param0: com.iadvize.conversation.sdk.model.graphql.GraphQLApi);
+							public clear$sdk_haRelease(): void;
+							public hasAvailableActiveTargetingRule(): boolean;
+							public setActiveTargetingRuleAvailable$sdk_haRelease(param0: boolean): void;
+							public getScreenIdentifier$sdk_haRelease(): java.util.UUID;
+							public setScreenIdentifier$sdk_haRelease(param0: java.util.UUID): void;
+							public setListeners(param0: java.util.List<com.iadvize.conversation.sdk.controller.targeting.TargetingListener>): void;
+							public activeTargetingRuleId(): string;
+							public getLanguage(): com.iadvize.conversation.sdk.model.language.SDKLanguageOption;
+							public setLanguage(param0: com.iadvize.conversation.sdk.model.language.SDKLanguageOption): void;
+							public isActiveTargetingRuleAvailable$sdk_haRelease(): boolean;
+							public activeTargetingRuleAvailabilityDidChange(param0: boolean): void;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
 					export module transaction {
 						export class TransactionController {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.transaction.TransactionController>;
-							public static Companion: com.iadvize.conversation.sdk.controller.transaction.TransactionController.Companion;
-							public static TRANSACTION_QUEUE_KEY: string;
-							public stringToTransaction$sdk_release(param0: string): com.iadvize.conversation.sdk.model.transaction.Transaction;
-							public transactionToString$sdk_release(param0: com.iadvize.conversation.sdk.model.transaction.Transaction): string;
+							/**
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.transaction.TransactionController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 */
+							public constructor(implementation: {
+								register(param0: com.iadvize.conversation.sdk.model.transaction.Transaction): void;
+							});
+							public constructor();
 							public register(param0: com.iadvize.conversation.sdk.model.transaction.Transaction): void;
-							public checkAndSend$sdk_release(): void;
-							public constructor(param0: com.iadvize.conversation.sdk.model.graphql.GraphQLApi);
 						}
-						export module TransactionController {
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module transaction {
+						export class TransactionSDKController extends com.iadvize.conversation.sdk.controller.transaction.TransactionController {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.transaction.TransactionSDKController>;
+							/**
+							 * Constructs a new instance of the com.iadvize.conversation.sdk.controller.transaction.TransactionSDKController interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+							 */
+							public constructor(implementation: {
+								register(param0: com.iadvize.conversation.sdk.model.transaction.Transaction): void;
+							});
+							public constructor();
+							public register(param0: com.iadvize.conversation.sdk.model.transaction.Transaction): void;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module controller {
+					export module transaction {
+						export class TransactionSDKControllerImpl extends com.iadvize.conversation.sdk.controller.SDKActivationStatusObserver implements com.iadvize.conversation.sdk.controller.transaction.TransactionSDKController {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.transaction.TransactionSDKControllerImpl>;
+							public static Companion: com.iadvize.conversation.sdk.controller.transaction.TransactionSDKControllerImpl.Companion;
+							public static TRANSACTION_QUEUE_KEY: string;
+							public constructor();
+							public stringToTransaction$sdk_haRelease(param0: string): com.iadvize.conversation.sdk.model.transaction.Transaction;
+							public register(param0: com.iadvize.conversation.sdk.model.transaction.Transaction): void;
+							public transactionToString$sdk_haRelease(param0: com.iadvize.conversation.sdk.model.transaction.Transaction): string;
+							public constructor(param0: com.iadvize.conversation.sdk.model.graphql.GraphQLApi);
+							public checkAndSend$sdk_haRelease(): void;
+							public clear$sdk_haRelease(): void;
+						}
+						export module TransactionSDKControllerImpl {
 							export class Companion {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.transaction.TransactionController.Companion>;
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.controller.transaction.TransactionSDKControllerImpl.Companion>;
 							}
 						}
 					}
@@ -4241,6 +4719,85 @@ declare module com {
 	export module iadvize {
 		export module conversation {
 			export module sdk {
+				export module fragment {
+					export class VisitorMessages {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.fragment.VisitorMessages>;
+						public static FRAGMENT_DEFINITION: string;
+						public __typename(): string;
+						public edges(): java.util.List<com.iadvize.conversation.sdk.fragment.VisitorMessages.Edge>;
+						public equals(param0: any): boolean;
+						public hashCode(): number;
+						public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+						public constructor(param0: string, param1: java.util.List<com.iadvize.conversation.sdk.fragment.VisitorMessages.Edge>);
+						public toString(): string;
+					}
+					export module VisitorMessages {
+						export class Edge {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.fragment.VisitorMessages.Edge>;
+							public __typename(): string;
+							public hashCode(): number;
+							public node(): com.iadvize.conversation.sdk.fragment.VisitorMessages.Node;
+							public constructor(param0: string, param1: com.iadvize.conversation.sdk.fragment.VisitorMessages.Node);
+							public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+							public toString(): string;
+							public equals(param0: any): boolean;
+						}
+						export module Edge {
+							export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.fragment.VisitorMessages.Edge> {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.fragment.VisitorMessages.Edge.Mapper>;
+								public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.fragment.VisitorMessages.Edge;
+								public constructor();
+							}
+						}
+						export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.fragment.VisitorMessages> {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.fragment.VisitorMessages.Mapper>;
+							public constructor();
+							public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.fragment.VisitorMessages;
+						}
+						export class Node {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.fragment.VisitorMessages.Node>;
+							public fragments(): com.iadvize.conversation.sdk.fragment.VisitorMessages.Node.Fragments;
+							public constructor(param0: string, param1: com.iadvize.conversation.sdk.fragment.VisitorMessages.Node.Fragments);
+							public __typename(): string;
+							public hashCode(): number;
+							public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+							public toString(): string;
+							public equals(param0: any): boolean;
+						}
+						export module Node {
+							export class Fragments {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.fragment.VisitorMessages.Node.Fragments>;
+								public toString(): string;
+								public constructor(param0: com.iadvize.conversation.sdk.fragment.ParticipantConversationMessage);
+								public marshaller(): com.apollographql.apollo.api.internal.ResponseFieldMarshaller;
+								public equals(param0: any): boolean;
+								public hashCode(): number;
+								public participantConversationMessage(): com.iadvize.conversation.sdk.fragment.ParticipantConversationMessage;
+							}
+							export module Fragments {
+								export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.fragment.VisitorMessages.Node.Fragments> {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.fragment.VisitorMessages.Node.Fragments.Mapper>;
+									public constructor();
+									public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.fragment.VisitorMessages.Node.Fragments;
+								}
+							}
+							export class Mapper extends com.apollographql.apollo.api.internal.ResponseFieldMapper<com.iadvize.conversation.sdk.fragment.VisitorMessages.Node> {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.fragment.VisitorMessages.Node.Mapper>;
+								public map(param0: com.apollographql.apollo.api.internal.ResponseReader): com.iadvize.conversation.sdk.fragment.VisitorMessages.Node;
+								public constructor();
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
 				export module model {
 					export class IAdvizeSDKCallback {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.model.IAdvizeSDKCallback>;
@@ -4576,12 +5133,12 @@ declare module com {
 						export class Conversation {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.model.conversation.Conversation>;
 							public constructor();
-							public getDateFromFirstVisitorMessage$sdk_release(): java.util.Date;
+							public getDateFromFirstVisitorMessage$sdk_haRelease(): java.util.Date;
 							public getMessages(): java.util.List<com.iadvize.conversation_ui.models.Message>;
 							public clear(): void;
 							public reset(param0: java.util.List<any>): void;
 							public add(param0: com.iadvize.conversation_ui.models.Message): void;
-							public update$sdk_release(param0: com.iadvize.conversation_ui.models.Message): com.iadvize.conversation_ui.models.Message;
+							public update$sdk_haRelease(param0: com.iadvize.conversation_ui.models.Message): com.iadvize.conversation_ui.models.Message;
 						}
 					}
 				}
@@ -4690,6 +5247,18 @@ declare module com {
 									public static class: java.lang.Class<com.iadvize.conversation.sdk.model.conversation.LocalOperatorMessage.GDPRQuestion.Companion>;
 								}
 							}
+							export class ProactiveBotTypingMessage extends com.iadvize.conversation_ui.models.Message {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.model.conversation.LocalOperatorMessage.ProactiveBotTypingMessage>;
+								public static Companion: com.iadvize.conversation.sdk.model.conversation.LocalOperatorMessage.ProactiveBotTypingMessage.Companion;
+								public static MESSAGE_ID: number;
+								public constructor(param0: string, param1: com.iadvize.conversation_ui.models.Sender, param2: java.util.Date, param3: com.iadvize.conversation_ui.models.MessageKind, param4: com.iadvize.conversation_ui.models.MessageState, param5: boolean);
+								public constructor();
+							}
+							export module ProactiveBotTypingMessage {
+								export class Companion {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.model.conversation.LocalOperatorMessage.ProactiveBotTypingMessage.Companion>;
+								}
+							}
 						}
 					}
 				}
@@ -4740,6 +5309,7 @@ declare module com {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.model.conversation.MessageExtensionsKt>;
 							public static update(param0: com.iadvize.conversation_ui.models.Message, param1: com.iadvize.conversation_ui.models.Sender, param2: java.util.Date, param3: com.iadvize.conversation_ui.models.MessageKind, param4: com.iadvize.conversation_ui.models.MessageState, param5: boolean): com.iadvize.conversation_ui.models.Message;
 							public static updateAttachmentUrl(param0: com.iadvize.conversation_ui.models.MessageKind, param1: string): com.iadvize.conversation_ui.models.MessageKind;
+							public static textDescription(param0: com.iadvize.conversation_ui.models.Message): string;
 							public static toFileExtension(param0: com.iadvize.conversation_ui.models.MessageAttachment): com.iadvize.conversation.sdk.model.xmpp.conversation.messages.extensions.FileExtension;
 							public static mimeType(param0: com.iadvize.conversation_ui.models.MessageAttachment): string;
 							public static content(param0: com.iadvize.conversation_ui.models.Message): string;
@@ -4763,7 +5333,6 @@ declare module com {
 							public static graphqlToMessageCard(param0: com.iadvize.conversation.sdk.fragment.CardAttachment): com.iadvize.conversation_ui.models.MessageAttachment.Card;
 							public static graphqlToMessageAction(param0: com.iadvize.conversation.sdk.fragment.ProductOfferAttachment.Action): com.iadvize.conversation_ui.models.MessageAttachment.Action;
 							public static graphqlToMessageProductOffer(param0: com.iadvize.conversation.sdk.fragment.ProductOfferBundleAttachment.ProductOffer): com.iadvize.conversation_ui.models.MessageAttachment.ProductOffer;
-							public static graphqlToUiMessages(param0: java.util.List<com.iadvize.conversation.sdk.VisitorMessagesQuery.Edge>): java.util.ArrayList<com.iadvize.conversation_ui.models.Message>;
 							public static graphqlToUiAttachments(param0: java.util.List<any>): java.util.ArrayList<com.iadvize.conversation_ui.models.MessageAttachment>;
 							public static graphqlToMessageCard(param0: com.iadvize.conversation.sdk.fragment.OfferAttachment): com.iadvize.conversation_ui.models.MessageAttachment.Card;
 							public static graphqlToMessageImage(param0: com.iadvize.conversation.sdk.fragment.CardAttachment.Image): com.iadvize.conversation_ui.models.MessageAttachment.CardImage;
@@ -4771,6 +5340,7 @@ declare module com {
 							public static graphqlToMessageImage(param0: com.iadvize.conversation.sdk.fragment.ProductOfferAttachment.Image): com.iadvize.conversation_ui.models.MessageAttachment.CardImage;
 							public static xmppToUiMessage(param0: com.iadvize.conversation.sdk.model.xmpp.conversation.messages.MucSubMessageExtension, param1: string): com.iadvize.conversation_ui.models.Message;
 							public static graphqlToMessageCard(param0: com.iadvize.conversation.sdk.fragment.CardBundleAttachment.Card): com.iadvize.conversation_ui.models.MessageAttachment.Card;
+							public static graphqlToUiMessages(param0: java.util.List<com.iadvize.conversation.sdk.fragment.VisitorMessages.Edge>): java.util.ArrayList<com.iadvize.conversation_ui.models.Message>;
 							public static graphqlToMessageAction(param0: com.iadvize.conversation.sdk.fragment.CardAttachment.Action): com.iadvize.conversation_ui.models.MessageAttachment.Action;
 						}
 					}
@@ -4925,8 +5495,8 @@ declare module com {
 							public onParseError(param0: com.apollographql.apollo.exception.ApolloParseException): void;
 							public onStatusEvent(param0: com.apollographql.apollo.ApolloCall.StatusEvent): void;
 							public onResponse(param0: com.apollographql.apollo.api.Response<any>): void;
-							public getDelegate$sdk_release(): com.apollographql.apollo.ApolloCall.Callback<any>;
 							public onNetworkError(param0: com.apollographql.apollo.exception.ApolloNetworkException): void;
+							public getDelegate$sdk_haRelease(): com.apollographql.apollo.ApolloCall.Callback<any>;
 							public onFailure(param0: com.apollographql.apollo.exception.ApolloException): void;
 							public onHttpError(param0: com.apollographql.apollo.exception.ApolloHttpException): void;
 						}
@@ -5016,19 +5586,19 @@ declare module com {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.model.graphql.GraphQLApi>;
 							public constructor();
 							public enablePushToken(param0: kotlin.coroutines.Continuation<any>): any;
+							public getVisitorMessages(param0: string, param1: kotlin.coroutines.Continuation<any>): any;
 							public sendGDPRConsent(param0: boolean, param1: kotlin.coroutines.Continuation<any>): any;
 							public refreshVisitorToken(param0: kotlin.coroutines.Continuation<any>): any;
 							public disablePushToken(param0: kotlin.coroutines.Continuation<any>): any;
-							public triggerTargetingRule(param0: java.util.UUID, param1: kotlin.coroutines.Continuation<any>): any;
 							public registerTransaction(param0: com.iadvize.conversation.sdk.model.transaction.Transaction, param1: kotlin.coroutines.Continuation<any>): any;
 							public registerPushToken(param0: kotlin.coroutines.Continuation<any>): any;
 							public sendEvent(param0: com.iadvize.conversation.sdk.type.SDKEventInput, param1: kotlin.coroutines.Continuation<any>): any;
-							public getVisitorMessages(param0: kotlin.coroutines.Continuation<any>): any;
+							public createConversation(param0: string, param1: kotlin.coroutines.Continuation<any>): any;
 							public getOngoingConversationId(param0: kotlin.coroutines.Continuation<any>): any;
 							public getGDPRConsent(param0: kotlin.coroutines.Continuation<any>): any;
+							public triggerTargetingRule(param0: java.util.UUID, param1: string, param2: kotlin.coroutines.Continuation<any>): any;
 							public getAttachmentUrls(param0: com.iadvize.conversation_ui.models.MessageAttachment, param1: kotlin.coroutines.Continuation<any>): any;
 							public authenticateVisitor(param0: number, param1: com.iadvize.conversation.sdk.model.auth.AuthenticationOption, param2: kotlin.coroutines.Continuation<any>): any;
-							public createConversation(param0: kotlin.coroutines.Continuation<any>): any;
 						}
 					}
 				}
@@ -5160,8 +5730,11 @@ declare module com {
 							public getSecuredPreferences(): globalAndroid.content.SharedPreferences;
 							public setSecuredPreferences(param0: globalAndroid.content.SharedPreferences): void;
 							public findSet(param0: string): java.util.Set<string>;
+							public find(param0: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences, param1: any): any;
 							public put(param0: string, param1: any): void;
+							public put(param0: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences, param1: any): void;
 							public put(param0: string, param1: java.util.Set<string>): void;
+							public remove(param0: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences): void;
 							public remove(param0: string): void;
 						}
 						export module PreferencesManager {
@@ -5172,14 +5745,14 @@ declare module com {
 								public static gdprConsent: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
 								public static authenticationOption: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
 								public static pushToken: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
-								public static targetingRuleId: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
 								public static visitorName: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
 								public static visitorJwtToken: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
 								public static visitorVuid: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
 								public static authenticationOptionType: com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
 								public static values(): androidNative.Array<com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences>;
+								public getRemoveOnClear(): boolean;
+								public getKey(): string;
 								public static valueOf(param0: string): com.iadvize.conversation.sdk.model.preferences.PreferencesManager.Preferences;
-								public getValue(): string;
 							}
 						}
 					}
@@ -8708,9 +9281,9 @@ declare module com {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.utils.logger.Logger>;
 							public static INSTANCE: com.iadvize.conversation.sdk.utils.logger.Logger;
 							public static PREFIX: string;
+							public formatMessage$sdk_haRelease(param0: com.iadvize.conversation.sdk.utils.logger.Logger.Level, param1: string): string;
 							public log(param0: com.iadvize.conversation.sdk.utils.logger.Logger.Level, param1: string): void;
-							public formatMessage$sdk_release(param0: com.iadvize.conversation.sdk.utils.logger.Logger.Level, param1: string): string;
-							public invalidParameterLog$sdk_release(param0: string): string;
+							public invalidParameterLog$sdk_haRelease(param0: string): string;
 						}
 						export module Logger {
 							export class Level {
@@ -9009,10 +9582,9 @@ declare module com {
 			export module sdk {
 				export module view {
 					export module conversation {
-						export class ChatboxActivity extends com.iadvize.conversation.sdk.view.conversation.ChatboxAttachmentActivity implements com.iadvize.conversation.sdk.view.conversation.ChatboxFragment.ChatboxFragmentCallback, com.iadvize.conversation.sdk.controller.chatbox.ChatboxListener {
+						export class ChatboxActivity extends com.iadvize.conversation.sdk.view.conversation.ChatboxAttachmentActivity implements com.iadvize.conversation.sdk.controller.chatbox.ChatboxListener {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.view.conversation.ChatboxActivity>;
 							public constructor();
-							public requestUpload(param0: boolean): void;
 							public onActivityResult(param0: number, param1: number, param2: globalAndroid.content.Intent): void;
 							public onCreate(param0: globalAndroid.os.Bundle): void;
 							public onDestroy(): void;
@@ -9063,13 +9635,14 @@ declare module com {
 			export module sdk {
 				export module view {
 					export module conversation {
-						export class ChatboxFragment implements com.iadvize.conversation.sdk.controller.chatbox.ChatboxCallback, com.iadvize.conversation_ui.viewholders.MessageListeners, com.iadvize.conversation_ui.views.ComposeView.SendButtonClickListener, com.iadvize.conversation_ui.views.ComposeView.TextChangedListener, com.iadvize.conversation_ui.views.ComposeView.ImageButtonClickListener, com.iadvize.conversation_ui.views.ComposeView.FileButtonClickListener {
+						export class ChatboxFragment implements com.iadvize.conversation.sdk.controller.chatbox.ChatboxFragmentCallback, com.iadvize.conversation_ui.viewholders.MessageListeners, com.iadvize.conversation_ui.views.ComposeView.SendButtonClickListener, com.iadvize.conversation_ui.views.ComposeView.TextChangedListener, com.iadvize.conversation_ui.views.ComposeView.ImageButtonClickListener, com.iadvize.conversation_ui.views.ComposeView.FileButtonClickListener {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.view.conversation.ChatboxFragment>;
-							public setCanSendMessage$sdk_release(param0: boolean): void;
 							public onCreateView(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup, param2: globalAndroid.os.Bundle): globalAndroid.view.View;
 							public onMessageLongClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation_ui.models.Message): void;
+							public localProactiveMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
 							public onImageButtonClicked(): void;
 							public onTextChanged(param0: string): void;
+							public onAttach(param0: globalAndroid.content.Context): void;
 							public onDestroyView(): void;
 							public consentNotSent(param0: java.lang.Throwable): void;
 							public conversationReceivedWithGdpr(): void;
@@ -9080,7 +9653,6 @@ declare module com {
 							public onMessageAvatarClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation_ui.models.Message): void;
 							public constructor();
 							public messageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
-							public setCallback$sdk_release(param0: com.iadvize.conversation.sdk.view.conversation.ChatboxFragment.ChatboxFragmentCallback): void;
 							public messageSent(param0: com.iadvize.conversation_ui.models.Message): void;
 							public onMessagePreviewLinkClicked(param0: globalAndroid.view.View, param1: string): void;
 							public onFileButtonClicked(): void;
@@ -9092,23 +9664,13 @@ declare module com {
 							public messageSending(param0: com.iadvize.conversation_ui.models.Message): void;
 							public onLoadPastConversationClicked(): void;
 							public localMessageReceived(param0: com.iadvize.conversation_ui.models.Message): void;
-							public getCanSendMessage$sdk_release(): boolean;
-							public getCallback$sdk_release(): com.iadvize.conversation.sdk.view.conversation.ChatboxFragment.ChatboxFragmentCallback;
+							public setParent$sdk_haRelease(param0: com.iadvize.conversation.sdk.view.conversation.ChatboxAttachmentActivity): void;
+							public onDetach(): void;
+							public getParent$sdk_haRelease(): com.iadvize.conversation.sdk.view.conversation.ChatboxAttachmentActivity;
 							public onConversationError(param0: java.lang.Throwable): void;
 							public onMessageLinkClicked(param0: globalAndroid.net.Uri): void;
 						}
 						export module ChatboxFragment {
-							export class ChatboxFragmentCallback {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.view.conversation.ChatboxFragment.ChatboxFragmentCallback>;
-								/**
-								 * Constructs a new instance of the com.iadvize.conversation.sdk.view.conversation.ChatboxFragment$ChatboxFragmentCallback interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
-								 */
-								public constructor(implementation: {
-									requestUpload(param0: boolean): void;
-								});
-								public constructor();
-								public requestUpload(param0: boolean): void;
-							}
 							export class WhenMappings {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.view.conversation.ChatboxFragment.WhenMappings>;
 							}
