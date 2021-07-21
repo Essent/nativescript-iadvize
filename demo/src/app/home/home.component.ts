@@ -9,9 +9,9 @@ import { IAdvize, ChatConfiguration } from 'nativescript-iadvize';
 export class HomeComponent implements OnInit {
 
     ngOnInit(): void {
-        IAdvize.activate(1111, 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX', 'userId', () => {
+        IAdvize.getInstance().activate(1111, 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX', 'userId', () => {
             setTimeout(() => {
-                IAdvize.presentChat();
+                IAdvize.getInstance().presentChat();
             }, 1000);
         });
 
@@ -24,10 +24,11 @@ export class HomeComponent implements OnInit {
             navigationBarMainColor: '#ffffff',
             navigationBarTitle: 'Test Title'
         };
-        IAdvize.hideDefaultChatButton();
-        IAdvize.customize(configuration);
-        IAdvize.registerConversationListener((url: string) => {
+        IAdvize.getInstance().hideDefaultChatButton();
+        IAdvize.getInstance().customize(configuration);
+        IAdvize.getInstance().registerConversationListener((url: string) => {
             console.log('Handle clicked url - ' + url);
+            IAdvize.getInstance().dismissChat();
             return false;
           }, (hasOngoingConversation: boolean) => {
               console.log('Ongoing conversation status changed - ' + hasOngoingConversation);
