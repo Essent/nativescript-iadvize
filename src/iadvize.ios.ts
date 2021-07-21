@@ -1,10 +1,24 @@
-import { Color, ImageSource, iOSApplication } from '@nativescript/core';
-import { ChatConfiguration, Common } from './iadvize.common';
+import { Color, ImageSource } from '@nativescript/core';
+import { ChatConfiguration } from './iadvize.common';
 import { ios as iosApp } from '@nativescript/core/application';
 
 
-export class IAdvize extends Common {
-    public static activate(projectId: number, targetingRuleUUID: string, userId: string, onSuccess: () => void) {
+export class IAdvize {
+    private static instance: IAdvize = new IAdvize();
+    private delegate: ConversationControllerDelegate
+
+    constructor() {
+        if (IAdvize.instance) {
+            throw new Error("iAdvize[iOS] Error: Instance failed: Use IAdvize.getInstance() instead of new.");
+        }
+        IAdvize.instance = this;
+    }
+
+    static getInstance() {
+        return IAdvize.instance;
+    }
+
+    public activate(projectId: number, targetingRuleUUID: string, userId: string, onSuccess: () => void) {
         IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: userId}),  GDPROption.disabled(),  (success: boolean) => {
             if (success) {
                 console.log('iAdvize[iOS] activated');
@@ -16,11 +30,11 @@ export class IAdvize extends Common {
         });
     }
 
-    public static logout() {
+    public logout() {
         IAdvizeSDK.shared.logout();
     }
 
-    public static customize(configuration: ChatConfiguration) {
+    public customize(configuration: ChatConfiguration) {
         const mainColor = new Color(configuration.mainColor).ios
         const navigationBarBackgroundColor = new Color(configuration.navigationBarBackgroundColor).ios;
         const navigationBarMainColor = new Color(configuration.navigationBarMainColor).ios
@@ -41,19 +55,24 @@ export class IAdvize extends Common {
         IAdvizeSDK.shared.chatboxController.setupChatboxWithConfiguration(chatboxConfiguration)
     }
 
-    public static registerConversationListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void) {
-        IAdvizeSDK.shared.conversationController.delegate = ConversationControllerDelegateImpl.initWithCallbacks(openURLCallback, ongoingConversationStatusDidChange);
+    public registerConversationListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void) {
+        this.delegate = ConversationControllerDelegateImpl.initWithCallbacks(openURLCallback, ongoingConversationStatusDidChange);
+        IAdvizeSDK.shared.conversationController.delegate = this.delegate;
     }
 
-    public static hideDefaultChatButton() {
+    public hideDefaultChatButton() {
         IAdvizeSDK.shared.chatboxController.useDefaultChatButton = false;
     }
 
-    public static presentChat() {
+    public presentChat() {
         IAdvizeSDK.shared.conversationController.presentConversationViewModalWithAnimatedPresentingViewControllerCompletion(true, iosApp.window.rootController, () => {});
     }
 
-    public static registerPushToken(token: string, isProd: boolean) {
+    public dismissChat() {
+        IAdvizeSDK.shared.conversationController.dismissConversationViewModalWithAnimatedCompletion(false, () => {});
+    }
+
+    public registerPushToken(token: string, isProd: boolean) {
         IAdvizeSDK.shared.notificationController.registerPushTokenApplicationMode(token, isProd ? GraphQLApplicationMode.Prod : GraphQLApplicationMode.Dev)
     }
 }
@@ -65,7 +84,7 @@ class ConversationControllerDelegateImpl extends NSObject implements Conversatio
     private ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void;
 
     static initWithCallbacks(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void): ConversationControllerDelegateImpl {
-        let delegate = <ConversationControllerDelegateImpl>super.new() 
+        let delegate = <ConversationControllerDelegateImpl>super.new()
         delegate.openURLCallback = openURLCallback;
         delegate.ongoingConversationStatusDidChange = ongoingConversationStatusDidChange;
         return delegate;
