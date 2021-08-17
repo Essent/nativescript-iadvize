@@ -32,6 +32,8 @@ export class HomeComponent implements OnInit {
             return false;
           }, (hasOngoingConversation: boolean) => {
               console.log('Ongoing conversation status changed - ' + hasOngoingConversation);
+          }, (content: string) => {
+              console.log('New message received: ' + content);
           });
     }
 }
