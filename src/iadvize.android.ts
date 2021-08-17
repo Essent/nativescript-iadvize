@@ -87,19 +87,19 @@ export class IAdvize {
       }
     }
 
-    public registerConversationListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void) {
+    public registerConversationListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void, newMessageReceived: (content: string) => void) {
       try {
         const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
         const conversationController = IAdvizeSDK.getDeclaredField('conversationControllerImpl');
         conversationController.setAccessible(true);
-        const ctrl = conversationController.get(null);
-        const listeners: List<ConversationListener> = ctrl.getListeners();
+        const conversationCtrl = conversationController.get(null);
+        const listeners: List<ConversationListener> = conversationCtrl.getListeners();
         listeners.add(new ConversationListener({
           onOngoingConversationStatusChanged(param0: boolean): void {
             ongoingConversationStatusDidChange(param0);
           },
           onNewMessageReceived(_param0: string): void {
-
+            newMessageReceived(_param0);
           },
           handleClickedUrl(param0: globalAndroid.net.Uri): boolean {
             return !openURLCallback(param0.toString());
@@ -148,6 +148,18 @@ export class IAdvize {
         notificationController.setAccessible(true);
         const ctrl = notificationController.get(null);
         ctrl.registerPushToken(token);
+      } catch (e) {
+        console.error('iAdvize[Android] error ' + e);
+      }
+    }
+
+    public isChatPresented() {
+      try {
+        const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
+        const chatboxController = IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
+        chatboxController.setAccessible(true);
+        const chatboxCtrl = chatboxController.get(null);
+        return chatboxCtrl.isChatboxPresented()
       } catch (e) {
         console.error('iAdvize[Android] error ' + e);
       }

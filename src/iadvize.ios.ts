@@ -55,8 +55,8 @@ export class IAdvize {
         IAdvizeSDK.shared.chatboxController.setupChatboxWithConfiguration(chatboxConfiguration)
     }
 
-    public registerConversationListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void) {
-        this.delegate = ConversationControllerDelegateImpl.initWithCallbacks(openURLCallback, ongoingConversationStatusDidChange);
+    public registerConversationListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void, newMessageReceived: (content: string) => void) {
+        this.delegate = ConversationControllerDelegateImpl.initWithCallbacks(openURLCallback, ongoingConversationStatusDidChange, newMessageReceived);
         IAdvizeSDK.shared.conversationController.delegate = this.delegate;
     }
 
@@ -75,6 +75,10 @@ export class IAdvize {
     public registerPushToken(token: string, isProd: boolean) {
         IAdvizeSDK.shared.notificationController.registerPushTokenApplicationMode(token, isProd ? GraphQLApplicationMode.Prod : GraphQLApplicationMode.Dev)
     }
+
+    public isChatPresented() {
+        return IAdvizeSDK.shared.conversationController.isConversationViewPresented()
+    }
 }
 
 @NativeClass()
@@ -82,11 +86,13 @@ class ConversationControllerDelegateImpl extends NSObject implements Conversatio
     static ObjCProtocols = [ConversationControllerDelegate]
     private openURLCallback: (url: string) => boolean;
     private ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void;
+    private newMessageReceived: (content: string) => void;
 
-    static initWithCallbacks(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void): ConversationControllerDelegateImpl {
+    static initWithCallbacks(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void, newMessageReceived: (content: string) => void): ConversationControllerDelegateImpl {
         let delegate = <ConversationControllerDelegateImpl>super.new()
         delegate.openURLCallback = openURLCallback;
         delegate.ongoingConversationStatusDidChange = ongoingConversationStatusDidChange;
+        delegate.newMessageReceived = newMessageReceived;
         return delegate;
     }
 
@@ -95,6 +101,7 @@ class ConversationControllerDelegateImpl extends NSObject implements Conversatio
     }
 
 	didReceiveNewMessageWithContent?(_content: string): void {
+        this.newMessageReceived(_content);
     }
 
 	ongoingConversationStatusDidChangeWithHasOngoingConversation(hasOngoingConversation: boolean): void {
