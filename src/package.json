@@ -1,6 +1,6 @@
 {
-	"name": "nativescript-iadvize",
-	"version": "1.0.3",
+	"name": "@essent/nativescript-iadvize",
+	"version": "1.0.4",
 	"description": "iAdvize plugin for NativeScript.",
 	"main": "iadvize",
 	"typings": "index.d.ts",
