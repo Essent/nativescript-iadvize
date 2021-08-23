@@ -20,5 +20,5 @@ allprojects {
 }
 
 dependencies {
-    implementation('com.iadvize:iadvize-sdk:2.1.0-beta3') { exclude group: 'xpp3' }
+    implementation('com.iadvize:iadvize-sdk:2.1.0-beta6') { exclude group: 'xpp3' }
 }
