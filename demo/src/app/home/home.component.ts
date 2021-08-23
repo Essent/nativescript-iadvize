@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { IAdvize, ChatConfiguration } from 'nativescript-iadvize';
+import { IAdvize, ChatConfiguration } from '@essent/nativescript-iadvize';
 
 @Component({
     selector: "Home",
