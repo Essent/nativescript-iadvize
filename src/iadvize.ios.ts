@@ -65,7 +65,7 @@ export class IAdvize {
     }
 
     public presentChat() {
-        IAdvizeSDK.shared.conversationController.presentConversationViewModalWithAnimatedPresentingViewControllerCompletion(true, iosApp.window.rootController, () => {});
+        IAdvizeSDK.shared.conversationController.presentChatbox(true, iosApp.window.rootController, () => {});
     }
 
     public dismissChat() {
