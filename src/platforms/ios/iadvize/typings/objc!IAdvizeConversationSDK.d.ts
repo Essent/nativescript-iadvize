@@ -53,6 +53,7 @@ declare class ChatboxController extends NSObject {
 }
 
 declare class ConversationController extends NSObject implements TargetingControllerDelegate {
+    [x: string]: any;
 
 	static alloc(): ConversationController; // inherited from NSObject
 
