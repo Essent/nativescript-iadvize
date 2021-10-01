@@ -18,16 +18,20 @@ export class IAdvize {
         return IAdvize.instance;
     }
 
-    public activate(projectId: number, targetingRuleUUID: string, userId: string, onSuccess: () => void) {
+    public activate(projectId: number, userId: string, onSuccess: () => void, onFailure: () => void) {
         IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: userId}),  GDPROption.disabled(),  (success: boolean) => {
             if (success) {
                 console.log('iAdvize[iOS] activated');
-                IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRuleId(new NSUUID({ UUIDString: targetingRuleUUID }));
                 onSuccess();
             } else {
                 console.error('iAdvize[iOS] activation failed');
+                onFailure();
             }
         });
+    }
+
+    public activateTargetingRule(targetingRuleUUID: string) {
+        IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRuleId(new NSUUID({ UUIDString: targetingRuleUUID }));
     }
 
     public logout() {
@@ -65,11 +69,11 @@ export class IAdvize {
     }
 
     public presentChat() {
-        IAdvizeSDK.shared.conversationController.presentChatbox(true, iosApp.window.rootController, () => {});
+        IAdvizeSDK.shared.conversationController.presentChatboxWithAnimatedPresentingViewControllerCompletion(true, iosApp.window.rootController, () => {});
     }
 
     public dismissChat() {
-        IAdvizeSDK.shared.conversationController.dismissConversationViewModalWithAnimatedCompletion(false, () => {});
+        IAdvizeSDK.shared.conversationController.dismissChatboxWithAnimatedCompletion(false, () => {});
     }
 
     public registerPushToken(token: string, isProd: boolean) {
@@ -77,7 +81,7 @@ export class IAdvize {
     }
 
     public isChatPresented() {
-        return IAdvizeSDK.shared.conversationController.isConversationViewPresented()
+        return IAdvizeSDK.shared.conversationController.isChatboxPresented()
     }
 }
 

@@ -9,10 +9,13 @@ import { IAdvize, ChatConfiguration } from '@essent/nativescript-iadvize';
 export class HomeComponent implements OnInit {
 
     ngOnInit(): void {
-        IAdvize.getInstance().activate(1111, 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX', 'userId', () => {
+        IAdvize.getInstance().activate(1111, 'userId', () => {
+            IAdvize.getInstance().activateTargetingRule('XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX');
             setTimeout(() => {
                 IAdvize.getInstance().presentChat();
             }, 1000);
+        }, () => {
+            console.warn('Activation failed!');
         });
 
         const configuration: ChatConfiguration = {

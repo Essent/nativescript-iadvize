@@ -52,8 +52,7 @@ declare class ChatboxController extends NSObject {
 	setupChatboxWithConfiguration(configuration: ChatboxConfiguration): void;
 }
 
-declare class ConversationController extends NSObject implements TargetingControllerDelegate {
-    [x: string]: any;
+declare class ConversationController extends NSObject {
 
 	static alloc(): ConversationController; // inherited from NSObject
 
@@ -61,15 +60,13 @@ declare class ConversationController extends NSObject implements TargetingContro
 
 	delegate: ConversationControllerDelegate;
 
-	hasOngoingConversation: boolean;
+	readonly hasOngoingConversation: boolean;
 
-	activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable(isActiveTargetingRuleAvailable: boolean): void;
+	dismissChatboxWithAnimatedCompletion(animated: boolean, completion: () => void): void;
 
-	dismissConversationViewModalWithAnimatedCompletion(animated: boolean, completion: () => void): void;
+	isChatboxPresented(): boolean;
 
-	isConversationViewPresented(): boolean;
-
-	presentConversationViewModalWithAnimatedPresentingViewControllerCompletion(animated: boolean, presentingViewController: UIViewController, completion: () => void): void;
+	presentChatboxWithAnimatedPresentingViewControllerCompletion(animated: boolean, presentingViewController: UIViewController, completion: () => void): void;
 }
 
 interface ConversationControllerDelegate {
@@ -84,15 +81,6 @@ declare var ConversationControllerDelegate: {
 
 	prototype: ConversationControllerDelegate;
 };
-
-declare class CustomAlertController extends UIAlertController {
-
-	static alertControllerWithTitleMessagePreferredStyle(title: string, message: string, preferredStyle: UIAlertControllerStyle): CustomAlertController; // inherited from UIAlertController
-
-	static alloc(): CustomAlertController; // inherited from NSObject
-
-	static new(): CustomAlertController; // inherited from NSObject
-}
 
 interface GDPRDelegate {
 
@@ -996,8 +984,6 @@ declare class IAdvizeSDK extends NSObject {
 
 	readonly conversationController: ConversationController;
 
-	jwtTokenDelegate: JWTTokenDelegate;
-
 	readonly notificationController: NotificationController;
 
 	readonly targetingController: TargetingController;
@@ -1029,15 +1015,6 @@ declare class IncomingMessageAvatar extends NSObject {
 
 	initWithUrl(url: NSURL): this;
 }
-
-interface JWTTokenDelegate {
-
-	jwtTokenDidExpired(): void;
-}
-declare var JWTTokenDelegate: {
-
-	prototype: JWTTokenDelegate;
-};
 
 declare const enum LoggerLogLevel {
 
@@ -1078,7 +1055,7 @@ declare class SDKLanguageOption extends NSObject {
 	static new(): SDKLanguageOption; // inherited from NSObject
 }
 
-declare class TargetingController extends NSObject implements ConversationControllerDelegate {
+declare class TargetingController extends NSObject {
 
 	static alloc(): TargetingController; // inherited from NSObject
 
@@ -1090,13 +1067,7 @@ declare class TargetingController extends NSObject implements ConversationContro
 
 	activateTargetingRuleWithTargetingRuleId(targetingRuleId: NSUUID): void;
 
-	conversationControllerShouldOpen(controller: ConversationController, url: NSURL): boolean;
-
-	didReceiveNewMessageWithContent(content: string): void;
-
 	getLanguage(): SDKLanguageOption;
-
-	ongoingConversationStatusDidChangeWithHasOngoingConversation(hasOngoingConversation: boolean): void;
 
 	registerUserNavigation(): void;
 
@@ -1136,19 +1107,6 @@ declare class TransactionController extends NSObject {
 	static new(): TransactionController; // inherited from NSObject
 
 	registerTransaction(transaction: Transaction): void;
-}
-
-declare class User extends NSObject {
-
-	static alloc(): User; // inherited from NSObject
-
-	static new(): User; // inherited from NSObject
-
-	name: string;
-
-	constructor(o: { name: string; });
-
-	initWithName(name: string): this;
 }
 
 declare class VisitorCustomData extends NSObject {

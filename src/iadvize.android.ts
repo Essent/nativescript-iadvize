@@ -20,42 +20,46 @@ import List = java.util.List
 
 export class IAdvize {
     private static instance: IAdvize = new IAdvize();
+    private IAdvizeSDK: Class<any>;
 
     constructor() {
         if (IAdvize.instance) {
             throw new Error("iAdvize[Android] Error: Instance failed: Use IAdvize.getInstance() instead of new.");
         }
         IAdvize.instance = this;
-    }
+      }
 
     static getInstance() {
         return IAdvize.instance;
     }
 
-    public activate(projectId: number, targetingRuleUUID: string, userId: string, onSuccess: () => void) {
+    public activate(projectId: number, userId: string, onSuccess: () => void, onFailure: () => void) {
       IAdvizeSDK.initiate(androidApp.nativeApp);
+      this.IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
 
       IAdvizeSDK.activate(projectId, new AuthenticationOption.Simple(userId), new GDPROption.Disabled(), new IAdvizeCallback(
             {
                 onSuccess(): void {
                     console.log('iAdvize[Android] activated');
-
-                    try {
-                        const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
-                        const targetingController = IAdvizeSDK.getDeclaredField('targetingControllerImpl');
-                        targetingController.setAccessible(true);
-                        const ctrl = targetingController.get(null);
-                        ctrl.activateTargetingRule(UUID.fromString(targetingRuleUUID));
-                        onSuccess();
-                      } catch (e) {
-                        console.error('iAdvize[Android] error ' + e);
-                      }
+                    onSuccess();
                 },
                 onFailure(error: Throwable): void {
                   console.error('iAdvize[Android] activation failed' + error.getLocalizedMessage());
+                  onFailure();
                 }
               }
         ));
+    }
+
+    public activateTargetingRule(targetingRuleUUID: string) {
+      try {
+          const targetingController = this.IAdvizeSDK.getDeclaredField('targetingControllerImpl');
+          targetingController.setAccessible(true);
+          const ctrl = targetingController.get(null);
+          ctrl.activateTargetingRule(UUID.fromString(targetingRuleUUID));
+        } catch (e) {
+          console.error('iAdvize[Android] error ' + e);
+        }
     }
 
     public logout() {
@@ -77,8 +81,7 @@ export class IAdvize {
       chatboxConfiguration.setFontPath(configuration.font);
 
       try {
-        const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
-        const chatboxController = IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
+        const chatboxController = this.IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
         chatboxController.setAccessible(true);
         const ctrl = chatboxController.get(null);
         ctrl.setupChatbox(chatboxConfiguration);
@@ -89,8 +92,7 @@ export class IAdvize {
 
     public registerConversationListener(openURLCallback: (url: string) => boolean, ongoingConversationStatusDidChange: (hasOngoingConversation: boolean) => void, newMessageReceived: (content: string) => void) {
       try {
-        const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
-        const conversationController = IAdvizeSDK.getDeclaredField('conversationControllerImpl');
+        const conversationController = this.IAdvizeSDK.getDeclaredField('conversationControllerImpl');
         conversationController.setAccessible(true);
         const conversationCtrl = conversationController.get(null);
         const listeners: List<ConversationListener> = conversationCtrl.getListeners();
@@ -112,8 +114,7 @@ export class IAdvize {
 
     public hideDefaultChatButton() {
       try {
-        const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
-        const chatboxController = IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
+        const chatboxController = this.IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
         chatboxController.setAccessible(true);
         const ctrl = chatboxController.get(null);
         ctrl.setUseDefaultChatButton(false);
@@ -124,8 +125,7 @@ export class IAdvize {
 
     public presentChat() {
       try {
-        const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
-        const chatboxController = IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
+        const chatboxController = this.IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
         chatboxController.setAccessible(true);
         const ctrl = chatboxController.get(null);
         ctrl.presentChatboxActivity(androidApp.foregroundActivity);
@@ -143,8 +143,7 @@ export class IAdvize {
 
     public registerPushToken(token: string, _isProd: boolean) {
       try {
-        const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
-        const notificationController = IAdvizeSDK.getDeclaredField('notificationControllerImpl');
+        const notificationController = this.IAdvizeSDK.getDeclaredField('notificationControllerImpl');
         notificationController.setAccessible(true);
         const ctrl = notificationController.get(null);
         ctrl.registerPushToken(token);
@@ -155,8 +154,7 @@ export class IAdvize {
 
     public isChatPresented() {
       try {
-        const IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
-        const chatboxController = IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
+        const chatboxController = this.IAdvizeSDK.getDeclaredField('chatboxControllerImpl');
         chatboxController.setAccessible(true);
         const chatboxCtrl = chatboxController.get(null);
         return chatboxCtrl.isChatboxPresented()
