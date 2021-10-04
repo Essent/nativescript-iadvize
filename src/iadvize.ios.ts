@@ -1,6 +1,7 @@
 import { Color, ImageSource } from '@nativescript/core';
 import { ChatConfiguration } from './iadvize.common';
 import { ios as iosApp } from '@nativescript/core/application';
+import * as SHA256 from 'crypto-js/sha256';
 
 
 export class IAdvize {
@@ -19,7 +20,7 @@ export class IAdvize {
     }
 
     public activate(projectId: number, userId: string, onSuccess: () => void, onFailure: () => void) {
-        IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: userId}),  GDPROption.disabled(),  (success: boolean) => {
+        IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: SHA256(userId).toString()}),  GDPROption.disabled(),  (success: boolean) => {
             if (success) {
                 console.log('iAdvize[iOS] activated');
                 onSuccess();
