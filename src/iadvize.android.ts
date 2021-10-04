@@ -2,6 +2,7 @@ import { ChatConfiguration, IAdvizeCommon } from './iadvize.common';
 import { android as androidApp } from '@nativescript/core/application';
 import { Color, ImageSource } from '@nativescript/core';
 import { Observable } from 'rxjs';
+import * as SHA256 from 'crypto-js/sha256';
 
 import IAdvizeSDK = com.iadvize.conversation.sdk.IAdvizeSDK;
 import AuthenticationOption = com.iadvize.conversation.sdk.model.auth.AuthenticationOption;
@@ -39,7 +40,7 @@ export class IAdvize extends IAdvizeCommon {
       IAdvizeSDK.initiate(androidApp.nativeApp);
       this.IAdvizeSDK = Class.forName('com.iadvize.conversation.sdk.IAdvizeSDK');
 
-      IAdvizeSDK.activate(projectId, new AuthenticationOption.Simple(userId), new GDPROption.Disabled(), new IAdvizeCallback(
+      IAdvizeSDK.activate(projectId, new AuthenticationOption.Simple(SHA256(userId).toString()), new GDPROption.Disabled(), new IAdvizeCallback(
             {
                 onSuccess(): void {
                     console.log('iAdvize[Android] activated');
