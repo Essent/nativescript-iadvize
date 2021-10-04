@@ -1,6 +1,7 @@
-import { ChatConfiguration } from './iadvize.common';
+import { ChatConfiguration, IAdvizeCommon } from './iadvize.common';
 import { android as androidApp } from '@nativescript/core/application';
 import { Color, ImageSource } from '@nativescript/core';
+import { Observable } from 'rxjs';
 
 import IAdvizeSDK = com.iadvize.conversation.sdk.IAdvizeSDK;
 import AuthenticationOption = com.iadvize.conversation.sdk.model.auth.AuthenticationOption;
@@ -18,16 +19,17 @@ import UUID = java.util.UUID
 import Class = java.lang.Class
 import List = java.util.List
 
-export class IAdvize {
+export class IAdvize extends IAdvizeCommon {
     private static instance: IAdvize = new IAdvize();
     private IAdvizeSDK: Class<any>;
 
     constructor() {
+        super();
         if (IAdvize.instance) {
             throw new Error("iAdvize[Android] Error: Instance failed: Use IAdvize.getInstance() instead of new.");
         }
         IAdvize.instance = this;
-      }
+    }
 
     static getInstance() {
         return IAdvize.instance;
@@ -41,6 +43,7 @@ export class IAdvize {
             {
                 onSuccess(): void {
                     console.log('iAdvize[Android] activated');
+                    IAdvize.activateChatbot();
                     onSuccess();
                 },
                 onFailure(error: Throwable): void {
@@ -64,6 +67,7 @@ export class IAdvize {
 
     public logout() {
       IAdvizeSDK.logout();
+      IAdvize.deactivateChatbot();
     }
 
     public customize(configuration: ChatConfiguration) {
@@ -161,5 +165,9 @@ export class IAdvize {
       } catch (e) {
         console.error('iAdvize[Android] error ' + e);
       }
+    }
+
+    public chatbotActivatedState(): Observable<boolean> {
+      return IAdvize.getChatbotActivated().asObservable();
     }
 }

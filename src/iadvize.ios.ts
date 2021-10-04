@@ -1,13 +1,14 @@
 import { Color, ImageSource } from '@nativescript/core';
-import { ChatConfiguration } from './iadvize.common';
+import { ChatConfiguration, IAdvizeCommon } from './iadvize.common';
 import { ios as iosApp } from '@nativescript/core/application';
+import { Observable } from 'rxjs';
 
-
-export class IAdvize {
+export class IAdvize extends IAdvizeCommon {
     private static instance: IAdvize = new IAdvize();
     private delegate: ConversationControllerDelegate
 
     constructor() {
+        super();
         if (IAdvize.instance) {
             throw new Error("iAdvize[iOS] Error: Instance failed: Use IAdvize.getInstance() instead of new.");
         }
@@ -22,6 +23,7 @@ export class IAdvize {
         IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: userId}),  GDPROption.disabled(),  (success: boolean) => {
             if (success) {
                 console.log('iAdvize[iOS] activated');
+                IAdvize.activateChatbot();
                 onSuccess();
             } else {
                 console.error('iAdvize[iOS] activation failed');
@@ -36,6 +38,7 @@ export class IAdvize {
 
     public logout() {
         IAdvizeSDK.shared.logout();
+        IAdvize.deactivateChatbot();
     }
 
     public customize(configuration: ChatConfiguration) {
@@ -83,6 +86,10 @@ export class IAdvize {
     public isChatPresented() {
         return IAdvizeSDK.shared.conversationController.isChatboxPresented()
     }
+
+    public chatbotActivatedState(): Observable<boolean> {
+        return IAdvize.getChatbotActivated().asObservable();
+      }
 }
 
 @NativeClass()
