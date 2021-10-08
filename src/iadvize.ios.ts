@@ -1,13 +1,14 @@
 import { Color, ImageSource } from '@nativescript/core';
-import { ChatConfiguration } from './iadvize.common';
+import { ChatConfiguration, IAdvizeCommon } from './iadvize.common';
 import { ios as iosApp } from '@nativescript/core/application';
+import { Observable } from 'rxjs';
 
-
-export class IAdvize {
+export class IAdvize extends IAdvizeCommon {
     private static instance: IAdvize = new IAdvize();
     private delegate: ConversationControllerDelegate
 
     constructor() {
+        super();
         if (IAdvize.instance) {
             throw new Error("iAdvize[iOS] Error: Instance failed: Use IAdvize.getInstance() instead of new.");
         }
@@ -18,20 +19,26 @@ export class IAdvize {
         return IAdvize.instance;
     }
 
-    public activate(projectId: number, targetingRuleUUID: string, userId: string, onSuccess: () => void) {
+    public activate(projectId: number, userId: string, onSuccess: () => void, onFailure: () => void) {
         IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: userId}),  GDPROption.disabled(),  (success: boolean) => {
             if (success) {
                 console.log('iAdvize[iOS] activated');
-                IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRuleId(new NSUUID({ UUIDString: targetingRuleUUID }));
+                IAdvize.activateChatbot();
                 onSuccess();
             } else {
                 console.error('iAdvize[iOS] activation failed');
+                onFailure();
             }
         });
     }
 
+    public activateTargetingRule(targetingRuleUUID: string) {
+        IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRuleId(new NSUUID({ UUIDString: targetingRuleUUID }));
+    }
+
     public logout() {
         IAdvizeSDK.shared.logout();
+        IAdvize.deactivateChatbot();
     }
 
     public customize(configuration: ChatConfiguration) {
@@ -65,11 +72,11 @@ export class IAdvize {
     }
 
     public presentChat() {
-        IAdvizeSDK.shared.conversationController.presentConversationViewModalWithAnimatedPresentingViewControllerCompletion(true, iosApp.window.rootController, () => {});
+        IAdvizeSDK.shared.conversationController.presentChatboxWithAnimatedPresentingViewControllerCompletion(true, iosApp.window.rootController, () => {});
     }
 
     public dismissChat() {
-        IAdvizeSDK.shared.conversationController.dismissConversationViewModalWithAnimatedCompletion(false, () => {});
+        IAdvizeSDK.shared.conversationController.dismissChatboxWithAnimatedCompletion(false, () => {});
     }
 
     public registerPushToken(token: string, isProd: boolean) {
@@ -77,8 +84,12 @@ export class IAdvize {
     }
 
     public isChatPresented() {
-        return IAdvizeSDK.shared.conversationController.isConversationViewPresented()
+        return IAdvizeSDK.shared.conversationController.isChatboxPresented()
     }
+
+    public chatbotActivatedState(): Observable<boolean> {
+        return IAdvize.getChatbotActivated().asObservable();
+      }
 }
 
 @NativeClass()

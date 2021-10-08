@@ -5,7 +5,7 @@ A NativeScript plugin for integration of iAdvize chat into Android/iOS app.
 
 [![npm version](https://badge.fury.io/js/nativescript-iadvize.svg)](https://www.npmjs.com/package/nativescript-iadvize)
 
-This is a plugin to show the conversation from a iAdvize chat, using the iAdvize SDK ([Android](https://github.com/iadvize/iadvize-android-sdk) v2.0.0-beta1, [iOS](https://github.com/iadvize/iadvize-ios-sdk) v2.0.0-beta1).
+This is a plugin to show the conversation from a iAdvize chat, using the iAdvize SDK ([Android](https://github.com/iadvize/iadvize-android-sdk) v2.2.2, [iOS](https://github.com/iadvize/iadvize-ios-sdk) v2.2.5).
 
 ## Requirements
 * iOS 12.0 or higher, and Xcode 12.5
