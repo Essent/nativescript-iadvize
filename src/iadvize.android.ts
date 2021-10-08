@@ -2,7 +2,6 @@ import { ChatConfiguration, IAdvizeCommon } from './iadvize.common';
 import { android as androidApp } from '@nativescript/core/application';
 import { Color, ImageSource } from '@nativescript/core';
 import { Observable } from 'rxjs';
-import * as SHA512 from 'crypto-js/sha512';
 
 import AuthenticationOption = com.iadvize.conversation.sdk.model.auth.AuthenticationOption;
 import GDPROption = com.iadvize.conversation.sdk.model.gdpr.GDPROption;
@@ -49,7 +48,7 @@ export class IAdvize extends IAdvizeCommon {
 
         var paramsArr = java.lang.reflect.Array.newInstance(java.lang.Object.class, 4);
         paramsArr[0] = new java.lang.Integer(projectId);
-        paramsArr[1] = new AuthenticationOption.Simple(SHA512(userId).toString());
+        paramsArr[1] = new AuthenticationOption.Simple(userId);
         paramsArr[2] = new GDPROption.Disabled();
         paramsArr[3] = new IAdvizeCallback(
             {

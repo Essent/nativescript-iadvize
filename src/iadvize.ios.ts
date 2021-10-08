@@ -2,7 +2,6 @@ import { Color, ImageSource } from '@nativescript/core';
 import { ChatConfiguration, IAdvizeCommon } from './iadvize.common';
 import { ios as iosApp } from '@nativescript/core/application';
 import { Observable } from 'rxjs';
-import * as SHA512 from 'crypto-js/sha512';
 
 export class IAdvize extends IAdvizeCommon {
     private static instance: IAdvize = new IAdvize();
@@ -21,7 +20,7 @@ export class IAdvize extends IAdvizeCommon {
     }
 
     public activate(projectId: number, userId: string, onSuccess: () => void, onFailure: () => void) {
-        IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: SHA512(userId).toString()}),  GDPROption.disabled(),  (success: boolean) => {
+        IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: userId}),  GDPROption.disabled(),  (success: boolean) => {
             if (success) {
                 console.log('iAdvize[iOS] activated');
                 IAdvize.activateChatbot();
