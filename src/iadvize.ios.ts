@@ -1,6 +1,5 @@
-import { Color, ImageSource } from '@nativescript/core';
+import { Application, Color, ImageSource } from '@nativescript/core';
 import { ChatConfiguration, IAdvizeCommon } from './iadvize.common';
-import { ios as iosApp } from '@nativescript/core/application';
 import { Observable } from 'rxjs';
 
 export class IAdvize extends IAdvizeCommon {
@@ -72,7 +71,7 @@ export class IAdvize extends IAdvizeCommon {
     }
 
     public presentChat() {
-        IAdvizeSDK.shared.conversationController.presentChatboxWithAnimatedPresentingViewControllerCompletion(true, iosApp.window.rootController, () => {});
+        IAdvizeSDK.shared.conversationController.presentChatboxWithAnimatedPresentingViewControllerCompletion(true, Application.ios.window.rootController, () => {});
     }
 
     public dismissChat() {

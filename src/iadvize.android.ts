@@ -1,6 +1,5 @@
 import { ChatConfiguration, IAdvizeCommon } from "./iadvize.common";
-import { android as androidApp } from "@nativescript/core/application";
-import { Color, ImageSource, Utils } from "@nativescript/core";
+import { Application, Color, ImageSource, Utils } from "@nativescript/core";
 import { Observable } from "rxjs";
 import lazy from "@nativescript/core/utils/lazy";
 
@@ -100,7 +99,7 @@ export class IAdvize extends IAdvizeCommon {
     chatboxConfiguration.setIncomingMessageAvatar(
       new com.iadvize.conversation.sdk.model.conversation.IncomingMessageAvatar.Image(
         new android.graphics.drawable.BitmapDrawable(
-          androidApp.context.getResources(),
+          Application.android.context.getResources(),
           avatar
         )
       )
@@ -153,15 +152,15 @@ export class IAdvize extends IAdvizeCommon {
     }
     IAdvizeSDK()
       .getChatboxController()
-      .presentChatboxActivity(androidApp.foregroundActivity);
+      .presentChatboxActivity(Application.android.foregroundActivity);
   }
 
   public dismissChat() {
     const isChatActivity =
-      androidApp.foregroundActivity instanceof
+      Application.android.foregroundActivity instanceof
       com.iadvize.conversation.sdk.view.conversation.ChatboxActivity;
     if (isChatActivity) {
-      androidApp.foregroundActivity.finish();
+      Application.android.foregroundActivity.finish();
     }
   }
 
