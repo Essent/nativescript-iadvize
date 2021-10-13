@@ -3,7 +3,12 @@ import { Application, Color, ImageSource, Utils } from "@nativescript/core";
 import { Observable } from "rxjs";
 import lazy from "@nativescript/core/utils/lazy";
 
-const IAdvizeSDK = lazy(() => com.iadvize.conversation.sdk.IAdvizeSDK.INSTANCE);
+const IAdvizeSDK = lazy(() => {
+  const clazz = com.iadvize.conversation.sdk.IAdvizeSDK.class;
+  const field = clazz.getDeclaredField("INSTANCE");
+  field.setAccessible(true);
+  return field.get(null);
+});
 
 let instance: IAdvize;
 let didInit = false;
