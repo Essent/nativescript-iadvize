@@ -36,7 +36,7 @@ export class IAdvize extends IAdvizeCommon {
     IAdvize.initate();
 
     com.iadvize.conversation.sdk.IAdvizeSDK.activate(
-      new java.lang.Integer(projectId) as any,
+      projectId,
       new com.iadvize.conversation.sdk.model.auth.AuthenticationOption.Simple(
         userId
       ),
