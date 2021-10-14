@@ -22,7 +22,6 @@ export class IAdvize extends IAdvizeCommon {
         IAdvizeSDK.shared.activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId, new AuthenticationOption({ simple: userId}),  GDPROption.disabled(),  (success: boolean) => {
             if (success) {
                 console.log('iAdvize[iOS] activated');
-                IAdvize.activateChatbot();
                 onSuccess();
             } else {
                 console.error('iAdvize[iOS] activation failed');
@@ -32,7 +31,15 @@ export class IAdvize extends IAdvizeCommon {
     }
 
     public activateTargetingRule(targetingRuleUUID: string) {
+        IAdvizeSDK.shared.targetingController.delegate = TargetingControllerDelegateImpl.initWithCallbacks((isActiveTargetingRuleAvailable: boolean) => {
+            if (isActiveTargetingRuleAvailable) {
+                console.log('iAdvize[iOS] Targeting rule available - ' + isActiveTargetingRuleAvailable);
+                IAdvize.activateChatbot();
+            }
+        });
+
         IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRuleId(new NSUUID({ UUIDString: targetingRuleUUID }));
+        IAdvizeSDK.shared.targetingController.setLanguage(SDKLanguageOption.customWithValue(GraphQLLanguage.Nl));
     }
 
     public logout() {
@@ -116,6 +123,25 @@ class ConversationControllerDelegateImpl extends NSObject implements Conversatio
 
 	ongoingConversationStatusDidChangeWithHasOngoingConversation(hasOngoingConversation: boolean): void {
         this.ongoingConversationStatusDidChange(hasOngoingConversation);
+    }
+
+}
+
+@NativeClass()
+class TargetingControllerDelegateImpl extends NSObject implements TargetingControllerDelegate {
+    static ObjCProtocols = [TargetingControllerDelegate]
+    private isActiveTargetingRuleAvailableCallback: (isActiveTargetingRuleAvailable: boolean) => void;
+
+
+
+    static initWithCallbacks(isActiveTargetingRuleAvailableCallback: (isActiveTargetingRuleAvailable: boolean) => void): TargetingControllerDelegateImpl {
+        let delegate = <TargetingControllerDelegateImpl>super.new()
+        delegate.isActiveTargetingRuleAvailableCallback = isActiveTargetingRuleAvailableCallback;
+        return delegate;
+    }
+
+    activeTargetingRuleAvailabilityDidUpdateWithIsActiveTargetingRuleAvailable(isActiveTargetingRuleAvailable: boolean): void {
+        this.isActiveTargetingRuleAvailableCallback(isActiveTargetingRuleAvailable);
     }
 
 }

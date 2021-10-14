@@ -36,8 +36,6 @@ export class IAdvize extends IAdvizeCommon {
     onSuccess: () => void,
     onFailure: () => void
   ) {
-    console.log("activate called");
-
     IAdvize.initate();
 
     com.iadvize.conversation.sdk.IAdvizeSDK.activate(
@@ -69,6 +67,21 @@ export class IAdvize extends IAdvizeCommon {
     IAdvizeSDK()
       .getTargetingController()
       .activateTargetingRule(java.util.UUID.fromString(targetingRuleUUID));
+  
+      
+      const listeners = IAdvizeSDK().getTargetingController().getListeners();
+    listeners.add(
+      new com.iadvize.conversation.sdk.controller.targeting.TargetingListener(
+        {
+          onActiveTargetingRuleAvailabilityUpdated(param0: boolean): void {
+            if (param0) {
+              console.log('iAdvize[Android] Targeting rule available - ' + param0);
+              IAdvize.activateChatbot();
+            }
+          }
+        }
+      )
+    );
   }
 
   public logout() {
