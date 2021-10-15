@@ -4,7 +4,8 @@ import { Observable } from 'rxjs';
 
 export class IAdvize extends IAdvizeCommon {
     private static instance: IAdvize = new IAdvize();
-    private delegate: ConversationControllerDelegate
+    private delegate: ConversationControllerDelegate;
+    private targetingRuleDelegate: TargetingControllerDelegate;
 
     constructor() {
         super();
@@ -31,13 +32,13 @@ export class IAdvize extends IAdvizeCommon {
     }
 
     public activateTargetingRule(targetingRuleUUID: string) {
-        IAdvizeSDK.shared.targetingController.delegate = TargetingControllerDelegateImpl.initWithCallbacks((isActiveTargetingRuleAvailable: boolean) => {
+        this.targetingRuleDelegate = TargetingControllerDelegateImpl.initWithCallbacks((isActiveTargetingRuleAvailable: boolean) => {
+            console.log('iAdvize[iOS] Targeting rule available - ' + isActiveTargetingRuleAvailable);
             if (isActiveTargetingRuleAvailable) {
-                console.log('iAdvize[iOS] Targeting rule available - ' + isActiveTargetingRuleAvailable);
                 IAdvize.activateChatbot();
             }
         });
-
+        IAdvizeSDK.shared.targetingController.delegate = this.targetingRuleDelegate;
         IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRuleId(new NSUUID({ UUIDString: targetingRuleUUID }));
         IAdvizeSDK.shared.targetingController.setLanguage(SDKLanguageOption.customWithValue(GraphQLLanguage.Nl));
     }
@@ -131,8 +132,6 @@ class ConversationControllerDelegateImpl extends NSObject implements Conversatio
 class TargetingControllerDelegateImpl extends NSObject implements TargetingControllerDelegate {
     static ObjCProtocols = [TargetingControllerDelegate]
     private isActiveTargetingRuleAvailableCallback: (isActiveTargetingRuleAvailable: boolean) => void;
-
-
 
     static initWithCallbacks(isActiveTargetingRuleAvailableCallback: (isActiveTargetingRuleAvailable: boolean) => void): TargetingControllerDelegateImpl {
         let delegate = <TargetingControllerDelegateImpl>super.new()

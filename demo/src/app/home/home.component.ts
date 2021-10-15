@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 import { IAdvize, ChatConfiguration } from '@essent/nativescript-iadvize';
 
 @Component({
@@ -6,10 +6,11 @@ import { IAdvize, ChatConfiguration } from '@essent/nativescript-iadvize';
     templateUrl: "./home.component.html",
     styleUrls: ["./home.component.scss"]
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
-    ngOnInit(): void {
+    onShowChat() {
         const instance = IAdvize.getInstance();
+
         instance.activate(1111, 'userId', () => {
             instance.activateTargetingRule('XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX');
 
@@ -39,5 +40,9 @@ export class HomeComponent implements OnInit {
         }, () => {
             console.warn('Activation failed!');
         });
+    }
+
+    onLogout() {
+        IAdvize.getInstance().logout();
     }
 }
