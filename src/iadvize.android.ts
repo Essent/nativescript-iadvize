@@ -74,8 +74,8 @@ export class IAdvize extends IAdvizeCommon {
       new com.iadvize.conversation.sdk.controller.targeting.TargetingListener(
         {
           onActiveTargetingRuleAvailabilityUpdated(param0: boolean): void {
+            console.log('iAdvize[Android] Targeting rule available - ' + param0);
             if (param0) {
-              console.log('iAdvize[Android] Targeting rule available - ' + param0);
               IAdvize.activateChatbot();
             }
           }
