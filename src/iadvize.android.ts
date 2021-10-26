@@ -63,11 +63,7 @@ export class IAdvize extends IAdvizeCommon {
     if (!IAdvizeSDK()) {
       return;
     }
-    IAdvizeSDK()
-      .getTargetingController()
-      .activateTargetingRule(java.util.UUID.fromString(targetingRuleUUID));
-  
-      
+
     const listeners = IAdvizeSDK().getTargetingController().getListeners();
     listeners.add(
       new com.iadvize.conversation.sdk.controller.targeting.TargetingListener(
@@ -79,6 +75,12 @@ export class IAdvize extends IAdvizeCommon {
         }
       )
     );
+
+    IAdvizeSDK()
+      .getTargetingController()
+      .activateTargetingRule(java.util.UUID.fromString(targetingRuleUUID));
+
+    IAdvize.activateChatbot();
   }
 
   public logout() {
