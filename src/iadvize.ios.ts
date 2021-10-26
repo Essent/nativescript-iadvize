@@ -34,9 +34,7 @@ export class IAdvize extends IAdvizeCommon {
     public activateTargetingRule(targetingRuleUUID: string) {
         this.targetingRuleDelegate = TargetingControllerDelegateImpl.initWithCallbacks((isActiveTargetingRuleAvailable: boolean) => {
             console.log('iAdvize[iOS] Targeting rule available - ' + isActiveTargetingRuleAvailable);
-            if (isActiveTargetingRuleAvailable) {
-                IAdvize.activateChatbot();
-            }
+            IAdvize.activateChatbot();
         });
         IAdvizeSDK.shared.targetingController.delegate = this.targetingRuleDelegate;
         IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRuleId(new NSUUID({ UUIDString: targetingRuleUUID }));
