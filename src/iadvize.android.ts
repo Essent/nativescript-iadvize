@@ -79,7 +79,8 @@ export class IAdvize extends IAdvizeCommon {
     IAdvizeSDK()
       .getTargetingController()
       .activateTargetingRule(java.util.UUID.fromString(targetingRuleUUID));
-      IAdvize.activateChatbot();
+
+    IAdvize.activateChatbot();
   }
 
   public logout() {
