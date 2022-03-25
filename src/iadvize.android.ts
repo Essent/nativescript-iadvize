@@ -44,7 +44,7 @@ export class IAdvize extends IAdvizeCommon {
         userId
       ),
       new com.iadvize.conversation.sdk.model.gdpr.GDPROption.Disabled(),
-      new com.iadvize.conversation.sdk.model.IAdvizeSDKCallback({
+      new com.iadvize.conversation.sdk.model.SDKCallback({
         onSuccess(): void {
           console.log("iAdvize[Android] activated");
           onSuccess();
@@ -175,7 +175,7 @@ export class IAdvize extends IAdvizeCommon {
   public dismissChat() {
     const isChatActivity =
       Application.android.foregroundActivity instanceof
-      com.iadvize.conversation.sdk.view.conversation.ChatboxActivity;
+      com.iadvize.conversation.sdk.view.ChatboxActivity;
     if (isChatActivity) {
       Application.android.foregroundActivity.finish();
     }

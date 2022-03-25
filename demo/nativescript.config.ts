@@ -7,5 +7,8 @@ export default {
     v8Flags: '--expose_gc',
     markingMode: 'none'
   },
-  appPath: 'src'
+  appPath: 'src',
+  cli: {
+    packageManager: 'npm'
+  }
 } as NativeScriptConfig;

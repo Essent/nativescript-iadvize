@@ -42,7 +42,9 @@ export class IAdvize extends IAdvizeCommon {
     }
 
     public logout() {
-        IAdvizeSDK.shared.logout();
+        IAdvizeSDK.shared.logoutWithCompletion(() => {
+            // logged out
+        });
         IAdvize.deactivateChatbot();
     }
 

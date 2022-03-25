@@ -71,6 +71,8 @@ declare class ConversationController extends NSObject {
 
 interface ConversationControllerDelegate {
 
+	chatboxDidClose?(): void;
+
 	conversationControllerShouldOpen?(controller: ConversationController, url: NSURL): boolean;
 
 	didReceiveNewMessageWithContent?(content: string): void;
@@ -990,13 +992,15 @@ declare class IAdvizeSDK extends NSObject {
 
 	readonly transactionController: TransactionController;
 
+	readonly visitorController: VisitorController;
+
 	static readonly shared: IAdvizeSDK;
 
 	activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId: number, authenticationOption: AuthenticationOption, gdprOption: GDPROption, completion: (p1: boolean) => void): void;
 
 	getLogLevel(): LoggerLogLevel;
 
-	logout(): void;
+	logoutWithCompletion(completion: () => void): void;
 
 	setLogLevel(logLevel: LoggerLogLevel): void;
 }
@@ -1027,6 +1031,25 @@ declare const enum LoggerLogLevel {
 	Error = 3,
 
 	Success = 4
+}
+
+declare class NavigationOption extends NSObject {
+
+	static alloc(): NavigationOption; // inherited from NSObject
+
+	static new(): NavigationOption; // inherited from NSObject
+
+	constructor(o: { navigationOption: NavigationOption; });
+
+	constructor(o: { newTargetingRuleId: NSUUID; });
+
+	initWithClearActiveRule(): void;
+
+	initWithKeepActiveRule(): void;
+
+	initWithNavigationOption(navigationOption: NavigationOption): this;
+
+	initWithNewTargetingRuleId(targetingRuleId: NSUUID): this;
 }
 
 declare class NotificationController extends NSObject {
@@ -1069,7 +1092,7 @@ declare class TargetingController extends NSObject {
 
 	getLanguage(): SDKLanguageOption;
 
-	registerUserNavigation(): void;
+	registerUserNavigationWithNavigationOption(navigationOption: NavigationOption): void;
 
 	setLanguage(language: SDKLanguageOption): void;
 }
@@ -1107,6 +1130,13 @@ declare class TransactionController extends NSObject {
 	static new(): TransactionController; // inherited from NSObject
 
 	registerTransaction(transaction: Transaction): void;
+}
+
+declare class VisitorController extends NSObject {
+
+	static alloc(): VisitorController; // inherited from NSObject
+
+	static new(): VisitorController; // inherited from NSObject
 }
 
 declare class VisitorCustomData extends NSObject {
