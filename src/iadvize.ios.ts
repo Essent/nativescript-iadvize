@@ -4,8 +4,8 @@ import { Observable } from 'rxjs';
 
 export class IAdvize extends IAdvizeCommon {
     private static instance: IAdvize = new IAdvize();
-    private delegate: ConversationControllerDelegate;
-    private targetingRuleDelegate: TargetingControllerDelegate;
+    private delegate: ConversationControllerDelegateImpl;
+    private targetingRuleDelegate: TargetingControllerDelegateImpl;
 
     constructor() {
         super();
@@ -37,7 +37,7 @@ export class IAdvize extends IAdvizeCommon {
             IAdvize.activateChatbot();
         });
         IAdvizeSDK.shared.targetingController.delegate = this.targetingRuleDelegate;
-        IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRuleId(new NSUUID({ UUIDString: targetingRuleUUID }));
+        IAdvizeSDK.shared.targetingController.activateTargetingRuleWithTargetingRule(TargetingRule.alloc().initWithIdObjcConversationChannel(new NSUUID({ UUIDString: targetingRuleUUID }), ConversationChannel.alloc().init()));
         IAdvizeSDK.shared.targetingController.setLanguage(SDKLanguageOption.customWithValue(GraphQLLanguage.Nl));
     }
 
@@ -75,15 +75,15 @@ export class IAdvize extends IAdvizeCommon {
     }
 
     public hideDefaultChatButton() {
-        IAdvizeSDK.shared.chatboxController.useDefaultChatButton = false;
+        IAdvizeSDK.shared.chatboxController.useDefaultFloatingButton = false;
     }
 
     public presentChat() {
-        IAdvizeSDK.shared.conversationController.presentChatboxWithAnimatedPresentingViewControllerCompletion(true, Application.ios.window.rootController, () => {});
+        IAdvizeSDK.shared.chatboxController.presentChatboxWithAnimatedPresentingViewControllerCompletion(true, getRootViewController(), () => {});
     }
 
     public dismissChat() {
-        IAdvizeSDK.shared.conversationController.dismissChatboxWithAnimatedCompletion(false, () => {});
+        IAdvizeSDK.shared.chatboxController.dismissChatboxWithAnimatedCompletion(false, () => {});
     }
 
     public registerPushToken(token: string, isProd: boolean) {
@@ -91,7 +91,7 @@ export class IAdvize extends IAdvizeCommon {
     }
 
     public isChatPresented() {
-        return IAdvizeSDK.shared.conversationController.isChatboxPresented()
+        return IAdvizeSDK.shared.chatboxController.isChatboxPresented();
     }
 
     public chatbotActivatedState(): Observable<boolean> {
@@ -143,4 +143,14 @@ class TargetingControllerDelegateImpl extends NSObject implements TargetingContr
         this.isActiveTargetingRuleAvailableCallback(isActiveTargetingRuleAvailable);
     }
 
+}
+
+function getRootViewController(): UIViewController {
+    const app = UIApplication.sharedApplication;
+    const win = app.keyWindow || (app.windows && app.windows.count > 0 && app.windows.objectAtIndex(0));
+    let vc = win.rootViewController;
+    while (vc && vc.presentedViewController) {
+        vc = vc.presentedViewController;
+    }
+    return vc;
 }
