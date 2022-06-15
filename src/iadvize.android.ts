@@ -43,8 +43,10 @@ export class IAdvize extends IAdvizeCommon {
       new com.iadvize.conversation.sdk.model.auth.AuthenticationOption.Simple(
         userId
       ),
-      new com.iadvize.conversation.sdk.model.gdpr.GDPROption.Disabled(),
-      new com.iadvize.conversation.sdk.model.IAdvizeSDKCallback({
+      com.iadvize.conversation.sdk.model.gdpr.GDPROption.Disabled.class
+        .getDeclaredField("INSTANCE")
+        .get(null),
+      new com.iadvize.conversation.sdk.model.SDKCallback({
         onSuccess(): void {
           console.log("iAdvize[Android] activated");
           onSuccess();
@@ -66,14 +68,12 @@ export class IAdvize extends IAdvizeCommon {
 
     const listeners = IAdvizeSDK().getTargetingController().getListeners();
     listeners.add(
-      new com.iadvize.conversation.sdk.controller.targeting.TargetingListener(
-        {
-          onActiveTargetingRuleAvailabilityUpdated(param0: boolean): void {
-            console.log('iAdvize[Android] Targeting rule available - ' + param0);
-            IAdvize.activateChatbot();
-          }
-        }
-      )
+      new com.iadvize.conversation.sdk.controller.targeting.TargetingListener({
+        onActiveTargetingRuleAvailabilityUpdated(param0: boolean): void {
+          console.log("iAdvize[Android] Targeting rule available - " + param0);
+          IAdvize.activateChatbot();
+        },
+      })
     );
 
     IAdvizeSDK()
@@ -175,7 +175,7 @@ export class IAdvize extends IAdvizeCommon {
   public dismissChat() {
     const isChatActivity =
       Application.android.foregroundActivity instanceof
-      com.iadvize.conversation.sdk.view.conversation.ChatboxActivity;
+      com.iadvize.conversation.sdk.view.ChatboxActivity;
     if (isChatActivity) {
       Application.android.foregroundActivity.finish();
     }

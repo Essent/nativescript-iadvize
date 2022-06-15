@@ -1,33 +1,31 @@
 {
   "dependencies": {
-    "@angular/animations": "~10.1.0",
-    "@angular/common": "~10.1.0",
-    "@angular/compiler": "~10.1.0",
-    "@angular/core": "~10.1.0",
-    "@angular/forms": "~10.1.0",
-    "@angular/platform-browser": "~10.1.0",
-    "@angular/platform-browser-dynamic": "~10.1.0",
-    "@angular/router": "~10.1.0",
+    "@angular/animations": "~13.3.0",
+    "@angular/common": "~13.3.0",
+    "@angular/compiler": "~13.3.0",
+    "@angular/core": "~13.3.0",
+    "@angular/forms": "~13.3.0",
+    "@angular/platform-browser": "~13.3.0",
+    "@angular/platform-browser-dynamic": "~13.3.0",
+    "@angular/router": "~13.3.0",
     "@essent/nativescript-iadvize": "file:../src",
-    "@nativescript/angular": "~10.1.5",
-    "@nativescript/core": "~7.0.3",
+    "@nativescript/angular": "^13.0.0",
+    "@nativescript/core": "~8.2.0",
     "nativescript-theme-core": "~1.0.4",
-    "node-sass": "^4.12.0",
-    "reflect-metadata": "~0.1.12",
-    "rxjs": "^6.4.0",
-    "sass": "^1.32.8",
-    "sass-loader": "^10.1.1",
-    "zone.js": "~0.9.1"
+    "rxjs": "~7.5.0",
+    "zone.js": "~0.11.5"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "~10.1.0",
-    "@nativescript/android": "7.0.0",
-    "@nativescript/ios": "7.0.0",
-    "@nativescript/webpack": "~3.0.4",
-    "@ngtools/webpack": "^10.1.0",
-    "typescript": "~3.9.7"
+    "@angular-devkit/build-angular": "~13.3.0",
+    "@angular/compiler-cli": "~13.3.0",
+    "@nativescript/android": "~8.2.0",
+    "@nativescript/ios": "~8.2.0",
+    "@nativescript/webpack": "~5.0.0",
+    "@ngtools/webpack": "~13.3.0",
+    "typescript": "~4.5.5",
+    "sass": "~1.49.9"
   },
   "gitHead": "20a65d338ae8f8911087ab6615b89363f864b07b",
   "readme": "NativeScript Application",
-  "main": "main.js"
+  "main": "./src/main.ts"
 }

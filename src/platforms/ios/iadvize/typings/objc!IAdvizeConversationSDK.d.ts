@@ -12,6 +12,35 @@ declare class AuthenticationOption extends NSObject {
 	initWithSimple(userId: string): this;
 }
 
+declare class Button extends UIButton {
+
+	static alloc(): Button; // inherited from NSObject
+
+	static appearance(): Button; // inherited from UIAppearance
+
+	static appearanceForTraitCollection(trait: UITraitCollection): Button; // inherited from UIAppearance
+
+	static appearanceForTraitCollectionWhenContainedIn(trait: UITraitCollection, ContainerClass: typeof NSObject): Button; // inherited from UIAppearance
+
+	static appearanceForTraitCollectionWhenContainedInInstancesOfClasses(trait: UITraitCollection, containerTypes: NSArray<typeof NSObject> | typeof NSObject[]): Button; // inherited from UIAppearance
+
+	static appearanceWhenContainedIn(ContainerClass: typeof NSObject): Button; // inherited from UIAppearance
+
+	static appearanceWhenContainedInInstancesOfClasses(containerTypes: NSArray<typeof NSObject> | typeof NSObject[]): Button; // inherited from UIAppearance
+
+	static buttonWithConfigurationPrimaryAction(configuration: UIButtonConfiguration, primaryAction: UIAction): Button; // inherited from UIButton
+
+	static buttonWithType(buttonType: UIButtonType): Button; // inherited from UIButton
+
+	static buttonWithTypePrimaryAction(buttonType: UIButtonType, primaryAction: UIAction): Button; // inherited from UIButton
+
+	static new(): Button; // inherited from NSObject
+
+	static systemButtonWithImageTargetAction(image: UIImage, target: any, action: string): Button; // inherited from UIButton
+
+	static systemButtonWithPrimaryAction(primaryAction: UIAction): Button; // inherited from UIButton
+}
+
 declare class ChatboxConfiguration extends NSObject {
 
 	static alloc(): ChatboxConfiguration; // inherited from NSObject
@@ -45,11 +74,43 @@ declare class ChatboxController extends NSObject {
 
 	static new(): ChatboxController; // inherited from NSObject
 
-	useDefaultChatButton: boolean;
+	delegate: ChatboxControllerDelegate;
 
-	setChatButtonPositionWithLeftMarginBottomMargin(leftMargin: number, bottomMargin: number): void;
+	useDefaultFloatingButton: boolean;
+
+	dismissChatboxWithAnimatedCompletion(animated: boolean, completion: () => void): void;
+
+	isChatboxPresented(): boolean;
+
+	presentChatboxWithAnimatedPresentingViewControllerCompletion(animated: boolean, presentingViewController: UIViewController, completion: () => void): void;
+
+	setFloatingButtonPositionWithLeftMarginBottomMargin(leftMargin: number, bottomMargin: number): void;
 
 	setupChatboxWithConfiguration(configuration: ChatboxConfiguration): void;
+}
+
+interface ChatboxControllerDelegate {
+
+	chatboxDidClose?(): void;
+}
+declare var ChatboxControllerDelegate: {
+
+	prototype: ChatboxControllerDelegate;
+};
+
+declare class ConversationChannel extends NSObject {
+
+	static alloc(): ConversationChannel; // inherited from NSObject
+
+	static new(): ConversationChannel; // inherited from NSObject
+
+	constructor(o: { conversationChannel: ConversationChannel; });
+
+	initWithChat(): void;
+
+	initWithConversationChannel(conversationChannel: ConversationChannel): this;
+
+	initWithVideo(): void;
 }
 
 declare class ConversationController extends NSObject {
@@ -61,12 +122,6 @@ declare class ConversationController extends NSObject {
 	delegate: ConversationControllerDelegate;
 
 	readonly hasOngoingConversation: boolean;
-
-	dismissChatboxWithAnimatedCompletion(animated: boolean, completion: () => void): void;
-
-	isChatboxPresented(): boolean;
-
-	presentChatboxWithAnimatedPresentingViewControllerCompletion(animated: boolean, presentingViewController: UIViewController, completion: () => void): void;
 }
 
 interface ConversationControllerDelegate {
@@ -117,6 +172,27 @@ declare class GDPROption extends NSObject {
 	constructor(o: { gdprEnabledOption: GDPREnabledOption; });
 
 	initWithGdprEnabledOption(gdprEnabledOption: GDPREnabledOption): this;
+}
+
+declare class GradientView extends UIView {
+
+	static alloc(): GradientView; // inherited from NSObject
+
+	static appearance(): GradientView; // inherited from UIAppearance
+
+	static appearanceForTraitCollection(trait: UITraitCollection): GradientView; // inherited from UIAppearance
+
+	static appearanceForTraitCollectionWhenContainedIn(trait: UITraitCollection, ContainerClass: typeof NSObject): GradientView; // inherited from UIAppearance
+
+	static appearanceForTraitCollectionWhenContainedInInstancesOfClasses(trait: UITraitCollection, containerTypes: NSArray<typeof NSObject> | typeof NSObject[]): GradientView; // inherited from UIAppearance
+
+	static appearanceWhenContainedIn(ContainerClass: typeof NSObject): GradientView; // inherited from UIAppearance
+
+	static appearanceWhenContainedInInstancesOfClasses(containerTypes: NSArray<typeof NSObject> | typeof NSObject[]): GradientView; // inherited from UIAppearance
+
+	static layerClass(): typeof NSObject;
+
+	static new(): GradientView; // inherited from NSObject
 }
 
 declare const enum GraphQLApplicationMode {
@@ -990,13 +1066,15 @@ declare class IAdvizeSDK extends NSObject {
 
 	readonly transactionController: TransactionController;
 
+	readonly visitorController: VisitorController;
+
 	static readonly shared: IAdvizeSDK;
 
 	activateWithProjectIdAuthenticationOptionGdprOptionCompletion(projectId: number, authenticationOption: AuthenticationOption, gdprOption: GDPROption, completion: (p1: boolean) => void): void;
 
 	getLogLevel(): LoggerLogLevel;
 
-	logout(): void;
+	logoutWithCompletion(completion: () => void): void;
 
 	setLogLevel(logLevel: LoggerLogLevel): void;
 }
@@ -1016,6 +1094,27 @@ declare class IncomingMessageAvatar extends NSObject {
 	initWithUrl(url: NSURL): this;
 }
 
+declare class Label extends UILabel {
+
+	static alloc(): Label; // inherited from NSObject
+
+	static appearance(): Label; // inherited from UIAppearance
+
+	static appearanceForTraitCollection(trait: UITraitCollection): Label; // inherited from UIAppearance
+
+	static appearanceForTraitCollectionWhenContainedIn(trait: UITraitCollection, ContainerClass: typeof NSObject): Label; // inherited from UIAppearance
+
+	static appearanceForTraitCollectionWhenContainedInInstancesOfClasses(trait: UITraitCollection, containerTypes: NSArray<typeof NSObject> | typeof NSObject[]): Label; // inherited from UIAppearance
+
+	static appearanceWhenContainedIn(ContainerClass: typeof NSObject): Label; // inherited from UIAppearance
+
+	static appearanceWhenContainedInInstancesOfClasses(containerTypes: NSArray<typeof NSObject> | typeof NSObject[]): Label; // inherited from UIAppearance
+
+	static new(): Label; // inherited from NSObject
+
+	lineHeightMultiple: number;
+}
+
 declare const enum LoggerLogLevel {
 
 	Verbose = 0,
@@ -1027,6 +1126,25 @@ declare const enum LoggerLogLevel {
 	Error = 3,
 
 	Success = 4
+}
+
+declare class NavigationOption extends NSObject {
+
+	static alloc(): NavigationOption; // inherited from NSObject
+
+	static new(): NavigationOption; // inherited from NSObject
+
+	constructor(o: { navigationOption: NavigationOption; });
+
+	constructor(o: { newTargetingRuleId: TargetingRule; });
+
+	initWithClearActiveRule(): void;
+
+	initWithKeepActiveRule(): void;
+
+	initWithNavigationOption(navigationOption: NavigationOption): this;
+
+	initWithNewTargetingRuleId(targetingRule: TargetingRule): this;
 }
 
 declare class NotificationController extends NSObject {
@@ -1065,11 +1183,11 @@ declare class TargetingController extends NSObject {
 
 	readonly isActiveTargetingRuleAvailable: boolean;
 
-	activateTargetingRuleWithTargetingRuleId(targetingRuleId: NSUUID): void;
+	activateTargetingRuleWithTargetingRule(targetingRule: TargetingRule): void;
 
 	getLanguage(): SDKLanguageOption;
 
-	registerUserNavigation(): void;
+	registerUserNavigationWithNavigationOption(navigationOption: NavigationOption): void;
 
 	setLanguage(language: SDKLanguageOption): void;
 }
@@ -1082,6 +1200,17 @@ declare var TargetingControllerDelegate: {
 
 	prototype: TargetingControllerDelegate;
 };
+
+declare class TargetingRule extends NSObject {
+
+	static alloc(): TargetingRule; // inherited from NSObject
+
+	static new(): TargetingRule; // inherited from NSObject
+
+	constructor(o: { id: NSUUID; objcConversationChannel: ConversationChannel; });
+
+	initWithIdObjcConversationChannel(id: NSUUID, objcConversationChannel: ConversationChannel): this;
+}
 
 declare class Transaction extends NSObject implements NSCoding {
 
@@ -1109,6 +1238,13 @@ declare class TransactionController extends NSObject {
 	registerTransaction(transaction: Transaction): void;
 }
 
+declare class VisitorController extends NSObject {
+
+	static alloc(): VisitorController; // inherited from NSObject
+
+	static new(): VisitorController; // inherited from NSObject
+}
+
 declare class VisitorCustomData extends NSObject {
 
 	static alloc(): VisitorCustomData; // inherited from NSObject
@@ -1130,4 +1266,23 @@ declare class VisitorCustomData extends NSObject {
 	initWithInt(int_: number): this;
 
 	initWithString(string: string): this;
+}
+
+declare class XibView extends UIView {
+
+	static alloc(): XibView; // inherited from NSObject
+
+	static appearance(): XibView; // inherited from UIAppearance
+
+	static appearanceForTraitCollection(trait: UITraitCollection): XibView; // inherited from UIAppearance
+
+	static appearanceForTraitCollectionWhenContainedIn(trait: UITraitCollection, ContainerClass: typeof NSObject): XibView; // inherited from UIAppearance
+
+	static appearanceForTraitCollectionWhenContainedInInstancesOfClasses(trait: UITraitCollection, containerTypes: NSArray<typeof NSObject> | typeof NSObject[]): XibView; // inherited from UIAppearance
+
+	static appearanceWhenContainedIn(ContainerClass: typeof NSObject): XibView; // inherited from UIAppearance
+
+	static appearanceWhenContainedInInstancesOfClasses(containerTypes: NSArray<typeof NSObject> | typeof NSObject[]): XibView; // inherited from UIAppearance
+
+	static new(): XibView; // inherited from NSObject
 }
