@@ -3,7 +3,7 @@ import { Application, Color, ImageSource, Utils } from "@nativescript/core";
 import { Observable } from "rxjs";
 import lazy from "@nativescript/core/utils/lazy";
 
-const IAdvizeSDK = lazy(() => {
+const IAdvizeSDK = lazy<com.iadvize.conversation.sdk.IAdvizeSDK>(() => {
   const clazz = com.iadvize.conversation.sdk.IAdvizeSDK.class;
   const field = clazz.getDeclaredField("INSTANCE");
   field.setAccessible(true);
@@ -78,22 +78,29 @@ export class IAdvize extends IAdvizeCommon {
 
     IAdvizeSDK()
       .getTargetingController()
-      .activateTargetingRule(java.util.UUID.fromString(targetingRuleUUID));
+      .activateTargetingRule(
+        new com.iadvize.conversation.sdk.feature.targeting.TargetingRule(
+          java.util.UUID.fromString(targetingRuleUUID),
+          null
+        )
+      );
 
     IAdvize.activateChatbot();
   }
 
   public logout() {
-    com.iadvize.conversation.sdk.IAdvizeSDK.logout(new com.iadvize.conversation.sdk.IAdvizeSDK.Callback({
-      onSuccess(): void {
-        console.log("iAdvize[Android] logout success");
-      },
-      onFailure(error): void {
-        console.error(
-          "iAdvize[Android] logout failed" + error.getLocalizedMessage()
-        );
-      },
-    }));
+    com.iadvize.conversation.sdk.IAdvizeSDK.logout(
+      new com.iadvize.conversation.sdk.IAdvizeSDK.Callback({
+        onSuccess(): void {
+          console.log("iAdvize[Android] logout success");
+        },
+        onFailure(error): void {
+          console.error(
+            "iAdvize[Android] logout failed" + error.getLocalizedMessage()
+          );
+        },
+      })
+    );
     IAdvize.deactivateChatbot();
   }
 
@@ -151,7 +158,9 @@ export class IAdvize extends IAdvizeCommon {
     listeners.add(
       new com.iadvize.conversation.sdk.feature.conversation.ConversationListener(
         {
-          onOngoingConversationUpdated(param0: com.iadvize.conversation.sdk.feature.conversation.OngoingConversation): void {
+          onOngoingConversationUpdated(
+            param0: com.iadvize.conversation.sdk.feature.conversation.OngoingConversation
+          ): void {
             ongoingConversationStatusDidChange(!!param0);
           },
           onNewMessageReceived(_param0: string): void {
@@ -169,7 +178,7 @@ export class IAdvize extends IAdvizeCommon {
     if (!IAdvizeSDK()) {
       return;
     }
-    IAdvizeSDK().getChatboxController().setUseDefaultChatButton(false);
+    // IAdvizeSDK().getChatboxController().setUseDefaultChatButton(false);
   }
 
   public presentChat() {
@@ -178,7 +187,10 @@ export class IAdvize extends IAdvizeCommon {
     }
     IAdvizeSDK()
       .getChatboxController()
-      .presentChatboxActivity(Application.android.foregroundActivity);
+      .presentChatbox(
+        Application.android.foregroundActivity ||
+          Application.android.startActivity
+      );
   }
 
   public dismissChat() {
