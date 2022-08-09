@@ -40,7 +40,7 @@ export class IAdvize extends IAdvizeCommon {
 
     com.iadvize.conversation.sdk.IAdvizeSDK.activate(
       projectId,
-      new com.iadvize.conversation.sdk.model.auth.AuthenticationOption.Simple(
+      new com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.Simple(
         userId
       ),
       com.iadvize.conversation.sdk.model.gdpr.GDPROption.Disabled.class
@@ -84,7 +84,16 @@ export class IAdvize extends IAdvizeCommon {
   }
 
   public logout() {
-    com.iadvize.conversation.sdk.IAdvizeSDK.logout();
+    com.iadvize.conversation.sdk.IAdvizeSDK.logout(new com.iadvize.conversation.sdk.IAdvizeSDK.Callback({
+      onSuccess(): void {
+        console.log("iAdvize[Android] logout success");
+      },
+      onFailure(error): void {
+        console.error(
+          "iAdvize[Android] logout failed" + error.getLocalizedMessage()
+        );
+      },
+    }));
     IAdvize.deactivateChatbot();
   }
 
