@@ -17,12 +17,12 @@
 		"ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**' --exclude '**/platforms/**'",
 		"demo.ios": "npm run build && cd ../demo && tns run ios",
 		"demo.android": "npm run build && cd ../demo && tns run android",
-		"demo.reset": "cd ../demo && npx rimraf -- hooks node_modules platforms package-lock.json",
+		"demo.reset": "cd ../demo && ns clean",
 		"demo-angular.ios": "npm run build && cd ../demo-angular && tns run ios",
 		"demo-angular.android": "npm run build && cd ../demo-angular && tns run android",
 		"demo-angular.reset": "cd ../demo-angular && npx rimraf -- hooks node_modules platforms package-lock.json",
 		"plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-iadvize && tns plugin add ../src",
-		"clean": "npm run demo.reset && npx rimraf -- node_modules package-lock.json && npm run setup",
+		"clean": "npm run demo.reset && npx rimraf node_modules package-lock.json && npm run setup",
 		"setup": "npm i && ts-patch install && tsc"
 	},
 	"keywords": [
