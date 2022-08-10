@@ -81,7 +81,7 @@ export class IAdvize extends IAdvizeCommon {
       .activateTargetingRule(
         new com.iadvize.conversation.sdk.feature.targeting.TargetingRule(
           java.util.UUID.fromString(targetingRuleUUID),
-          null
+          com.iadvize.conversation.sdk.feature.conversation.ConversationChannel.CHAT
         )
       );
 
