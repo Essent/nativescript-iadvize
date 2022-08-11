@@ -178,7 +178,8 @@ export class IAdvize extends IAdvizeCommon {
     if (!IAdvizeSDK()) {
       return;
     }
-    // IAdvizeSDK().getChatboxController().setUseDefaultChatButton(false);
+    IAdvizeSDK().getDefaultFloatingButtonController().setupDefaultFloatingButton(
+        com.iadvize.conversation.sdk.feature.defaultfloatingbutton.DefaultFloatingButtonOption.Disabled.INSTANCE);
   }
 
   public presentChat() {
