@@ -97,6 +97,24 @@ export class IAdvize extends IAdvizeCommon {
     public chatbotActivatedState(): Observable<boolean> {
         return IAdvize.getChatbotActivated().asObservable();
       }
+
+    public setLogLevel(logLevel: number) {
+        IAdvizeSDK.shared.setLogLevel(this.logLevelFrom(logLevel));
+    }
+
+    private logLevelFrom(logLevel: number) : LoggerLogLevel {
+        switch (logLevel) {
+            case 0:
+                return LoggerLogLevel.Verbose
+            case 1:
+                return LoggerLogLevel.Info;
+            case 3:
+                return LoggerLogLevel.Error;
+            case 2:
+            default:
+                return LoggerLogLevel.Warning;
+        }
+    }
 }
 
 @NativeClass()

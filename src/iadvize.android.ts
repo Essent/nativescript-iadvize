@@ -221,6 +221,24 @@ export class IAdvize extends IAdvizeCommon {
     return IAdvize.getChatbotActivated().asObservable();
   }
 
+  public setLogLevel(logLevel: number) {
+    com.iadvize.conversation.sdk.IAdvizeSDK.setLogLevel(this.logLevelFrom(logLevel));
+  }
+
+  private logLevelFrom(logLevel: number) : com.iadvize.conversation.sdk.feature.logger.Logger.Level{
+    switch (logLevel) {
+      case 0:
+        return com.iadvize.conversation.sdk.feature.logger.Logger.Level.VERBOSE;
+      case 1:
+        return com.iadvize.conversation.sdk.feature.logger.Logger.Level.INFO;
+      case 3:
+        return com.iadvize.conversation.sdk.feature.logger.Logger.Level.ERROR;
+      case 2:
+      default:
+        return com.iadvize.conversation.sdk.feature.logger.Logger.Level.WARNING;
+    }
+  }
+
   private static initate() {
     if (didInit) {
       return;
