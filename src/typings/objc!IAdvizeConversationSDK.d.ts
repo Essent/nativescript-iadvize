@@ -1094,6 +1094,13 @@ declare class IncomingMessageAvatar extends NSObject {
 	initWithUrl(url: NSURL): this;
 }
 
+declare class JWE extends NSObject {
+
+	static alloc(): JWE; // inherited from NSObject
+
+	static new(): JWE; // inherited from NSObject
+}
+
 declare class Label extends UILabel {
 
 	static alloc(): Label; // inherited from NSObject
