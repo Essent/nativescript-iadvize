@@ -1,3 +1,2902 @@
+/// <reference path="android-declarations.d.ts"/>
+
+declare module A {
+	export class A {
+		public static class: java.lang.Class<A.A>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class B {
+		public static class: java.lang.Class<A.B>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class C {
+		public static class: java.lang.Class<A.C>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class D {
+		public static class: java.lang.Class<A.D>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class a {
+		public static class: java.lang.Class<A.a>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class b {
+		public static class: java.lang.Class<A.b>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class c {
+		public static class: java.lang.Class<A.c>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class d {
+		public static class: java.lang.Class<A.d>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class e {
+		public static class: java.lang.Class<A.e>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class f {
+		public static class: java.lang.Class<A.f>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class g {
+		public static class: java.lang.Class<A.g>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class h {
+		public static class: java.lang.Class<A.h>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class i {
+		public static class: java.lang.Class<A.i>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class j {
+		public static class: java.lang.Class<A.j>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class k {
+		public static class: java.lang.Class<A.k>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class l {
+		public static class: java.lang.Class<A.l>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class m {
+		public static class: java.lang.Class<A.m>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class n {
+		public static class: java.lang.Class<A.n>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class o {
+		public static class: java.lang.Class<A.o>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class p {
+		public static class: java.lang.Class<A.p>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class q {
+		public static class: java.lang.Class<A.q>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class r {
+		public static class: java.lang.Class<A.r>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class s {
+		public static class: java.lang.Class<A.s>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class t {
+		public static class: java.lang.Class<A.t>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class u {
+		public static class: java.lang.Class<A.u>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class v {
+		public static class: java.lang.Class<A.v>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class w {
+		public static class: java.lang.Class<A.w>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class x {
+		public static class: java.lang.Class<A.x>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class y {
+		public static class: java.lang.Class<A.y>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module A {
+	export class z {
+		public static class: java.lang.Class<A.z>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class a {
+		public static class: java.lang.Class<B.a>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class b {
+		public static class: java.lang.Class<B.b>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class c {
+		public static class: java.lang.Class<B.c>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class d {
+		public static class: java.lang.Class<B.d>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class e {
+		public static class: java.lang.Class<B.e>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class f {
+		public static class: java.lang.Class<B.f>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class g {
+		public static class: java.lang.Class<B.g>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class h {
+		public static class: java.lang.Class<B.h>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class i {
+		public static class: java.lang.Class<B.i>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class j {
+		public static class: java.lang.Class<B.j>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class k {
+		public static class: java.lang.Class<B.k>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class l {
+		public static class: java.lang.Class<B.l>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class m {
+		public static class: java.lang.Class<B.m>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class n {
+		public static class: java.lang.Class<B.n>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class o {
+		public static class: java.lang.Class<B.o>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class p {
+		public static class: java.lang.Class<B.p>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class q {
+		public static class: java.lang.Class<B.q>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class r {
+		public static class: java.lang.Class<B.r>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module B {
+	export class s {
+		public static class: java.lang.Class<B.s>;
+		public static a(): java.util.List<any>;
+	}
+}
+
+declare module C {
+	export class A {
+		public static class: java.lang.Class<C.A>;
+		public static c: C.A;
+		public static values(): androidNative.Array<C.A>;
+		public b(): string;
+		public static valueOf(param0: string): C.A;
+	}
+	export module A {
+		export class a {
+			public static class: java.lang.Class<C.A.a>;
+			public static a(): com.apollographql.apollo3.api.EnumType;
+			public static a(param0: string): C.A;
+		}
+	}
+}
+
+declare module C {
+	export class A0 {
+		public static class: java.lang.Class<C.A0>;
+	}
+	export module A0 {
+		export class a {
+			public static class: java.lang.Class<C.A0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class B {
+		public static class: java.lang.Class<C.B>;
+	}
+	export module B {
+		export class a {
+			public static class: java.lang.Class<C.B.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class B0 {
+		public static class: java.lang.Class<C.B0>;
+	}
+	export module B0 {
+		export class a {
+			public static class: java.lang.Class<C.B0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class C {
+		public static class: java.lang.Class<C.C>;
+	}
+	export module C {
+		export class a {
+			public static class: java.lang.Class<C.C.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class C0 {
+		public static class: java.lang.Class<C.C0>;
+	}
+	export module C0 {
+		export class a {
+			public static class: java.lang.Class<C.C0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class D {
+		public static class: java.lang.Class<C.D>;
+		public static c: C.D;
+		public b(): string;
+		public static values(): androidNative.Array<C.D>;
+		public static valueOf(param0: string): C.D;
+	}
+	export module D {
+		export class a {
+			public static class: java.lang.Class<C.D.a>;
+			public static a(): com.apollographql.apollo3.api.EnumType;
+			public static a(param0: string): C.D;
+		}
+	}
+}
+
+declare module C {
+	export class D0 {
+		public static class: java.lang.Class<C.D0>;
+	}
+	export module D0 {
+		export class a {
+			public static class: java.lang.Class<C.D0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class E {
+		public static class: java.lang.Class<C.E>;
+	}
+	export module E {
+		export class a {
+			public static class: java.lang.Class<C.E.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class E0 {
+		public static class: java.lang.Class<C.E0>;
+	}
+	export module E0 {
+		export class a {
+			public static class: java.lang.Class<C.E0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class F {
+		public static class: java.lang.Class<C.F>;
+	}
+	export module F {
+		export class a {
+			public static class: java.lang.Class<C.F.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class F0 {
+		public static class: java.lang.Class<C.F0>;
+	}
+	export module F0 {
+		export class a {
+			public static class: java.lang.Class<C.F0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class G {
+		public static class: java.lang.Class<C.G>;
+	}
+	export module G {
+		export class a {
+			public static class: java.lang.Class<C.G.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class G0 {
+		public static class: java.lang.Class<C.G0>;
+	}
+	export module G0 {
+		export class a {
+			public static class: java.lang.Class<C.G0.a>;
+			public static a(): com.apollographql.apollo3.api.UnionType;
+		}
+	}
+}
+
+declare module C {
+	export class H {
+		public static class: java.lang.Class<C.H>;
+	}
+	export module H {
+		export class a {
+			public static class: java.lang.Class<C.H.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class H0 {
+		public static class: java.lang.Class<C.H0>;
+	}
+	export module H0 {
+		export class a {
+			public static class: java.lang.Class<C.H0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class I {
+		public static class: java.lang.Class<C.I>;
+	}
+	export module I {
+		export class a {
+			public static class: java.lang.Class<C.I.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class I0 {
+		public static class: java.lang.Class<C.I0>;
+	}
+	export module I0 {
+		export class a {
+			public static class: java.lang.Class<C.I0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class J {
+		public static class: java.lang.Class<C.J>;
+	}
+	export module J {
+		export class a {
+			public static class: java.lang.Class<C.J.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class J0 {
+		public static class: java.lang.Class<C.J0>;
+	}
+	export module J0 {
+		export class a {
+			public static class: java.lang.Class<C.J0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class K {
+		public static class: java.lang.Class<C.K>;
+	}
+	export module K {
+		export class a {
+			public static class: java.lang.Class<C.K.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class K0 {
+		public static class: java.lang.Class<C.K0>;
+	}
+	export module K0 {
+		export class a {
+			public static class: java.lang.Class<C.K0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class L {
+		public static class: java.lang.Class<C.L>;
+	}
+	export module L {
+		export class a {
+			public static class: java.lang.Class<C.L.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class L0 {
+		public static class: java.lang.Class<C.L0>;
+		public equals(param0: any): boolean;
+		public b(): com.apollographql.apollo3.api.Optional<java.lang.Double>;
+		public c(): com.apollographql.apollo3.api.Optional<java.lang.Integer>;
+		public a(): com.apollographql.apollo3.api.Optional<java.lang.Boolean>;
+		public hashCode(): number;
+		public d(): string;
+		public e(): com.apollographql.apollo3.api.Optional<string>;
+		public toString(): string;
+		public constructor(param0: string, param1: com.apollographql.apollo3.api.Optional<java.lang.Integer>, param2: com.apollographql.apollo3.api.Optional<java.lang.Double>, param3: com.apollographql.apollo3.api.Optional<java.lang.Boolean>, param4: com.apollographql.apollo3.api.Optional<string>);
+	}
+}
+
+declare module C {
+	export class M {
+		public static class: java.lang.Class<C.M>;
+	}
+	export module M {
+		export class a {
+			public static class: java.lang.Class<C.M.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class M0 {
+		public static class: java.lang.Class<C.M0>;
+	}
+	export module M0 {
+		export class a {
+			public static class: java.lang.Class<C.M0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class N {
+		public static class: java.lang.Class<C.N>;
+	}
+	export module N {
+		export class a {
+			public static class: java.lang.Class<C.N.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class N0 {
+		public static class: java.lang.Class<C.N0>;
+	}
+	export module N0 {
+		export class a {
+			public static class: java.lang.Class<C.N0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class O {
+		public static class: java.lang.Class<C.O>;
+	}
+	export module O {
+		export class a {
+			public static class: java.lang.Class<C.O.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class P {
+		public static class: java.lang.Class<C.P>;
+	}
+	export module P {
+		export class a {
+			public static class: java.lang.Class<C.P.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class Q {
+		public static class: java.lang.Class<C.Q>;
+	}
+	export module Q {
+		export class a {
+			public static class: java.lang.Class<C.Q.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class S {
+		public static class: java.lang.Class<C.S>;
+	}
+	export module S {
+		export class a {
+			public static class: java.lang.Class<C.S.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class T {
+		public static class: java.lang.Class<C.T>;
+	}
+	export module T {
+		export class a {
+			public static class: java.lang.Class<C.T.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class U {
+		public static class: java.lang.Class<C.U>;
+	}
+	export module U {
+		export class a {
+			public static class: java.lang.Class<C.U.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class V {
+		public static class: java.lang.Class<C.V>;
+		public static b: C.V;
+		public a(): string;
+		public static values(): androidNative.Array<C.V>;
+		public static valueOf(param0: string): C.V;
+	}
+}
+
+declare module C {
+	export class W {
+		public static class: java.lang.Class<C.W>;
+	}
+	export module W {
+		export class a {
+			public static class: java.lang.Class<C.W.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class X {
+		public static class: java.lang.Class<C.X>;
+	}
+	export module X {
+		export class a {
+			public static class: java.lang.Class<C.X.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class Y {
+		public static class: java.lang.Class<C.Y>;
+	}
+	export module Y {
+		export class a {
+			public static class: java.lang.Class<C.Y.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class Z {
+		public static class: java.lang.Class<C.Z>;
+	}
+	export module Z {
+		export class a {
+			public static class: java.lang.Class<C.Z.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class a {
+		public static class: java.lang.Class<C.a>;
+		public static a(param0: string): com.apollographql.apollo3.api.ObjectType;
+	}
+}
+
+declare module C {
+	export class a0 {
+		public static class: java.lang.Class<C.a0>;
+	}
+	export module a0 {
+		export class a {
+			public static class: java.lang.Class<C.a0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class b {
+		public static class: java.lang.Class<C.b>;
+	}
+	export module b {
+		export class a {
+			public static class: java.lang.Class<C.b.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class b0 {
+		public static class: java.lang.Class<C.b0>;
+	}
+	export module b0 {
+		export class a {
+			public static class: java.lang.Class<C.b0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class c {
+		public static class: java.lang.Class<C.c>;
+	}
+	export module c {
+		export class a {
+			public static class: java.lang.Class<C.c.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class c0 {
+		public static class: java.lang.Class<C.c0>;
+	}
+	export module c0 {
+		export class a {
+			public static class: java.lang.Class<C.c0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class d {
+		public static class: java.lang.Class<C.d>;
+		public static b: C.d;
+		public a(): string;
+		public static values(): androidNative.Array<C.d>;
+		public static valueOf(param0: string): C.d;
+	}
+	export module d {
+		export class a {
+			public static class: java.lang.Class<C.d.a>;
+			public static a(param0: string): C.d;
+		}
+	}
+}
+
+declare module C {
+	export class d0 {
+		public static class: java.lang.Class<C.d0>;
+	}
+	export module d0 {
+		export class a {
+			public static class: java.lang.Class<C.d0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class e {
+		public static class: java.lang.Class<C.e>;
+	}
+	export module e {
+		export class a {
+			public static class: java.lang.Class<C.e.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class e0 {
+		public static class: java.lang.Class<C.e0>;
+	}
+	export module e0 {
+		export class a {
+			public static class: java.lang.Class<C.e0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class f {
+		public static class: java.lang.Class<C.f>;
+	}
+	export module f {
+		export class a {
+			public static class: java.lang.Class<C.f.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class f0 {
+		public static class: java.lang.Class<C.f0>;
+	}
+	export module f0 {
+		export class a {
+			public static class: java.lang.Class<C.f0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class g {
+		public static class: java.lang.Class<C.g>;
+	}
+	export module g {
+		export class a {
+			public static class: java.lang.Class<C.g.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class g0 {
+		public static class: java.lang.Class<C.g0>;
+	}
+	export module g0 {
+		export class a {
+			public static class: java.lang.Class<C.g0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class h {
+		public static class: java.lang.Class<C.h>;
+	}
+	export module h {
+		export class a {
+			public static class: java.lang.Class<C.h.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class h0 {
+		public static class: java.lang.Class<C.h0>;
+	}
+	export module h0 {
+		export class a {
+			public static class: java.lang.Class<C.h0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class i {
+		public static class: java.lang.Class<C.i>;
+		public static c: C.i;
+		public static valueOf(param0: string): C.i;
+		public b(): string;
+		public static values(): androidNative.Array<C.i>;
+	}
+	export module i {
+		export class a {
+			public static class: java.lang.Class<C.i.a>;
+			public static a(param0: string): C.i;
+			public static a(): com.apollographql.apollo3.api.EnumType;
+		}
+	}
+}
+
+declare module C {
+	export class i0 {
+		public static class: java.lang.Class<C.i0>;
+	}
+	export module i0 {
+		export class a {
+			public static class: java.lang.Class<C.i0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class j {
+		public static class: java.lang.Class<C.j>;
+		public static b: C.j;
+		public static c: C.j;
+		public a(): string;
+		public static valueOf(param0: string): C.j;
+		public static values(): androidNative.Array<C.j>;
+	}
+}
+
+declare module C {
+	export class j0 {
+		public static class: java.lang.Class<C.j0>;
+	}
+	export module j0 {
+		export class a {
+			public static class: java.lang.Class<C.j0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class k {
+		public static class: java.lang.Class<C.k>;
+	}
+	export module k {
+		export class a {
+			public static class: java.lang.Class<C.k.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class k0 {
+		public static class: java.lang.Class<C.k0>;
+		public equals(param0: any): boolean;
+		public a(): number;
+		public b(): com.iadvize.conversation.sdk.type.Currency;
+		public d(): java.util.Date;
+		public hashCode(): number;
+		public constructor(param0: string, param1: java.util.Date, param2: number, param3: com.iadvize.conversation.sdk.type.Currency);
+		public c(): string;
+		public toString(): string;
+	}
+}
+
+declare module C {
+	export class l {
+		public static class: java.lang.Class<C.l>;
+	}
+	export module l {
+		export class a {
+			public static class: java.lang.Class<C.l.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class l0 {
+		public static class: java.lang.Class<C.l0>;
+	}
+	export module l0 {
+		export class a {
+			public static class: java.lang.Class<C.l0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class m {
+		public static class: java.lang.Class<C.m>;
+	}
+	export module m {
+		export class a {
+			public static class: java.lang.Class<C.m.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class m0 {
+		public static class: java.lang.Class<C.m0>;
+	}
+	export module m0 {
+		export class a {
+			public static class: java.lang.Class<C.m0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class n {
+		public static class: java.lang.Class<C.n>;
+	}
+	export module n {
+		export class a {
+			public static class: java.lang.Class<C.n.a<any>>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class n0 {
+		public static class: java.lang.Class<C.n0>;
+		public static b: C.n0;
+		public a(): string;
+		public static values(): androidNative.Array<C.n0>;
+		public static valueOf(param0: string): C.n0;
+	}
+}
+
+declare module C {
+	export class o {
+		public static class: java.lang.Class<C.o>;
+	}
+	export module o {
+		export class a {
+			public static class: java.lang.Class<C.o.a>;
+			public static a(): com.apollographql.apollo3.api.InterfaceType;
+		}
+	}
+}
+
+declare module C {
+	export class o0 {
+		public static class: java.lang.Class<C.o0>;
+	}
+	export module o0 {
+		export class a {
+			public static class: java.lang.Class<C.o0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class p {
+		public static class: java.lang.Class<C.p>;
+	}
+	export module p {
+		export class a {
+			public static class: java.lang.Class<C.p.a>;
+			public static a(): com.apollographql.apollo3.api.UnionType;
+		}
+	}
+}
+
+declare module C {
+	export class p0 {
+		public static class: java.lang.Class<C.p0>;
+	}
+	export module p0 {
+		export class a {
+			public static class: java.lang.Class<C.p0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class q {
+		public static class: java.lang.Class<C.q>;
+	}
+	export module q {
+		export class a {
+			public static class: java.lang.Class<C.q.a>;
+			public static a(): com.apollographql.apollo3.api.UnionType;
+		}
+	}
+}
+
+declare module C {
+	export class q0 {
+		public static class: java.lang.Class<C.q0>;
+	}
+	export module q0 {
+		export class a {
+			public static class: java.lang.Class<C.q0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class r {
+		public static class: java.lang.Class<C.r>;
+	}
+	export module r {
+		export class a {
+			public static class: java.lang.Class<C.r.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class r0 {
+		public static class: java.lang.Class<C.r0>;
+	}
+	export module r0 {
+		export class a {
+			public static class: java.lang.Class<C.r0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class s {
+		public static class: java.lang.Class<C.s>;
+	}
+	export module s {
+		export class a {
+			public static class: java.lang.Class<C.s.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class s0 {
+		public static class: java.lang.Class<C.s0>;
+	}
+	export module s0 {
+		export class a {
+			public static class: java.lang.Class<C.s0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class t {
+		public static class: java.lang.Class<C.t>;
+	}
+	export module t {
+		export class a {
+			public static class: java.lang.Class<C.t.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class t0 {
+		public static class: java.lang.Class<C.t0>;
+	}
+	export module t0 {
+		export class a {
+			public static class: java.lang.Class<C.t0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class u {
+		public static class: java.lang.Class<C.u>;
+	}
+	export module u {
+		export class a {
+			public static class: java.lang.Class<C.u.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class u0 {
+		public static class: java.lang.Class<C.u0>;
+	}
+	export module u0 {
+		export class a {
+			public static class: java.lang.Class<C.u0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class v {
+		public static class: java.lang.Class<C.v>;
+	}
+	export module v {
+		export class a {
+			public static class: java.lang.Class<C.v.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class v0 {
+		public static class: java.lang.Class<C.v0>;
+	}
+	export module v0 {
+		export class a {
+			public static class: java.lang.Class<C.v0.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class w {
+		public static class: java.lang.Class<C.w>;
+	}
+	export module w {
+		export class a {
+			public static class: java.lang.Class<C.w.a>;
+			public static a(): com.apollographql.apollo3.api.UnionType;
+		}
+	}
+}
+
+declare module C {
+	export class w0 {
+		public static class: java.lang.Class<C.w0>;
+	}
+	export module w0 {
+		export class a {
+			public static class: java.lang.Class<C.w0.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class x {
+		public static class: java.lang.Class<C.x>;
+	}
+	export module x {
+		export class a {
+			public static class: java.lang.Class<C.x.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class x0 {
+		public static class: java.lang.Class<C.x0>;
+	}
+	export module x0 {
+		export class a {
+			public static class: java.lang.Class<C.x0.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class y {
+		public static class: java.lang.Class<C.y>;
+	}
+	export module y {
+		export class a {
+			public static class: java.lang.Class<C.y.a>;
+			public static a(): com.apollographql.apollo3.api.CustomScalarType;
+		}
+	}
+}
+
+declare module C {
+	export class y0 {
+		public static class: java.lang.Class<C.y0>;
+	}
+	export module y0 {
+		export class a {
+			public static class: java.lang.Class<C.y0.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class z {
+		public static class: java.lang.Class<C.z>;
+	}
+	export module z {
+		export class a {
+			public static class: java.lang.Class<C.z.a>;
+			public static a(): com.apollographql.apollo3.api.ObjectType;
+		}
+	}
+}
+
+declare module C {
+	export class z0 {
+		public static class: java.lang.Class<C.z0>;
+	}
+	export module z0 {
+		export class a {
+			public static class: java.lang.Class<C.z0.a>;
+			public static a(): com.apollographql.apollo3.api.InterfaceType;
+		}
+	}
+}
+
+declare module D {
+	export class a extends com.apollographql.apollo3.api.Adapter<C.d> {
+		public static class: java.lang.Class<D.a>;
+		public static a: D.a;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module D {
+	export class b extends com.apollographql.apollo3.api.Adapter<C.i> {
+		public static class: java.lang.Class<D.b>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: C.i): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): C.i;
+	}
+}
+
+declare module D {
+	export class c extends com.apollographql.apollo3.api.Adapter<C.j> {
+		public static class: java.lang.Class<D.c>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: C.j): void;
+	}
+}
+
+declare module D {
+	export class d extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.type.Currency> {
+		public static class: java.lang.Class<D.d>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.type.Currency): void;
+	}
+}
+
+declare module D {
+	export class e extends com.apollographql.apollo3.api.Adapter<C.A> {
+		public static class: java.lang.Class<D.e>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: C.A): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): C.A;
+	}
+}
+
+declare module D {
+	export class f extends com.apollographql.apollo3.api.Adapter<C.D> {
+		public static class: java.lang.Class<D.f>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): C.D;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: C.D): void;
+	}
+}
+
+declare module D {
+	export class g extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.type.Language> {
+		public static class: java.lang.Class<D.g>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.type.Language): void;
+	}
+}
+
+declare module D {
+	export class h extends com.apollographql.apollo3.api.Adapter<C.V> {
+		public static class: java.lang.Class<D.h>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: C.V): void;
+	}
+}
+
+declare module D {
+	export class i extends com.apollographql.apollo3.api.Adapter<C.k0> {
+		public static class: java.lang.Class<D.i>;
+		public static a: D.i;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module D {
+	export class j extends com.apollographql.apollo3.api.Adapter<C.n0> {
+		public static class: java.lang.Class<D.j>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: C.n0): void;
+	}
+}
+
+declare module D {
+	export class k extends com.apollographql.apollo3.api.Adapter<C.L0> {
+		public static class: java.lang.Class<D.k>;
+		public static a: D.k;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module E {
+	export class a {
+		public static class: java.lang.Class<E.a>;
+		public static a(param0: androidx.fragment.app.FragmentActivity): number;
+	}
+}
+
+declare module E {
+	export class b {
+		public static class: java.lang.Class<E.b>;
+		public static a(param0: globalAndroid.content.Context, param1: globalAndroid.net.Uri): globalAndroid.graphics.Bitmap;
+	}
+}
+
+declare module E {
+	export class c {
+		public static class: java.lang.Class<E.c>;
+		public getCoroutineContext(): any;
+		public constructor(param0: any);
+		public close(): void;
+	}
+}
+
+declare module E {
+	export class d {
+		public static class: java.lang.Class<E.d>;
+		public static a(param0: string): boolean;
+	}
+}
+
+declare module E {
+	export class e {
+		public static class: java.lang.Class<E.e>;
+		public static b(): kotlinx.coroutines.flow.MutableSharedFlow;
+		public static a(): java.util.LinkedHashMap<any,any>;
+		public static c(): E.c;
+		public static a(param0: any, param1: any): any;
+	}
+	export module e {
+		export class a {
+			public static class: java.lang.Class<E.e.a>;
+			public constructor(param0: kotlinx.coroutines.CoroutineExceptionHandler.Key);
+			public handleException(param0: any, param1: java.lang.Throwable): void;
+		}
+	}
+}
+
+declare module E {
+	export class f {
+		public static class: java.lang.Class<E.f>;
+		public static a(param0: any, param1: any): void;
+		public static a(param0: any): void;
+	}
+	export module f {
+		export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<E.f.a>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+	}
+}
+
+declare module E {
+	export class g {
+		public static class: java.lang.Class<E.g>;
+		public static a(param0: string): string;
+		public static d(param0: globalAndroid.content.Context, param1: globalAndroid.net.Uri): string;
+		public static a(param0: globalAndroid.content.Context, param1: globalAndroid.net.Uri, param2: string, param3: androidNative.Array<string>): string;
+		public static a(param0: globalAndroid.content.Context, param1: globalAndroid.net.Uri): androidNative.Array<number>;
+		public static c(param0: globalAndroid.content.Context, param1: globalAndroid.net.Uri): string;
+		public static a(param0: number): boolean;
+		public static b(param0: globalAndroid.content.Context, param1: globalAndroid.net.Uri): string;
+		public static d(param0: string): boolean;
+		public static c(param0: string): boolean;
+		public static e(param0: globalAndroid.content.Context, param1: globalAndroid.net.Uri): number;
+		public static b(param0: string): boolean;
+		public static a(param0: globalAndroid.content.Context, param1: globalAndroid.net.Uri, param2: string): void;
+	}
+}
+
+declare module E {
+	export class h {
+		public static class: java.lang.Class<E.h>;
+		public static a(param0: globalAndroid.widget.ImageButton, param1: number, param2: number, param3: number): void;
+	}
+}
+
+declare module E {
+	export class i {
+		public static class: java.lang.Class<E.i>;
+		public static a(param0: globalAndroid.content.Context, param1: string): globalAndroid.content.SharedPreferences;
+	}
+}
+
+declare module E {
+	export class j {
+		public static class: java.lang.Class<E.j>;
+		public a(param0: globalAndroid.content.Context): void;
+	}
+}
+
+declare module E {
+	export class k {
+		public static class: java.lang.Class<E.k>;
+		public static a(param0: string, param1: string): string;
+		public static b(param0: string): string;
+		public static a(param0: string): java.util.UUID;
+		public static c(param0: string): string;
+	}
+}
+
+declare module E {
+	export class l {
+		public static class: java.lang.Class<E.l>;
+		public static a(param0: globalAndroid.widget.TextView, param1: globalAndroid.content.res.AssetManager, param2: string): void;
+	}
+}
+
+declare module E {
+	export class m {
+		public static class: java.lang.Class<E.m>;
+		public static a(param0: androidx.appcompat.widget.Toolbar, param1: string): void;
+		public static a(param0: androidx.appcompat.widget.Toolbar, param1: java.lang.Integer): void;
+		public static a(param0: androidx.appcompat.widget.Toolbar, param1: com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration): void;
+	}
+}
+
+declare module E {
+	export class n {
+		public static class: java.lang.Class<E.n>;
+		public static a(param0: com.iadvize.conversation.ui.views.ComposeView): void;
+	}
+}
+
+declare module F {
+	export class a {
+		public static class: java.lang.Class<F.a>;
+		public static b(param0: java.util.Date): boolean;
+		public static a(param0: java.util.Date, param1: java.util.Date): boolean;
+		public static a(param0: java.util.Date): boolean;
+	}
+}
+
+declare module F {
+	export class b {
+		public static class: java.lang.Class<F.b>;
+		public static a(param0: number, param1: globalAndroid.content.Context): number;
+	}
+}
+
+declare module F {
+	export class c {
+		public static class: java.lang.Class<F.c>;
+		public static c(param0: string): androidNative.Array<string>;
+		public static d(param0: string): androidNative.Array<string>;
+		public static a(param0: string): boolean;
+		public static b(param0: string): androidNative.Array<string>;
+	}
+}
+
+declare module F {
+	export class d {
+		public static class: java.lang.Class<F.d>;
+		public static a(param0: globalAndroid.widget.TextView, param1: androidNative.Array<string>, param2: any): void;
+	}
+	export module d {
+		export class a {
+			public static class: java.lang.Class<F.d.a>;
+			public onClick(param0: globalAndroid.view.View): void;
+		}
+	}
+}
+
+declare module G {
+	export class a {
+		public static class: java.lang.Class<G.a>;
+		public static a: G.a;
+		public static b: G.a;
+		public static values(): androidNative.Array<G.a>;
+		public static valueOf(param0: string): G.a;
+	}
+}
+
+declare module G {
+	export class b {
+		public static class: java.lang.Class<G.b>;
+		public tableCellPadding(): number;
+		public applyTableOddRowStyle(param0: globalAndroid.graphics.Paint): void;
+		public applyTableEvenRowStyle(param0: globalAndroid.graphics.Paint): void;
+		public constructor(param0: globalAndroid.content.Context);
+		public applyTableBorderStyle(param0: globalAndroid.graphics.Paint): void;
+		public tableBorderWidth(param0: globalAndroid.graphics.Paint): number;
+		public applyTableHeaderRowStyle(param0: globalAndroid.graphics.Paint): void;
+	}
+}
+
+declare module G {
+	export class c {
+		public static class: java.lang.Class<G.c>;
+		public static a(param0: globalAndroid.widget.TextView): boolean;
+		public static a(param0: globalAndroid.content.Context): io.noties.markwon.Markwon;
+	}
+}
+
+declare module G {
+	export class d {
+		public static class: java.lang.Class<G.d>;
+		public static a(param0: globalAndroid.view.View, param1: number, param2: number, param3: java.lang.Integer, param4: G.a, param5: G.e): void;
+		public static a(param0: number, param1: number): G.e;
+		public static a(param0: com.google.android.material.imageview.ShapeableImageView, param1: G.a, param2: G.e, param3: G.e, param4: boolean): void;
+		public static a(param0: globalAndroid.content.Context, param1: java.util.Date): globalAndroid.text.SpannableString;
+		public static b(param0: globalAndroid.view.View, param1: java.lang.Integer, param2: java.lang.Integer, param3: G.a, param4: G.e, param5: G.e, param6: boolean): void;
+	}
+}
+
+declare module G {
+	export class e {
+		public static class: java.lang.Class<G.e>;
+		public static a: G.e;
+		public static b: G.e;
+		public static c: G.e;
+		public static d: G.e;
+		public static valueOf(param0: string): G.e;
+		public static values(): androidNative.Array<G.e>;
+	}
+}
+
+declare module G {
+	export class f {
+		public static class: java.lang.Class<G.f>;
+		public d(): number;
+		public a(): number;
+		public b(): number;
+		public c(): number;
+		public constructor(param0: number, param1: number, param2: number, param3: number);
+	}
+}
+
+declare module G {
+	export class g {
+		public static class: java.lang.Class<G.g>;
+		public updateDiskCacheKey(param0: java.security.MessageDigest): void;
+		public equals(param0: any): boolean;
+		public hashCode(): number;
+		public transform(param0: com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool, param1: globalAndroid.graphics.Bitmap, param2: number, param3: number): globalAndroid.graphics.Bitmap;
+		public constructor(param0: number);
+	}
+}
+
+declare module G {
+	export class h {
+		public static class: java.lang.Class<G.h>;
+		public static a(param0: string, param1: string): number;
+	}
+}
+
+declare module H {
+	export class a extends H.h {
+		public static class: java.lang.Class<H.a>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: number, param2: com.iadvize.conversation.ui.viewholders.MessageListeners, param3: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module H {
+	export class b extends H.h {
+		public static class: java.lang.Class<H.b>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module H {
+	export class c extends H.h {
+		public static class: java.lang.Class<H.c>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+	export module c {
+		export class a extends com.iadvize.conversation.ui.views.GenericCardView.a {
+			public static class: java.lang.Class<H.c.a>;
+			public a(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.MessageKind.Card, param2: com.iadvize.conversation.ui.models.MessageAttachment.Action): void;
+		}
+	}
+}
+
+declare module H {
+	export class d {
+		public static class: java.lang.Class<H.d>;
+		public a(param0: globalAndroid.graphics.drawable.Drawable, param1: com.bumptech.glide.request.transition.Transition<any>): void;
+	}
+}
+
+declare module H {
+	export class e extends H.h {
+		public static class: java.lang.Class<H.e>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module H {
+	export class f extends H.h {
+		public static class: java.lang.Class<H.f>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module H {
+	export class g {
+		public static class: java.lang.Class<H.g>;
+		public a(param0: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+	}
+}
+
+declare module H {
+	export abstract class h {
+		public static class: java.lang.Class<H.h>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+		public c(): com.iadvize.conversation.ui.models.MessagesConfiguration;
+	}
+	export module h {
+		export class a {
+			public static class: java.lang.Class<H.h.a>;
+		}
+	}
+}
+
+declare module H {
+	export class i extends H.h {
+		public static class: java.lang.Class<H.i>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration, param3: io.noties.markwon.Markwon);
+	}
+	export module i {
+		export class a extends java.lang.Object implements any<string,any>  {
+			public static class: java.lang.Class<H.i.a>;
+			public invoke(param0: any): any;
+		}
+	}
+}
+
+declare module H {
+	export class j extends H.h {
+		public static class: java.lang.Class<H.j>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+	export module j {
+		export class a extends com.iadvize.conversation.ui.views.ProductOfferView.a {
+			public static class: java.lang.Class<H.j.a>;
+			public a(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.MessageKind.ProductOffer, param2: com.iadvize.conversation.ui.models.MessageAttachment.Action): void;
+		}
+	}
+}
+
+declare module H {
+	export class k extends H.h {
+		public static class: java.lang.Class<H.k>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module H {
+	export class l extends H.h {
+		public static class: java.lang.Class<H.l>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module H {
+	export class m {
+		public static class: java.lang.Class<H.m>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+	}
+}
+
+declare module H {
+	export class n extends H.h {
+		public static class: java.lang.Class<H.n>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration, param3: io.noties.markwon.Markwon);
+	}
+	export module n {
+		export class a extends java.lang.Object implements any<string,any>  {
+			public static class: java.lang.Class<H.n.a<any>>;
+			public invoke(param0: any): any;
+		}
+	}
+}
+
+declare module H {
+	export class o extends H.h {
+		public static class: java.lang.Class<H.o>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module H {
+	export class p extends H.h {
+		public static class: java.lang.Class<H.p>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module H {
+	export class q {
+		public static class: java.lang.Class<H.q>;
+		public a(param0: com.iadvize.conversation.ui.models.Message): void;
+		public a(): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.MessagesConfiguration);
+	}
+}
+
+declare module H {
+	export class r extends H.h {
+		public static class: java.lang.Class<H.r>;
+		public a(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public constructor(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.viewholders.MessageListeners, param2: com.iadvize.conversation.ui.models.MessagesConfiguration);
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public b(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: com.iadvize.conversation.ui.models.SenderAlignment): void;
+		public b(): com.iadvize.conversation.ui.viewholders.MessageListeners;
+	}
+}
+
+declare module I {
+	export class a {
+		public static class: java.lang.Class<I.a>;
+		public static a(param0: I.a, param1: org.jsoup.nodes.Document): string;
+		public static b(param0: I.a, param1: org.jsoup.nodes.Document): string;
+		public a(): void;
+		public static c(param0: I.a, param1: org.jsoup.nodes.Document): string;
+		public constructor(param0: I.a.a);
+		public a(param0: string, param1: string): void;
+	}
+	export module a {
+		export class a {
+			public static class: java.lang.Class<I.a.a>;
+			/**
+			 * Constructs a new instance of the I.a$a interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+			 */
+			public constructor(implementation: {
+				a(param0: com.iadvize.conversation.ui.models.PreviewLinkResult): void;
+			});
+			public constructor();
+			public a(param0: com.iadvize.conversation.ui.models.PreviewLinkResult): void;
+		}
+		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<I.a.b>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+		export module b {
+			export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+				public static class: java.lang.Class<I.a.b.a>;
+				public create(param0: any, param1: any): any;
+				public invoke(param0: any, param1: any): any;
+				public invokeSuspend(param0: any): any;
+			}
+			export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+				public static class: java.lang.Class<I.a.b.b>;
+				public create(param0: any, param1: any): any;
+				public invoke(param0: any, param1: any): any;
+				public invokeSuspend(param0: any): any;
+			}
+		}
+	}
+}
+
+declare module I {
+	export class b {
+		public static class: java.lang.Class<I.b>;
+		public static a(param0: string): com.iadvize.conversation.ui.models.PreviewLinkResult;
+		public static a(param0: string, param1: com.iadvize.conversation.ui.models.PreviewLinkResult): void;
+	}
+}
+
+declare module a {
+	export class A extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.g> {
+		public static class: java.lang.Class<a.A>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.g): void;
+	}
+}
+
+declare module a {
+	export class B extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.i.a> {
+		public static class: java.lang.Class<a.B>;
+		public static a: a.B;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class C extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.i.b> {
+		public static class: java.lang.Class<a.C>;
+		public static a: a.C;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class D extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.j.a> {
+		public static class: java.lang.Class<a.D>;
+		public static a: a.D;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class E extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.j.b> {
+		public static class: java.lang.Class<a.E>;
+		public static a: a.E;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class F extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.j.c> {
+		public static class: java.lang.Class<a.F>;
+		public static a: a.F;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class G extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.j> {
+		public static class: java.lang.Class<a.G>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.j): void;
+	}
+}
+
+declare module a {
+	export class H extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.k.a> {
+		public static class: java.lang.Class<a.H>;
+		public static a: a.H;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class I extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.k.b> {
+		public static class: java.lang.Class<a.I>;
+		public static a: a.I;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class J extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.k> {
+		public static class: java.lang.Class<a.J>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.k): void;
+	}
+}
+
+declare module a {
+	export class K extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.l.a> {
+		public static class: java.lang.Class<a.K>;
+		public static a: a.K;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class L extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.l.b> {
+		public static class: java.lang.Class<a.L>;
+		public static a: a.L;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class M extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.m.a> {
+		public static class: java.lang.Class<a.M>;
+		public static a: a.M;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class N extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.m.b> {
+		public static class: java.lang.Class<a.N>;
+		public static a: a.N;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class O extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.m.c> {
+		public static class: java.lang.Class<a.O>;
+		public static a: a.O;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class P extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.n.a<any>> {
+		public static class: java.lang.Class<a.P>;
+		public static a: a.P;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class Q extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.n.b> {
+		public static class: java.lang.Class<a.Q>;
+		public static a: a.Q;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class S extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.n> {
+		public static class: java.lang.Class<a.S>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.n): void;
+	}
+}
+
+declare module a {
+	export class T extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.o.a> {
+		public static class: java.lang.Class<a.T>;
+		public static a: a.T;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class U extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.o.b> {
+		public static class: java.lang.Class<a.U>;
+		public static a: a.U;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class V extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.o> {
+		public static class: java.lang.Class<a.V>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.o): void;
+	}
+}
+
+declare module a {
+	export class W extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.p.a> {
+		public static class: java.lang.Class<a.W>;
+		public static a: a.W;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class X extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.p.b> {
+		public static class: java.lang.Class<a.X>;
+		public static a: a.X;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class Y extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.p> {
+		public static class: java.lang.Class<a.Y>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.p): void;
+	}
+}
+
+declare module a {
+	export class Z extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q.a> {
+		public static class: java.lang.Class<a.Z>;
+		public static a: a.Z;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class a extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.a.a> {
+		public static class: java.lang.Class<a.a>;
+		public static a: a.a;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class a0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q.b> {
+		public static class: java.lang.Class<a.a0>;
+		public static a: a.a0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class b extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.a.b> {
+		public static class: java.lang.Class<a.b>;
+		public static a: a.b;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class b0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q.c> {
+		public static class: java.lang.Class<a.b0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): com.iadvize.conversation.sdk.q.c;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.q.c): void;
+	}
+}
+
+declare module a {
+	export class c extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.a.c> {
+		public static class: java.lang.Class<a.c>;
+		public static a: a.c;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class c0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q.d> {
+		public static class: java.lang.Class<a.c0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): com.iadvize.conversation.sdk.q.d;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.q.d): void;
+	}
+}
+
+declare module a {
+	export class d extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.a> {
+		public static class: java.lang.Class<a.d>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.a): void;
+	}
+}
+
+declare module a {
+	export class d0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q.e> {
+		public static class: java.lang.Class<a.d0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.q.e): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): com.iadvize.conversation.sdk.q.e;
+	}
+}
+
+declare module a {
+	export class e extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.b.a> {
+		public static class: java.lang.Class<a.e>;
+		public static a: a.e;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class e0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q.f> {
+		public static class: java.lang.Class<a.e0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): com.iadvize.conversation.sdk.q.f;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.q.f): void;
+	}
+}
+
+declare module a {
+	export class f extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.b.b> {
+		public static class: java.lang.Class<a.f>;
+		public static a: a.f;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class f0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q.g> {
+		public static class: java.lang.Class<a.f0>;
+		public static a: a.f0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class g extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.b.c> {
+		public static class: java.lang.Class<a.g>;
+		public static a: a.g;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class g0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q> {
+		public static class: java.lang.Class<a.g0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.q): void;
+	}
+}
+
+declare module a {
+	export class h extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.b> {
+		public static class: java.lang.Class<a.h>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.b): void;
+	}
+}
+
+declare module a {
+	export class h0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.r.a> {
+		public static class: java.lang.Class<a.h0>;
+		public static a: a.h0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class i extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.c.a> {
+		public static class: java.lang.Class<a.i>;
+		public static a: a.i;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class i0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.r.b> {
+		public static class: java.lang.Class<a.i0>;
+		public static a: a.i0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class j extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.c.b> {
+		public static class: java.lang.Class<a.j>;
+		public static a: a.j;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class j0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.r.c> {
+		public static class: java.lang.Class<a.j0>;
+		public static a: a.j0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class k extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.c.c> {
+		public static class: java.lang.Class<a.k>;
+		public static a: a.k;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class k0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.r> {
+		public static class: java.lang.Class<a.k0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.r): void;
+	}
+}
+
+declare module a {
+	export class l extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.c> {
+		public static class: java.lang.Class<a.l>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.c): void;
+	}
+}
+
+declare module a {
+	export class l0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.s.a> {
+		public static class: java.lang.Class<a.l0>;
+		public static a: a.l0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class m extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.d.a> {
+		public static class: java.lang.Class<a.m>;
+		public static a: a.m;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class m0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.s.b> {
+		public static class: java.lang.Class<a.m0>;
+		public static a: a.m0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class n extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.d.b> {
+		public static class: java.lang.Class<a.n>;
+		public static a: a.n;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class n0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.s.c> {
+		public static class: java.lang.Class<a.n0>;
+		public static a: a.n0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class o extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.d.c> {
+		public static class: java.lang.Class<a.o>;
+		public static a: a.o;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class o0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.s.d> {
+		public static class: java.lang.Class<a.o0>;
+		public static a: a.o0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class p extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.d> {
+		public static class: java.lang.Class<a.p>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.d): void;
+	}
+}
+
+declare module a {
+	export class p0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.s> {
+		public static class: java.lang.Class<a.p0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.s): void;
+	}
+}
+
+declare module a {
+	export class q extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.e.a> {
+		public static class: java.lang.Class<a.q>;
+		public static a: a.q;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class q0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.t.a> {
+		public static class: java.lang.Class<a.q0>;
+		public static a: a.q0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class r extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.e.b> {
+		public static class: java.lang.Class<a.r>;
+		public static a: a.r;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class r0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.t.b> {
+		public static class: java.lang.Class<a.r0>;
+		public static a: a.r0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class s extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.e.c> {
+		public static class: java.lang.Class<a.s>;
+		public static a: a.s;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class s0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.t.c> {
+		public static class: java.lang.Class<a.s0>;
+		public static a: a.s0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class t extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.e.d> {
+		public static class: java.lang.Class<a.t>;
+		public static a: a.t;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class t0 extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.t> {
+		public static class: java.lang.Class<a.t0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.t): void;
+	}
+}
+
+declare module a {
+	export class u extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.e> {
+		public static class: java.lang.Class<a.u>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.e): void;
+	}
+}
+
+declare module a {
+	export class v extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.f.a> {
+		public static class: java.lang.Class<a.v>;
+		public static a: a.v;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class w extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.f.b<any>> {
+		public static class: java.lang.Class<a.w>;
+		public static a: a.w;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class x extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.f> {
+		public static class: java.lang.Class<a.x>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: com.iadvize.conversation.sdk.f): void;
+	}
+}
+
+declare module a {
+	export class y extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.g.a> {
+		public static class: java.lang.Class<a.y>;
+		public static a: a.y;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module a {
+	export class z extends com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.g.b> {
+		public static class: java.lang.Class<a.z>;
+		public static a: a.z;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module b {
+	export class a {
+		public static class: java.lang.Class<b.a>;
+		public b: globalAndroid.widget.EditText;
+		public c: androidx.constraintlayout.widget.ConstraintLayout;
+		public d: globalAndroid.widget.ImageButton;
+		public e: globalAndroid.widget.ImageButton;
+		public f: globalAndroid.widget.ImageButton;
+		public g: globalAndroid.widget.ImageButton;
+		public static a(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup): b.a;
+		public getRoot(): globalAndroid.view.View;
+	}
+}
+
+declare module b {
+	export class b {
+		public static class: java.lang.Class<b.b>;
+		public b: androidx.constraintlayout.widget.ConstraintLayout;
+		public c: globalAndroid.widget.TextView;
+		public d: com.google.android.material.imageview.ShapeableImageView;
+		public e: globalAndroid.view.View;
+		public f: globalAndroid.widget.LinearLayout;
+		public g: globalAndroid.widget.TextView;
+		public h: androidx.constraintlayout.widget.ConstraintLayout;
+		public static a(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup): b.b;
+		public getRoot(): globalAndroid.view.View;
+	}
+}
+
+declare module b {
+	export class c {
+		public static class: java.lang.Class<b.c>;
+		public b: androidx.constraintlayout.widget.ConstraintLayout;
+		public c: androidx.constraintlayout.widget.Group;
+		public d: globalAndroid.widget.TextView;
+		public e: com.google.android.material.imageview.ShapeableImageView;
+		public f: globalAndroid.widget.ProgressBar;
+		public g: globalAndroid.widget.TextView;
+		public static a(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup): b.c;
+		public getRoot(): globalAndroid.view.View;
+	}
+}
+
+declare module b {
+	export class d {
+		public static class: java.lang.Class<b.d>;
+		public b: androidx.constraintlayout.widget.ConstraintLayout;
+		public c: globalAndroid.widget.TextView;
+		public d: globalAndroid.widget.TextView;
+		public e: com.google.android.material.imageview.ShapeableImageView;
+		public f: globalAndroid.view.View;
+		public g: globalAndroid.widget.LinearLayout;
+		public h: globalAndroid.widget.TextView;
+		public i: globalAndroid.widget.TextView;
+		public j: globalAndroid.widget.TextView;
+		public static a(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup): b.d;
+		public getRoot(): globalAndroid.view.View;
+	}
+}
+
+declare module b {
+	export class e {
+		public static class: java.lang.Class<b.e>;
+		public b: globalAndroid.widget.ImageView;
+		public c: globalAndroid.widget.ImageView;
+		public d: globalAndroid.widget.ImageView;
+		public getRoot(): globalAndroid.view.View;
+		public static a(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup): b.e;
+	}
+}
+
+declare module b {
+	export class f {
+		public static class: java.lang.Class<b.f>;
+		public b: androidx.appcompat.widget.Toolbar;
+		public getRoot(): globalAndroid.view.View;
+		public static a(param0: globalAndroid.view.LayoutInflater): b.f;
+		public a(): globalAndroid.widget.LinearLayout;
+	}
+}
+
+declare module b {
+	export class g {
+		public static class: java.lang.Class<b.g>;
+		public b: com.ortiz.touchview.TouchImageView;
+		public getRoot(): globalAndroid.view.View;
+		public static a(param0: globalAndroid.view.LayoutInflater): b.g;
+		public a(): com.ortiz.touchview.TouchImageView;
+	}
+}
+
+declare module b {
+	export class h {
+		public static class: java.lang.Class<b.h>;
+		public b: androidx.appcompat.widget.Toolbar;
+		public getRoot(): globalAndroid.view.View;
+		public a(): globalAndroid.widget.LinearLayout;
+		public static a(param0: globalAndroid.view.LayoutInflater): b.h;
+	}
+}
+
+declare module b {
+	export class i {
+		public static class: java.lang.Class<b.i>;
+		public b: globalAndroid.widget.TextView;
+		public c: globalAndroid.widget.TextView;
+		public d: globalAndroid.widget.TextView;
+		public getRoot(): globalAndroid.view.View;
+		public static a(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup): b.i;
+	}
+}
+
+declare module b {
+	export class j {
+		public static class: java.lang.Class<b.j>;
+		public b: com.iadvize.conversation.ui.views.ComposeView;
+		public c: com.iadvize.conversation.sdk.feature.chatbox.ChatboxErrorView;
+		public d: globalAndroid.widget.ProgressBar;
+		public e: androidx.recyclerview.widget.RecyclerView;
+		public a(): globalAndroid.widget.RelativeLayout;
+		public getRoot(): globalAndroid.view.View;
+		public static a(param0: globalAndroid.view.LayoutInflater): b.j;
+	}
+}
+
+declare module b {
+	export class k {
+		public static class: java.lang.Class<b.k>;
+		public b: globalAndroid.view.View;
+		public c: globalAndroid.view.View;
+		public d: androidx.appcompat.widget.AppCompatImageView;
+		public getRoot(): globalAndroid.view.View;
+		public static a(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup): b.k;
+	}
+}
+
+declare module b {
+	export class l {
+		public static class: java.lang.Class<b.l>;
+		public b: com.twilio.video.VideoTextureView;
+		public c: com.twilio.video.VideoTextureView;
+		public getRoot(): globalAndroid.view.View;
+		public static a(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup): b.l;
+	}
+}
+
+declare module b {
+	export class m {
+		public static class: java.lang.Class<b.m>;
+		public b: androidx.constraintlayout.widget.Group;
+		public c: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public d: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public e: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public f: com.twilio.video.VideoTextureView;
+		public g: androidx.appcompat.widget.AppCompatImageButton;
+		public h: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public i: globalAndroid.widget.FrameLayout;
+		public j: androidx.constraintlayout.widget.ConstraintLayout;
+		public k: com.twilio.video.VideoTextureView;
+		public l: androidx.constraintlayout.widget.ConstraintLayout;
+		public m: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public n: androidx.constraintlayout.widget.ConstraintLayout;
+		public o: globalAndroid.widget.ProgressBar;
+		public p: androidx.appcompat.widget.AppCompatTextView;
+		public getRoot(): globalAndroid.view.View;
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+		public static a(param0: globalAndroid.view.LayoutInflater): b.m;
+	}
+}
+
+declare module b {
+	export class n {
+		public static class: java.lang.Class<b.n>;
+		public b: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public c: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public d: com.twilio.video.VideoView;
+		public e: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public f: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public g: com.iadvize.conversation.sdk.feature.video.AlphaBackgroundOnPressedImageButton;
+		public h: androidx.appcompat.widget.AppCompatTextView;
+		public i: globalAndroid.widget.LinearLayout;
+		public static a(param0: globalAndroid.view.LayoutInflater): b.n;
+		public getRoot(): globalAndroid.view.View;
+		public a(): androidx.constraintlayout.widget.ConstraintLayout;
+	}
+}
+
+declare module c {
+	export class a {
+		public static class: java.lang.Class<c.a>;
+		public b(): string;
+		public a(): c.a.b;
+		public constructor(param0: string);
+	}
+	export module a {
+		export class a {
+			public static class: java.lang.Class<c.a.a>;
+			public equals(param0: any): boolean;
+			public toString(): string;
+			public constructor();
+			public constructor(param0: string);
+			public hashCode(): number;
+		}
+		export class b {
+			public static class: java.lang.Class<c.a.b>;
+			public a(): number;
+			public b(): string;
+			public equals(param0: any): boolean;
+			public toString(): string;
+			public constructor(param0: string, param1: string, param2: string, param3: string, param4: number, param5: number, param6: number);
+			public constructor();
+			public c(): string;
+			public hashCode(): number;
+		}
+	}
+}
 
 declare module com {
 	export module iadvize {
@@ -6,32 +2905,34 @@ declare module com {
 				export class IAdvizeSDK {
 					public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK>;
 					public static INSTANCE: com.iadvize.conversation.sdk.IAdvizeSDK;
-					public static activate(param0: number, param1: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption): void;
+					public static initiate(param0: globalAndroid.app.Application): kotlinx.coroutines.Job;
 					public static setLogLevel(param0: com.iadvize.conversation.sdk.feature.logger.Logger.Level): void;
-					public getSdkScope$sdk_clientRelease(): E.b;
 					public getNotificationController(): com.iadvize.conversation.sdk.feature.notification.NotificationController;
 					public getEnvironment$sdk_clientRelease(): com.iadvize.conversation.sdk.h;
 					public getDefaultFloatingButtonControllerImpl$sdk_clientRelease(): m.c;
 					public getTransactionControllerImpl$sdk_clientRelease(): w.a;
-					public getGraphQLApi$sdk_clientRelease(): n.a;
+					public static activate(param0: number, param1: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption, param2: com.iadvize.conversation.sdk.feature.gdpr.GDPROption, param3: com.iadvize.conversation.sdk.IAdvizeSDK.Callback): kotlinx.coroutines.Job;
 					public setJweProvider$sdk_clientRelease(param0: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.JWEProvider): void;
+					public static activate(param0: number, param1: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption): kotlinx.coroutines.Job;
 					public setEnvironment$sdk_clientRelease(param0: com.iadvize.conversation.sdk.h): void;
+					public getChatboxControllerImpl$sdk_clientRelease(): d.c;
 					public getVisitorController(): com.iadvize.conversation.sdk.feature.visitor.VisitorController;
 					public getJweProvider$sdk_clientRelease(): com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.JWEProvider;
 					public getConversationControllerImpl$sdk_clientRelease(): f.g;
 					public clear$sdk_clientRelease(): void;
 					public uiSdkScope$sdk_clientRelease(param0: any): kotlinx.coroutines.Job;
 					public withActivatedSdk$sdk_clientRelease(param0: string, param1: any, param2: any): void;
+					public static logout(param0: com.iadvize.conversation.sdk.IAdvizeSDK.Callback): kotlinx.coroutines.Job;
+					public getSdkScope$sdk_clientRelease(): E.c;
 					public getVisitorControllerImpl$sdk_clientRelease(): y.a;
-					public static logout(param0: com.iadvize.conversation.sdk.IAdvizeSDK.Callback): void;
 					public getNotificationControllerImpl$sdk_clientRelease(): r.a;
 					public getTargetingController(): com.iadvize.conversation.sdk.feature.targeting.TargetingController;
 					public static getLogLevel(): com.iadvize.conversation.sdk.feature.logger.Logger.Level;
-					public static activate(param0: number, param1: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption, param2: com.iadvize.conversation.sdk.feature.gdpr.GDPROption): void;
+					public getGraphQLApi$sdk_clientRelease(): n.b;
+					public static activate(param0: number, param1: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption, param2: com.iadvize.conversation.sdk.feature.gdpr.GDPROption): kotlinx.coroutines.Job;
 					public getDefaultFloatingButtonController(): com.iadvize.conversation.sdk.feature.defaultfloatingbutton.DefaultFloatingButtonController;
 					public eventBusScope$sdk_clientRelease(param0: any): kotlinx.coroutines.Job;
 					public getSatisfactionApi$sdk_clientRelease(): t.b;
-					public static initiate(param0: globalAndroid.app.Application): void;
 					public getTrackingApi$sdk_clientRelease(): v.c;
 					public getTargetingControllerImpl$sdk_clientRelease(): u.a;
 					public ioSdkScope$sdk_clientRelease(param0: any): kotlinx.coroutines.Job;
@@ -39,9 +2940,7 @@ declare module com {
 					public getConversationChannel$sdk_clientRelease(): com.iadvize.conversation.sdk.feature.conversation.ConversationChannel;
 					public getTransactionController(): com.iadvize.conversation.sdk.feature.transaction.TransactionController;
 					public getActivationStatus(): com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus;
-					public static activate(param0: number, param1: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption, param2: com.iadvize.conversation.sdk.feature.gdpr.GDPROption, param3: com.iadvize.conversation.sdk.IAdvizeSDK.Callback): void;
 					public getChatboxController(): com.iadvize.conversation.sdk.feature.chatbox.ChatboxController;
-					public getChatboxControllerImpl$sdk_clientRelease(): d.b;
 					public setActivationStatus$sdk_clientRelease(param0: com.iadvize.conversation.sdk.IAdvizeSDK.ActivationStatus): void;
 				}
 				export module IAdvizeSDK {
@@ -72,6 +2971,10 @@ declare module com {
 						public constructor();
 						public onFailure(param0: java.lang.Throwable): void;
 						public onSuccess(): void;
+					}
+					export class GraphQLApiException {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.GraphQLApiException>;
+						public constructor(param0: string);
 					}
 					export class InvalidConversationException {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.InvalidConversationException>;
@@ -131,32 +3034,57 @@ declare module com {
 						public invokeSuspend(param0: any): any;
 					}
 					export module f {
-						export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+						export class a {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.f.a>;
-							public invokeSuspend(param0: any): any;
-							public invoke(param0: any, param1: any): any;
-							public create(param0: any, param1: any): any;
-						}
-						export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-							public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.f.b<any>>;
-							public invokeSuspend(param0: any): any;
-							public invoke(param0: any, param1: any): any;
-							public create(param0: any, param1: any): any;
 						}
 					}
-					export class g extends com.iadvize.conversation.sdk.IAdvizeSDK.Callback {
+					export class g extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.g>;
-						public onFailure(param0: java.lang.Throwable): void;
-						public onSuccess(): void;
+						public create(param0: any, param1: any): any;
+						public invoke(param0: any, param1: any): any;
+						public invokeSuspend(param0: any): any;
 					}
-					export class h {
+					export class h extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.h>;
+						public create(param0: any, param1: any): any;
+						public invoke(param0: any, param1: any): any;
+						public invokeSuspend(param0: any): any;
+					}
+					export module h {
+						export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.h.a>;
+							public invokeSuspend(param0: any): any;
+							public invoke(param0: any, param1: any): any;
+							public create(param0: any, param1: any): any;
+						}
+					}
+					export class i extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.i>;
+						public create(param0: any, param1: any): any;
+						public invoke(param0: any, param1: any): any;
+						public invokeSuspend(param0: any): any;
+					}
+					export class j extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.j>;
+						public create(param0: any, param1: any): any;
+						public invoke(param0: any, param1: any): any;
+						public invokeSuspend(param0: any): any;
+					}
+					export module j {
+						export class a extends com.iadvize.conversation.sdk.IAdvizeSDK.Callback {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.j.a>;
+							public onFailure(param0: java.lang.Throwable): void;
+							public onSuccess(): void;
+						}
+					}
+					export class k {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.k>;
 						public constructor(param0: kotlinx.coroutines.CoroutineExceptionHandler.Key);
 						public handleException(param0: any, param1: java.lang.Throwable): void;
 					}
-					export class i extends java.lang.Object implements any  {
-						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.i>;
-						public static a: com.iadvize.conversation.sdk.IAdvizeSDK.i;
+					export class l extends java.lang.Object implements any  {
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.IAdvizeSDK.l>;
+						public static a: com.iadvize.conversation.sdk.IAdvizeSDK.l;
 						public constructor();
 					}
 				}
@@ -439,10 +3367,10 @@ declare module com {
 					public toString(): string;
 					public constructor(param0: string);
 					public b(): string;
+					public a(): C.V;
 					public adapter(): com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.f.a>;
 					public rootField(): com.apollographql.apollo3.api.CompiledField;
 					public hashCode(): number;
-					public a(): C.Q;
 					public id(): string;
 				}
 				export module f {
@@ -476,7 +3404,7 @@ declare module com {
 					export module authentication {
 						export abstract class AuthenticationOption {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption>;
-							public static Companion: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.a;
+							public static Companion: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.a<any>;
 							public saveToPref$sdk_clientRelease(): void;
 							public trackingApiValue$sdk_clientRelease(): string;
 							public getOptionType$sdk_clientRelease(): number;
@@ -521,8 +3449,8 @@ declare module com {
 								public constructor(param0: string);
 							}
 							export class a {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.a>;
-								public a(): com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption;
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.a<any>>;
+								public static a(): com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption;
 							}
 						}
 					}
@@ -538,11 +3466,11 @@ declare module com {
 			export module sdk {
 				export module feature {
 					export module chatbox {
-						export class ChatboxActivity extends e.a implements d.a {
+						export class ChatboxActivity extends e.a implements d.b {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity>;
-							public static l: com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.a;
 							public constructor();
 							public a(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration): void;
+							public static a(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity): void;
 							public onCreate(param0: globalAndroid.os.Bundle): void;
 							public a(param0: e.h): void;
 							public a(param0: com.iadvize.conversation.ui.models.MessageAttachment): void;
@@ -552,6 +3480,44 @@ declare module com {
 						export module ChatboxActivity {
 							export class a {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.a>;
+								public static a(param0: globalAndroid.content.Context): void;
+							}
+							export class b {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.b>;
+								public constructor();
+							}
+							export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.c>;
+								public create(param0: any, param1: any): any;
+								public invoke(param0: any, param1: any): any;
+								public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity);
+								public invokeSuspend(param0: any): any;
+							}
+							export module c {
+								export class a extends kotlinx.coroutines.flow.Flow<any> {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.c.a>;
+									public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+									public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+								}
+								export module a {
+									export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.c.a.a<any>>;
+										public emit(param0: any, param1: any): any;
+										public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+									}
+									export module a {
+										export class a {
+											public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.c.a.a.a>;
+											public invokeSuspend(param0: any): any;
+											public constructor(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.c.a.a<any>, param1: any);
+										}
+									}
+								}
+								export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.c.b<any>>;
+									public constructor(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity);
+									public emit(param0: any, param1: any): any;
+								}
 							}
 						}
 					}
@@ -631,6 +3597,7 @@ declare module com {
 								setupChatbox(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration): void;
 								isChatboxPresented(): boolean;
 								presentChatbox(param0: globalAndroid.content.Context): void;
+								dismissChatbox(): void;
 							});
 							public constructor();
 							public isChatboxPresented(): boolean;
@@ -638,6 +3605,7 @@ declare module com {
 							public setupChatbox(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration): void;
 							public getListeners(): java.util.List<com.iadvize.conversation.sdk.feature.chatbox.ChatboxListener>;
 							public presentChatbox(param0: globalAndroid.content.Context): void;
+							public dismissChatbox(): void;
 						}
 					}
 				}
@@ -721,15 +3689,49 @@ declare module com {
 						export module attachment {
 							export class ImageAttachmentViewerActivity {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity>;
-								public static b: com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.a;
 								public onOptionsItemSelected(param0: globalAndroid.view.MenuItem): boolean;
 								public constructor();
 								public onCreate(param0: globalAndroid.os.Bundle): void;
+								public static a(param0: com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity): void;
+								public onDestroy(): void;
 							}
 							export module ImageAttachmentViewerActivity {
 								export class a {
 									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.a>;
-									public a(param0: globalAndroid.app.Activity, param1: com.iadvize.conversation.ui.models.MessageAttachment.Image): void;
+									public static a(param0: globalAndroid.app.Activity, param1: com.iadvize.conversation.ui.models.MessageAttachment.Image): void;
+								}
+								export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.b>;
+									public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity);
+									public invokeSuspend(param0: any): any;
+									public invoke(param0: any, param1: any): any;
+									public create(param0: any, param1: any): any;
+								}
+								export module b {
+									export class a extends kotlinx.coroutines.flow.Flow<any> {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.b.a>;
+										public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+										public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+									}
+									export module a {
+										export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+											public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.b.a.a<any>>;
+											public emit(param0: any, param1: any): any;
+											public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+										}
+										export module a {
+											export class a {
+												public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.b.a.a.a>;
+												public constructor(param0: com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.b.a.a<any>, param1: any);
+												public invokeSuspend(param0: any): any;
+											}
+										}
+									}
+									export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.b.b<any>>;
+										public constructor(param0: com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity);
+										public emit(param0: any, param1: any): any;
+									}
 								}
 							}
 						}
@@ -753,7 +3755,7 @@ declare module com {
 							public static VIDEO: com.iadvize.conversation.sdk.feature.conversation.ConversationChannel;
 							public static valueOf(param0: string): com.iadvize.conversation.sdk.feature.conversation.ConversationChannel;
 							public static values(): androidNative.Array<com.iadvize.conversation.sdk.feature.conversation.ConversationChannel>;
-							public toApiChannel$sdk_clientRelease(): C.h;
+							public toApiChannel$sdk_clientRelease(): C.j;
 						}
 						export module ConversationChannel {
 							export class a {
@@ -944,7 +3946,7 @@ declare module com {
 										}
 										export module FileExtension {
 											export class a extends globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension> {
-												public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension.a>;
+												public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension.a<any>>;
 												public createFromParcel(param0: globalAndroid.os.Parcel): any;
 												public constructor();
 												public newArray(param0: number): androidNative.Array<any>;
@@ -1433,7 +4435,7 @@ declare module com {
 					export module transaction {
 						export class Transaction {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.transaction.Transaction>;
-							public static Companion: com.iadvize.conversation.sdk.feature.transaction.Transaction.a;
+							public static Companion: com.iadvize.conversation.sdk.feature.transaction.Transaction.a<any>;
 							public hashCode(): number;
 							public getId(): string;
 							public getAmount(): number;
@@ -1455,7 +4457,8 @@ declare module com {
 						}
 						export module Transaction {
 							export class a {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.transaction.Transaction.a>;
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.transaction.Transaction.a<any>>;
+								public static a(param0: string): com.iadvize.conversation.sdk.feature.transaction.Transaction;
 							}
 						}
 					}
@@ -1517,7 +4520,6 @@ declare module com {
 					export module video {
 						export class ThumbnailVideoService {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService>;
-							public static d: com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.a;
 							public constructor();
 							public onCreate(): void;
 							public onDestroy(): void;
@@ -1527,6 +4529,7 @@ declare module com {
 						export module ThumbnailVideoService {
 							export class a {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.a>;
+								public static a(param0: globalAndroid.content.Context, param1: com.iadvize.conversation.sdk.feature.video.VideoCredentials, param2: com.iadvize.conversation.sdk.feature.video.VideoSettings): void;
 							}
 							export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b>;
@@ -1536,8 +4539,27 @@ declare module com {
 								public invokeSuspend(param0: any): any;
 							}
 							export module b {
-								export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.a<any>>;
+								export class a extends kotlinx.coroutines.flow.Flow<any> {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.a>;
+									public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+									public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+								}
+								export module a {
+									export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.a.a<any>>;
+										public emit(param0: any, param1: any): any;
+										public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+									}
+									export module a {
+										export class a {
+											public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.a.a.a>;
+											public constructor(param0: com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.a.a<any>, param1: any);
+											public invokeSuspend(param0: any): any;
+										}
+									}
+								}
+								export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.b<any>>;
 									public constructor(param0: com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService);
 									public emit(param0: any, param1: any): any;
 								}
@@ -1550,8 +4572,27 @@ declare module com {
 								public invokeSuspend(param0: any): any;
 							}
 							export module c {
-								export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.a<any>>;
+								export class a extends kotlinx.coroutines.flow.Flow<any> {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.a>;
+									public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+									public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+								}
+								export module a {
+									export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.a.a<any>>;
+										public emit(param0: any, param1: any): any;
+										public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+									}
+									export module a {
+										export class a {
+											public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.a.a.a>;
+											public invokeSuspend(param0: any): any;
+											public constructor(param0: com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.a.a<any>, param1: any);
+										}
+									}
+								}
+								export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.b<any>>;
 									public constructor(param0: com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService);
 									public emit(param0: any, param1: any): any;
 								}
@@ -1572,21 +4613,24 @@ declare module com {
 					export module video {
 						export class VideoActivity {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoActivity>;
-							public static e: com.iadvize.conversation.sdk.feature.video.VideoActivity.a;
-							public constructor();
-							public static a(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: boolean, param2: boolean, param3: number): kotlinx.coroutines.Job;
-							public static a(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: androidx.constraintlayout.widget.ConstraintSet): void;
-							public static b(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: boolean): kotlinx.coroutines.Job;
-							public onCreate(param0: globalAndroid.os.Bundle): void;
-							public onDestroy(): void;
-							public static a(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: boolean): kotlinx.coroutines.Job;
+							/** @deprecated */
 							public onBackPressed(): void;
+							public constructor();
+							public static c(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: boolean): void;
+							public static a(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: androidx.constraintlayout.widget.ConstraintSet): void;
+							public static a(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: boolean): void;
+							public onCreate(param0: globalAndroid.os.Bundle): void;
+							public static d(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: boolean): void;
+							public onDestroy(): void;
+							public static c(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity): void;
+							public static a(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: boolean, param2: boolean, param3: number): void;
+							public static b(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: boolean): void;
 							public onResume(): void;
 						}
 						export module VideoActivity {
 							export class a {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoActivity.a>;
-								public a(param0: globalAndroid.content.Context, param1: com.iadvize.conversation.sdk.feature.video.VideoCredentials, param2: com.iadvize.conversation.sdk.feature.video.VideoSettings, param3: boolean): void;
+								public static a(param0: globalAndroid.content.Context, param1: com.iadvize.conversation.sdk.feature.video.VideoCredentials, param2: com.iadvize.conversation.sdk.feature.video.VideoSettings, param3: boolean): void;
 							}
 						}
 					}
@@ -1606,8 +4650,9 @@ declare module com {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoCredentials>;
 							public static CREATOR: globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.sdk.feature.video.VideoCredentials>;
 							public writeToParcel(param0: globalAndroid.os.Parcel, param1: number): void;
-							public constructor(param0: string, param1: string);
 							public describeContents(): number;
+							public constructor(param0: string, param1: string, param2: string);
+							public c(): string;
 							public b(): string;
 							public a(): string;
 						}
@@ -1634,7 +4679,6 @@ declare module com {
 					export module video {
 						export class VideoLobbyActivity {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity>;
-							public static g: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity.a;
 							public constructor();
 							public onCreate(param0: globalAndroid.os.Bundle): void;
 							public onDestroy(): void;
@@ -1642,6 +4686,7 @@ declare module com {
 						export module VideoLobbyActivity {
 							export class a {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity.a>;
+								public static a(param0: globalAndroid.content.Context, param1: string): void;
 							}
 						}
 					}
@@ -1659,7 +4704,6 @@ declare module com {
 					export module video {
 						export class VideoService {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService>;
-							public static b: com.iadvize.conversation.sdk.feature.video.VideoService.a;
 							public constructor();
 							public onCreate(): void;
 							public onDestroy(): void;
@@ -1670,6 +4714,8 @@ declare module com {
 						export module VideoService {
 							export class a {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.a>;
+								public static a(param0: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity, param1: com.iadvize.conversation.sdk.feature.video.VideoCredentials): void;
+								public static a(): boolean;
 							}
 							export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.b>;
@@ -1679,8 +4725,27 @@ declare module com {
 								public invokeSuspend(param0: any): any;
 							}
 							export module b {
-								export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.b.a<any>>;
+								export class a extends kotlinx.coroutines.flow.Flow<any> {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.b.a>;
+									public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+									public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+								}
+								export module a {
+									export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.b.a.a<any>>;
+										public emit(param0: any, param1: any): any;
+										public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+									}
+									export module a {
+										export class a {
+											public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.b.a.a.a>;
+											public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoService.b.a.a<any>, param1: any);
+											public invokeSuspend(param0: any): any;
+										}
+									}
+								}
+								export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.b.b<any>>;
 									public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoService);
 									public emit(param0: any, param1: any): any;
 								}
@@ -1693,8 +4758,27 @@ declare module com {
 								public invokeSuspend(param0: any): any;
 							}
 							export module c {
-								export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.c.a<any>>;
+								export class a extends kotlinx.coroutines.flow.Flow<any> {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.c.a>;
+									public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+									public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+								}
+								export module a {
+									export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.c.a.a<any>>;
+										public emit(param0: any, param1: any): any;
+										public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+									}
+									export module a {
+										export class a {
+											public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.c.a.a.a>;
+											public invokeSuspend(param0: any): any;
+											public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoService.c.a.a<any>, param1: any);
+										}
+									}
+								}
+								export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.VideoService.c.b<any>>;
 									public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoService);
 									public emit(param0: any, param1: any): any;
 								}
@@ -1771,11 +4855,30 @@ declare module com {
 							public invokeSuspend(param0: any): any;
 							public invoke(param0: any, param1: any): any;
 							public create(param0: any, param1: any): any;
-							public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
+							public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
 						}
 						export module b {
-							export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.b.a<any>>;
+							export class a extends kotlinx.coroutines.flow.Flow<any> {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.b.a>;
+								public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+								public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+							}
+							export module a {
+								export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.b.a.a<any>>;
+									public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+									public emit(param0: any, param1: any): any;
+								}
+								export module a {
+									export class a {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.b.a.a.a>;
+										public constructor(param0: com.iadvize.conversation.sdk.feature.video.b.a.a<any>, param1: any);
+										public invokeSuspend(param0: any): any;
+									}
+								}
+							}
+							export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.b.b<any>>;
 								public emit(param0: any, param1: any): any;
 								public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 							}
@@ -1798,11 +4901,30 @@ declare module com {
 							public invokeSuspend(param0: any): any;
 							public invoke(param0: any, param1: any): any;
 							public create(param0: any, param1: any): any;
-							public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
+							public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
 						}
 						export module c {
-							export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.c.a<any>>;
+							export class a extends kotlinx.coroutines.flow.Flow<any> {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.c.a>;
+								public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+								public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+							}
+							export module a {
+								export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.c.a.a<any>>;
+									public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+									public emit(param0: any, param1: any): any;
+								}
+								export module a {
+									export class a {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.c.a.a.a>;
+										public invokeSuspend(param0: any): any;
+										public constructor(param0: com.iadvize.conversation.sdk.feature.video.c.a.a<any>, param1: any);
+									}
+								}
+							}
+							export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.c.b<any>>;
 								public emit(param0: any, param1: any): any;
 								public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 							}
@@ -1825,11 +4947,30 @@ declare module com {
 							public invokeSuspend(param0: any): any;
 							public invoke(param0: any, param1: any): any;
 							public create(param0: any, param1: any): any;
-							public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
+							public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
 						}
 						export module d {
-							export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.d.a<any>>;
+							export class a extends kotlinx.coroutines.flow.Flow<any> {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.d.a>;
+								public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+								public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+							}
+							export module a {
+								export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+									public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.d.a.a<any>>;
+									public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+									public emit(param0: any, param1: any): any;
+								}
+								export module a {
+									export class a {
+										public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.d.a.a.a>;
+										public invokeSuspend(param0: any): any;
+										public constructor(param0: com.iadvize.conversation.sdk.feature.video.d.a.a<any>, param1: any);
+									}
+								}
+							}
+							export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+								public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.d.b<any>>;
 								public emit(param0: any, param1: any): any;
 								public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 							}
@@ -2017,12 +5158,31 @@ declare module com {
 		export module conversation {
 			export module sdk {
 				export module feature {
+					export module video {
+						export class n extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.video.n>;
+							public invokeSuspend(param0: any): any;
+							public invoke(param0: any, param1: any): any;
+							public create(param0: any, param1: any): any;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+declare module com {
+	export module iadvize {
+		export module conversation {
+			export module sdk {
+				export module feature {
 					export module visitor {
 						export class CustomData {
 							public static class: java.lang.Class<com.iadvize.conversation.sdk.feature.visitor.CustomData>;
 							public getValue$sdk_clientRelease(): any;
-							public toInput$sdk_clientRelease(): C.H0;
 							public getKey$sdk_clientRelease(): string;
+							public toInput$sdk_clientRelease(): C.L0;
 						}
 						export module CustomData {
 							export class Companion {
@@ -2077,23 +5237,23 @@ declare module com {
 					public toString(): string;
 					public constructor(param0: string);
 					public b(): string;
+					public a(): C.V;
 					public rootField(): com.apollographql.apollo3.api.CompiledField;
 					public hashCode(): number;
-					public a(): C.Q;
 					public id(): string;
 					public adapter(): com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.g.a>;
 				}
 				export module g {
 					export class a {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.g.a>;
-						public constructor(param0: com.iadvize.conversation.sdk.g.b<any>);
+						public constructor(param0: com.iadvize.conversation.sdk.g.b);
 						public hashCode(): number;
 						public equals(param0: any): boolean;
 						public toString(): string;
-						public a(): com.iadvize.conversation.sdk.g.b<any>;
+						public a(): com.iadvize.conversation.sdk.g.b;
 					}
 					export class b {
-						public static class: java.lang.Class<com.iadvize.conversation.sdk.g.b<any>>;
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.g.b>;
 						public a(): string;
 						public hashCode(): number;
 						public equals(param0: any): boolean;
@@ -2353,23 +5513,23 @@ declare module com {
 	export module iadvize {
 		export module conversation {
 			export module sdk {
-				export class n extends com.apollographql.apollo3.api.Mutation<com.iadvize.conversation.sdk.n.a> {
+				export class n extends com.apollographql.apollo3.api.Mutation<com.iadvize.conversation.sdk.n.a<any>> {
 					public static class: java.lang.Class<com.iadvize.conversation.sdk.n>;
 					public document(): string;
 					public serializeVariables(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters): void;
 					public equals(param0: any): boolean;
 					public name(): string;
-					public adapter(): com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.n.a>;
+					public adapter(): com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.n.a<any>>;
 					public toString(): string;
-					public a(): C.g0;
+					public a(): C.k0;
 					public rootField(): com.apollographql.apollo3.api.CompiledField;
-					public constructor(param0: C.g0);
 					public hashCode(): number;
 					public id(): string;
+					public constructor(param0: C.k0);
 				}
 				export module n {
 					export class a {
-						public static class: java.lang.Class<com.iadvize.conversation.sdk.n.a>;
+						public static class: java.lang.Class<com.iadvize.conversation.sdk.n.a<any>>;
 						public a(): com.iadvize.conversation.sdk.n.b;
 						public constructor(param0: com.iadvize.conversation.sdk.n.b);
 						public hashCode(): number;
@@ -2398,17 +5558,17 @@ declare module com {
 					public static class: java.lang.Class<com.iadvize.conversation.sdk.o>;
 					public name(): string;
 					public c(): string;
-					public a(): com.apollographql.apollo3.api.Optional<C.c>;
-					public constructor(param0: string, param1: C.Q, param2: com.apollographql.apollo3.api.Optional<any>);
+					public a(): com.apollographql.apollo3.api.Optional<C.d>;
+					public b(): C.V;
 					public document(): string;
 					public serializeVariables(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters): void;
 					public equals(param0: any): boolean;
 					public toString(): string;
 					public adapter(): com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.o.a>;
-					public b(): C.Q;
 					public rootField(): com.apollographql.apollo3.api.CompiledField;
 					public hashCode(): number;
 					public id(): string;
+					public constructor(param0: string, param1: com.apollographql.apollo3.api.Optional);
 				}
 				export module o {
 					export class a {
@@ -2482,21 +5642,21 @@ declare module com {
 			export module sdk {
 				export class q extends com.apollographql.apollo3.api.Mutation<com.iadvize.conversation.sdk.q.b> {
 					public static class: java.lang.Class<com.iadvize.conversation.sdk.q>;
-					public b(): java.util.List<C.H0>;
 					public name(): string;
 					public e(): string;
-					public constructor(param0: string, param1: number, param2: C.j0, param3: java.util.UUID, param4: java.util.List<C.H0>);
+					public d(): C.n0;
 					public c(): number;
 					public document(): string;
 					public serializeVariables(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters): void;
 					public equals(param0: any): boolean;
+					public constructor(param0: string, param1: number, param2: java.util.UUID, param3: java.util.ArrayList<any>);
 					public a(): java.util.UUID;
 					public toString(): string;
 					public adapter(): com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.q.b>;
+					public b(): java.util.List<C.L0>;
 					public rootField(): com.apollographql.apollo3.api.CompiledField;
 					public hashCode(): number;
 					public id(): string;
-					public d(): C.j0;
 				}
 				export module q {
 					export class a {
@@ -2584,10 +5744,10 @@ declare module com {
 					public equals(param0: any): boolean;
 					public toString(): string;
 					public c(): java.util.UUID;
+					public a(): C.j;
 					public adapter(): com.apollographql.apollo3.api.Adapter<com.iadvize.conversation.sdk.r.a>;
-					public constructor(param0: java.util.UUID, param1: java.util.UUID, param2: com.iadvize.conversation.sdk.type.Language, param3: C.h);
+					public constructor(param0: java.util.UUID, param1: java.util.UUID, param2: com.iadvize.conversation.sdk.type.Language, param3: C.j);
 					public d(): java.util.UUID;
-					public a(): C.h;
 					public rootField(): com.apollographql.apollo3.api.CompiledField;
 					public hashCode(): number;
 					public id(): string;
@@ -2664,18 +5824,18 @@ declare module com {
 					}
 					export class c {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.s.c>;
-						public constructor(param0: string, param1: z.m0);
+						public a(): z.s0;
 						public b(): string;
-						public a(): z.m0;
+						public constructor(param0: string, param1: z.s0);
 						public hashCode(): number;
 						public equals(param0: any): boolean;
 						public toString(): string;
 					}
 					export class d {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.s.d>;
-						public constructor(param0: string, param1: z.m0);
+						public a(): z.s0;
 						public b(): string;
-						public a(): z.m0;
+						public constructor(param0: string, param1: z.s0);
 						public hashCode(): number;
 						public equals(param0: any): boolean;
 						public toString(): string;
@@ -2724,9 +5884,9 @@ declare module com {
 					}
 					export class c {
 						public static class: java.lang.Class<com.iadvize.conversation.sdk.t.c>;
-						public constructor(param0: string, param1: z.m0);
+						public a(): z.s0;
 						public b(): string;
-						public a(): z.m0;
+						public constructor(param0: string, param1: z.s0);
 						public hashCode(): number;
 						public equals(param0: any): boolean;
 						public toString(): string;
@@ -3221,7 +6381,9 @@ declare module com {
 						export class MessageItemType {
 							public static class: java.lang.Class<com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType>;
 							public static TEXT: com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
-							public static PREVIEW_LINK: com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
+							public static MARKDOWN_TEXT: com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
+							public static PREVIEW_LINK_TEXT: com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
+							public static PREVIEW_LINK_MARKDOWN_TEXT: com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
 							public static LINK_SENT: com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
 							public static IMAGE: com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
 							public static FILE: com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
@@ -3240,6 +6402,9 @@ declare module com {
 							public static values(): androidNative.Array<com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType>;
 							public static valueOf(param0: string): com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.MessageItemType;
 						}
+						export class a {
+							public static class: java.lang.Class<com.iadvize.conversation.ui.adapters.MessageRecyclerViewAdapter.a>;
+						}
 					}
 				}
 			}
@@ -3257,8 +6422,8 @@ declare module com {
 						public isViewFromObject(param0: globalAndroid.view.View, param1: any): boolean;
 						public a(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.MessageKind.Card, param2: com.iadvize.conversation.ui.models.MessageAttachment.Action): void;
 						public destroyItem(param0: globalAndroid.view.ViewGroup, param1: number, param2: any): void;
+						public constructor(param0: com.iadvize.conversation.ui.models.Message, param1: java.util.List<com.iadvize.conversation.ui.models.MessageKind.Card>, param2: com.iadvize.conversation.ui.viewholders.MessageListeners, param3: G.a, param4: G.e);
 						public getCount(): number;
-						public constructor(param0: com.iadvize.conversation.ui.models.Message, param1: java.util.List<com.iadvize.conversation.ui.models.MessageKind.Card>, param2: com.iadvize.conversation.ui.viewholders.MessageListeners, param3: G.a, param4: G.c);
 						public instantiateItem(param0: globalAndroid.view.ViewGroup, param1: number): any;
 					}
 				}
@@ -3295,8 +6460,8 @@ declare module com {
 					export class c implements com.iadvize.conversation.ui.views.ProductOfferView.a {
 						public static class: java.lang.Class<com.iadvize.conversation.ui.adapters.c>;
 						public isViewFromObject(param0: globalAndroid.view.View, param1: any): boolean;
+						public constructor(param0: com.iadvize.conversation.ui.models.Message, param1: java.util.List<com.iadvize.conversation.ui.models.MessageKind.ProductOffer>, param2: com.iadvize.conversation.ui.viewholders.MessageListeners, param3: G.a, param4: G.e);
 						public destroyItem(param0: globalAndroid.view.ViewGroup, param1: number, param2: any): void;
-						public constructor(param0: com.iadvize.conversation.ui.models.Message, param1: java.util.List<com.iadvize.conversation.ui.models.MessageKind.ProductOffer>, param2: com.iadvize.conversation.ui.viewholders.MessageListeners, param3: G.a, param4: G.c);
 						public getCount(): number;
 						public a(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.MessageKind.ProductOffer, param2: com.iadvize.conversation.ui.models.MessageAttachment.Action): void;
 						public instantiateItem(param0: globalAndroid.view.ViewGroup, param1: number): any;
@@ -3420,20 +6585,20 @@ declare module com {
 						public static Companion: com.iadvize.conversation.ui.models.Message.a;
 						public isRightAlignment(): boolean;
 						public constructor(param0: string, param1: com.iadvize.conversation.ui.models.Sender, param2: java.util.Date, param3: com.iadvize.conversation.ui.models.MessageKind, param4: com.iadvize.conversation.ui.models.MessageState, param5: boolean);
-						public getForceToBeAloneOnItsGroup(): boolean;
 						public getMessageState(): com.iadvize.conversation.ui.models.MessageState;
 						public equals(param0: any): boolean;
 						public hashCode(): number;
 						public isLastMessageOfGroup(param0: com.iadvize.conversation.ui.models.Message): boolean;
 						public isLeftAlignment(): boolean;
 						public isAloneOnGroup(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message): boolean;
-						public setForceToBeAloneOnItsGroup(param0: boolean): void;
 						public isSameDays(param0: com.iadvize.conversation.ui.models.Message): boolean;
-						public getVerticalPosition(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message): G.c;
+						public getVerticalPosition(param0: com.iadvize.conversation.ui.models.Message, param1: com.iadvize.conversation.ui.models.Message): G.e;
 						public getSender(): com.iadvize.conversation.ui.models.Sender;
 						public getMessageKind(): com.iadvize.conversation.ui.models.MessageKind;
+						public getForceAloneInGroup(): boolean;
 						public getId(): string;
 						public getSentDate(): java.util.Date;
+						public setForceAloneInGroup(param0: boolean): void;
 						public isFirstMessageOfGroup(param0: com.iadvize.conversation.ui.models.Message): boolean;
 					}
 					export module Message {
@@ -3488,9 +6653,10 @@ declare module com {
 							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.CardBundle>;
 							public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.CardBundle.a;
 							public static TYPE_NAME: string;
-							public constructor(param0: java.util.List<com.iadvize.conversation.ui.models.MessageAttachment.Card>, param1: com.iadvize.conversation.ui.models.MessageAttachment.ActionType);
+							public getTitle(): string;
 							public getCards(): java.util.List<com.iadvize.conversation.ui.models.MessageAttachment.Card>;
 							public getActionType(): com.iadvize.conversation.ui.models.MessageAttachment.ActionType;
+							public constructor(param0: string, param1: java.util.List<com.iadvize.conversation.ui.models.MessageAttachment.Card>, param2: com.iadvize.conversation.ui.models.MessageAttachment.ActionType);
 						}
 						export module CardBundle {
 							export class a {
@@ -3518,45 +6684,59 @@ declare module com {
 							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Companion>;
 							public parseFromXMPP(param0: string): com.iadvize.conversation.ui.models.MessageAttachment;
 						}
-						export class EscalationAccept extends com.iadvize.conversation.ui.models.MessageAttachment.EscalationAttachment {
-							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.EscalationAccept>;
-							public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.EscalationAccept.a;
-							public static TYPE_NAME: string;
-							public constructor(param0: string, param1: string);
-						}
-						export module EscalationAccept {
-							export class a {
-								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.EscalationAccept.a>;
-							}
-						}
-						export abstract class EscalationAttachment extends com.iadvize.conversation.ui.models.MessageAttachment {
-							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.EscalationAttachment>;
-							public constructor(param0: string, param1: string);
-							public getType(): string;
+						export abstract class Escalation extends com.iadvize.conversation.ui.models.MessageAttachment {
+							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation>;
+							public getType(): com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType;
 							public getCorrelationId(): string;
 						}
-						export class EscalationEnded extends com.iadvize.conversation.ui.models.MessageAttachment.EscalationAttachment {
-							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.EscalationEnded>;
-							public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.EscalationEnded.a;
-							public static TYPE_NAME: string;
-							public constructor(param0: string, param1: string);
-							public constructor(param0: string, param1: string, param2: string);
-							public getReason(): string;
-						}
-						export module EscalationEnded {
-							export class a {
-								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.EscalationEnded.a>;
+						export module Escalation {
+							export class Accept extends com.iadvize.conversation.ui.models.MessageAttachment.Escalation {
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Accept>;
+								public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Accept.a;
+								public static TYPE_NAME: string;
+								public constructor(param0: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType, param1: string);
 							}
-						}
-						export class EscalationInvitation extends com.iadvize.conversation.ui.models.MessageAttachment.EscalationAttachment {
-							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.EscalationInvitation>;
-							public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.EscalationInvitation.a;
-							public static TYPE_NAME: string;
-							public constructor(param0: string, param1: string);
-						}
-						export module EscalationInvitation {
-							export class a {
-								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.EscalationInvitation.a>;
+							export module Accept {
+								export class a {
+									public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Accept.a>;
+								}
+							}
+							export class Ended extends com.iadvize.conversation.ui.models.MessageAttachment.Escalation {
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Ended>;
+								public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Ended.a;
+								public static TYPE_NAME: string;
+								public constructor(param0: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType, param1: string, param2: string);
+								public getReason(): string;
+							}
+							export module Ended {
+								export class a {
+									public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Ended.a>;
+								}
+							}
+							export class EscalationType {
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType>;
+								public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType.a;
+								public static VOICE: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType;
+								public static VIDEO: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType;
+								public static valueOf(param0: string): com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType;
+								public static values(): androidNative.Array<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType>;
+							}
+							export module EscalationType {
+								export class a {
+									public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType.a>;
+									public static a(param0: string): com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType;
+								}
+							}
+							export class Invitation extends com.iadvize.conversation.ui.models.MessageAttachment.Escalation {
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Invitation>;
+								public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Invitation.a<any>;
+								public static TYPE_NAME: string;
+								public constructor(param0: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType, param1: string);
+							}
+							export module Invitation {
+								export class a {
+									public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Escalation.Invitation.a<any>>;
+								}
 							}
 						}
 						export class File extends com.iadvize.conversation.ui.models.MessageAttachment {
@@ -3633,7 +6813,7 @@ declare module com {
 						}
 						export module LinkAction {
 							export class a extends globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.ui.models.MessageAttachment.LinkAction> {
-								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.LinkAction.a>;
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.LinkAction.a<any>>;
 								public createFromParcel(param0: globalAndroid.os.Parcel): any;
 								public constructor();
 								public newArray(param0: number): androidNative.Array<any>;
@@ -3743,7 +6923,7 @@ declare module com {
 						}
 						export module SelectAction {
 							export class a extends globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.ui.models.MessageAttachment.SelectAction> {
-								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.SelectAction.a>;
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.SelectAction.a<any>>;
 								public createFromParcel(param0: globalAndroid.os.Parcel): any;
 								public constructor();
 								public newArray(param0: number): androidNative.Array<any>;
@@ -3752,6 +6932,34 @@ declare module com {
 						export class Unsupported extends com.iadvize.conversation.ui.models.MessageAttachment {
 							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Unsupported>;
 							public constructor();
+						}
+						export abstract class Video extends com.iadvize.conversation.ui.models.MessageAttachment {
+							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Video>;
+							public getCorrelationId(): string;
+						}
+						export module Video {
+							export class HungUp extends com.iadvize.conversation.ui.models.MessageAttachment.Video {
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Video.HungUp>;
+								public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.Video.HungUp.a;
+								public static TYPE_NAME: string;
+								public constructor(param0: string);
+							}
+							export module HungUp {
+								export class a {
+									public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Video.HungUp.a>;
+								}
+							}
+							export class PickedUp extends com.iadvize.conversation.ui.models.MessageAttachment.Video {
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Video.PickedUp>;
+								public static Companion: com.iadvize.conversation.ui.models.MessageAttachment.Video.PickedUp.a;
+								public static TYPE_NAME: string;
+								public constructor(param0: string);
+							}
+							export module PickedUp {
+								export class a {
+									public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageAttachment.Video.PickedUp.a>;
+								}
+							}
 						}
 					}
 				}
@@ -3791,9 +6999,10 @@ declare module com {
 						export class CardBundle extends com.iadvize.conversation.ui.models.MessageKind {
 							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageKind.CardBundle>;
 							public static CREATOR: globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.ui.models.MessageKind.CardBundle>;
+							public constructor(param0: string, param1: java.util.List<com.iadvize.conversation.ui.models.MessageKind.Card>, param2: com.iadvize.conversation.ui.models.MessageAttachment.ActionType);
 							public writeToParcel(param0: globalAndroid.os.Parcel, param1: number): void;
 							public describeContents(): number;
-							public constructor(param0: java.util.List<com.iadvize.conversation.ui.models.MessageKind.Card>, param1: com.iadvize.conversation.ui.models.MessageAttachment.ActionType);
+							public getTitle(): string;
 							public getCards(): java.util.List<com.iadvize.conversation.ui.models.MessageKind.Card>;
 							public getActionType(): com.iadvize.conversation.ui.models.MessageAttachment.ActionType;
 						}
@@ -3864,7 +7073,23 @@ declare module com {
 						}
 						export module LoadPastConversation {
 							export class a extends globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.ui.models.MessageKind.LoadPastConversation> {
-								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageKind.LoadPastConversation.a>;
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageKind.LoadPastConversation.a<any>>;
+								public createFromParcel(param0: globalAndroid.os.Parcel): any;
+								public constructor();
+								public newArray(param0: number): androidNative.Array<any>;
+							}
+						}
+						export class MarkdownText extends com.iadvize.conversation.ui.models.MessageKind {
+							public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageKind.MarkdownText>;
+							public static CREATOR: globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.ui.models.MessageKind.MarkdownText>;
+							public getContent(): string;
+							public writeToParcel(param0: globalAndroid.os.Parcel, param1: number): void;
+							public constructor(param0: string);
+							public describeContents(): number;
+						}
+						export module MarkdownText {
+							export class a extends globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.ui.models.MessageKind.MarkdownText> {
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageKind.MarkdownText.a>;
 								public createFromParcel(param0: globalAndroid.os.Parcel): any;
 								public constructor();
 								public newArray(param0: number): androidNative.Array<any>;
@@ -4035,7 +7260,7 @@ declare module com {
 						}
 						export module VideoEscalation {
 							export class a extends globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.ui.models.MessageKind.VideoEscalation> {
-								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageKind.VideoEscalation.a>;
+								public static class: java.lang.Class<com.iadvize.conversation.ui.models.MessageKind.VideoEscalation.a<any>>;
 								public createFromParcel(param0: globalAndroid.os.Parcel): any;
 								public constructor();
 								public newArray(param0: number): androidNative.Array<any>;
@@ -4196,16 +7421,17 @@ declare module com {
 					export abstract class SenderAvatar {
 						public static class: java.lang.Class<com.iadvize.conversation.ui.models.SenderAvatar>;
 						public isPresent(): java.lang.Boolean;
+						public getChannelIcon(): globalAndroid.graphics.drawable.Drawable;
 					}
 					export module SenderAvatar {
 						export class Image extends com.iadvize.conversation.ui.models.SenderAvatar {
 							public static class: java.lang.Class<com.iadvize.conversation.ui.models.SenderAvatar.Image>;
 							public getValue(): globalAndroid.graphics.drawable.Drawable;
-							public constructor(param0: globalAndroid.graphics.drawable.Drawable, param1: java.lang.Boolean);
+							public constructor(param0: globalAndroid.graphics.drawable.Drawable, param1: java.lang.Boolean, param2: globalAndroid.graphics.drawable.Drawable);
 						}
 						export class Url extends com.iadvize.conversation.ui.models.SenderAvatar {
 							public static class: java.lang.Class<com.iadvize.conversation.ui.models.SenderAvatar.Url>;
-							public constructor(param0: java.net.URL, param1: java.lang.Boolean);
+							public constructor(param0: java.net.URL, param1: java.lang.Boolean, param2: globalAndroid.graphics.drawable.Drawable);
 							public getValue(): java.net.URL;
 						}
 					}
@@ -4241,7 +7467,7 @@ declare module com {
 					}
 					export module Translation {
 						export class a extends globalAndroid.os.Parcelable.Creator<com.iadvize.conversation.ui.models.Translation> {
-							public static class: java.lang.Class<com.iadvize.conversation.ui.models.Translation.a>;
+							public static class: java.lang.Class<com.iadvize.conversation.ui.models.Translation.a<any>>;
 							public constructor();
 							public createFromParcel(param0: globalAndroid.os.Parcel): any;
 							public newArray(param0: number): androidNative.Array<any>;
@@ -4438,10 +7664,10 @@ declare module com {
 					export class GenericCardView {
 						public static class: java.lang.Class<com.iadvize.conversation.ui.views.GenericCardView>;
 						public constructor(param0: globalAndroid.content.Context);
+						public a(param0: G.a, param1: G.e, param2: G.e): void;
 						public constructor(param0: globalAndroid.content.Context, param1: globalAndroid.util.AttributeSet, param2: number);
 						public constructor(param0: globalAndroid.content.Context, param1: globalAndroid.util.AttributeSet);
 						public a(param0: com.iadvize.conversation.ui.models.MessageKind.Card): void;
-						public a(param0: G.a, param1: G.c, param2: G.c): void;
 						public a(param0: com.iadvize.conversation.ui.views.GenericCardView.a): void;
 					}
 					export module GenericCardView {
@@ -4474,11 +7700,11 @@ declare module com {
 					export class ProductOfferView {
 						public static class: java.lang.Class<com.iadvize.conversation.ui.views.ProductOfferView>;
 						public constructor(param0: globalAndroid.content.Context);
+						public a(param0: G.a, param1: G.e, param2: G.e): void;
 						public constructor(param0: globalAndroid.content.Context, param1: globalAndroid.util.AttributeSet, param2: number);
 						public constructor(param0: globalAndroid.content.Context, param1: globalAndroid.util.AttributeSet);
 						public a(param0: com.iadvize.conversation.ui.views.ProductOfferView.a): void;
 						public a(param0: com.iadvize.conversation.ui.models.MessageKind.ProductOffer): void;
-						public a(param0: G.a, param1: G.c, param2: G.c): void;
 					}
 					export module ProductOfferView {
 						export class a {
@@ -4509,8 +7735,8 @@ declare module com {
 				export module views {
 					export class TypewriterView {
 						public static class: java.lang.Class<com.iadvize.conversation.ui.views.TypewriterView>;
+						public a(param0: string): void;
 						public a(): void;
-						public a(param0: string): com.iadvize.conversation.ui.views.TypewriterView;
 						public constructor(param0: globalAndroid.content.Context, param1: globalAndroid.util.AttributeSet);
 					}
 					export module TypewriterView {
@@ -4524,8 +7750,8 @@ declare module com {
 						}
 						export class b extends com.iadvize.conversation.ui.views.TypewriterView.a {
 							public static class: java.lang.Class<com.iadvize.conversation.ui.views.TypewriterView.b>;
+							public constructor(param0: com.iadvize.conversation.ui.views.TypewriterView, param1: string, param2: java.lang.Runnable);
 							public constructor(param0: java.lang.Runnable);
-							public constructor(param0: string, param1: number, param2: java.lang.Runnable);
 							public run(): void;
 						}
 					}
@@ -4589,10 +7815,10 @@ declare module com {
 							public a(param0: com.iadvize.conversation.ui.models.PreviewLinkResult): void;
 							public a(param0: number): void;
 							public onDetachedFromWindow(): void;
-							public static a(param0: com.iadvize.conversation.ui.views.previewlink.PreviewLinkView, param1: G.a, param2: G.c): void;
 							public a(param0: string, param1: string): void;
 							public constructor(param0: globalAndroid.content.Context, param1: globalAndroid.util.AttributeSet);
 							public constructor(param0: globalAndroid.content.Context, param1: globalAndroid.util.AttributeSet, param2: number);
+							public static a(param0: com.iadvize.conversation.ui.views.previewlink.PreviewLinkView, param1: G.a, param2: G.e): void;
 							public constructor(param0: globalAndroid.content.Context);
 						}
 					}
@@ -4605,8 +7831,15 @@ declare module com {
 declare module d {
 	export class a {
 		public static class: java.lang.Class<d.a>;
+		public static a(param0: string): any;
+	}
+}
+
+declare module d {
+	export class b {
+		public static class: java.lang.Class<d.b>;
 		/**
-		 * Constructs a new instance of the d.a interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+		 * Constructs a new instance of the d.b interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
 		 */
 		public constructor(implementation: {
 			a(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration): void;
@@ -4617,60 +7850,31 @@ declare module d {
 }
 
 declare module d {
-	export class b extends com.iadvize.conversation.sdk.feature.chatbox.ChatboxController {
-		public static class: java.lang.Class<d.b>;
+	export class c extends com.iadvize.conversation.sdk.feature.chatbox.ChatboxController {
+		public static class: java.lang.Class<d.c>;
 		public constructor();
-		public a(): com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration;
-		public setListeners(param0: java.util.List<com.iadvize.conversation.sdk.feature.chatbox.ChatboxListener>): void;
 		public getListeners(): java.util.List<com.iadvize.conversation.sdk.feature.chatbox.ChatboxListener>;
+		public c(): f.g;
+		public dismissChatbox(): void;
+		public a(param0: f.g): void;
+		public setupChatbox(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration): void;
+		public a(): com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration;
+		public b(): java.util.ArrayList<any>;
+		public setListeners(param0: java.util.List<com.iadvize.conversation.sdk.feature.chatbox.ChatboxListener>): void;
 		public isChatboxPresented(): boolean;
-		public b(): java.util.List<d.a>;
+		public a(param0: u.a): void;
+		public e(): u.a;
+		public d(): m.c;
+		public a(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration): void;
 		public presentChatbox(param0: globalAndroid.content.Context): void;
 		public a(param0: m.c): void;
-		public setupChatbox(param0: com.iadvize.conversation.sdk.feature.chatbox.ChatboxConfiguration): void;
-	}
-}
-
-declare module d {
-	export class c implements d.d, com.iadvize.conversation.ui.viewholders.MessageListeners, com.iadvize.conversation.ui.views.ComposeView.SendButtonClickListener, com.iadvize.conversation.ui.views.ComposeView.TextChangedListener, com.iadvize.conversation.ui.views.ComposeView.TextFocusChangedListener, com.iadvize.conversation.ui.views.ComposeView.ImageButtonClickListener, com.iadvize.conversation.ui.views.ComposeView.FileButtonClickListener {
-		public static class: java.lang.Class<d.c>;
-		public onDetach(): void;
-		public onMessageAvatarClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message): void;
-		public a(param0: f.x): void;
-		public c(param0: java.lang.Throwable): void;
-		public onTextChanged(param0: string): void;
-		public d(param0: f.x): void;
-		public onMessageClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message): void;
-		public onImageButtonClicked(): void;
-		public onStop(): void;
-		public onDestroyView(): void;
-		public a(param0: boolean): void;
-		public a(param0: java.lang.Throwable): void;
-		public onVideoEscalationClicked(param0: com.iadvize.conversation.ui.models.Message, param1: string, param2: boolean): void;
-		public onCreateView(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup, param2: globalAndroid.os.Bundle): globalAndroid.view.View;
-		public onMessageLongClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message): void;
-		public onMessagePreviewLinkClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message, param2: string): void;
-		public onViewCreated(param0: globalAndroid.view.View, param1: globalAndroid.os.Bundle): void;
-		public constructor();
-		public b(param0: f.x): void;
-		public onProductOfferActionClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.MessageKind.ProductOffer, param3: com.iadvize.conversation.ui.models.MessageAttachment.Action): void;
-		public onMessageQuickReplyChoiceClicked(param0: com.iadvize.conversation.ui.models.Message, param1: string): void;
-		public onMessageLinkClicked(param0: com.iadvize.conversation.ui.models.Message, param1: globalAndroid.net.Uri): void;
-		public a(param0: boolean, param1: boolean): void;
-		public a(): void;
-		public a(param0: e.h): void;
-		public b(param0: java.lang.Throwable): void;
-		public onTextFocusChanged(param0: boolean): void;
-		public onCardActionClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.MessageKind.Card, param3: com.iadvize.conversation.ui.models.MessageAttachment.Action): void;
-		public c(param0: f.x): void;
-		public onLoadPastConversationClicked(param0: com.iadvize.conversation.ui.models.Message): void;
-		public onSendButtonClicked(param0: string): void;
-		public onAttach(param0: globalAndroid.content.Context): void;
-		public onFileButtonClicked(): void;
 	}
 	export module c {
-		export class a {
+		export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<d.c.a>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
 		}
 		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<d.c.b>;
@@ -4684,23 +7888,80 @@ declare module d {
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
+	}
+}
+
+declare module d {
+	export class d implements d.e, com.iadvize.conversation.ui.viewholders.MessageListeners, com.iadvize.conversation.ui.views.ComposeView.SendButtonClickListener, com.iadvize.conversation.ui.views.ComposeView.TextChangedListener, com.iadvize.conversation.ui.views.ComposeView.TextFocusChangedListener, com.iadvize.conversation.ui.views.ComposeView.ImageButtonClickListener, com.iadvize.conversation.ui.views.ComposeView.FileButtonClickListener {
+		public static class: java.lang.Class<d.d>;
+		public a(param0: com.iadvize.conversation.sdk.IAdvizeSDK.c): void;
+		public onDetach(): void;
+		public c(param0: f.B): void;
+		public onMessageAvatarClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message): void;
+		public onTextChanged(param0: string): void;
+		public onMessageClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message): void;
+		public a(param0: f.B): void;
+		public onImageButtonClicked(): void;
+		public onStop(): void;
+		public onDestroyView(): void;
+		public a(param0: boolean): void;
+		public a(param0: java.lang.Throwable): void;
+		public a(param0: string): void;
+		public onVideoEscalationClicked(param0: com.iadvize.conversation.ui.models.Message, param1: string, param2: boolean): void;
+		public onCreateView(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup, param2: globalAndroid.os.Bundle): globalAndroid.view.View;
+		public onMessageLongClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message): void;
+		public onMessagePreviewLinkClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message, param2: string): void;
+		public onViewCreated(param0: globalAndroid.view.View, param1: globalAndroid.os.Bundle): void;
+		public constructor();
+		public onProductOfferActionClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.MessageKind.ProductOffer, param3: com.iadvize.conversation.ui.models.MessageAttachment.Action): void;
+		public onMessageQuickReplyChoiceClicked(param0: com.iadvize.conversation.ui.models.Message, param1: string): void;
+		public onMessageLinkClicked(param0: com.iadvize.conversation.ui.models.Message, param1: globalAndroid.net.Uri): void;
+		public a(param0: boolean, param1: boolean): void;
+		public d(param0: f.B): void;
+		public a(): void;
+		public a(param0: e.h): void;
+		public b(param0: java.lang.Throwable): void;
+		public onTextFocusChanged(param0: boolean): void;
+		public onCardActionClicked(param0: globalAndroid.view.View, param1: com.iadvize.conversation.ui.models.Message, param2: com.iadvize.conversation.ui.models.MessageKind.Card, param3: com.iadvize.conversation.ui.models.MessageAttachment.Action): void;
+		public onLoadPastConversationClicked(param0: com.iadvize.conversation.ui.models.Message): void;
+		public onSendButtonClicked(param0: string): void;
+		public onAttach(param0: globalAndroid.content.Context): void;
+		public b(param0: f.B): void;
+		public onFileButtonClicked(): void;
+	}
+	export module d {
+		export class a {
+			public static class: java.lang.Class<d.d.a>;
+		}
+		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<d.d.b>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+		export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<d.d.c>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
 		export module c {
 			export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-				public static class: java.lang.Class<d.c.c.a>;
+				public static class: java.lang.Class<d.d.c.a>;
 				public create(param0: any, param1: any): any;
 				public invoke(param0: any, param1: any): any;
 				public invokeSuspend(param0: any): any;
 			}
 		}
 		export class d extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<d.c.d>;
+			public static class: java.lang.Class<d.d.d>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
 		export module d {
 			export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-				public static class: java.lang.Class<d.c.d.a>;
+				public static class: java.lang.Class<d.d.d.a>;
 				public create(param0: any, param1: any): any;
 				public invoke(param0: any, param1: any): any;
 				public invokeSuspend(param0: any): any;
@@ -4710,38 +7971,40 @@ declare module d {
 }
 
 declare module d {
-	export class d {
-		public static class: java.lang.Class<d.d>;
+	export class e {
+		public static class: java.lang.Class<d.e>;
 		/**
-		 * Constructs a new instance of the d.d interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+		 * Constructs a new instance of the d.e interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
 		 */
 		public constructor(implementation: {
 			a(param0: boolean, param1: boolean): void;
-			c(param0: java.lang.Throwable): void;
 			b(param0: java.lang.Throwable): void;
 			a(param0: java.lang.Throwable): void;
-			c(param0: f.x): void;
-			a(param0: f.x): void;
-			b(param0: f.x): void;
-			d(param0: f.x): void;
+			a(param0: com.iadvize.conversation.sdk.IAdvizeSDK.c): void;
+			a(param0: string): void;
+			b(param0: f.B): void;
+			a(param0: f.B): void;
+			d(param0: f.B): void;
+			c(param0: f.B): void;
 			a(param0: boolean): void;
 			a(): void;
 		});
 		public constructor();
-		public b(param0: f.x): void;
-		public d(param0: f.x): void;
+		public a(param0: com.iadvize.conversation.sdk.IAdvizeSDK.c): void;
+		public a(param0: f.B): void;
+		public c(param0: f.B): void;
 		public b(param0: java.lang.Throwable): void;
-		public c(param0: f.x): void;
-		public a(param0: f.x): void;
 		public a(param0: boolean): void;
 		public a(param0: boolean, param1: boolean): void;
 		public a(param0: java.lang.Throwable): void;
-		public c(param0: java.lang.Throwable): void;
+		public a(param0: string): void;
+		public d(param0: f.B): void;
 		public a(): void;
+		public b(param0: f.B): void;
 	}
-	export module d {
+	export module e {
 		export class a {
-			public static class: java.lang.Class<d.d.a>;
+			public static class: java.lang.Class<d.e.a>;
 		}
 	}
 }
@@ -4808,7 +8071,6 @@ declare module e {
 declare module e {
 	export class f {
 		public static class: java.lang.Class<e.f>;
-		public static c: e.f.a;
 		public constructor();
 		public onCreateView(param0: globalAndroid.view.LayoutInflater, param1: globalAndroid.view.ViewGroup, param2: globalAndroid.os.Bundle): globalAndroid.view.View;
 		public onViewCreated(param0: globalAndroid.view.View, param1: globalAndroid.os.Bundle): void;
@@ -4816,6 +8078,7 @@ declare module e {
 	export module f {
 		export class a {
 			public static class: java.lang.Class<e.f.a>;
+			public static a(param0: com.iadvize.conversation.ui.models.MessageAttachment.Image): e.f;
 		}
 	}
 }
@@ -4842,47 +8105,99 @@ declare module e {
 }
 
 declare module f {
-	export class A extends f.x {
+	export class A {
 		public static class: java.lang.Class<f.A>;
+		public a(): string;
+		public constructor(param0: string, param1: boolean);
+		public b(): boolean;
+	}
+}
+
+declare module f {
+	export abstract class B {
+		public static class: java.lang.Class<f.B>;
+		public a(): boolean;
+		public b(): string;
+		public a(param0: com.iadvize.conversation.ui.models.Sender): void;
+		public a(param0: com.iadvize.conversation.ui.models.MessageKind): void;
+		public c(): com.iadvize.conversation.ui.models.MessageKind;
+		public a(param0: com.iadvize.conversation.ui.models.MessageState): void;
+		public f(): java.util.Date;
+		public d(): com.iadvize.conversation.ui.models.MessageState;
+		public e(): com.iadvize.conversation.ui.models.Sender;
+		public a(param0: string): void;
+		public a(param0: java.util.Date): void;
+	}
+	export module B {
+		export class a extends f.B {
+			public static class: java.lang.Class<f.B.a>;
+			public constructor(param0: string, param1: com.iadvize.conversation.ui.models.Sender, param2: java.util.Date, param3: com.iadvize.conversation.ui.models.MessageKind);
+		}
+		export class b extends f.B {
+			public static class: java.lang.Class<f.B.b>;
+			public constructor(param0: string, param1: com.iadvize.conversation.ui.models.Sender, param2: java.util.Date, param3: com.iadvize.conversation.ui.models.MessageKind);
+		}
+	}
+}
+
+declare module f {
+	export class C extends f.B {
+		public static class: java.lang.Class<f.C>;
 		public constructor(param0: string, param1: java.util.Date);
 	}
 }
 
 declare module f {
-	export class B extends f.x {
-		public static class: java.lang.Class<f.B>;
-		public constructor(param0: string, param1: androidNative.Array<string>);
-	}
-}
-
-declare module f {
-	export class C extends f.x {
-		public static class: java.lang.Class<f.C>;
-		public g(): androidNative.Array<string>;
-		public h(): string;
-		public constructor(param0: string, param1: androidNative.Array<string>);
-	}
-}
-
-declare module f {
-	export class D extends f.x {
+	export class D extends f.B {
 		public static class: java.lang.Class<f.D>;
 		public g(): string;
-		public constructor(param0: string);
+		public constructor(param0: string, param1: string);
 	}
 }
 
 declare module f {
-	export class E extends f.x {
+	export class E extends f.B {
 		public static class: java.lang.Class<f.E>;
 		public g(): string;
-		public constructor(param0: string);
+		public constructor(param0: string, param1: string);
 	}
 }
 
 declare module f {
-	export class F extends f.x {
+	export class F extends f.B {
 		public static class: java.lang.Class<f.F>;
+		public constructor(param0: string, param1: string, param2: androidNative.Array<string>);
+		public g(): androidNative.Array<string>;
+		public h(): string;
+		public i(): string;
+	}
+}
+
+declare module f {
+	export class G extends f.B {
+		public static class: java.lang.Class<f.G>;
+		public g(): string;
+		public constructor(param0: string, param1: string);
+	}
+}
+
+declare module f {
+	export class H extends f.B {
+		public static class: java.lang.Class<f.H>;
+		public constructor(param0: string, param1: java.util.Date);
+	}
+}
+
+declare module f {
+	export class I extends f.B {
+		public static class: java.lang.Class<f.I>;
+		public constructor(param0: string, param1: java.util.Date);
+	}
+}
+
+declare module f {
+	export class J extends f.B {
+		public static class: java.lang.Class<f.J>;
 		public g(): androidNative.Array<string>;
 		public h(): string;
 		public constructor(param0: string, param1: androidNative.Array<string>);
@@ -4890,39 +8205,70 @@ declare module f {
 }
 
 declare module f {
-	export class G extends f.x {
-		public static class: java.lang.Class<f.G>;
-		public g(): string;
+	export class K extends f.B {
+		public static class: java.lang.Class<f.K>;
+		public g(): androidNative.Array<string>;
+		public h(): string;
+		public constructor(param0: string, param1: androidNative.Array<string>);
+	}
+}
+
+declare module f {
+	export class L extends f.B {
+		public static class: java.lang.Class<f.L>;
 		public constructor(param0: string);
 	}
 }
 
 declare module f {
-	export class H extends f.x {
-		public static class: java.lang.Class<f.H>;
+	export class M extends f.B {
+		public static class: java.lang.Class<f.M>;
+		public constructor(param0: string);
+	}
+}
+
+declare module f {
+	export class N extends f.B {
+		public static class: java.lang.Class<f.N>;
+		public g(): androidNative.Array<string>;
+		public h(): string;
+		public constructor(param0: string, param1: androidNative.Array<string>);
+	}
+}
+
+declare module f {
+	export class O extends f.B {
+		public static class: java.lang.Class<f.O>;
+		public constructor(param0: string);
+	}
+}
+
+declare module f {
+	export class P extends f.B {
+		public static class: java.lang.Class<f.P>;
 		public constructor();
 	}
 }
 
 declare module f {
-	export class I extends f.x {
-		public static class: java.lang.Class<f.I>;
+	export class Q extends f.B {
+		public static class: java.lang.Class<f.Q>;
 		public constructor(param0: com.iadvize.conversation.ui.models.MessageAttachment);
 	}
 }
 
 declare module f {
-	export class J extends f.x {
-		public static class: java.lang.Class<f.J>;
+	export class S extends f.B {
+		public static class: java.lang.Class<f.S>;
 		public constructor(param0: string, param1: com.iadvize.conversation.ui.models.MessageState, param2: java.util.Date);
 	}
 }
 
 declare module f {
-	export class K extends f.x {
-		public static class: java.lang.Class<f.K>;
+	export class T extends f.B {
+		public static class: java.lang.Class<f.T>;
+		public constructor(param0: f.B, param1: androidNative.Array<number>);
 		public g(): androidNative.Array<number>;
-		public constructor(param0: f.x, param1: androidNative.Array<number>);
 	}
 }
 
@@ -4930,16 +8276,16 @@ declare module f {
 	export class a {
 		public static class: java.lang.Class<f.a>;
 		public constructor();
+		public a(param0: string): f.B;
 		public a(param0: java.lang.Class<any>): boolean;
-		public d(param0: java.lang.Class<any>): void;
-		public c(): f.x;
+		public a(param0: f.B): void;
+		public e(): void;
+		public b(): java.util.List<f.B>;
 		public static a(param0: f.a, param1: java.util.List<any>): void;
 		public a(param0: java.util.List<any>): void;
-		public a(param0: f.x): void;
-		public a(param0: string): f.x;
-		public b(): java.util.List<f.x>;
+		public c(): f.B;
+		public d(): void;
 		public a(): void;
-		public e(param0: java.lang.Class<any>): void;
 	}
 	export module a {
 		export class a<T>  extends java.util.Comparator<any> {
@@ -4972,7 +8318,7 @@ declare module f {
 }
 
 declare module f {
-	export class d extends java.lang.Object implements any<f.x,java.lang.Boolean>  {
+	export class d extends java.lang.Object implements any<f.B,java.lang.Boolean>  {
 		public static class: java.lang.Class<f.d>;
 		public invoke(param0: any): any;
 	}
@@ -4987,128 +8333,187 @@ declare module f {
 }
 
 declare module f {
-	export class f extends java.lang.Object implements any<f.x,java.lang.Boolean>  {
+	export class f extends java.lang.Object implements any<f.B,java.lang.Boolean>  {
 		public static class: java.lang.Class<f.f>;
 		public invoke(param0: any): any;
 	}
 }
 
 declare module f {
-	export class g implements com.iadvize.conversation.sdk.feature.conversation.ConversationController, g.e.a, i.a.a {
+	export class g implements com.iadvize.conversation.sdk.feature.conversation.ConversationController, g.c.a, i.a.a {
 		public static class: java.lang.Class<f.g>;
-		public static b(param0: f.g, param1: f.x): void;
 		public ongoingConversation(): com.iadvize.conversation.sdk.feature.conversation.OngoingConversation;
-		public c(param0: string): void;
-		public m(): boolean;
-		public v(): any;
+		public a(param0: com.iadvize.conversation.sdk.IAdvizeSDK.b): void;
+		public static a(param0: f.g, param1: f.T): void;
+		public n(): com.iadvize.conversation.sdk.feature.conversation.OngoingConversation;
+		public b(param0: string, param1: boolean): void;
+		public a(param0: d.c): void;
+		public static a(param0: f.g, param1: string, param2: string): void;
+		public k(): f.a;
 		public h(): void;
-		public t(): void;
+		public a(param0: f.B): void;
 		public a(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
 		public a(param0: java.lang.Throwable): void;
 		public getListeners(): java.util.List<com.iadvize.conversation.sdk.feature.conversation.ConversationListener>;
-		public constructor(param0: n.a, param1: t.b, param2: com.iadvize.conversation.sdk.h);
+		public o(): f.A;
 		public a(param0: boolean, param1: boolean, param2: any): any;
 		public b(param0: string): void;
+		public a(param0: string, param1: boolean): void;
 		public d(): void;
 		public a(param0: com.iadvize.conversation.sdk.feature.gdpr.GDPROption): void;
+		public p(): void;
 		public e(): void;
-		public a(param0: org.jivesoftware.smack.XMPPConnection): void;
 		public a(param0: u.a): void;
-		public r(): com.iadvize.conversation.sdk.feature.conversation.OngoingConversation;
-		public s(): f.w;
+		public constructor(param0: n.b, param1: t.b, param2: com.iadvize.conversation.sdk.h);
+		public f(param0: string): void;
 		public b(param0: any): any;
-		public static i(param0: f.g): void;
 		public a(param0: com.iadvize.conversation.ui.models.Message): void;
 		public c(): void;
-		public a(param0: f.x): void;
-		public l(): f.a;
+		public i(): void;
 		public a(param0: com.iadvize.conversation.sdk.h): void;
 		public c(param0: java.lang.Throwable): void;
-		public g(): kotlinx.coroutines.Job;
+		public c(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
 		public static c(param0: f.g): boolean;
 		public a(param0: org.jivesoftware.smackx.chatstates.ChatState): void;
-		public p(): com.iadvize.conversation.sdk.feature.gdpr.GDPROption;
-		public d(param0: java.lang.Throwable): void;
+		public a(param0: string): void;
+		public e(param0: string): void;
 		public static a(param0: f.g, param1: java.util.List<any>, param2: any): any;
-		public o(): m.c;
 		public a(param0: m.c): void;
 		public d(param0: string): void;
-		public k(): java.util.List<d.d>;
-		public a(param0: boolean, param1: string): void;
-		public j(): kotlinx.coroutines.Job;
+		public g(): void;
 		public a(): void;
+		public l(): m.c;
 		public a(param0: globalAndroid.content.Context, param1: e.h): void;
 		public b(param0: java.lang.Throwable): void;
 		public b(): void;
+		public static b(param0: f.g): boolean;
 		public b(param0: org.jivesoftware.smackx.chatstates.ChatState): void;
-		public a(param0: d.b): void;
 		public b(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
-		public q(): f.q;
+		public j(): java.util.ArrayList<any>;
+		public r(): void;
+		public m(): com.iadvize.conversation.sdk.feature.gdpr.GDPROption;
 		public a(param0: com.iadvize.conversation.sdk.feature.conversation.OngoingConversation): void;
 		public static a(param0: f.g, param1: com.iadvize.conversation.sdk.feature.video.VideoCredentials): void;
 	}
 	export module g {
-		export class A extends java.lang.Object implements any<d.d,any>  {
+		export class A extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.A>;
 			public invoke(param0: any): any;
 		}
-		export class B extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		export class B extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.B>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
+			public invoke(param0: any): any;
 		}
-		export class C {
+		export class C extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.C>;
-			public invokeSuspend(param0: any): any;
+			public static a: f.g.C;
+			public invoke(param0: any): any;
 		}
-		export class D extends java.lang.Object implements any<d.d,any>  {
+		export class D extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.D>;
 			public invoke(param0: any): any;
 		}
-		export class E extends java.lang.Object implements any<d.d,any>  {
+		export class E extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.E>;
-			public invoke(param0: any): any;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
 		}
-		export class F extends java.lang.Object implements any<d.d,any>  {
+		export class F extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.F>;
-			public static a: f.g.F;
-			public invoke(param0: any): any;
-		}
-		export class G extends java.lang.Object implements any<d.d,any>  {
-			public static class: java.lang.Class<f.g.G>;
-			public invoke(param0: any): any;
-		}
-		export class H extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.g.H>;
 			public invoke(param0: any, param1: any): any;
+			public constructor(param0: f.g, param1: any);
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
-		export class I extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.g.I>;
-			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: f.g);
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module I {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<f.g.I.a<any>>;
+		export module F {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<f.g.F.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<f.g.F.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<f.g.F.a.a.a>;
+						public constructor(param0: f.g.F.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<f.g.F.b<any>>;
 				public constructor(param0: f.g);
 				public emit(param0: any, param1: any): any;
 			}
 		}
-		export class J extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.g.J>;
+		export class G extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<f.g.G>;
 			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: f.g);
+			public constructor(param0: f.g, param1: any);
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
-		export module J {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<f.g.J.a<any>>;
+		export module G {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<f.g.G.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<f.g.G.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<f.g.G.a.a.a>;
+						public constructor(param0: f.g.G.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<f.g.G.b<any>>;
+				public constructor(param0: f.g);
+				public emit(param0: any, param1: any): any;
+			}
+		}
+		export class H extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<f.g.H>;
+			public invoke(param0: any, param1: any): any;
+			public constructor(param0: f.g, param1: any);
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+		export module H {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<f.g.H.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<f.g.H.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<f.g.H.a.a.a>;
+						public constructor(param0: f.g.H.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<f.g.H.b<any>>;
 				public constructor(param0: f.g);
 				public emit(param0: any, param1: any): any;
 			}
@@ -5120,23 +8525,16 @@ declare module f {
 			public invokeSuspend(param0: any): any;
 		}
 		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.g.b<any>>;
+			public static class: java.lang.Class<f.g.b>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
 		export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.g.c<any>>;
+			public static class: java.lang.Class<f.g.c>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
-		}
-		export module c {
-			export class a extends java.lang.Object implements any<d.d,any>  {
-				public static class: java.lang.Class<f.g.c.a>;
-				public static a: f.g.c.a;
-				public invoke(param0: any): any;
-			}
 		}
 		export class d extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.d>;
@@ -5144,27 +8542,32 @@ declare module f {
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
+		export module d {
+			export class a extends java.lang.Object implements any<d.e,any>  {
+				public static class: java.lang.Class<f.g.d.a>;
+				public static a: f.g.d.a;
+				public invoke(param0: any): any;
+			}
+		}
 		export class e {
 			public static class: java.lang.Class<f.g.e>;
 			public invokeSuspend(param0: any): any;
 		}
-		export class f extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		export class f extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.f>;
+			public invoke(param0: any): any;
+		}
+		export class g extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<f.g.g>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
-		export module f {
-			export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-				public static class: java.lang.Class<f.g.f.a>;
-				public create(param0: any, param1: any): any;
-				public invoke(param0: any, param1: any): any;
-				public invokeSuspend(param0: any): any;
+		export module g {
+			export class a extends java.lang.Object implements any<d.e,any>  {
+				public static class: java.lang.Class<f.g.g.a>;
+				public invoke(param0: any): any;
 			}
-		}
-		export class g extends java.lang.Object implements any<d.d,any>  {
-			public static class: java.lang.Class<f.g.g>;
-			public invoke(param0: any): any;
 		}
 		export class h extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.h>;
@@ -5173,32 +8576,15 @@ declare module f {
 			public invokeSuspend(param0: any): any;
 		}
 		export module h {
-			export class a extends java.lang.Object implements any<d.d,any>  {
+			export class a extends java.lang.Object implements any<d.e,any>  {
 				public static class: java.lang.Class<f.g.h.a>;
 				public invoke(param0: any): any;
 			}
 		}
-		export class i extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		export class i extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.i>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module i {
-			export class a extends java.lang.Object implements any<d.d,any>  {
-				public static class: java.lang.Class<f.g.i.a>;
-				public invoke(param0: any): any;
-			}
-			export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-				public static class: java.lang.Class<f.g.i.b>;
-				public create(param0: any, param1: any): any;
-				public invoke(param0: any, param1: any): any;
-				public invokeSuspend(param0: any): any;
-			}
-			export class c extends java.lang.Object implements any<d.d,any>  {
-				public static class: java.lang.Class<f.g.i.c>;
-				public invoke(param0: any): any;
-			}
+			public static a: f.g.i;
+			public invoke(param0: any): any;
 		}
 		export class j extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.j>;
@@ -5206,101 +8592,92 @@ declare module f {
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
-		export module j {
-			export class a extends java.lang.Object implements any<d.d,any>  {
-				public static class: java.lang.Class<f.g.j.a>;
-				public invoke(param0: any): any;
-			}
-		}
-		export class k extends java.lang.Object implements any<d.d,any>  {
+		export class k extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.k>;
-			public static a: f.g.k;
-			public invoke(param0: any): any;
-		}
-		export class l extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.g.l>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
-		export class m extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.g.m>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module m {
-			export class a extends java.lang.Object implements any<d.d,any>  {
-				public static class: java.lang.Class<f.g.m.a>;
+		export module k {
+			export class a extends java.lang.Object implements any<d.e,any>  {
+				public static class: java.lang.Class<f.g.k.a>;
 				public invoke(param0: any): any;
 			}
 			export class b {
-				public static class: java.lang.Class<f.g.m.b>;
+				public static class: java.lang.Class<f.g.k.b>;
 			}
 		}
-		export class n extends java.lang.Object implements any<d.d,any>  {
-			public static class: java.lang.Class<f.g.n>;
+		export class l extends java.lang.Object implements any<d.e,any>  {
+			public static class: java.lang.Class<f.g.l>;
 			public invoke(param0: any): any;
 		}
-		export class o extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		export class m extends java.lang.Object implements any<d.e,any>  {
+			public static class: java.lang.Class<f.g.m>;
+			public invoke(param0: any): any;
+		}
+		export class n extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<f.g.n>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+		export class o extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.o>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
+			public static a: f.g.o;
+			public invoke(param0: any): any;
 		}
-		export class p extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		export class p extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.p>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
+			public invoke(param0: any): any;
 		}
-		export class q extends java.lang.Object implements any<d.d,any>  {
+		export class q extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.q>;
 			public static a: f.g.q;
 			public invoke(param0: any): any;
 		}
-		export class r extends java.lang.Object implements any<d.d,any>  {
+		export class r extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.r>;
 			public invoke(param0: any): any;
 		}
-		export class s extends java.lang.Object implements any<d.d,any>  {
+		export class s extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.s>;
-			public invoke(param0: any): any;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
 		}
-		export class t extends java.lang.Object implements any<d.d,any>  {
+		export class t extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.t>;
-			public static a: f.g.t;
-			public invoke(param0: any): any;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
 		}
-		export class u extends java.lang.Object implements any<d.d,any>  {
+		export class u extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<f.g.u>;
-			public invoke(param0: any): any;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
 		}
-		export class v extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		export class v {
 			public static class: java.lang.Class<f.g.v>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
-		export class w extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		export class w extends java.lang.Object implements any<d.e,any>  {
 			public static class: java.lang.Class<f.g.w>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export class x extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.g.x>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export class y {
-			public static class: java.lang.Class<f.g.y>;
-			public invokeSuspend(param0: any): any;
-		}
-		export class z extends java.lang.Object implements any<d.d,any>  {
-			public static class: java.lang.Class<f.g.z>;
 			public invoke(param0: any): any;
+		}
+		export class x extends java.lang.Object implements any<d.e,any>  {
+			public static class: java.lang.Class<f.g.x>;
+			public invoke(param0: any): any;
+		}
+		export class y extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<f.g.y>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+		export class z {
+			public static class: java.lang.Class<f.g.z>;
+			public invokeSuspend(param0: any): any;
 		}
 	}
 }
@@ -5312,97 +8689,134 @@ declare module f {
 		public invoke(param0: any, param1: any): any;
 		public create(param0: any, param1: any): any;
 	}
-	export module h {
-		export class a extends java.lang.Object implements any<d.d,any>  {
-			public static class: java.lang.Class<f.h.a>;
+}
+
+declare module f {
+	export class i extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<f.i>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
+	}
+	export module i {
+		export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<f.i.a>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+	}
+}
+
+declare module f {
+	export class j extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<f.j>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
+	}
+	export module j {
+		export class a extends java.lang.Object implements any<d.e,any>  {
+			public static class: java.lang.Class<f.j.a>;
 			public invoke(param0: any): any;
 		}
 	}
 }
 
 declare module f {
-	export class i {
-		public static class: java.lang.Class<f.i>;
-		public invokeSuspend(param0: any): any;
-	}
-}
-
-declare module f {
-	export class j extends java.lang.Object implements any<d.d,any>  {
-		public static class: java.lang.Class<f.j>;
-		public static a: f.j;
-		public invoke(param0: any): any;
-	}
-}
-
-declare module f {
-	export class k extends java.lang.Object implements any<d.d,any>  {
+	export class k extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 		public static class: java.lang.Class<f.k>;
-		public static a: f.k;
-		public invoke(param0: any): any;
-	}
-}
-
-declare module f {
-	export class l extends java.lang.Object implements any<d.d,any>  {
-		public static class: java.lang.Class<f.l>;
-		public static a: f.l;
-		public invoke(param0: any): any;
-	}
-}
-
-declare module f {
-	export class m<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<f.m<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module m {
-		export class a {
-			public static class: java.lang.Class<f.m.a>;
-			public constructor(param0: f.m<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
-	}
-}
-
-declare module f {
-	export class n<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<f.n<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module n {
-		export class a {
-			public static class: java.lang.Class<f.n.a>;
-			public constructor(param0: f.n<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
-	}
-}
-
-declare module f {
-	export class o extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-		public static class: java.lang.Class<f.o>;
 		public invokeSuspend(param0: any): any;
 		public invoke(param0: any, param1: any): any;
 		public create(param0: any, param1: any): any;
 	}
-	export module o {
+	export module k {
+		export class a extends java.lang.Object implements any<d.e,any>  {
+			public static class: java.lang.Class<f.k.a>;
+			public invoke(param0: any): any;
+		}
+		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<f.k.b>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+		export class c extends java.lang.Object implements any<d.e,any>  {
+			public static class: java.lang.Class<f.k.c>;
+			public invoke(param0: any): any;
+		}
+	}
+}
+
+declare module f {
+	export class l extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<f.l>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
+	}
+}
+
+declare module f {
+	export class m extends java.lang.Object implements any<d.e,any>  {
+		public static class: java.lang.Class<f.m>;
+		public invoke(param0: any): any;
+	}
+}
+
+declare module f {
+	export class n {
+		public static class: java.lang.Class<f.n>;
+		public invokeSuspend(param0: any): any;
+	}
+}
+
+declare module f {
+	export class o extends java.lang.Object implements any<d.e,any>  {
+		public static class: java.lang.Class<f.o>;
+		public static a: f.o;
+		public invoke(param0: any): any;
+	}
+}
+
+declare module f {
+	export class p extends java.lang.Object implements any<d.e,any>  {
+		public static class: java.lang.Class<f.p>;
+		public static a: f.p;
+		public invoke(param0: any): any;
+	}
+}
+
+declare module f {
+	export class q extends java.lang.Object implements any<d.e,any>  {
+		public static class: java.lang.Class<f.q>;
+		public static a: f.q;
+		public invoke(param0: any): any;
+	}
+}
+
+declare module f {
+	export class r extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<f.r>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
+	}
+	export module r {
 		export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.o.a>;
+			public static class: java.lang.Class<f.r.a>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
 		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.o.b>;
+			public static class: java.lang.Class<f.r.b>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
 		export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<f.o.c>;
+			public static class: java.lang.Class<f.r.c>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
@@ -5411,143 +8825,103 @@ declare module f {
 }
 
 declare module f {
-	export class p extends java.lang.Object implements any<d.d,any>  {
-		public static class: java.lang.Class<f.p>;
+	export class s extends java.lang.Object implements any<d.e,any>  {
+		public static class: java.lang.Class<f.s>;
 		public invoke(param0: any): any;
 	}
 }
 
 declare module f {
-	export class q {
-		public static class: java.lang.Class<f.q>;
-		public constructor();
-		public e(): f.C;
-		public a(param0: f.G): void;
-		public a(param0: f.F): void;
-		public a(param0: f.x): void;
-		public a(param0: f.E): void;
-		public g(): f.E;
-		public d(): f.x;
-		public a(param0: f.D): void;
-		public f(): f.D;
-		public a(param0: f.B): void;
-		public a(param0: f.z): void;
-		public a(param0: f.C): void;
-		public i(): f.G;
-		public h(): f.F;
-		public c(): f.B;
-		public b(): f.A;
-		public a(): f.z;
-		public a(param0: f.A): void;
-		public j(): void;
-	}
-}
-
-declare module f {
-	export class r {
-		public static class: java.lang.Class<f.r>;
-		public static a(param0: com.iadvize.conversation.ui.models.MessageAttachment.Offer): com.iadvize.conversation.ui.models.MessageKind.Text;
-		public static a(param0: z.c.b): com.iadvize.conversation.ui.models.MessageAttachment.CardImage;
-		public static a(param0: z.k): com.iadvize.conversation.ui.models.MessageAttachment.Action;
-		public static a(param0: z.T): com.iadvize.conversation.ui.models.MessageAttachment.ProductOffer;
-		public static a(param0: com.iadvize.conversation.ui.models.MessageAttachment): string;
-		public static a(param0: z.m0): f.v;
-		public static a(param0: com.iadvize.conversation.ui.models.MessageKind): java.util.List<com.iadvize.conversation.ui.models.MessageAttachment>;
-		public static a(param0: com.iadvize.conversation.ui.models.MessageAttachment.ProductOffer): com.iadvize.conversation.ui.models.MessageKind.ProductOffer;
-		public static a(param0: f.x): string;
-		public static a(param0: com.iadvize.conversation.ui.models.MessageAttachment.Product): com.iadvize.conversation.ui.models.MessageKind.Text;
-	}
-}
-
-declare module f {
-	export class s extends com.iadvize.conversation.ui.models.Sender {
-		public static class: java.lang.Class<f.s>;
-		public constructor(param0: string, param1: string, param2: com.iadvize.conversation.ui.models.SenderAvatar, param3: com.iadvize.conversation.ui.models.SenderAlignment);
-		public constructor(param0: string);
-	}
-}
-
-declare module f {
-	export class t extends f.s {
+	export class t {
 		public static class: java.lang.Class<f.t>;
-		public constructor(param0: string, param1: string, param2: com.iadvize.conversation.ui.models.SenderAvatar, param3: com.iadvize.conversation.ui.models.SenderAlignment);
-		public constructor(param0: string);
+		public c(): f.J;
+		public d(param0: com.iadvize.conversation.ui.models.Message): boolean;
+		public b(param0: com.iadvize.conversation.ui.models.Message): boolean;
+		public b(): f.I;
+		public d(): f.C;
+		public a(): f.H;
+		public i(): f.O;
+		public c(param0: string): f.E;
+		public h(): f.N;
+		public a(param0: string): f.D;
+		public c(param0: com.iadvize.conversation.ui.models.Message): boolean;
+		public g(): f.M;
+		public a(param0: com.iadvize.conversation.ui.models.Message): boolean;
+		public static a(param0: globalAndroid.content.Context): void;
+		public f(): f.L;
+		public e(): f.K;
+		public d(param0: string): f.F;
+		public b(param0: string): f.G;
 	}
 }
 
 declare module f {
-	export class u extends com.iadvize.conversation.ui.models.Sender {
+	export class u {
 		public static class: java.lang.Class<f.u>;
-		public constructor();
-		public constructor(param0: string, param1: string, param2: com.iadvize.conversation.ui.models.SenderAvatar, param3: com.iadvize.conversation.ui.models.SenderAlignment);
+		public static a(param0: z.s0): f.z;
+		public static c(param0: f.B): com.iadvize.conversation.ui.models.Message;
+		public static a(param0: z.k): com.iadvize.conversation.ui.models.MessageAttachment.Action;
+		public static b(param0: f.B): string;
+		public static a(param0: com.iadvize.conversation.ui.models.MessageAttachment): string;
+		public static a(param0: f.B, param1: string): void;
+		public static b(param0: com.iadvize.conversation.ui.models.MessageAttachment): com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension;
+		public static a(param0: com.iadvize.conversation.ui.models.MessageKind): java.util.List<com.iadvize.conversation.ui.models.MessageAttachment>;
+		public static a(param0: com.iadvize.conversation.ui.models.MessageAttachment.Offer): com.iadvize.conversation.ui.models.MessageKind.MarkdownText;
+		public static a(param0: z.Z): com.iadvize.conversation.ui.models.MessageAttachment.ProductOffer;
+		public static a(param0: f.B): string;
+		public static a(param0: j.b, param1: string): f.B.b;
+		public static a(param0: com.iadvize.conversation.ui.models.MessageAttachment.Product): com.iadvize.conversation.ui.models.MessageKind.MarkdownText;
 	}
 }
 
 declare module f {
 	export class v {
 		public static class: java.lang.Class<f.v>;
-		public constructor(param0: java.util.List<any>, param1: f.w);
-		public b(): f.w;
-		public a(): java.util.List<f.x>;
+		public static b(param0: string): com.iadvize.conversation.ui.models.Sender;
+		public static a(param0: string): com.iadvize.conversation.ui.models.Sender;
 	}
 }
 
 declare module f {
-	export class w {
+	export class w extends com.iadvize.conversation.ui.models.Sender {
 		public static class: java.lang.Class<f.w>;
-		public a(): string;
-		public constructor(param0: boolean, param1: string);
-		public b(): boolean;
+		public constructor(param0: string, param1: string, param2: com.iadvize.conversation.ui.models.SenderAvatar, param3: com.iadvize.conversation.ui.models.SenderAlignment);
+		public constructor(param0: string);
 	}
 }
 
 declare module f {
-	export abstract class x {
+	export class x extends f.w {
 		public static class: java.lang.Class<f.x>;
-		public a(): boolean;
-		public b(): string;
-		public a(param0: com.iadvize.conversation.ui.models.Sender): void;
-		public a(param0: com.iadvize.conversation.ui.models.MessageKind): void;
-		public c(): com.iadvize.conversation.ui.models.MessageKind;
-		public a(param0: com.iadvize.conversation.ui.models.MessageState): void;
-		public f(): java.util.Date;
-		public d(): com.iadvize.conversation.ui.models.MessageState;
-		public e(): com.iadvize.conversation.ui.models.Sender;
-		public a(param0: java.util.Date): void;
-	}
-	export module x {
-		export class a extends f.x {
-			public static class: java.lang.Class<f.x.a>;
-			public constructor(param0: string, param1: com.iadvize.conversation.ui.models.Sender, param2: java.util.Date, param3: com.iadvize.conversation.ui.models.MessageKind);
-		}
-		export class b extends f.x {
-			public static class: java.lang.Class<f.x.b<any>>;
-			public constructor(param0: string, param1: com.iadvize.conversation.ui.models.Sender, param2: java.util.Date, param3: com.iadvize.conversation.ui.models.MessageKind);
-		}
+		public constructor(param0: string, param1: string, param2: com.iadvize.conversation.ui.models.SenderAvatar, param3: com.iadvize.conversation.ui.models.SenderAlignment);
+		public constructor(param0: string);
 	}
 }
 
 declare module f {
-	export class y extends f.x {
+	export class y extends com.iadvize.conversation.ui.models.Sender {
 		public static class: java.lang.Class<f.y>;
-		public constructor(param0: string, param1: java.util.Date);
+		public constructor();
+		public constructor(param0: string, param1: string, param2: com.iadvize.conversation.ui.models.SenderAvatar, param3: com.iadvize.conversation.ui.models.SenderAlignment);
 	}
 }
 
 declare module f {
-	export class z extends f.x {
+	export class z {
 		public static class: java.lang.Class<f.z>;
-		public constructor(param0: string, param1: java.util.Date);
+		public a(): java.util.List<f.B>;
+		public constructor(param0: java.util.List<any>, param1: f.A);
+		public b(): f.A;
 	}
 }
 
 declare module g {
 	export class a {
 		public static class: java.lang.Class<g.a>;
+		public static a(param0: globalAndroid.content.Context): void;
+		public static c(): boolean;
 		public static b(): void;
-		public d(): boolean;
-		public c(): boolean;
-		public a(param0: globalAndroid.content.Context): void;
+		public static d(): boolean;
 	}
 	export module a {
 		export class a {
@@ -5566,8 +8940,27 @@ declare module g {
 			public invokeSuspend(param0: any): any;
 		}
 		export module b {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<g.a.b.a<any>>;
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<g.a.b.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<g.a.b.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<g.a.b.a.a.a>;
+						public constructor(param0: g.a.b.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<g.a.b.b<any>>;
 				public emit(param0: any, param1: any): any;
 				public constructor();
 			}
@@ -5580,8 +8973,27 @@ declare module g {
 			public invokeSuspend(param0: any): any;
 		}
 		export module c {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<g.a.c.a<any>>;
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<g.a.c.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<g.a.c.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<g.a.c.a.a.a>;
+						public constructor(param0: g.a.c.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<g.a.c.b<any>>;
 				public emit(param0: any, param1: any): any;
 				public constructor();
 			}
@@ -5590,97 +9002,69 @@ declare module g {
 }
 
 declare module g {
-	export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<g.b<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module b {
-		export class a {
-			public static class: java.lang.Class<g.b.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: g.b<any>, param1: any);
-		}
-	}
-}
-
-declare module g {
-	export class c<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<g.c<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module c {
-		export class a {
-			public static class: java.lang.Class<g.c.a>;
-			public constructor(param0: g.c<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
-	}
-}
-
-declare module g {
-	export class d {
-		public static class: java.lang.Class<g.d>;
+	export class b {
+		public static class: java.lang.Class<g.b>;
 		public constructor();
 	}
 }
 
 declare module g {
-	export class e {
-		public static class: java.lang.Class<g.e>;
+	export class c {
+		public static class: java.lang.Class<g.c>;
 		public reconnectionFailed(param0: java.lang.Exception): void;
-		public connectionClosed(): void;
 		public connectionClosedOnError(param0: java.lang.Exception): void;
+		public connected(param0: org.jivesoftware.smack.XMPPConnection): void;
+		public static a(param0: g.c, param1: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
+		public a(): void;
+		public connectionClosed(): void;
 		public a(param0: org.jxmpp.jid.Jid, param1: string): void;
 		public authenticated(param0: org.jivesoftware.smack.XMPPConnection, param1: boolean): void;
-		public connected(param0: org.jivesoftware.smack.XMPPConnection): void;
-		public a(): void;
-		public constructor(param0: g.e.a, param1: com.iadvize.conversation.sdk.h);
+		public static b(param0: g.c, param1: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
+		public constructor(param0: g.c.a, param1: com.iadvize.conversation.sdk.h);
 		public b(): boolean;
 		public c(): boolean;
 		public reconnectingIn(param0: number): void;
 	}
-	export module e {
+	export module c {
 		export class a {
-			public static class: java.lang.Class<g.e.a>;
+			public static class: java.lang.Class<g.c.a>;
 			/**
-			 * Constructs a new instance of the g.e$a interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+			 * Constructs a new instance of the g.c$a interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
 			 */
 			public constructor(implementation: {
-				a(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
 				b(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
+				a(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
+				a(param0: java.lang.Throwable): void;
 				b(param0: java.lang.Throwable): void;
+				c(): void;
+				c(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
 				c(param0: java.lang.Throwable): void;
-				d(): void;
-				a(param0: org.jivesoftware.smack.XMPPConnection): void;
-				d(param0: java.lang.Throwable): void;
 			});
 			public constructor();
 			public b(param0: java.lang.Throwable): void;
-			public d(): void;
 			public c(param0: java.lang.Throwable): void;
-			public a(param0: org.jivesoftware.smack.XMPPConnection): void;
 			public a(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
+			public a(param0: java.lang.Throwable): void;
+			public c(): void;
+			public c(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
 			public b(param0: org.jivesoftware.smack.tcp.XMPPTCPConnection): void;
-			public d(param0: java.lang.Throwable): void;
 		}
 		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<g.e.b>;
+			public static class: java.lang.Class<g.c.b>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
 		export module b {
 			export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-				public static class: java.lang.Class<g.e.b.a>;
+				public static class: java.lang.Class<g.c.b.a>;
 				public create(param0: any, param1: any): any;
 				public invoke(param0: any, param1: any): any;
 				public invokeSuspend(param0: any): any;
 			}
 		}
 		export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<g.e.c>;
+			public static class: java.lang.Class<g.c.c>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
@@ -5714,7 +9098,6 @@ declare module i {
 	export class a implements j.c.a, l.e.a, j.a.a {
 		public static class: java.lang.Class<i.a>;
 		public b(): string;
-		public a(param0: k.c0, param1: string): void;
 		public constructor(param0: org.jivesoftware.smack.XMPPConnection, param1: c.a, param2: i.a.a);
 		public c(): void;
 		public a(param0: java.util.List<any>): void;
@@ -5722,7 +9105,8 @@ declare module i {
 		public a(param0: string, param1: com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension): void;
 		public d(): void;
 		public a(): void;
-		public a(param0: k.e0, param1: string): void;
+		public a(param0: k.i0, param1: string): void;
+		public a(param0: k.k0, param1: string): void;
 		public a(param0: l.d): void;
 		public a(param0: string, param1: string): void;
 	}
@@ -5734,21 +9118,25 @@ declare module i {
 			 */
 			public constructor(implementation: {
 				b(): void;
-				c(): void;
-				a(param0: f.x): void;
+				d(): void;
+				a(param0: f.B): void;
 				a(param0: org.jivesoftware.smackx.chatstates.ChatState): void;
 				e(): void;
-				a(param0: java.lang.Throwable): void;
+				a(param0: com.iadvize.conversation.sdk.IAdvizeSDK.b): void;
 				a(): void;
+				a(param0: string): void;
+				b(param0: string): void;
 			});
 			public constructor();
+			public d(): void;
 			public a(): void;
-			public a(param0: f.x): void;
-			public a(param0: java.lang.Throwable): void;
+			public a(param0: com.iadvize.conversation.sdk.IAdvizeSDK.b): void;
 			public e(): void;
 			public b(): void;
-			public c(): void;
+			public a(param0: f.B): void;
 			public a(param0: org.jivesoftware.smackx.chatstates.ChatState): void;
+			public a(param0: string): void;
+			public b(param0: string): void;
 		}
 	}
 }
@@ -5809,13 +9197,13 @@ declare module j {
 			 */
 			public constructor(implementation: {
 				a(param0: j.b): void;
-				a(param0: k.c0, param1: string): void;
-				a(param0: k.e0, param1: string): void;
+				a(param0: k.i0, param1: string): void;
+				a(param0: k.k0, param1: string): void;
 			});
 			public constructor();
 			public a(param0: j.b): void;
-			public a(param0: k.e0, param1: string): void;
-			public a(param0: k.c0, param1: string): void;
+			public a(param0: k.k0, param1: string): void;
+			public a(param0: k.i0, param1: string): void;
 		}
 	}
 }
@@ -5829,28 +9217,107 @@ declare module j {
 	export module d {
 		export class a {
 			public static class: java.lang.Class<j.d.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class A extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.z> {
+	export class A extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.z> {
 		public static class: java.lang.Class<k.A>;
 		public constructor();
-		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
 	}
 	export module A {
 		export class a {
 			public static class: java.lang.Class<k.A.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class B extends k.v {
+	export abstract class B {
 		public static class: java.lang.Class<k.B>;
+		public constructor();
+		public getElementName(): string;
+	}
+}
+
+declare module k {
+	export class C extends k.B {
+		public static class: java.lang.Class<k.C>;
+		public constructor();
+		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
+		public a(): com.iadvize.conversation.ui.models.MessageKind;
+		public getExtensions(): java.util.List<any>;
+		public getNamespace(): string;
+		public constructor(param0: java.util.List<com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension>);
+	}
+}
+
+declare module k {
+	export class D extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.C> {
+		public static class: java.lang.Class<k.D>;
+		public constructor();
+		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
+	}
+	export module D {
+		export class a {
+			public static class: java.lang.Class<k.D.a>;
+			public static a(): void;
+			public static b(): void;
+		}
+	}
+}
+
+declare module k {
+	export class E extends org.jivesoftware.smack.provider.ExtensionElementProvider<com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension> {
+		public static class: java.lang.Class<k.E>;
+		public constructor();
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
+	}
+	export module E {
+		export class a {
+			public static class: java.lang.Class<k.E.a>;
+			public static a(): void;
+			public static b(): void;
+		}
+	}
+}
+
+declare module k {
+	export class F extends k.B {
+		public static class: java.lang.Class<k.F>;
+		public constructor();
+		public constructor(param0: com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension);
+		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
+		public a(): com.iadvize.conversation.ui.models.MessageKind;
+		public getExtensions(): java.util.List<any>;
+		public getNamespace(): string;
+	}
+}
+
+declare module k {
+	export class G extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.F> {
+		public static class: java.lang.Class<k.G>;
+		public constructor();
+		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
+	}
+	export module G {
+		export class a {
+			public static class: java.lang.Class<k.G.a>;
+			public static a(): void;
+			public static b(): void;
+		}
+	}
+}
+
+declare module k {
+	export class H extends k.B {
+		public static class: java.lang.Class<k.H>;
 		public constructor();
 		public constructor(param0: com.iadvize.conversation.sdk.feature.conversation.ConversationChannel);
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
@@ -5859,22 +9326,23 @@ declare module k {
 }
 
 declare module k {
-	export class C extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.B> {
-		public static class: java.lang.Class<k.C>;
+	export class I extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.H> {
+		public static class: java.lang.Class<k.I>;
 		public constructor();
 		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
 	}
-	export module C {
+	export module I {
 		export class a {
-			public static class: java.lang.Class<k.C.a>;
-			public a(): void;
+			public static class: java.lang.Class<k.I.a>;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class D extends k.a {
-		public static class: java.lang.Class<k.D>;
+	export class J extends k.a {
+		public static class: java.lang.Class<k.J>;
 		public constructor();
 		public a(): string;
 		public b(): string;
@@ -5882,84 +9350,6 @@ declare module k {
 		public getElementName(): string;
 		public getNamespace(): string;
 		public constructor(param0: string, param1: string);
-	}
-}
-
-declare module k {
-	export class E extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.D> {
-		public static class: java.lang.Class<k.E>;
-		public constructor();
-		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
-	}
-	export module E {
-		export class a {
-			public static class: java.lang.Class<k.E.a>;
-			public a(): void;
-		}
-	}
-}
-
-declare module k {
-	export class F {
-		public static class: java.lang.Class<k.F>;
-		public constructor();
-		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind.LinkSent;
-		public getElementName(): string;
-		public getNamespace(): string;
-		public constructor(param0: string, param1: string);
-	}
-}
-
-declare module k {
-	export class G extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.F> {
-		public static class: java.lang.Class<k.G>;
-		public constructor();
-		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
-	}
-	export module G {
-		export class a {
-			public static class: java.lang.Class<k.G.a>;
-			public a(): void;
-		}
-	}
-}
-
-declare module k {
-	export class H extends k.v {
-		public static class: java.lang.Class<k.H>;
-		public constructor();
-		public constructor(param0: k.F);
-		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind.LinkSent;
-		public getExtensions(): java.util.List<any>;
-		public getNamespace(): string;
-	}
-}
-
-declare module k {
-	export class I extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.H> {
-		public static class: java.lang.Class<k.I>;
-		public constructor();
-		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
-	}
-	export module I {
-		export class a {
-			public static class: java.lang.Class<k.I.a>;
-			public a(): void;
-		}
-	}
-}
-
-declare module k {
-	export class J {
-		public static class: java.lang.Class<k.J>;
-		public constructor();
-		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public getElementName(): string;
-		public getNamespace(): string;
-		public constructor(param0: string, param1: string, param2: string, param3: string);
-		public a(): com.iadvize.conversation.ui.models.MessageKind.Card;
 	}
 }
 
@@ -5972,96 +9362,102 @@ declare module k {
 	export module K {
 		export class a {
 			public static class: java.lang.Class<k.K.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class L extends k.v {
+	export class L {
 		public static class: java.lang.Class<k.L>;
 		public constructor();
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public getExtensions(): java.util.List<any>;
+		public a(): com.iadvize.conversation.ui.models.MessageKind.LinkSent;
+		public getElementName(): string;
 		public getNamespace(): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind.Card;
-		public constructor(param0: k.J);
+		public constructor(param0: string, param1: string);
 	}
 }
 
 declare module k {
-	export class M extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.L> {
+	export class M extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.L> {
 		public static class: java.lang.Class<k.M>;
 		public constructor();
-		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
 	}
 	export module M {
 		export class a {
 			public static class: java.lang.Class<k.M.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class N extends k.v {
+	export class N extends k.B {
 		public static class: java.lang.Class<k.N>;
 		public constructor();
-		public constructor(param0: com.iadvize.conversation.sdk.feature.conversation.ConversationChannel);
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
+		public a(): com.iadvize.conversation.ui.models.MessageKind.LinkSent;
+		public getExtensions(): java.util.List<any>;
+		public constructor(param0: k.L);
 		public getNamespace(): string;
 	}
 }
 
 declare module k {
-	export class O extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.N> {
+	export class O extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.N> {
 		public static class: java.lang.Class<k.O>;
 		public constructor();
-		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
+		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
 	}
 	export module O {
 		export class a {
 			public static class: java.lang.Class<k.O.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class P extends k.v {
+	export class P {
 		public static class: java.lang.Class<k.P>;
 		public constructor();
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind;
-		public constructor(param0: java.util.List<k.S>);
-		public getExtensions(): java.util.List<any>;
+		public getElementName(): string;
 		public getNamespace(): string;
+		public constructor(param0: string, param1: string, param2: string, param3: string);
+		public a(): com.iadvize.conversation.ui.models.MessageKind.Card;
 	}
 }
 
 declare module k {
-	export class Q extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.P> {
+	export class Q extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.P> {
 		public static class: java.lang.Class<k.Q>;
 		public constructor();
-		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
 	}
 	export module Q {
 		export class a {
 			public static class: java.lang.Class<k.Q.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class S {
+	export class S extends k.B {
 		public static class: java.lang.Class<k.S>;
+		public constructor();
+		public constructor(param0: k.P);
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public getElementName(): string;
 		public getExtensions(): java.util.List<any>;
 		public getNamespace(): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind.ProductOffer;
-		public constructor(param0: string, param1: string, param2: string, param3: string, param4: string, param5: k.l, param6: k.b);
+		public a(): com.iadvize.conversation.ui.models.MessageKind.Card;
 	}
 }
 
@@ -6074,46 +9470,46 @@ declare module k {
 	export module T {
 		export class a {
 			public static class: java.lang.Class<k.T.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class U extends k.v {
+	export class U extends k.B {
 		public static class: java.lang.Class<k.U>;
 		public constructor();
-		public constructor(param0: k.S);
+		public constructor(param0: com.iadvize.conversation.sdk.feature.conversation.ConversationChannel);
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind;
-		public getExtensions(): java.util.List<any>;
 		public getNamespace(): string;
 	}
 }
 
 declare module k {
-	export class V extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.U> {
+	export class V extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.U> {
 		public static class: java.lang.Class<k.V>;
 		public constructor();
-		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
 	}
 	export module V {
 		export class a {
 			public static class: java.lang.Class<k.V.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class W {
+	export class W extends k.B {
 		public static class: java.lang.Class<k.W>;
-		public a(): com.iadvize.conversation.ui.models.MessageKind.QuickReplyMessage;
+		public constructor();
+		public constructor(param0: java.util.List<k.Y>);
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public getElementName(): string;
+		public a(): com.iadvize.conversation.ui.models.MessageKind;
 		public getExtensions(): java.util.List<any>;
 		public getNamespace(): string;
-		public constructor(param0: string, param1: k.r);
 	}
 }
 
@@ -6126,20 +9522,21 @@ declare module k {
 	export module X {
 		export class a {
 			public static class: java.lang.Class<k.X.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class Y extends k.v {
+	export class Y {
 		public static class: java.lang.Class<k.Y>;
-		public constructor();
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind;
+		public getElementName(): string;
 		public getExtensions(): java.util.List<any>;
 		public getNamespace(): string;
-		public constructor(param0: k.W);
+		public a(): com.iadvize.conversation.ui.models.MessageKind.ProductOffer;
+		public constructor(param0: string, param1: string, param2: string, param3: string, param4: string, param5: k.l, param6: k.b);
 	}
 }
 
@@ -6152,7 +9549,8 @@ declare module k {
 	export module Z {
 		export class a {
 			public static class: java.lang.Class<k.Z.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
@@ -6170,14 +9568,14 @@ declare module k {
 }
 
 declare module k {
-	export class a0 extends k.a {
+	export class a0 extends k.B {
 		public static class: java.lang.Class<k.a0>;
 		public constructor();
-		public a(): string;
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public getElementName(): string;
+		public a(): com.iadvize.conversation.ui.models.MessageKind;
+		public getExtensions(): java.util.List<any>;
 		public getNamespace(): string;
-		public constructor(param0: string);
+		public constructor(param0: k.Y);
 	}
 }
 
@@ -6194,15 +9592,16 @@ declare module k {
 }
 
 declare module k {
-	export class b0 extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.a0> {
+	export class b0 extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.a0> {
 		public static class: java.lang.Class<k.b0>;
 		public constructor();
-		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
+		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
 	}
 	export module b0 {
 		export class a {
 			public static class: java.lang.Class<k.b0.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
@@ -6216,7 +9615,8 @@ declare module k {
 	export module c {
 		export class a {
 			public static class: java.lang.Class<k.c.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
@@ -6224,17 +9624,12 @@ declare module k {
 declare module k {
 	export class c0 {
 		public static class: java.lang.Class<k.c0>;
-		public static c: k.c0.a;
-		public b(): string;
+		public a(): com.iadvize.conversation.ui.models.MessageKind.QuickReplyMessage;
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
 		public getElementName(): string;
+		public getExtensions(): java.util.List<any>;
 		public getNamespace(): string;
-		public constructor(param0: string, param1: string);
-	}
-	export module c0 {
-		export class a {
-			public static class: java.lang.Class<k.c0.a>;
-		}
+		public constructor(param0: string, param1: k.r);
 	}
 }
 
@@ -6249,15 +9644,16 @@ declare module k {
 }
 
 declare module k {
-	export class d0 extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.c0> {
+	export class d0 extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.c0> {
 		public static class: java.lang.Class<k.d0>;
 		public constructor();
-		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
+		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
 	}
 	export module d0 {
 		export class a {
 			public static class: java.lang.Class<k.d0.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
@@ -6271,30 +9667,26 @@ declare module k {
 	export module e {
 		export class a {
 			public static class: java.lang.Class<k.e.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class e0 {
+	export class e0 extends k.B {
 		public static class: java.lang.Class<k.e0>;
-		public static c: k.e0.a;
-		public b(): string;
+		public constructor();
+		public constructor(param0: k.c0);
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public getElementName(): string;
+		public a(): com.iadvize.conversation.ui.models.MessageKind;
+		public getExtensions(): java.util.List<any>;
 		public getNamespace(): string;
-		public constructor(param0: string, param1: string);
-	}
-	export module e0 {
-		export class a {
-			public static class: java.lang.Class<k.e0.a>;
-		}
 	}
 }
 
 declare module k {
-	export class f extends k.v {
+	export class f extends k.B {
 		public static class: java.lang.Class<k.f>;
 		public constructor();
 		public a(): com.iadvize.conversation.ui.models.MessageKind.SystemMessage;
@@ -6305,15 +9697,16 @@ declare module k {
 }
 
 declare module k {
-	export class f0 extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.e0> {
+	export class f0 extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.e0> {
 		public static class: java.lang.Class<k.f0>;
 		public constructor();
-		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
+		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
 	}
 	export module f0 {
 		export class a {
 			public static class: java.lang.Class<k.f0.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
@@ -6327,16 +9720,29 @@ declare module k {
 	export module g {
 		export class a {
 			public static class: java.lang.Class<k.g.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class h extends k.v {
+	export class g0 extends k.a {
+		public static class: java.lang.Class<k.g0>;
+		public constructor();
+		public a(): string;
+		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
+		public getElementName(): string;
+		public getNamespace(): string;
+		public constructor(param0: string);
+	}
+}
+
+declare module k {
+	export class h extends k.B {
 		public static class: java.lang.Class<k.h>;
 		public constructor();
-		public constructor(param0: com.iadvize.conversation.ui.models.MessageAttachment.ActionType, param1: java.util.List<k.j>);
+		public constructor(param0: string, param1: java.util.List<any>, param2: com.iadvize.conversation.ui.models.MessageAttachment.ActionType);
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
 		public a(): com.iadvize.conversation.ui.models.MessageKind;
 		public getExtensions(): java.util.List<any>;
@@ -6350,6 +9756,21 @@ declare module k {
 }
 
 declare module k {
+	export class h0 extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.g0> {
+		public static class: java.lang.Class<k.h0>;
+		public constructor();
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
+	}
+	export module h0 {
+		export class a {
+			public static class: java.lang.Class<k.h0.a>;
+			public static a(): void;
+			public static b(): void;
+		}
+	}
+}
+
+declare module k {
 	export class i extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.h> {
 		public static class: java.lang.Class<k.i>;
 		public constructor();
@@ -6358,7 +9779,25 @@ declare module k {
 	export module i {
 		export class a {
 			public static class: java.lang.Class<k.i.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
+		}
+	}
+}
+
+declare module k {
+	export class i0 {
+		public static class: java.lang.Class<k.i0>;
+		public b(): string;
+		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
+		public getElementName(): string;
+		public getNamespace(): string;
+		public constructor(param0: string, param1: string);
+	}
+	export module i0 {
+		export class a {
+			public static class: java.lang.Class<k.i0.a>;
+			public static a(): string;
 		}
 	}
 }
@@ -6377,6 +9816,21 @@ declare module k {
 }
 
 declare module k {
+	export class j0 extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.i0> {
+		public static class: java.lang.Class<k.j0>;
+		public constructor();
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
+	}
+	export module j0 {
+		export class a {
+			public static class: java.lang.Class<k.j0.a>;
+			public static a(): void;
+			public static b(): void;
+		}
+	}
+}
+
+declare module k {
 	export class k extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.j> {
 		public static class: java.lang.Class<k.k>;
 		public constructor();
@@ -6385,7 +9839,25 @@ declare module k {
 	export module k {
 		export class a {
 			public static class: java.lang.Class<k.k.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
+		}
+	}
+}
+
+declare module k {
+	export class k0 {
+		public static class: java.lang.Class<k.k0>;
+		public b(): string;
+		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
+		public getElementName(): string;
+		public getNamespace(): string;
+		public constructor(param0: string, param1: string);
+	}
+	export module k0 {
+		export class a {
+			public static class: java.lang.Class<k.k0.a>;
+			public static a(): string;
 		}
 	}
 }
@@ -6404,6 +9876,21 @@ declare module k {
 }
 
 declare module k {
+	export class l0 extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.k0> {
+		public static class: java.lang.Class<k.l0>;
+		public constructor();
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
+	}
+	export module l0 {
+		export class a {
+			public static class: java.lang.Class<k.l0.a>;
+			public static a(): void;
+			public static b(): void;
+		}
+	}
+}
+
+declare module k {
 	export class m extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.l> {
 		public static class: java.lang.Class<k.m>;
 		public constructor();
@@ -6412,13 +9899,14 @@ declare module k {
 	export module m {
 		export class a {
 			public static class: java.lang.Class<k.m.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class n extends k.v {
+	export class n extends k.B {
 		public static class: java.lang.Class<k.n>;
 		public constructor();
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
@@ -6438,7 +9926,8 @@ declare module k {
 	export module o {
 		export class a {
 			public static class: java.lang.Class<k.o.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
@@ -6463,7 +9952,8 @@ declare module k {
 	export module q {
 		export class a {
 			public static class: java.lang.Class<k.q.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
@@ -6473,8 +9963,8 @@ declare module k {
 		public static class: java.lang.Class<k.r>;
 		public a(): java.util.List<string>;
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public constructor(param0: java.util.List<string>);
 		public getElementName(): string;
+		public constructor(param0: java.util.ArrayList<any>);
 		public getNamespace(): string;
 	}
 }
@@ -6488,13 +9978,14 @@ declare module k {
 	export module s {
 		export class a {
 			public static class: java.lang.Class<k.s.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class t extends k.v {
+	export class t extends k.B {
 		public static class: java.lang.Class<k.t>;
 		public constructor();
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
@@ -6511,47 +10002,51 @@ declare module k {
 	export module u {
 		export class a {
 			public static class: java.lang.Class<k.u.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export abstract class v {
+	export class v extends k.B {
 		public static class: java.lang.Class<k.v>;
 		public constructor();
-		public getElementName(): string;
+		public a(): string;
+		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
+		public constructor(param0: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType, param1: string);
+		public getNamespace(): string;
 	}
 }
 
 declare module k {
-	export class w extends k.v {
+	export class w extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.v> {
 		public static class: java.lang.Class<k.w>;
 		public constructor();
-		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind;
-		public getExtensions(): java.util.List<any>;
-		public getNamespace(): string;
-		public constructor(param0: java.util.List<com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension>);
+		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
 	}
-}
-
-declare module k {
-	export class x extends org.jivesoftware.smack.provider.EmbeddedExtensionProvider<k.w> {
-		public static class: java.lang.Class<k.x>;
-		public constructor();
-		public createReturnExtension(param0: string, param1: string, param2: java.util.Map<any,any>, param3: java.util.List<any>): org.jivesoftware.smack.packet.ExtensionElement;
-	}
-	export module x {
+	export module w {
 		export class a {
-			public static class: java.lang.Class<k.x.a>;
-			public a(): void;
+			public static class: java.lang.Class<k.w.a>;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class y extends org.jivesoftware.smack.provider.ExtensionElementProvider<com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension> {
+	export class x extends k.B {
+		public static class: java.lang.Class<k.x>;
+		public constructor();
+		public a(): string;
+		public constructor(param0: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType, param1: string, param2: string);
+		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
+		public getNamespace(): string;
+	}
+}
+
+declare module k {
+	export class y extends org.jivesoftware.smack.provider.ExtensionElementProvider<k.x> {
 		public static class: java.lang.Class<k.y>;
 		public constructor();
 		public parse(param0: org.jivesoftware.smack.xml.XmlPullParser, param1: number, param2: org.jivesoftware.smack.packet.XmlEnvironment): org.jivesoftware.smack.packet.Element;
@@ -6559,20 +10054,20 @@ declare module k {
 	export module y {
 		export class a {
 			public static class: java.lang.Class<k.y.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 	}
 }
 
 declare module k {
-	export class z extends k.v {
+	export class z extends k.B {
 		public static class: java.lang.Class<k.z>;
 		public constructor();
-		public constructor(param0: com.iadvize.conversation.sdk.feature.conversation.xmpp.conversation.message.extension.FileExtension);
 		public toXML(param0: org.jivesoftware.smack.packet.XmlEnvironment): string;
-		public a(): com.iadvize.conversation.ui.models.MessageKind;
-		public getExtensions(): java.util.List<any>;
+		public constructor(param0: com.iadvize.conversation.ui.models.MessageAttachment.Escalation.EscalationType, param1: string);
 		public getNamespace(): string;
+		public a(): f.F;
 	}
 }
 
@@ -6591,12 +10086,12 @@ declare module l {
 	export class b {
 		public static class: java.lang.Class<l.b>;
 		public a(): boolean;
-		public constructor(param0: string, param1: string, param2: java.util.List<l.a>);
 		public equals(param0: any): boolean;
 		public hashCode(): number;
 		public d(): string;
 		public c(): string;
 		public toString(): string;
+		public constructor(param0: string, param1: string, param2: java.util.ArrayList<any>);
 		public b(): java.util.List<l.a>;
 	}
 }
@@ -6612,8 +10107,8 @@ declare module l {
 declare module l {
 	export class d {
 		public static class: java.lang.Class<l.d>;
-		public constructor(param0: java.util.List<l.b>);
 		public getIQChildElementBuilder(param0: org.jivesoftware.smack.packet.IQ.IQChildElementXmlStringBuilder): org.jivesoftware.smack.packet.IQ.IQChildElementXmlStringBuilder;
+		public constructor(param0: java.util.ArrayList<any>);
 		public a(): java.util.List<l.b>;
 	}
 }
@@ -6649,7 +10144,8 @@ declare module l {
 	export module f {
 		export class a {
 			public static class: java.lang.Class<l.f.a>;
-			public a(): void;
+			public static a(): void;
+			public static b(): void;
 		}
 		export class b {
 			public static class: java.lang.Class<l.f.b<any>>;
@@ -6661,9 +10157,8 @@ declare module m {
 	export class a {
 		public static class: java.lang.Class<m.a>;
 		public onActivityResumed(param0: globalAndroid.app.Activity): void;
-		public a(param0: java.lang.ref.WeakReference<globalAndroid.app.Activity>): void;
+		public b(): java.util.ArrayList<any>;
 		public a(): java.lang.ref.WeakReference<globalAndroid.app.Activity>;
-		public b(): java.util.List<m.a.a>;
 		public onActivityStopped(param0: globalAndroid.app.Activity): void;
 		public constructor(param0: m.a.a);
 		public onActivityCreated(param0: globalAndroid.app.Activity, param1: globalAndroid.os.Bundle): void;
@@ -6702,13 +10197,33 @@ declare module m {
 	export class c implements com.iadvize.conversation.sdk.feature.defaultfloatingbutton.DefaultFloatingButtonController, m.a.a {
 		public static class: java.lang.Class<m.c>;
 		public constructor();
-		public a(param0: u.a): void;
-		public c(): void;
+		public d(): f.g;
 		public b(): m.a;
-		public a(param0: d.b): void;
+		public e(): com.iadvize.conversation.sdk.feature.defaultfloatingbutton.DefaultFloatingButtonOption;
+		public f(): u.a;
+		public a(param0: d.c): void;
 		public setupDefaultFloatingButton(param0: com.iadvize.conversation.sdk.feature.defaultfloatingbutton.DefaultFloatingButtonOption): void;
 		public a(): void;
+		public g(): boolean;
 		public a(param0: f.g): void;
+		public a(param0: com.iadvize.conversation.sdk.feature.defaultfloatingbutton.DefaultFloatingButtonOption): void;
+		public h(): void;
+		public a(param0: u.a): void;
+		public c(): d.c;
+	}
+	export module c {
+		export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<m.c.a>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<m.c.b>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
 	}
 }
 
@@ -6716,124 +10231,149 @@ declare module m {
 	export class d {
 		public static class: java.lang.Class<m.d>;
 		public static a(param0: globalAndroid.app.Activity, param1: com.iadvize.conversation.sdk.feature.defaultfloatingbutton.DefaultFloatingButtonConfiguration, param2: boolean, param3: com.iadvize.conversation.sdk.feature.conversation.ConversationChannel, param4: globalAndroid.view.View.OnClickListener): void;
-		public static a(param0: globalAndroid.app.Activity): m.b;
+		public static a(param0: globalAndroid.app.Activity): void;
 	}
 }
 
 declare module n {
-	export class a {
-		public static class: java.lang.Class<n.a>;
-		public a(param0: string, param1: number, param2: string, param3: any): any;
-		public a(param0: any): any;
-		public a(param0: java.util.UUID, param1: com.iadvize.conversation.sdk.feature.targeting.TargetingRule, param2: any): any;
-		public g(param0: any): any;
-		public e(param0: any): any;
-		public c(param0: string, param1: any): any;
-		public a(param0: java.util.List<com.iadvize.conversation.sdk.feature.visitor.CustomData>, param1: any): any;
-		public a(param0: com.iadvize.conversation.sdk.h): void;
-		public a(param0: com.iadvize.conversation.sdk.feature.targeting.LanguageOption): void;
-		public a(param0: string, param1: any): any;
-		public d(param0: any): any;
-		public constructor(param0: com.iadvize.conversation.sdk.h);
-		public c(param0: any): any;
-		public a(param0: boolean, param1: any): any;
-		public b(param0: string, param1: any): any;
-		public b(param0: any): any;
-		public a(param0: number, param1: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption, param2: string, param3: any): any;
-		public f(param0: any): any;
-		public a(param0: com.iadvize.conversation.ui.models.MessageAttachment, param1: any): any;
-		public a(param0: com.iadvize.conversation.sdk.feature.transaction.Transaction, param1: any): any;
+	export abstract class a<T>  extends java.lang.Object {
+		public static class: java.lang.Class<n.a<any>>;
 	}
 	export module a {
-		export class a {
+		export class a extends n.a<any> {
 			public static class: java.lang.Class<n.a.a>;
+			public static a: n.a.a;
+		}
+		export class b<T>  extends n.a<any> {
+			public static class: java.lang.Class<n.a.b<any>>;
+			public a(): java.lang.Throwable;
+			public constructor(param0: java.lang.Exception);
+		}
+		export class c<T>  extends n.a<any> {
+			public static class: java.lang.Class<n.a.c<any>>;
+			public a(): any;
+			public constructor(param0: any);
+		}
+	}
+}
+
+declare module n {
+	export class b {
+		public static class: java.lang.Class<n.b>;
+		public a(param0: any): any;
+		public a(param0: java.util.UUID, param1: com.iadvize.conversation.sdk.feature.targeting.TargetingRule, param2: any): any;
+		public a(param0: string, param1: string, param2: any): any;
+		public e(param0: any): any;
+		public g(param0: any): any;
+		public a(param0: com.iadvize.conversation.sdk.h): void;
+		public a(param0: com.iadvize.conversation.sdk.feature.targeting.LanguageOption): void;
+		public constructor(param0: com.iadvize.conversation.sdk.h.a);
+		public a(param0: string, param1: any): any;
+		public d(param0: any): any;
+		public c(param0: any): any;
+		public a(param0: boolean, param1: any): any;
+		public a(param0: string, param1: string, param2: any): any;
+		public b(param0: string, param1: any): any;
+		public b(param0: any): any;
+		public a(param0: java.util.ArrayList<any>, param1: any): any;
+		public a(param0: number, param1: com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption, param2: string, param3: any): any;
+		public a(param0: com.iadvize.conversation.ui.models.MessageAttachment, param1: any): any;
+		public f(param0: any): any;
+		public a(param0: com.iadvize.conversation.sdk.feature.transaction.Transaction, param1: any): any;
+	}
+	export module b {
+		export class a {
+			public static class: java.lang.Class<n.b.a>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class b {
-			public static class: java.lang.Class<n.a.b>;
+			public static class: java.lang.Class<n.b.b>;
 			public invokeSuspend(param0: any): any;
 		}
-		export class c extends com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.JWECallback {
-			public static class: java.lang.Class<n.a.c>;
-			public onJWERetrieved(param0: string): void;
-			public onJWEFailure(param0: java.lang.Exception): void;
+		export class c {
+			public static class: java.lang.Class<n.b.c>;
+			public invokeSuspend(param0: any): any;
 		}
 		export class d {
-			public static class: java.lang.Class<n.a.d>;
+			public static class: java.lang.Class<n.b.d>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class e {
-			public static class: java.lang.Class<n.a.e>;
+			public static class: java.lang.Class<n.b.e>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class f {
-			public static class: java.lang.Class<n.a.f>;
+			public static class: java.lang.Class<n.b.f>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class g {
-			public static class: java.lang.Class<n.a.g>;
+			public static class: java.lang.Class<n.b.g>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class h {
-			public static class: java.lang.Class<n.a.h>;
+			public static class: java.lang.Class<n.b.h>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class i {
-			public static class: java.lang.Class<n.a.i>;
+			public static class: java.lang.Class<n.b.i>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class j {
-			public static class: java.lang.Class<n.a.j>;
+			public static class: java.lang.Class<n.b.j>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class k {
-			public static class: java.lang.Class<n.a.k>;
+			public static class: java.lang.Class<n.b.k>;
 			public invokeSuspend(param0: any): any;
 		}
-		export class l {
-			public static class: java.lang.Class<n.a.l>;
-			public invokeSuspend(param0: any): any;
+		export class l extends com.iadvize.conversation.sdk.feature.authentication.AuthenticationOption.JWECallback {
+			public static class: java.lang.Class<n.b.l>;
+			public onJWERetrieved(param0: string): void;
+			public onJWEFailure(param0: java.lang.Exception): void;
 		}
 		export class m {
-			public static class: java.lang.Class<n.a.m>;
+			public static class: java.lang.Class<n.b.m>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class n {
-			public static class: java.lang.Class<n.a.n>;
+			public static class: java.lang.Class<n.b.n>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class o {
-			public static class: java.lang.Class<n.a.o>;
+			public static class: java.lang.Class<n.b.o>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class p {
-			public static class: java.lang.Class<n.a.p>;
+			public static class: java.lang.Class<n.b.p>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class q {
-			public static class: java.lang.Class<n.a.q>;
+			public static class: java.lang.Class<n.b.q>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class r {
-			public static class: java.lang.Class<n.a.r>;
+			public static class: java.lang.Class<n.b.r>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class s {
-			public static class: java.lang.Class<n.a.s>;
+			public static class: java.lang.Class<n.b.s>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class t {
-			public static class: java.lang.Class<n.a.t>;
+			public static class: java.lang.Class<n.b.t>;
 			public invokeSuspend(param0: any): any;
 		}
 		export class u {
-			public static class: java.lang.Class<n.a.u>;
+			public static class: java.lang.Class<n.b.u>;
 			public invokeSuspend(param0: any): any;
 		}
-		export class v {
-			public static class: java.lang.Class<n.a.v>;
-			public invokeSuspend(param0: any): any;
-		}
+	}
+}
+
+declare module n {
+	export class c {
+		public static class: java.lang.Class<n.c>;
+		public invokeSuspend(param0: any): any;
 	}
 }
 
@@ -6908,17 +10448,19 @@ declare module p {
 declare module q {
 	export class a {
 		public static class: java.lang.Class<q.a>;
-		public a(param0: com.iadvize.conversation.sdk.feature.logger.Logger.Level, param1: string, param2: java.lang.StackTraceElement): org.json.JSONObject;
-		public a(): string;
+		public static a(param0: com.iadvize.conversation.sdk.feature.logger.Logger.Level, param1: string, param2: java.lang.StackTraceElement): org.json.JSONObject;
+		public static a(param0: globalAndroid.content.Context): void;
+		public static a(): string;
+		public static b(param0: com.iadvize.conversation.sdk.feature.logger.Logger.Level, param1: string, param2: java.lang.StackTraceElement): void;
 	}
 }
 
 declare module q {
 	export class b {
 		public static class: java.lang.Class<q.b>;
-		public b(param0: org.json.JSONObject): any;
-		public a(param0: org.json.JSONObject): any;
-		public a(param0: globalAndroid.content.Context, param1: java.net.URL): void;
+		public static a(param0: globalAndroid.content.Context, param1: java.net.URL): void;
+		public static a(param0: org.json.JSONObject): any;
+		public static b(param0: org.json.JSONObject): any;
 	}
 	export module b {
 		export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
@@ -6948,8 +10490,8 @@ declare module r {
 	export class a extends com.iadvize.conversation.sdk.feature.notification.NotificationController {
 		public static class: java.lang.Class<r.a>;
 		public isIAdvizePushNotification(param0: java.util.Map<string,string>): boolean;
+		public constructor(param0: n.b);
 		public disablePushNotifications(param0: com.iadvize.conversation.sdk.IAdvizeSDK.Callback): void;
-		public constructor(param0: n.a);
 		public enablePushNotifications(param0: com.iadvize.conversation.sdk.IAdvizeSDK.Callback): void;
 		public registerPushToken(param0: string): void;
 	}
@@ -7000,6 +10542,14 @@ declare module r {
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
+		export module c {
+			export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+				public static class: java.lang.Class<r.a.c.a>;
+				public create(param0: any, param1: any): any;
+				public invoke(param0: any, param1: any): any;
+				public invokeSuspend(param0: any): any;
+			}
+		}
 	}
 }
 
@@ -7028,13 +10578,15 @@ declare module s {
 declare module s {
 	export class b {
 		public static class: java.lang.Class<s.b>;
-		public a(param0: string, param1: any, param2: boolean): any;
-		public b(param0: string, param1: any, param2: boolean): void;
+		public static a(param0: string, param1: java.io.Serializable, param2: boolean): any;
+		public static b(param0: s.b, param1: s.a, param2: any): void;
+		public static a(param0: globalAndroid.content.Context): void;
 		public a(param0: s.a): void;
-		public static b(param0: s.a, param1: any): void;
 		public a(param0: string): void;
-		public static a(param0: s.a, param1: any): any;
-		public a(param0: globalAndroid.content.Context): void;
+		public static a(param0: java.util.LinkedHashSet<any>): any;
+		public a(param0: java.util.Set<any>): void;
+		public static a(param0: s.b, param1: s.a, param2: any): any;
+		public a(param0: string, param1: any, param2: boolean): void;
 	}
 }
 
@@ -7051,6 +10603,7 @@ declare module t {
 	export module a {
 		export class a {
 			public static class: java.lang.Class<t.a.a>;
+			public static a(param0: string): number;
 		}
 	}
 }
@@ -7099,32 +10652,36 @@ declare module u {
 	export class a extends com.iadvize.conversation.sdk.feature.targeting.TargetingController {
 		public static class: java.lang.Class<u.a>;
 		public setLanguage(param0: com.iadvize.conversation.sdk.feature.targeting.LanguageOption): void;
+		public b(): f.g;
 		public registerUserNavigation(param0: com.iadvize.conversation.sdk.feature.targeting.NavigationOption): void;
-		public constructor(param0: n.a);
-		public d(): void;
+		public constructor(param0: n.b);
+		public c(): java.util.UUID;
+		public a(param0: java.util.UUID): void;
 		public a(): void;
-		public b(): java.util.UUID;
 		public setListeners(param0: java.util.List<com.iadvize.conversation.sdk.feature.targeting.TargetingListener>): void;
 		public isActiveTargetingRuleAvailable(): boolean;
 		public a(param0: f.g): void;
 		public activeTargetingRule(): com.iadvize.conversation.sdk.feature.targeting.TargetingRule;
+		public e(): void;
 		public a(param0: boolean): void;
+		public d(): boolean;
 		public getLanguage(): com.iadvize.conversation.sdk.feature.targeting.LanguageOption;
 		public activateTargetingRule(param0: com.iadvize.conversation.sdk.feature.targeting.TargetingRule): void;
-		public c(): boolean;
+		public f(): void;
 		public getListeners(): java.util.List<com.iadvize.conversation.sdk.feature.targeting.TargetingListener>;
 	}
 	export module a {
-		export class a extends java.lang.Object  {
+		export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<u.a.a>;
 			public invoke(param0: any, param1: any): any;
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
-		export class b {
+		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<u.a.b>;
-			public constructor(param0: kotlinx.coroutines.CoroutineExceptionHandler.Key, param1: u.a);
-			public handleException(param0: any, param1: java.lang.Throwable): void;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
 		}
 		export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 			public static class: java.lang.Class<u.a.c>;
@@ -7132,20 +10689,28 @@ declare module u {
 			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
 		}
-	}
-}
-
-declare module u {
-	export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-		public static class: java.lang.Class<u.b>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
-	}
-	export module b {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<u.b.a<any>>;
-			public a(param0: boolean, param1: any): any;
+		export class d {
+			public static class: java.lang.Class<u.a.d>;
+			public constructor(param0: kotlinx.coroutines.CoroutineExceptionHandler.Key, param1: u.a);
+			public handleException(param0: any, param1: java.lang.Throwable): void;
+		}
+		export class e extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<u.a.e>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+		}
+		export module e {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<u.a.e.a<any>>;
+				public a(param0: n.a<any>): any;
+			}
+		}
+		export class f extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<u.a.f>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
 		}
 	}
 }
@@ -7168,7 +10733,7 @@ declare module v {
 			}
 			export class b extends v.a.a {
 				public static class: java.lang.Class<v.a.a.b>;
-				public static d: v.a.a.b;
+				public static c: v.a.a.b;
 			}
 		}
 		export abstract class b extends v.a {
@@ -7178,39 +10743,39 @@ declare module v {
 		export module b {
 			export class a extends v.a.b {
 				public static class: java.lang.Class<v.a.b.a>;
-				public static d: v.a.b.a;
+				public static c: v.a.b.a;
 			}
 			export class b extends v.a.b {
 				public static class: java.lang.Class<v.a.b.b>;
-				public static d: v.a.b.b;
+				public static c: v.a.b.b;
 			}
 			export class c extends v.a.b {
 				public static class: java.lang.Class<v.a.b.c>;
-				public static d: v.a.b.c;
+				public static c: v.a.b.c;
 			}
 			export class d extends v.a.b {
 				public static class: java.lang.Class<v.a.b.d>;
-				public static d: v.a.b.d;
+				public static c: v.a.b.d;
 			}
 			export class e extends v.a.b {
 				public static class: java.lang.Class<v.a.b.e>;
-				public static d: v.a.b.e;
+				public static c: v.a.b.e;
 			}
 			export class f extends v.a.b {
 				public static class: java.lang.Class<v.a.b.f>;
-				public static d: v.a.b.f;
+				public static c: v.a.b.f;
 			}
 			export class g extends v.a.b {
 				public static class: java.lang.Class<v.a.b.g>;
-				public static d: v.a.b.g;
+				public static c: v.a.b.g;
 			}
 			export class h extends v.a.b {
 				public static class: java.lang.Class<v.a.b.h>;
-				public static d: v.a.b.h;
+				public static c: v.a.b.h;
 			}
 			export class i extends v.a.b {
 				public static class: java.lang.Class<v.a.b.i>;
-				public static d: v.a.b.i;
+				public static c: v.a.b.i;
 			}
 			export abstract class j extends v.a.b {
 				public static class: java.lang.Class<v.a.b.j>;
@@ -7219,59 +10784,59 @@ declare module v {
 			export module j {
 				export class a extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.a>;
-					public static e: v.a.b.j.a;
+					public static d: v.a.b.j.a;
 				}
 				export class b extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.b>;
-					public static e: v.a.b.j.b;
+					public static d: v.a.b.j.b;
 				}
 				export class c extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.c>;
-					public static e: v.a.b.j.c;
+					public static d: v.a.b.j.c;
 				}
 				export class d extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.d>;
-					public static e: v.a.b.j.d;
+					public static d: v.a.b.j.d;
 				}
 				export class e extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.e>;
-					public static e: v.a.b.j.e;
+					public static d: v.a.b.j.e;
 				}
 				export class f extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.f>;
-					public static e: v.a.b.j.f;
+					public static d: v.a.b.j.f;
 				}
 				export class g extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.g>;
-					public static e: v.a.b.j.g;
+					public static d: v.a.b.j.g;
 				}
 				export class h extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.h>;
-					public static e: v.a.b.j.h;
+					public static d: v.a.b.j.h;
 				}
 				export class i extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.i>;
-					public static e: v.a.b.j.i;
+					public static d: v.a.b.j.i;
 				}
 				export class j extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.j>;
-					public static e: v.a.b.j.j;
+					public static d: v.a.b.j.j;
 				}
 				export class k extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.k>;
-					public static e: v.a.b.j.k;
+					public static d: v.a.b.j.k;
 				}
 				export class l extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.l>;
-					public static e: v.a.b.j.l;
+					public static d: v.a.b.j.l;
 				}
 				export class m extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.m>;
-					public static e: v.a.b.j.m;
+					public static d: v.a.b.j.m;
 				}
 				export class n extends v.a.b.j {
 					public static class: java.lang.Class<v.a.b.j.n>;
-					public static e: v.a.b.j.n;
+					public static d: v.a.b.j.n;
 				}
 			}
 		}
@@ -7282,7 +10847,7 @@ declare module v {
 		export module c {
 			export class a extends v.a.c {
 				public static class: java.lang.Class<v.a.c.a>;
-				public static d: v.a.c.a;
+				public static c: v.a.c.a;
 			}
 		}
 		export abstract class d extends v.a {
@@ -7292,11 +10857,11 @@ declare module v {
 		export module d {
 			export class a extends v.a.d {
 				public static class: java.lang.Class<v.a.d.a>;
-				public static d: v.a.d.a;
+				public static c: v.a.d.a;
 			}
 			export class b extends v.a.d {
 				public static class: java.lang.Class<v.a.d.b>;
-				public static d: v.a.d.b;
+				public static c: v.a.d.b;
 			}
 		}
 	}
@@ -7352,17 +10917,18 @@ declare module v {
 }
 
 declare module v {
-	export class d {
+	export class d extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 		public static class: java.lang.Class<v.d>;
-		public static a(param0: v.a): kotlinx.coroutines.Job;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
-	export module d {
-		export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<v.d.a>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
+}
+
+declare module v {
+	export class e {
+		public static class: java.lang.Class<v.e>;
+		public static a(param0: v.a): void;
 	}
 }
 
@@ -7370,8 +10936,8 @@ declare module w {
 	export class a implements m.a.a, com.iadvize.conversation.sdk.feature.transaction.TransactionController {
 		public static class: java.lang.Class<w.a>;
 		public b(): void;
+		public constructor(param0: n.b);
 		public register(param0: com.iadvize.conversation.sdk.feature.transaction.Transaction): void;
-		public constructor(param0: n.a);
 		public a(): void;
 	}
 	export module a {
@@ -7385,143 +10951,84 @@ declare module w {
 }
 
 declare module x {
-	export class A extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class A {
 		public static class: java.lang.Class<x.A>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class B extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class B {
 		public static class: java.lang.Class<x.B>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class C extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class C {
 		public static class: java.lang.Class<x.C>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class D<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.D<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module D {
-		export class a {
-			public static class: java.lang.Class<x.D.a>;
-			public constructor(param0: x.D<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
+	export class D {
+		public static class: java.lang.Class<x.D>;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class E<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.E<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module E {
-		export class a {
-			public static class: java.lang.Class<x.E.a>;
-			public constructor(param0: x.E<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
+	export class E {
+		public static class: java.lang.Class<x.E>;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class F<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.F<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module F {
-		export class a {
-			public static class: java.lang.Class<x.F.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.F<any>, param1: any);
-		}
+	export class F {
+		public static class: java.lang.Class<x.F>;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class G<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.G<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module G {
-		export class a {
-			public static class: java.lang.Class<x.G.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.G<any>, param1: any);
-		}
+	export class G {
+		public static class: java.lang.Class<x.G>;
+		public a(): string;
+		public constructor(param0: string);
 	}
 }
 
 declare module x {
-	export class H<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.H<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module H {
-		export class a {
-			public static class: java.lang.Class<x.H.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.H<any>, param1: any);
-		}
+	export class H {
+		public static class: java.lang.Class<x.H>;
+		public a(): com.twilio.video.VideoTextureView;
+		public constructor(param0: com.twilio.video.VideoTextureView, param1: com.twilio.video.VideoTextureView, param2: com.iadvize.conversation.sdk.feature.video.VideoSettings);
+		public c(): com.iadvize.conversation.sdk.feature.video.VideoSettings;
+		public b(): com.twilio.video.VideoTextureView;
 	}
 }
 
 declare module x {
-	export class I<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.I<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module I {
-		export class a {
-			public static class: java.lang.Class<x.I.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.I<any>, param1: any);
-		}
+	export class I {
+		public static class: java.lang.Class<x.I>;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class J<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.J<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module J {
-		export class a {
-			public static class: java.lang.Class<x.J.a>;
-			public constructor(param0: x.J<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
+	export class J {
+		public static class: java.lang.Class<x.J>;
+		public a(): string;
+		public constructor(param0: string);
 	}
 }
 
 declare module x {
-	export class K extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class K {
 		public static class: java.lang.Class<x.K>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public constructor();
 	}
 }
 
@@ -7547,83 +11054,104 @@ declare module x {
 }
 
 declare module x {
-	export class O {
+	export class O extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 		public static class: java.lang.Class<x.O>;
-		public a(): com.iadvize.conversation.sdk.feature.video.VideoCredentials;
-		public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoCredentials);
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity);
+		public create(param0: any, param1: any): any;
+	}
+	export module O {
+		export class a extends kotlinx.coroutines.flow.Flow<any> {
+			public static class: java.lang.Class<x.O.a>;
+			public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+			public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+		}
+		export module a {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.O.a.a<any>>;
+				public emit(param0: any, param1: any): any;
+				public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+			}
+			export module a {
+				export class a {
+					public static class: java.lang.Class<x.O.a.a.a>;
+					public constructor(param0: x.O.a.a<any>, param1: any);
+					public invokeSuspend(param0: any): any;
+				}
+			}
+		}
+		export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+			public static class: java.lang.Class<x.O.b<any>>;
+			public emit(param0: any, param1: any): any;
+			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity);
+		}
 	}
 }
 
 declare module x {
-	export class P {
+	export class P extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 		public static class: java.lang.Class<x.P>;
-		public constructor();
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity);
+		public create(param0: any, param1: any): any;
+	}
+	export module P {
+		export class a extends kotlinx.coroutines.flow.Flow<any> {
+			public static class: java.lang.Class<x.P.a>;
+			public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+			public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+		}
+		export module a {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.P.a.a<any>>;
+				public emit(param0: any, param1: any): any;
+				public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+			}
+			export module a {
+				export class a {
+					public static class: java.lang.Class<x.P.a.a.a>;
+					public constructor(param0: x.P.a.a<any>, param1: any);
+					public invokeSuspend(param0: any): any;
+				}
+			}
+		}
+		export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+			public static class: java.lang.Class<x.P.b<any>>;
+			public emit(param0: any, param1: any): any;
+			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity);
+		}
 	}
 }
 
 declare module x {
-	export class Q {
+	export class Q extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 		public static class: java.lang.Class<x.Q>;
-		public constructor();
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
 }
 
 declare module x {
 	export class S {
 		public static class: java.lang.Class<x.S>;
-		public constructor();
+		public a(): boolean;
+		public a(param0: boolean): void;
+		public d(): string;
+		public constructor(param0: string, param1: boolean, param2: boolean, param3: boolean, param4: boolean);
+		public c(param0: boolean): void;
+		public b(param0: boolean): void;
+		public b(): boolean;
+		public c(): boolean;
+		public d(param0: boolean): void;
 	}
-}
-
-declare module x {
-	export class T {
-		public static class: java.lang.Class<x.T>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class U {
-		public static class: java.lang.Class<x.U>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class V {
-		public static class: java.lang.Class<x.V>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class W {
-		public static class: java.lang.Class<x.W>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class X {
-		public static class: java.lang.Class<x.X>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class Y {
-		public static class: java.lang.Class<x.Y>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class Z {
-		public static class: java.lang.Class<x.Z>;
-		public a(): com.twilio.video.VideoTextureView;
-		public constructor(param0: com.twilio.video.VideoTextureView, param1: com.twilio.video.VideoTextureView, param2: com.iadvize.conversation.sdk.feature.video.VideoSettings);
-		public c(): com.iadvize.conversation.sdk.feature.video.VideoSettings;
-		public b(): com.twilio.video.VideoTextureView;
+	export module S {
+		export class a {
+			public static class: java.lang.Class<x.S.a>;
+			public static a(param0: string): x.S;
+		}
 	}
 }
 
@@ -7652,59 +11180,8 @@ declare module x {
 }
 
 declare module x {
-	export class a0 {
-		public static class: java.lang.Class<x.a0>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.b<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module b {
-		export class a {
-			public static class: java.lang.Class<x.b.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.b<any>, param1: any);
-		}
-	}
-}
-
-declare module x {
-	export class b0 {
-		public static class: java.lang.Class<x.b0>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class c<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.c<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module c {
-		export class a {
-			public static class: java.lang.Class<x.c.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.c<any>, param1: any);
-		}
-	}
-}
-
-declare module x {
-	export class c0 {
-		public static class: java.lang.Class<x.c0>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class d {
-		public static class: java.lang.Class<x.d>;
+	export class b {
+		public static class: java.lang.Class<x.b>;
 		public onTouchEvent(param0: globalAndroid.view.MotionEvent): boolean;
 		public a(param0: com.iadvize.conversation.sdk.feature.video.VideoSettings): void;
 		public constructor(param0: globalAndroid.content.Context, param1: globalAndroid.view.View.OnClickListener);
@@ -7714,45 +11191,35 @@ declare module x {
 }
 
 declare module x {
-	export class d0 {
-		public static class: java.lang.Class<x.d0>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class e<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.e<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module e {
-		export class a {
-			public static class: java.lang.Class<x.e.a>;
-			public constructor(param0: x.e<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
-	}
-}
-
-declare module x {
-	export class e0 {
-		public static class: java.lang.Class<x.e0>;
-		public constructor();
-	}
-}
-
-declare module x {
-	export class f extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-		public static class: java.lang.Class<x.f>;
+	export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.c>;
 		public invokeSuspend(param0: any): any;
+		public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
 		public invoke(param0: any, param1: any): any;
-		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		public create(param0: any, param1: any): any;
 	}
-	export module f {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<x.f.a<any>>;
+	export module c {
+		export class a extends kotlinx.coroutines.flow.Flow<any> {
+			public static class: java.lang.Class<x.c.a>;
+			public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+			public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+		}
+		export module a {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.c.a.a<any>>;
+				public emit(param0: any, param1: any): any;
+				public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+			}
+			export module a {
+				export class a {
+					public static class: java.lang.Class<x.c.a.a.a>;
+					public constructor(param0: x.c.a.a<any>, param1: any);
+					public invokeSuspend(param0: any): any;
+				}
+			}
+		}
+		export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+			public static class: java.lang.Class<x.c.b<any>>;
 			public emit(param0: any, param1: any): any;
 			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		}
@@ -7760,38 +11227,145 @@ declare module x {
 }
 
 declare module x {
-	export class f0 {
-		public static class: java.lang.Class<x.f0>;
-		public constructor();
+	export class d extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.d>;
+		public invokeSuspend(param0: any): any;
+		public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
-}
-
-declare module x {
-	export class g<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.g<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module g {
-		export class a {
-			public static class: java.lang.Class<x.g.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.g<any>, param1: any);
+	export module d {
+		export class a extends kotlinx.coroutines.flow.Flow<any> {
+			public static class: java.lang.Class<x.d.a>;
+			public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+			public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+		}
+		export module a {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.d.a.a<any>>;
+				public emit(param0: any, param1: any): any;
+				public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+			}
+			export module a {
+				export class a {
+					public static class: java.lang.Class<x.d.a.a.a>;
+					public constructor(param0: x.d.a.a<any>, param1: any);
+					public invokeSuspend(param0: any): any;
+				}
+			}
+		}
+		export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+			public static class: java.lang.Class<x.d.b<any>>;
+			public emit(param0: any, param1: any): any;
+			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		}
 	}
 }
 
 declare module x {
-	export class g0<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.g0<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+	export class e extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.e>;
+		public invokeSuspend(param0: any): any;
+		public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
-	export module g0 {
-		export class a {
-			public static class: java.lang.Class<x.g0.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.g0<any>, param1: any);
+	export module e {
+		export class a extends kotlinx.coroutines.flow.Flow<any> {
+			public static class: java.lang.Class<x.e.a>;
+			public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+			public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+		}
+		export module a {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.e.a.a<any>>;
+				public emit(param0: any, param1: any): any;
+				public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+			}
+			export module a {
+				export class a {
+					public static class: java.lang.Class<x.e.a.a.a>;
+					public constructor(param0: x.e.a.a<any>, param1: any);
+					public invokeSuspend(param0: any): any;
+				}
+			}
+		}
+		export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+			public static class: java.lang.Class<x.e.b<any>>;
+			public emit(param0: any, param1: any): any;
+			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
+		}
+	}
+}
+
+declare module x {
+	export class f extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.f>;
+		public invokeSuspend(param0: any): any;
+		public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
+	}
+	export module f {
+		export class a extends kotlinx.coroutines.flow.Flow<any> {
+			public static class: java.lang.Class<x.f.a>;
+			public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+			public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+		}
+		export module a {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.f.a.a<any>>;
+				public emit(param0: any, param1: any): any;
+				public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+			}
+			export module a {
+				export class a {
+					public static class: java.lang.Class<x.f.a.a.a>;
+					public constructor(param0: x.f.a.a<any>, param1: any);
+					public invokeSuspend(param0: any): any;
+				}
+			}
+		}
+		export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+			public static class: java.lang.Class<x.f.b<any>>;
+			public emit(param0: any, param1: any): any;
+			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
+		}
+	}
+}
+
+declare module x {
+	export class g extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.g>;
+		public invokeSuspend(param0: any): any;
+		public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
+	}
+	export module g {
+		export class a extends kotlinx.coroutines.flow.Flow<any> {
+			public static class: java.lang.Class<x.g.a>;
+			public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+			public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+		}
+		export module a {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.g.a.a<any>>;
+				public emit(param0: any, param1: any): any;
+				public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+			}
+			export module a {
+				export class a {
+					public static class: java.lang.Class<x.g.a.a.a>;
+					public constructor(param0: x.g.a.a<any>, param1: any);
+					public invokeSuspend(param0: any): any;
+				}
+			}
+		}
+		export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+			public static class: java.lang.Class<x.g.b<any>>;
+			public emit(param0: any, param1: any): any;
+			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		}
 	}
 }
@@ -7800,13 +11374,32 @@ declare module x {
 	export class h extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
 		public static class: java.lang.Class<x.h>;
 		public invokeSuspend(param0: any): any;
+		public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity, param1: any);
 		public invoke(param0: any, param1: any): any;
-		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		public create(param0: any, param1: any): any;
 	}
 	export module h {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<x.h.a<any>>;
+		export class a extends kotlinx.coroutines.flow.Flow<any> {
+			public static class: java.lang.Class<x.h.a>;
+			public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+			public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+		}
+		export module a {
+			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.h.a.a<any>>;
+				public emit(param0: any, param1: any): any;
+				public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+			}
+			export module a {
+				export class a {
+					public static class: java.lang.Class<x.h.a.a.a>;
+					public constructor(param0: x.h.a.a<any>, param1: any);
+					public invokeSuspend(param0: any): any;
+				}
+			}
+		}
+		export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+			public static class: java.lang.Class<x.h.b<any>>;
 			public emit(param0: any, param1: any): any;
 			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		}
@@ -7814,48 +11407,309 @@ declare module x {
 }
 
 declare module x {
-	export class h0 extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-		public static class: java.lang.Class<x.h0>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity);
-		public create(param0: any, param1: any): any;
-	}
-	export module h0 {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<x.h0.a<any>>;
-			public emit(param0: any, param1: any): any;
-			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity);
-		}
-	}
-}
-
-declare module x {
-	export class i<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.i<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+	export class i {
+		public static class: java.lang.Class<x.i>;
+		public onVideoTrackEnabled(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication): void;
+		public onDataTrackUnpublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication): void;
+		public static a(param0: x.i, param1: com.twilio.video.VideoTextureView, param2: com.twilio.video.VideoTextureView, param3: com.iadvize.conversation.sdk.feature.video.VideoSettings): void;
+		public onDataTrackSubscriptionFailed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication, param2: com.twilio.video.TwilioException): void;
+		public onVideoTrackSubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication, param2: com.twilio.video.RemoteVideoTrack): void;
+		public static a(param0: x.i, param1: x.a.a): void;
+		public onParticipantConnected(param0: com.twilio.video.Room, param1: com.twilio.video.RemoteParticipant): void;
+		public onAudioTrackSubscriptionFailed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication, param2: com.twilio.video.TwilioException): void;
+		public static b(param0: x.i, param1: boolean): void;
+		public static a(param0: x.i): void;
+		public static q(param0: x.i): void;
+		public onDataTrackUnsubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication, param2: com.twilio.video.RemoteDataTrack): void;
+		public static p(param0: x.i): void;
+		public onRecordingStarted(param0: com.twilio.video.Room): void;
+		public onAudioTrackEnabled(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication): void;
+		public onVideoTrackSubscriptionFailed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication, param2: com.twilio.video.TwilioException): void;
+		public onDisconnected(param0: com.twilio.video.Room, param1: com.twilio.video.TwilioException): void;
+		public static d(param0: x.i): void;
+		public onAudioTrackUnsubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication, param2: com.twilio.video.RemoteAudioTrack): void;
+		public static a(param0: x.i, param1: com.twilio.video.RemoteParticipant): void;
+		public onVideoTrackUnsubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication, param2: com.twilio.video.RemoteVideoTrack): void;
+		public static n(param0: x.i): void;
+		public onReconnected(param0: com.twilio.video.Room): void;
+		public static s(param0: x.i): void;
+		public onAudioTrackDisabled(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication): void;
+		public onAudioTrackSubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication, param2: com.twilio.video.RemoteAudioTrack): void;
+		public onAudioTrackUnpublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication): void;
+		public static b(param0: x.i): void;
+		public onAudioTrackPublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication): void;
+		public static o(param0: x.i): void;
+		public onConnected(param0: com.twilio.video.Room): void;
+		public onParticipantDisconnected(param0: com.twilio.video.Room, param1: com.twilio.video.RemoteParticipant): void;
+		public a(): void;
+		public onReconnecting(param0: com.twilio.video.Room, param1: com.twilio.video.TwilioException): void;
+		public onConnectFailure(param0: com.twilio.video.Room, param1: com.twilio.video.TwilioException): void;
+		public onVideoTrackDisabled(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication): void;
+		public onVideoTrackPublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication): void;
+		public onVideoTrackUnpublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication): void;
+		public constructor(param0: globalAndroid.content.Context, param1: com.iadvize.conversation.sdk.feature.video.VideoCredentials);
+		public onDataTrackSubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication, param2: com.twilio.video.RemoteDataTrack): void;
+		public static a(param0: x.i, param1: boolean): void;
+		public onRecordingStopped(param0: com.twilio.video.Room): void;
+		public onDataTrackPublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication): void;
+		public static c(param0: x.i): void;
 	}
 	export module i {
-		export class a {
+		export class a extends java.lang.Object implements any<com.twilio.audioswitch.AudioDevice,any>  {
 			public static class: java.lang.Class<x.i.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.i<any>, param1: any);
+			public a(param0: java.util.List<any>, param1: com.twilio.audioswitch.AudioDevice): void;
 		}
-	}
-}
-
-declare module x {
-	export class i0<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.i0<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module i0 {
-		export class a {
-			public static class: java.lang.Class<x.i0.a>;
+		export module a {
+			export class a extends java.lang.Object implements any<com.twilio.audioswitch.AudioDevice,string>  {
+				public static class: java.lang.Class<x.i.a.a>;
+				public static a: x.i.a.a;
+				public invoke(param0: any): any;
+			}
+		}
+		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<x.i.b>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
 			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.i0<any>, param1: any);
+		}
+		export module b {
+			export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+				public static class: java.lang.Class<x.i.b.a>;
+				public create(param0: any, param1: any): any;
+				public invoke(param0: any, param1: any): any;
+				public invokeSuspend(param0: any): any;
+			}
+		}
+		export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<x.i.c>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+			public constructor(param0: x.i, param1: any);
+		}
+		export module c {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<x.i.c.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<x.i.c.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<x.i.c.a.a.a>;
+						public constructor(param0: x.i.c.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.i.c.b<any>>;
+				public constructor(param0: x.i);
+				public emit(param0: any, param1: any): any;
+			}
+		}
+		export class d extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<x.i.d>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+			public constructor(param0: x.i, param1: any);
+		}
+		export module d {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<x.i.d.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<x.i.d.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<x.i.d.a.a.a>;
+						public constructor(param0: x.i.d.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.i.d.b<any>>;
+				public constructor(param0: x.i);
+				public emit(param0: any, param1: any): any;
+			}
+		}
+		export class e extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<x.i.e>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+			public constructor(param0: x.i, param1: any);
+		}
+		export module e {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<x.i.e.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<x.i.e.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<x.i.e.a.a.a>;
+						public constructor(param0: x.i.e.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.i.e.b<any>>;
+				public constructor(param0: x.i);
+				public emit(param0: any, param1: any): any;
+			}
+		}
+		export class f extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<x.i.f>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+			public constructor(param0: x.i, param1: any);
+		}
+		export module f {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<x.i.f.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<x.i.f.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<x.i.f.a.a.a>;
+						public constructor(param0: x.i.f.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.i.f.b<any>>;
+				public constructor(param0: x.i);
+				public emit(param0: any, param1: any): any;
+			}
+		}
+		export class g extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<x.i.g>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+			public constructor(param0: x.i, param1: any);
+		}
+		export module g {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<x.i.g.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<x.i.g.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<x.i.g.a.a.a>;
+						public constructor(param0: x.i.g.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.i.g.b<any>>;
+				public constructor(param0: x.i);
+				public emit(param0: any, param1: any): any;
+			}
+		}
+		export class h extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<x.i.h>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+			public constructor(param0: x.i, param1: any);
+		}
+		export module h {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<x.i.h.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<x.i.h.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<x.i.h.a.a.a>;
+						public constructor(param0: x.i.h.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.i.h.b<any>>;
+				public constructor(param0: x.i);
+				public emit(param0: any, param1: any): any;
+			}
+		}
+		export class i extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<x.i.i>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
+			public constructor(param0: x.i, param1: any);
+		}
+		export module i {
+			export class a extends kotlinx.coroutines.flow.Flow<any> {
+				public static class: java.lang.Class<x.i.i.a>;
+				public constructor(param0: kotlinx.coroutines.flow.MutableSharedFlow);
+				public collect(param0: kotlinx.coroutines.flow.FlowCollector, param1: any): any;
+			}
+			export module a {
+				export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
+					public static class: java.lang.Class<x.i.i.a.a<any>>;
+					public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
+					public emit(param0: any, param1: any): any;
+				}
+				export module a {
+					export class a {
+						public static class: java.lang.Class<x.i.i.a.a.a>;
+						public constructor(param0: x.i.i.a.a<any>, param1: any);
+						public invokeSuspend(param0: any): any;
+					}
+				}
+			}
+			export class b<T>  extends kotlinx.coroutines.flow.FlowCollector {
+				public static class: java.lang.Class<x.i.i.b<any>>;
+				public constructor(param0: x.i);
+				public emit(param0: any, param1: any): any;
+			}
 		}
 	}
 }
@@ -7865,53 +11719,13 @@ declare module x {
 		public static class: java.lang.Class<x.j>;
 		public invokeSuspend(param0: any): any;
 		public invoke(param0: any, param1: any): any;
-		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		public create(param0: any, param1: any): any;
 	}
-	export module j {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<x.j.a<any>>;
-			public emit(param0: any, param1: any): any;
-			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
-		}
-	}
 }
 
 declare module x {
-	export class j0 extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-		public static class: java.lang.Class<x.j0>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity);
-		public create(param0: any, param1: any): any;
-	}
-	export module j0 {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<x.j0.a<any>>;
-			public emit(param0: any, param1: any): any;
-			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoLobbyActivity);
-		}
-	}
-}
-
-declare module x {
-	export class k<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.k<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module k {
-		export class a {
-			public static class: java.lang.Class<x.k.a>;
-			public constructor(param0: x.k<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
-	}
-}
-
-declare module x {
-	export class k0 extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-		public static class: java.lang.Class<x.k0>;
+	export class k extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.k>;
 		public invokeSuspend(param0: any): any;
 		public invoke(param0: any, param1: any): any;
 		public create(param0: any, param1: any): any;
@@ -7923,120 +11737,43 @@ declare module x {
 		public static class: java.lang.Class<x.l>;
 		public invokeSuspend(param0: any): any;
 		public invoke(param0: any, param1: any): any;
-		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		public create(param0: any, param1: any): any;
 	}
-	export module l {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<x.l.a<any>>;
-			public emit(param0: any, param1: any): any;
-			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
-		}
+}
+
+declare module x {
+	export class m extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.m>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
 }
 
 declare module x {
-	export class l0<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.l0<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module l0 {
-		export class a {
-			public static class: java.lang.Class<x.l0.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.l0<any>, param1: any);
-		}
+	export class n extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.n>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
 }
 
 declare module x {
-	export class m<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.m<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module m {
-		export class a {
-			public static class: java.lang.Class<x.m.a>;
-			public constructor(param0: x.m<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
+	export class o extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.o>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
 }
 
 declare module x {
-	export class m0<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.m0<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module m0 {
-		export class a {
-			public static class: java.lang.Class<x.m0.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.m0<any>, param1: any);
-		}
-	}
-}
-
-declare module x {
-	export class n<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.n<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module n {
-		export class a {
-			public static class: java.lang.Class<x.n.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.n<any>, param1: any);
-		}
-	}
-}
-
-declare module x {
-	export class n0 {
-		public static class: java.lang.Class<x.n0>;
-		public a(): boolean;
-		public a(param0: boolean): void;
-		public d(): string;
-		public constructor(param0: string, param1: boolean, param2: boolean, param3: boolean, param4: boolean);
-		public c(param0: boolean): void;
-		public b(param0: boolean): void;
-		public b(): boolean;
-		public c(): boolean;
-		public d(param0: boolean): void;
-	}
-}
-
-declare module x {
-	export class o<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.o<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module o {
-		export class a {
-			public static class: java.lang.Class<x.o.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.o<any>, param1: any);
-		}
-	}
-}
-
-declare module x {
-	export class p<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.p<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module p {
-		export class a {
-			public static class: java.lang.Class<x.p.a>;
-			public invokeSuspend(param0: any): any;
-			public constructor(param0: x.p<any>, param1: any);
-		}
+	export class p extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.p>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
 }
 
@@ -8045,30 +11782,16 @@ declare module x {
 		public static class: java.lang.Class<x.q>;
 		public invokeSuspend(param0: any): any;
 		public invoke(param0: any, param1: any): any;
-		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		public create(param0: any, param1: any): any;
-	}
-	export module q {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<x.q.a<any>>;
-			public emit(param0: any, param1: any): any;
-			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
-		}
 	}
 }
 
 declare module x {
-	export class r<T>  extends kotlinx.coroutines.flow.FlowCollector {
-		public static class: java.lang.Class<x.r<any>>;
-		public emit(param0: any, param1: any): any;
-		public constructor(param0: kotlinx.coroutines.flow.FlowCollector);
-	}
-	export module r {
-		export class a {
-			public static class: java.lang.Class<x.r.a>;
-			public constructor(param0: x.r<any>, param1: any);
-			public invokeSuspend(param0: any): any;
-		}
+	export class r extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+		public static class: java.lang.Class<x.r>;
+		public invokeSuspend(param0: any): any;
+		public invoke(param0: any, param1: any): any;
+		public create(param0: any, param1: any): any;
 	}
 }
 
@@ -8077,243 +11800,58 @@ declare module x {
 		public static class: java.lang.Class<x.s>;
 		public invokeSuspend(param0: any): any;
 		public invoke(param0: any, param1: any): any;
-		public constructor(param0: any, param1: com.iadvize.conversation.sdk.feature.video.VideoActivity);
 		public create(param0: any, param1: any): any;
-	}
-	export module s {
-		export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-			public static class: java.lang.Class<x.s.a<any>>;
-			public emit(param0: any, param1: any): any;
-			public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoActivity);
-		}
 	}
 }
 
 declare module x {
-	export class t extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class t {
 		public static class: java.lang.Class<x.t>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public constructor();
 	}
 }
 
 declare module x {
 	export class u {
 		public static class: java.lang.Class<x.u>;
-		public static l(param0: x.u): any;
-		public onVideoTrackEnabled(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication): void;
-		public onDataTrackUnpublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication): void;
-		public onDataTrackSubscriptionFailed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication, param2: com.twilio.video.TwilioException): void;
-		public onVideoTrackSubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication, param2: com.twilio.video.RemoteVideoTrack): void;
-		public onParticipantConnected(param0: com.twilio.video.Room, param1: com.twilio.video.RemoteParticipant): void;
-		public onAudioTrackSubscriptionFailed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication, param2: com.twilio.video.TwilioException): void;
-		public static a(param0: x.u): void;
-		public onDataTrackUnsubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication, param2: com.twilio.video.RemoteDataTrack): void;
-		public onRecordingStarted(param0: com.twilio.video.Room): void;
-		public onAudioTrackEnabled(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication): void;
-		public onVideoTrackSubscriptionFailed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication, param2: com.twilio.video.TwilioException): void;
-		public onDisconnected(param0: com.twilio.video.Room, param1: com.twilio.video.TwilioException): void;
-		public static m(param0: x.u): any;
-		public onAudioTrackUnsubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication, param2: com.twilio.video.RemoteAudioTrack): void;
-		public onVideoTrackUnsubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication, param2: com.twilio.video.RemoteVideoTrack): void;
-		public onReconnected(param0: com.twilio.video.Room): void;
-		public static a(param0: x.u, param1: boolean): kotlinx.coroutines.Job;
-		public onAudioTrackDisabled(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication): void;
-		public onAudioTrackSubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication, param2: com.twilio.video.RemoteAudioTrack): void;
-		public onAudioTrackUnpublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication): void;
-		public onAudioTrackPublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteAudioTrackPublication): void;
-		public onConnected(param0: com.twilio.video.Room): void;
-		public onParticipantDisconnected(param0: com.twilio.video.Room, param1: com.twilio.video.RemoteParticipant): void;
-		public a(): void;
-		public onReconnecting(param0: com.twilio.video.Room, param1: com.twilio.video.TwilioException): void;
-		public onConnectFailure(param0: com.twilio.video.Room, param1: com.twilio.video.TwilioException): void;
-		public static k(param0: x.u): void;
-		public onVideoTrackDisabled(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication): void;
-		public onVideoTrackPublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication): void;
-		public static a(param0: x.u, param1: x.a.a): void;
-		public onVideoTrackUnpublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteVideoTrackPublication): void;
-		public static b(param0: x.u, param1: boolean): kotlinx.coroutines.Job;
-		public constructor(param0: globalAndroid.content.Context, param1: com.iadvize.conversation.sdk.feature.video.VideoCredentials);
-		public onDataTrackSubscribed(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication, param2: com.twilio.video.RemoteDataTrack): void;
-		public onRecordingStopped(param0: com.twilio.video.Room): void;
-		public onDataTrackPublished(param0: com.twilio.video.RemoteParticipant, param1: com.twilio.video.RemoteDataTrackPublication): void;
-	}
-	export module u {
-		export class a extends java.lang.Object implements com.twilio.audioswitch.AudioDevice  {
-			public static class: java.lang.Class<x.u.a>;
-			public a(param0: java.util.List<any>, param1: com.twilio.audioswitch.AudioDevice): void;
-		}
-		export module a {
-			export class a extends java.lang.Object implements any<com.twilio.audioswitch.AudioDevice,string>  {
-				public static class: java.lang.Class<x.u.a.a>;
-				public static a: x.u.a.a;
-				public invoke(param0: any): any;
-			}
-		}
-		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.b>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export class c extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.c>;
-			public invoke(param0: any, param1: any): any;
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module c {
-			export class a extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-				public static class: java.lang.Class<x.u.c.a>;
-				public create(param0: any, param1: any): any;
-				public invoke(param0: any, param1: any): any;
-				public invokeSuspend(param0: any): any;
-			}
-		}
-		export class d extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.d>;
-			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: x.u);
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module d {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<x.u.d.a<any>>;
-				public constructor(param0: x.u);
-				public emit(param0: any, param1: any): any;
-			}
-		}
-		export class e extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.e>;
-			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: x.u);
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module e {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<x.u.e.a<any>>;
-				public constructor(param0: x.u);
-				public emit(param0: any, param1: any): any;
-			}
-		}
-		export class f extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.f>;
-			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: x.u);
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module f {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<x.u.f.a<any>>;
-				public constructor(param0: x.u);
-				public emit(param0: any, param1: any): any;
-			}
-		}
-		export class g extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.g>;
-			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: x.u);
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module g {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<x.u.g.a<any>>;
-				public constructor(param0: x.u);
-				public emit(param0: any, param1: any): any;
-			}
-		}
-		export class h extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.h>;
-			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: x.u);
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module h {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<x.u.h.a<any>>;
-				public constructor(param0: x.u);
-				public emit(param0: any, param1: any): any;
-			}
-		}
-		export class i extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.i>;
-			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: x.u);
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module i {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<x.u.i.a<any>>;
-				public constructor(param0: x.u);
-				public emit(param0: any, param1: any): any;
-			}
-		}
-		export class j extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
-			public static class: java.lang.Class<x.u.j>;
-			public invoke(param0: any, param1: any): any;
-			public constructor(param0: any, param1: x.u);
-			public create(param0: any, param1: any): any;
-			public invokeSuspend(param0: any): any;
-		}
-		export module j {
-			export class a<T>  extends kotlinx.coroutines.flow.FlowCollector {
-				public static class: java.lang.Class<x.u.j.a<any>>;
-				public constructor(param0: x.u);
-				public emit(param0: any, param1: any): any;
-			}
-		}
+		public constructor();
 	}
 }
 
 declare module x {
-	export class v extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class v {
 		public static class: java.lang.Class<x.v>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public a(): string;
+		public constructor(param0: string);
 	}
 }
 
 declare module x {
-	export class w extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class w {
 		public static class: java.lang.Class<x.w>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public a(): com.iadvize.conversation.sdk.feature.video.VideoCredentials;
+		public constructor(param0: com.iadvize.conversation.sdk.feature.video.VideoCredentials);
 	}
 }
 
 declare module x {
-	export class x extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class x {
 		public static class: java.lang.Class<x.x>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class y extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class y {
 		public static class: java.lang.Class<x.y>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public constructor();
 	}
 }
 
 declare module x {
-	export class z extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+	export class z {
 		public static class: java.lang.Class<x.z>;
-		public invokeSuspend(param0: any): any;
-		public invoke(param0: any, param1: any): any;
-		public create(param0: any, param1: any): any;
+		public constructor();
 	}
 }
 
@@ -8321,10 +11859,13 @@ declare module y {
 	export class a extends com.iadvize.conversation.sdk.feature.conversation.NoOpConversationListener implements com.iadvize.conversation.sdk.feature.visitor.VisitorController {
 		public static class: java.lang.Class<y.a>;
 		public constructor();
+		public b(): java.util.ArrayList<any>;
+		public static a(param0: y.a): boolean;
+		public static a(param0: y.a, param1: com.iadvize.conversation.sdk.IAdvizeSDK.Callback): void;
 		public registerCustomData(param0: java.util.List<com.iadvize.conversation.sdk.feature.visitor.CustomData>, param1: com.iadvize.conversation.sdk.IAdvizeSDK.Callback): void;
 		public onNewMessageReceived(param0: string): void;
-		public b(): java.util.List<com.iadvize.conversation.sdk.feature.visitor.CustomData>;
-		public constructor(param0: n.a);
+		public constructor(param0: n.b);
+		public static a(param0: y.a, param1: java.util.List<any>): void;
 		public handleClickedUrl(param0: globalAndroid.net.Uri): boolean;
 		public a(): void;
 		public onOngoingConversationUpdated(param0: com.iadvize.conversation.sdk.feature.conversation.OngoingConversation): void;
@@ -8335,6 +11876,12 @@ declare module y {
 			public static class: java.lang.Class<y.a.a>;
 			public onSuccess(): void;
 			public onFailure(param0: java.lang.Throwable): void;
+		}
+		export class b extends java.lang.Object implements any<kotlinx.coroutines.CoroutineScope,any,any>  {
+			public static class: java.lang.Class<y.a.b>;
+			public invoke(param0: any, param1: any): any;
+			public create(param0: any, param1: any): any;
+			public invokeSuspend(param0: any): any;
 		}
 	}
 }
@@ -8370,16 +11917,8 @@ declare module y {
 }
 
 declare module z {
-	export class A extends com.apollographql.apollo3.api.Adapter<z.y> {
+	export class A {
 		public static class: java.lang.Class<z.A>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.y;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.y): void;
-	}
-}
-
-declare module z {
-	export class B {
-		public static class: java.lang.Class<z.B>;
 		public a(): string;
 		public equals(param0: any): boolean;
 		public hashCode(): number;
@@ -8389,16 +11928,16 @@ declare module z {
 }
 
 declare module z {
-	export class C extends com.apollographql.apollo3.api.Adapter<z.B> {
-		public static class: java.lang.Class<z.C>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.B): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.B;
+	export class B extends com.apollographql.apollo3.api.Adapter<z.A> {
+		public static class: java.lang.Class<z.B>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.A): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.A;
 	}
 }
 
 declare module z {
-	export class D {
-		public static class: java.lang.Class<z.D>;
+	export class C {
+		public static class: java.lang.Class<z.C>;
 		public a(): string;
 		public b(): string;
 		public equals(param0: any): boolean;
@@ -8410,36 +11949,115 @@ declare module z {
 }
 
 declare module z {
-	export class E extends com.apollographql.apollo3.api.Adapter<z.D> {
-		public static class: java.lang.Class<z.E>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.D): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.D;
+	export class D extends com.apollographql.apollo3.api.Adapter<z.C> {
+		public static class: java.lang.Class<z.D>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.C;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.C): void;
 	}
 }
 
 declare module z {
-	export class F {
-		public static class: java.lang.Class<z.F>;
-		public a(): string;
-		public constructor(param0: any, param1: string);
+	export class E {
+		public static class: java.lang.Class<z.E>;
+		public a(): java.util.List<z.E.a>;
 		public equals(param0: any): boolean;
-		public b(): any;
 		public hashCode(): number;
+		public constructor(param0: java.util.List<z.E.a>);
 		public toString(): string;
 	}
+	export module E {
+		export class a {
+			public static class: java.lang.Class<z.E.a>;
+			public b(): string;
+			public equals(param0: any): boolean;
+			public toString(): string;
+			public a(): z.C;
+			public constructor(param0: string, param1: z.C);
+			public hashCode(): number;
+		}
+	}
 }
 
 declare module z {
-	export class G extends com.apollographql.apollo3.api.Adapter<z.F> {
+	export class F extends com.apollographql.apollo3.api.Adapter<z.E.a> {
+		public static class: java.lang.Class<z.F>;
+		public static a: z.F;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module z {
+	export class G extends com.apollographql.apollo3.api.Adapter<z.E> {
 		public static class: java.lang.Class<z.G>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.F;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.F): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.E;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.E): void;
 	}
 }
 
 declare module z {
 	export class H {
 		public static class: java.lang.Class<z.H>;
+		public a(): string;
+		public equals(param0: any): boolean;
+		public hashCode(): number;
+		public toString(): string;
+		public constructor(param0: string);
+	}
+}
+
+declare module z {
+	export class I extends com.apollographql.apollo3.api.Adapter<z.H> {
+		public static class: java.lang.Class<z.I>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.H;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.H): void;
+	}
+}
+
+declare module z {
+	export class J {
+		public static class: java.lang.Class<z.J>;
+		public a(): string;
+		public b(): string;
+		public equals(param0: any): boolean;
+		public hashCode(): number;
+		public c(): any;
+		public toString(): string;
+		public constructor(param0: string, param1: string, param2: any);
+	}
+}
+
+declare module z {
+	export class K extends com.apollographql.apollo3.api.Adapter<z.J> {
+		public static class: java.lang.Class<z.K>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.J): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.J;
+	}
+}
+
+declare module z {
+	export class L {
+		public static class: java.lang.Class<z.L>;
+		public a(): string;
+		public equals(param0: any): boolean;
+		public b(): any;
+		public hashCode(): number;
+		public constructor(param0: string, param1: any);
+		public toString(): string;
+	}
+}
+
+declare module z {
+	export class M extends com.apollographql.apollo3.api.Adapter<z.L> {
+		public static class: java.lang.Class<z.M>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.L;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.L): void;
+	}
+}
+
+declare module z {
+	export class N {
+		public static class: java.lang.Class<z.N>;
 		public a(): string;
 		public b(): string;
 		public equals(param0: any): boolean;
@@ -8452,39 +12070,39 @@ declare module z {
 }
 
 declare module z {
-	export class I extends com.apollographql.apollo3.api.Adapter<z.H> {
-		public static class: java.lang.Class<z.I>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.H): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.H;
+	export class O extends com.apollographql.apollo3.api.Adapter<z.N> {
+		public static class: java.lang.Class<z.O>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.N): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.N;
 	}
 }
 
 declare module z {
-	export class J {
-		public static class: java.lang.Class<z.J>;
-		public constructor(param0: string, param1: string, param2: java.util.Date, param3: z.J.b, param4: z.J.c, param5: java.util.List<z.J.a>);
+	export class P {
+		public static class: java.lang.Class<z.P>;
 		public c(): java.util.Date;
 		public equals(param0: any): boolean;
 		public f(): string;
-		public a(): java.util.List<z.J.a>;
-		public b(): z.J.b;
-		public e(): z.J.c;
+		public constructor(param0: string, param1: string, param2: java.util.Date, param3: z.P.b, param4: z.P.c, param5: java.util.List<z.P.a>);
 		public hashCode(): number;
 		public d(): string;
+		public b(): z.P.b;
+		public e(): z.P.c;
 		public toString(): string;
+		public a(): java.util.List<z.P.a>;
 	}
-	export module J {
+	export module P {
 		export class a {
-			public static class: java.lang.Class<z.J.a>;
+			public static class: java.lang.Class<z.P.a>;
 			public b(): string;
 			public equals(param0: any): boolean;
+			public a(): z.Q;
 			public toString(): string;
-			public a(): z.K;
-			public constructor(param0: string, param1: z.K);
+			public constructor(param0: string, param1: z.Q);
 			public hashCode(): number;
 		}
 		export class b {
-			public static class: java.lang.Class<z.J.b>;
+			public static class: java.lang.Class<z.P.b>;
 			public b(): string;
 			public equals(param0: any): boolean;
 			public toString(): string;
@@ -8493,7 +12111,7 @@ declare module z {
 			public hashCode(): number;
 		}
 		export class c {
-			public static class: java.lang.Class<z.J.c>;
+			public static class: java.lang.Class<z.P.c>;
 			public b(): string;
 			public equals(param0: any): boolean;
 			public toString(): string;
@@ -8505,74 +12123,77 @@ declare module z {
 }
 
 declare module z {
-	export class K {
-		public static class: java.lang.Class<z.K>;
-		public constructor(param0: string, param1: z.c, param2: z.h, param3: z.w, param4: z.y, param5: z.D, param6: z.F, param7: z.H, param8: z.Q, param9: z.T, param10: z.X, param11: z.c0, param12: z.g0);
-		public l(): z.g0;
-		public equals(param0: any): boolean;
-		public i(): z.T;
-		public j(): z.X;
-		public b(): z.h;
-		public k(): z.c0;
-		public toString(): string;
-		public m(): string;
-		public a(): z.c;
-		public d(): z.y;
-		public hashCode(): number;
-		public g(): z.H;
-		public h(): z.Q;
-		public f(): z.F;
-		public c(): z.w;
-		public e(): z.D;
-	}
-}
-
-declare module z {
-	export class L extends com.apollographql.apollo3.api.Adapter<z.K> {
-		public static class: java.lang.Class<z.L>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.K;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.K): void;
-	}
-}
-
-declare module z {
-	export class M extends com.apollographql.apollo3.api.Adapter<z.J.a> {
-		public static class: java.lang.Class<z.M>;
-		public static a: z.M;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
-	}
-}
-
-declare module z {
-	export class N extends com.apollographql.apollo3.api.Adapter<z.J.b> {
-		public static class: java.lang.Class<z.N>;
-		public static a: z.N;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
-	}
-}
-
-declare module z {
-	export class O extends com.apollographql.apollo3.api.Adapter<z.J> {
-		public static class: java.lang.Class<z.O>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.J;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.J): void;
-	}
-}
-
-declare module z {
-	export class P extends com.apollographql.apollo3.api.Adapter<z.J.c> {
-		public static class: java.lang.Class<z.P>;
-		public static a: z.P;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
-	}
-}
-
-declare module z {
 	export class Q {
 		public static class: java.lang.Class<z.Q>;
+		public f(): z.C;
+		public equals(param0: any): boolean;
+		public g(): z.E;
+		public b(): z.h;
+		public k(): z.X;
+		public toString(): string;
+		public i(): z.L;
+		public l(): z.Z;
+		public constructor(param0: string, param1: z.c, param2: z.h, param3: z.u, param4: z.w, param5: z.y, param6: z.C, param7: z.E, param8: z.J, param9: z.L, param10: z.N, param11: z.X, param12: z.Z, param13: z.d0, param14: z.i0, param15: z.m0);
+		public j(): z.N;
+		public a(): z.c;
+		public n(): z.i0;
+		public h(): z.J;
+		public e(): z.y;
+		public d(): z.w;
+		public m(): z.d0;
+		public hashCode(): number;
+		public p(): string;
+		public o(): z.m0;
+		public c(): z.u;
+	}
+}
+
+declare module z {
+	export class S extends com.apollographql.apollo3.api.Adapter<z.Q> {
+		public static class: java.lang.Class<z.S>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.Q): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.Q;
+	}
+}
+
+declare module z {
+	export class T extends com.apollographql.apollo3.api.Adapter<z.P.a> {
+		public static class: java.lang.Class<z.T>;
+		public static a: z.T;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module z {
+	export class U extends com.apollographql.apollo3.api.Adapter<z.P.b> {
+		public static class: java.lang.Class<z.U>;
+		public static a: z.U;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module z {
+	export class V extends com.apollographql.apollo3.api.Adapter<z.P> {
+		public static class: java.lang.Class<z.V>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.P): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.P;
+	}
+}
+
+declare module z {
+	export class W extends com.apollographql.apollo3.api.Adapter<z.P.c> {
+		public static class: java.lang.Class<z.W>;
+		public static a: z.W;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module z {
+	export class X {
+		public static class: java.lang.Class<z.X>;
 		public a(): string;
 		public b(): string;
 		public equals(param0: any): boolean;
@@ -8587,31 +12208,31 @@ declare module z {
 }
 
 declare module z {
-	export class S extends com.apollographql.apollo3.api.Adapter<z.Q> {
-		public static class: java.lang.Class<z.S>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.Q): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.Q;
+	export class Y extends com.apollographql.apollo3.api.Adapter<z.X> {
+		public static class: java.lang.Class<z.Y>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.X;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.X): void;
 	}
 }
 
 declare module z {
-	export class T {
-		public static class: java.lang.Class<z.T>;
-		public b(): z.T.b;
+	export class Z {
+		public static class: java.lang.Class<z.Z>;
+		public constructor(param0: z.Z.b, param1: string, param2: string, param3: string, param4: string, param5: boolean, param6: java.util.List<z.Z.a>);
 		public equals(param0: any): boolean;
+		public a(): java.util.List<z.Z.a>;
 		public f(): string;
 		public hashCode(): number;
+		public b(): z.Z.b;
 		public d(): string;
 		public e(): string;
-		public a(): java.util.List<z.T.a>;
 		public c(): string;
 		public toString(): string;
-		public constructor(param0: z.T.b, param1: string, param2: string, param3: string, param4: string, param5: boolean, param6: java.util.List<z.T.a>);
 		public g(): boolean;
 	}
-	export module T {
+	export module Z {
 		export class a {
-			public static class: java.lang.Class<z.T.a>;
+			public static class: java.lang.Class<z.Z.a>;
 			public b(): string;
 			public equals(param0: any): boolean;
 			public toString(): string;
@@ -8620,7 +12241,7 @@ declare module z {
 			public hashCode(): number;
 		}
 		export class b {
-			public static class: java.lang.Class<z.T.b>;
+			public static class: java.lang.Class<z.Z.b>;
 			public b(): string;
 			public equals(param0: any): boolean;
 			public toString(): string;
@@ -8628,71 +12249,6 @@ declare module z {
 			public constructor(param0: string, param1: z.m);
 			public hashCode(): number;
 		}
-	}
-}
-
-declare module z {
-	export class U extends com.apollographql.apollo3.api.Adapter<z.T.a> {
-		public static class: java.lang.Class<z.U>;
-		public static a: z.U;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
-	}
-}
-
-declare module z {
-	export class V extends com.apollographql.apollo3.api.Adapter<z.T.b> {
-		public static class: java.lang.Class<z.V>;
-		public static a: z.V;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
-	}
-}
-
-declare module z {
-	export class W extends com.apollographql.apollo3.api.Adapter<z.T> {
-		public static class: java.lang.Class<z.W>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.T): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.T;
-	}
-}
-
-declare module z {
-	export class X {
-		public static class: java.lang.Class<z.X>;
-		public equals(param0: any): boolean;
-		public a(): java.util.List<z.X.a>;
-		public hashCode(): number;
-		public constructor(param0: java.util.List<z.X.a>);
-		public toString(): string;
-	}
-	export module X {
-		export class a {
-			public static class: java.lang.Class<z.X.a>;
-			public b(): string;
-			public equals(param0: any): boolean;
-			public toString(): string;
-			public constructor(param0: string, param1: z.T);
-			public a(): z.T;
-			public hashCode(): number;
-		}
-	}
-}
-
-declare module z {
-	export class Y extends com.apollographql.apollo3.api.Adapter<z.X.a> {
-		public static class: java.lang.Class<z.Y>;
-		public static a: z.Y;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
-	}
-}
-
-declare module z {
-	export class Z extends com.apollographql.apollo3.api.Adapter<z.X> {
-		public static class: java.lang.Class<z.Z>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.X;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.X): void;
 	}
 }
 
@@ -8708,29 +12264,28 @@ declare module z {
 }
 
 declare module z {
-	export class a0 {
+	export class a0 extends com.apollographql.apollo3.api.Adapter<z.Z.a> {
 		public static class: java.lang.Class<z.a0>;
-		public a(): string;
-		public equals(param0: any): boolean;
-		public hashCode(): number;
-		public toString(): string;
-		public constructor(param0: string);
+		public static a: z.a0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
 	}
 }
 
 declare module z {
 	export class b extends com.apollographql.apollo3.api.Adapter<z.a> {
 		public static class: java.lang.Class<z.b>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.a): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.a;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.a;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.a): void;
 	}
 }
 
 declare module z {
-	export class b0 extends com.apollographql.apollo3.api.Adapter<z.a0> {
+	export class b0 extends com.apollographql.apollo3.api.Adapter<z.Z.b> {
 		public static class: java.lang.Class<z.b0>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.a0;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.a0): void;
+		public static a: z.b0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
 	}
 }
 
@@ -8771,23 +12326,19 @@ declare module z {
 			public static class: java.lang.Class<z.c.c>;
 			public b(): string;
 			public equals(param0: any): boolean;
+			public constructor(param0: string, param1: z.o0);
 			public toString(): string;
-			public constructor(param0: string, param1: z.i0);
-			public a(): z.i0;
+			public a(): z.o0;
 			public hashCode(): number;
 		}
 	}
 }
 
 declare module z {
-	export class c0 {
+	export class c0 extends com.apollographql.apollo3.api.Adapter<z.Z> {
 		public static class: java.lang.Class<z.c0>;
-		public constructor(param0: string, param1: java.util.List<string>);
-		public b(): string;
-		public equals(param0: any): boolean;
-		public a(): java.util.List<string>;
-		public hashCode(): number;
-		public toString(): string;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.Z): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.Z;
 	}
 }
 
@@ -8801,29 +12352,41 @@ declare module z {
 }
 
 declare module z {
-	export class d0 extends com.apollographql.apollo3.api.Adapter<z.c0> {
+	export class d0 {
 		public static class: java.lang.Class<z.d0>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.c0;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.c0): void;
+		public a(): java.util.List<z.d0.a>;
+		public equals(param0: any): boolean;
+		public hashCode(): number;
+		public toString(): string;
+		public constructor(param0: java.util.List<z.d0.a>);
+	}
+	export module d0 {
+		export class a {
+			public static class: java.lang.Class<z.d0.a>;
+			public b(): string;
+			public equals(param0: any): boolean;
+			public toString(): string;
+			public constructor(param0: string, param1: z.Z);
+			public a(): z.Z;
+			public hashCode(): number;
+		}
 	}
 }
 
 declare module z {
 	export class e extends com.apollographql.apollo3.api.Adapter<z.c> {
 		public static class: java.lang.Class<z.e>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.c): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.c;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.c): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.c;
 	}
 }
 
 declare module z {
-	export class e0 {
+	export class e0 extends com.apollographql.apollo3.api.Adapter<z.d0.a> {
 		public static class: java.lang.Class<z.e0>;
-		public a(): string;
-		public equals(param0: any): boolean;
-		public hashCode(): number;
-		public toString(): string;
-		public constructor(param0: string);
+		public static a: z.e0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
 	}
 }
 
@@ -8837,10 +12400,10 @@ declare module z {
 }
 
 declare module z {
-	export class f0 extends com.apollographql.apollo3.api.Adapter<z.e0> {
+	export class f0 extends com.apollographql.apollo3.api.Adapter<z.d0> {
 		public static class: java.lang.Class<z.f0>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.e0): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.e0;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.d0): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.d0;
 	}
 }
 
@@ -8856,11 +12419,11 @@ declare module z {
 declare module z {
 	export class g0 {
 		public static class: java.lang.Class<z.g0>;
-		public constructor(param0: java.lang.Boolean);
+		public a(): string;
 		public equals(param0: any): boolean;
-		public a(): java.lang.Boolean;
 		public hashCode(): number;
 		public toString(): string;
+		public constructor(param0: string);
 	}
 }
 
@@ -8868,10 +12431,12 @@ declare module z {
 	export class h {
 		public static class: java.lang.Class<z.h>;
 		public equals(param0: any): boolean;
-		public a(): java.util.List<z.h.a>;
 		public hashCode(): number;
-		public constructor(param0: java.util.List<z.h.a>);
+		public a(): C.i;
+		public c(): string;
 		public toString(): string;
+		public b(): java.util.List<z.h.a>;
+		public constructor(param0: string, param1: C.i, param2: java.util.List<z.h.a>);
 	}
 	export module h {
 		export class a {
@@ -8889,8 +12454,8 @@ declare module z {
 declare module z {
 	export class h0 extends com.apollographql.apollo3.api.Adapter<z.g0> {
 		public static class: java.lang.Class<z.h0>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.g0;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.g0): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.g0): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.g0;
 	}
 }
 
@@ -8906,28 +12471,28 @@ declare module z {
 declare module z {
 	export class i0 {
 		public static class: java.lang.Class<z.i0>;
-		public a(): string;
+		public constructor(param0: string, param1: java.util.List<string>);
 		public b(): string;
 		public equals(param0: any): boolean;
+		public a(): java.util.List<string>;
 		public hashCode(): number;
 		public toString(): string;
-		public constructor(param0: string, param1: string);
 	}
 }
 
 declare module z {
 	export class j extends com.apollographql.apollo3.api.Adapter<z.h> {
 		public static class: java.lang.Class<z.j>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.h): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.h;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.h;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.h): void;
 	}
 }
 
 declare module z {
 	export class j0 extends com.apollographql.apollo3.api.Adapter<z.i0> {
 		public static class: java.lang.Class<z.j0>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.i0;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.i0): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.i0): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.i0;
 	}
 }
 
@@ -8958,16 +12523,16 @@ declare module z {
 declare module z {
 	export class l extends com.apollographql.apollo3.api.Adapter<z.k> {
 		public static class: java.lang.Class<z.l>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.k;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.k): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.k): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.k;
 	}
 }
 
 declare module z {
 	export class l0 extends com.apollographql.apollo3.api.Adapter<z.k0> {
 		public static class: java.lang.Class<z.l0>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.k0): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.k0;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.k0;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.k0): void;
 	}
 }
 
@@ -8986,58 +12551,27 @@ declare module z {
 declare module z {
 	export class m0 {
 		public static class: java.lang.Class<z.m0>;
+		public constructor(param0: java.lang.Boolean);
 		public equals(param0: any): boolean;
-		public constructor(param0: string, param1: java.util.List<z.m0.a>, param2: z.m0.c);
+		public a(): java.lang.Boolean;
 		public hashCode(): number;
-		public c(): string;
 		public toString(): string;
-		public a(): java.util.List<z.m0.a>;
-		public b(): z.m0.c;
-	}
-	export module m0 {
-		export class a {
-			public static class: java.lang.Class<z.m0.a>;
-			public constructor(param0: z.m0.b);
-			public equals(param0: any): boolean;
-			public toString(): string;
-			public a(): z.m0.b;
-			public hashCode(): number;
-		}
-		export class b {
-			public static class: java.lang.Class<z.m0.b>;
-			public b(): string;
-			public equals(param0: any): boolean;
-			public toString(): string;
-			public constructor(param0: string, param1: z.J);
-			public a(): z.J;
-			public hashCode(): number;
-		}
-		export class c {
-			public static class: java.lang.Class<z.m0.c>;
-			public equals(param0: any): boolean;
-			public toString(): string;
-			public b(): boolean;
-			public a(): string;
-			public constructor(param0: boolean, param1: string);
-			public hashCode(): number;
-		}
 	}
 }
 
 declare module z {
 	export class n extends com.apollographql.apollo3.api.Adapter<z.m> {
 		public static class: java.lang.Class<z.n>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.m;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.m): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.m;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.m): void;
 	}
 }
 
 declare module z {
-	export class n0 extends com.apollographql.apollo3.api.Adapter<z.m0.a> {
+	export class n0 extends com.apollographql.apollo3.api.Adapter<z.m0> {
 		public static class: java.lang.Class<z.n0>;
-		public static a: z.n0;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.m0;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.m0): void;
 	}
 }
 
@@ -9045,37 +12579,39 @@ declare module z {
 	export class o {
 		public static class: java.lang.Class<z.o>;
 		public a(): string;
-		public constructor(param0: any, param1: string);
 		public equals(param0: any): boolean;
 		public b(): any;
 		public hashCode(): number;
+		public constructor(param0: string, param1: any);
 		public toString(): string;
 	}
 }
 
 declare module z {
-	export class o0 extends com.apollographql.apollo3.api.Adapter<z.m0.b> {
+	export class o0 {
 		public static class: java.lang.Class<z.o0>;
-		public static a: z.o0;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+		public a(): string;
+		public b(): string;
+		public equals(param0: any): boolean;
+		public hashCode(): number;
+		public toString(): string;
+		public constructor(param0: string, param1: string);
 	}
 }
 
 declare module z {
 	export class p extends com.apollographql.apollo3.api.Adapter<z.o> {
 		public static class: java.lang.Class<z.p>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.o): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.o;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.o): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.o;
 	}
 }
 
 declare module z {
-	export class p0 extends com.apollographql.apollo3.api.Adapter<z.m0.c> {
+	export class p0 extends com.apollographql.apollo3.api.Adapter<z.o0> {
 		public static class: java.lang.Class<z.p0>;
-		public static a: z.p0;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.o0): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.o0;
 	}
 }
 
@@ -9091,49 +12627,8 @@ declare module z {
 }
 
 declare module z {
-	export class q0 extends com.apollographql.apollo3.api.Adapter<z.m0> {
+	export class q0 {
 		public static class: java.lang.Class<z.q0>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.m0;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.m0): void;
-	}
-}
-
-declare module z {
-	export class r extends com.apollographql.apollo3.api.Adapter<z.q> {
-		public static class: java.lang.Class<z.r>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.q): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.q;
-	}
-}
-
-declare module z {
-	export class s {
-		public static class: java.lang.Class<z.s>;
-		public g(): string;
-		public d(): z.a0;
-		public a(): z.a;
-		public equals(param0: any): boolean;
-		public constructor(param0: string, param1: z.a, param2: z.u, param3: z.B, param4: z.a0, param5: z.e0, param6: z.k0);
-		public c(): z.B;
-		public hashCode(): number;
-		public e(): z.e0;
-		public f(): z.k0;
-		public toString(): string;
-		public b(): z.u;
-	}
-}
-
-declare module z {
-	export class t extends com.apollographql.apollo3.api.Adapter<z.s> {
-		public static class: java.lang.Class<z.t>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.s;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.s): void;
-	}
-}
-
-declare module z {
-	export class u {
-		public static class: java.lang.Class<z.u>;
 		public a(): string;
 		public equals(param0: any): boolean;
 		public hashCode(): number;
@@ -9143,31 +12638,160 @@ declare module z {
 }
 
 declare module z {
+	export class r extends com.apollographql.apollo3.api.Adapter<z.q> {
+		public static class: java.lang.Class<z.r>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.q): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.q;
+	}
+}
+
+declare module z {
+	export class r0 extends com.apollographql.apollo3.api.Adapter<z.q0> {
+		public static class: java.lang.Class<z.r0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.q0;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.q0): void;
+	}
+}
+
+declare module z {
+	export class s {
+		public static class: java.lang.Class<z.s>;
+		public g(): string;
+		public e(): z.k0;
+		public constructor(param0: string, param1: z.a, param2: z.A, param3: z.H, param4: z.g0, param5: z.k0, param6: z.q0);
+		public b(): z.A;
+		public a(): z.a;
+		public equals(param0: any): boolean;
+		public f(): z.q0;
+		public hashCode(): number;
+		public toString(): string;
+		public c(): z.H;
+		public d(): z.g0;
+	}
+}
+
+declare module z {
+	export class s0 {
+		public static class: java.lang.Class<z.s0>;
+		public equals(param0: any): boolean;
+		public b(): z.s0.c;
+		public hashCode(): number;
+		public a(): java.util.List<z.s0.a>;
+		public constructor(param0: string, param1: java.util.List<z.s0.a>, param2: z.s0.c);
+		public c(): string;
+		public toString(): string;
+	}
+	export module s0 {
+		export class a {
+			public static class: java.lang.Class<z.s0.a>;
+			public equals(param0: any): boolean;
+			public constructor(param0: z.s0.b);
+			public toString(): string;
+			public a(): z.s0.b;
+			public hashCode(): number;
+		}
+		export class b {
+			public static class: java.lang.Class<z.s0.b>;
+			public b(): string;
+			public equals(param0: any): boolean;
+			public a(): z.P;
+			public toString(): string;
+			public constructor(param0: string, param1: z.P);
+			public hashCode(): number;
+		}
+		export class c {
+			public static class: java.lang.Class<z.s0.c>;
+			public equals(param0: any): boolean;
+			public toString(): string;
+			public constructor(param0: string, param1: boolean);
+			public b(): boolean;
+			public a(): string;
+			public hashCode(): number;
+		}
+	}
+}
+
+declare module z {
+	export class t extends com.apollographql.apollo3.api.Adapter<z.s> {
+		public static class: java.lang.Class<z.t>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.s;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.s): void;
+	}
+}
+
+declare module z {
+	export class t0 extends com.apollographql.apollo3.api.Adapter<z.s0.a> {
+		public static class: java.lang.Class<z.t0>;
+		public static a: z.t0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module z {
+	export class u {
+		public static class: java.lang.Class<z.u>;
+		public equals(param0: any): boolean;
+		public constructor(param0: java.util.UUID, param1: C.D);
+		public hashCode(): number;
+		public toString(): string;
+		public b(): C.D;
+		public a(): java.util.UUID;
+	}
+}
+
+declare module z {
+	export class u0 extends com.apollographql.apollo3.api.Adapter<z.s0.b> {
+		public static class: java.lang.Class<z.u0>;
+		public static a: z.u0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+	}
+}
+
+declare module z {
 	export class v extends com.apollographql.apollo3.api.Adapter<z.u> {
 		public static class: java.lang.Class<z.v>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.u;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.u): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.u): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.u;
+	}
+}
+
+declare module z {
+	export class v0 extends com.apollographql.apollo3.api.Adapter<z.s0.c> {
+		public static class: java.lang.Class<z.v0>;
+		public static a: z.v0;
+		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
+		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
 	}
 }
 
 declare module z {
 	export class w {
 		public static class: java.lang.Class<z.w>;
-		public a(): string;
-		public b(): string;
 		public equals(param0: any): boolean;
 		public hashCode(): number;
-		public c(): any;
+		public c(): C.D;
+		public constructor(param0: java.util.UUID, param1: C.D, param2: C.A);
 		public toString(): string;
-		public constructor(param0: string, param1: string, param2: any);
+		public a(): java.util.UUID;
+		public b(): C.A;
+	}
+}
+
+declare module z {
+	export class w0 extends com.apollographql.apollo3.api.Adapter<z.s0> {
+		public static class: java.lang.Class<z.w0>;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.s0): void;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.s0;
 	}
 }
 
 declare module z {
 	export class x extends com.apollographql.apollo3.api.Adapter<z.w> {
 		public static class: java.lang.Class<z.x>;
-		public a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.w): void;
-		public a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.w;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.w;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.w): void;
 	}
 }
 
@@ -9175,90 +12799,88 @@ declare module z {
 	export class y {
 		public static class: java.lang.Class<z.y>;
 		public equals(param0: any): boolean;
+		public constructor(param0: java.util.UUID, param1: C.D);
 		public hashCode(): number;
-		public constructor(param0: java.util.List<z.y.a>);
-		public a(): java.util.List<z.y.a>;
 		public toString(): string;
-	}
-	export module y {
-		export class a {
-			public static class: java.lang.Class<z.y.a>;
-			public constructor(param0: string, param1: z.w);
-			public b(): string;
-			public equals(param0: any): boolean;
-			public toString(): string;
-			public a(): z.w;
-			public hashCode(): number;
-		}
+		public b(): C.D;
+		public a(): java.util.UUID;
 	}
 }
 
 declare module z {
-	export class z extends com.apollographql.apollo3.api.Adapter<z.y.a> {
+	export class z extends com.apollographql.apollo3.api.Adapter<z.y> {
 		public static class: java.lang.Class<z.z>;
-		public static a: z.z;
-		public toJson(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: any): void;
-		public fromJson(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): any;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonReader, param1: com.apollographql.apollo3.api.CustomScalarAdapters): z.y;
+		public static a(param0: com.apollographql.apollo3.api.json.JsonWriter, param1: com.apollographql.apollo3.api.CustomScalarAdapters, param2: z.y): void;
 	}
 }
 
 //Generics information:
-//com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.a:1
-//com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.a:1
-//com.iadvize.conversation.sdk.feature.video.VideoService.b.a:1
-//com.iadvize.conversation.sdk.feature.video.VideoService.c.a:1
-//com.iadvize.conversation.sdk.feature.video.b.a:1
-//com.iadvize.conversation.sdk.feature.video.c.a:1
-//com.iadvize.conversation.sdk.feature.video.d.a:1
+//com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.c.a.a:1
+//com.iadvize.conversation.sdk.feature.chatbox.ChatboxActivity.c.b:1
+//com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.b.a.a:1
+//com.iadvize.conversation.sdk.feature.chatbox.attachment.ImageAttachmentViewerActivity.b.b:1
+//com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.a.a:1
+//com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.b.b:1
+//com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.a.a:1
+//com.iadvize.conversation.sdk.feature.video.ThumbnailVideoService.c.b:1
+//com.iadvize.conversation.sdk.feature.video.VideoService.b.a.a:1
+//com.iadvize.conversation.sdk.feature.video.VideoService.b.b:1
+//com.iadvize.conversation.sdk.feature.video.VideoService.c.a.a:1
+//com.iadvize.conversation.sdk.feature.video.VideoService.c.b:1
+//com.iadvize.conversation.sdk.feature.video.b.a.a:1
+//com.iadvize.conversation.sdk.feature.video.b.b:1
+//com.iadvize.conversation.sdk.feature.video.c.a.a:1
+//com.iadvize.conversation.sdk.feature.video.c.b:1
+//com.iadvize.conversation.sdk.feature.video.d.a.a:1
+//com.iadvize.conversation.sdk.feature.video.d.b:1
 //f.a.a:1
 //f.a.b:1
 //f.b:1
 //f.c:1
 //f.e:1
-//f.g.I.a:1
-//f.g.J.a:1
-//f.m:1
-//f.n:1
-//g.a.b.a:1
-//g.a.c.a:1
-//g.b:1
-//g.c:1
-//u.b.a:1
-//x.D:1
-//x.E:1
-//x.F:1
-//x.G:1
-//x.H:1
-//x.I:1
-//x.J:1
-//x.b:1
-//x.c:1
-//x.e:1
-//x.f.a:1
-//x.g:1
-//x.g0:1
-//x.h.a:1
-//x.h0.a:1
-//x.i:1
-//x.i0:1
-//x.j.a:1
-//x.j0.a:1
-//x.k:1
-//x.l.a:1
-//x.l0:1
-//x.m:1
-//x.m0:1
-//x.n:1
-//x.o:1
-//x.p:1
-//x.q.a:1
-//x.r:1
-//x.s.a:1
-//x.u.d.a:1
-//x.u.e.a:1
-//x.u.f.a:1
-//x.u.g.a:1
-//x.u.h.a:1
-//x.u.i.a:1
-//x.u.j.a:1
+//f.g.F.a.a:1
+//f.g.F.b:1
+//f.g.G.a.a:1
+//f.g.G.b:1
+//f.g.H.a.a:1
+//f.g.H.b:1
+//g.a.b.a.a:1
+//g.a.b.b:1
+//g.a.c.a.a:1
+//g.a.c.b:1
+//n.a:1
+//n.a.b:1
+//n.a.c:1
+//u.a.e.a:1
+//x.O.a.a:1
+//x.O.b:1
+//x.P.a.a:1
+//x.P.b:1
+//x.c.a.a:1
+//x.c.b:1
+//x.d.a.a:1
+//x.d.b:1
+//x.e.a.a:1
+//x.e.b:1
+//x.f.a.a:1
+//x.f.b:1
+//x.g.a.a:1
+//x.g.b:1
+//x.h.a.a:1
+//x.h.b:1
+//x.i.c.a.a:1
+//x.i.c.b:1
+//x.i.d.a.a:1
+//x.i.d.b:1
+//x.i.e.a.a:1
+//x.i.e.b:1
+//x.i.f.a.a:1
+//x.i.f.b:1
+//x.i.g.a.a:1
+//x.i.g.b:1
+//x.i.h.a.a:1
+//x.i.h.b:1
+//x.i.i.a.a:1
+//x.i.i.b:1
 

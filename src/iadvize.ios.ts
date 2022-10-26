@@ -144,6 +144,10 @@ class ConversationControllerDelegateImpl extends NSObject implements Conversatio
         this.ongoingConversationStatusDidChange(hasOngoingConversation);
     }
 
+    ongoingConversationUpdatedWithOngoingConversation(ongoingConversation: OngoingConversation): void {
+        this.ongoingConversationUpdatedWithOngoingConversation(ongoingConversation);
+    }
+
 }
 
 @NativeClass()

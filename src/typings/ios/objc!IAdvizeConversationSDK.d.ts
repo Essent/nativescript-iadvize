@@ -121,7 +121,7 @@ declare class ConversationController extends NSObject {
 
 	delegate: ConversationControllerDelegate;
 
-	readonly hasOngoingConversation: boolean;
+	ongoingConversation(): OngoingConversation;
 }
 
 interface ConversationControllerDelegate {
@@ -130,7 +130,7 @@ interface ConversationControllerDelegate {
 
 	didReceiveNewMessageWithContent?(content: string): void;
 
-	ongoingConversationStatusDidChangeWithHasOngoingConversation(hasOngoingConversation: boolean): void;
+	ongoingConversationUpdatedWithOngoingConversation(ongoingConversation: OngoingConversation): void;
 }
 declare var ConversationControllerDelegate: {
 
@@ -1167,6 +1167,13 @@ declare class NotificationController extends NSObject {
 	isIAdvizePushNotificationWith(userInfo: NSDictionary<any, any>): boolean;
 
 	registerPushTokenApplicationMode(pushToken: string, applicationMode: GraphQLApplicationMode): void;
+}
+
+declare class OngoingConversation extends NSObject {
+
+	static alloc(): OngoingConversation; // inherited from NSObject
+
+	static new(): OngoingConversation; // inherited from NSObject
 }
 
 declare class SDKLanguageOption extends NSObject {
