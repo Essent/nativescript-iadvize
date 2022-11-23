@@ -9,7 +9,7 @@ import { IAdvize, ChatConfiguration } from '@essent/nativescript-iadvize';
 export class HomeComponent {
 
     onLogin() {
-        IAdvize.getInstance().activate(1111, 'userId', () => {
+        IAdvize.getInstance().activate(1111, 'userId', undefined, () => {
             IAdvize.getInstance().activateTargetingRule('XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX');
 
             const configuration: ChatConfiguration = {
